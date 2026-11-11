@@ -1,0 +1,66 @@
+name: Import approved source
+
+on:
+  push:
+    paths: ['.github/workflows/import-source.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: initial-source-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Import frozen source and reviewed developer setup
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import hashlib, json, urllib.request, zipfile, io
+          if Path('package.json').exists():
+              raise SystemExit('Source already imported; this one-time workflow will not replace it.')
+          setup = Path('developer-setup.json').read_bytes()
+          assert hashlib.sha256(setup).hexdigest() == '947d0f2ef7d47159198167d19adea6f6047308a6700b0e43293fb6b6c91961ef'
+          url = 'https://github.com/hrithikbdc/Croma-Existing-DS/releases/download/v0.5.0/croma-figma-ds-source-0.5.0.zip'
+          data = urllib.request.urlopen(url).read()
+          assert hashlib.sha256(data).hexdigest() == 'c9e0e30a764d275d76fe8486155f05ef1e89b23e40cc33b8e9814c68ddbb940a'
+          with zipfile.ZipFile(io.BytesIO(data)) as archive:
+              for entry in archive.infolist():
+                  parts = PurePosixPath(entry.filename).parts
+                  assert parts[0] == 'croma-figma-ds-0.5.0' and '..' not in parts
+                  relative = PurePosixPath(*parts[1:])
+                  assert not relative.is_absolute()
+                  if len(parts) == 1 or entry.is_dir():
+                      continue
+                  assert relative.parts[0] not in ['.git', '.github', 'node_modules']
+                  assert not str(relative).endswith('.fig')
+                  if str(relative) in ['README.md', 'RELEASE-NOTES.md']:
+                      continue
+                  target = Path(str(relative))
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target.write_bytes(archive.read(entry))
+          files = json.loads(setup)
+          for name, content in files.items():
+              relative = PurePosixPath(name)
+              assert not relative.is_absolute() and '..' not in relative.parts
+              assert not name.startswith('.github/workflows/')
+              target = Path(name)
+              target.parent.mkdir(parents=True, exist_ok=True)
+              target.write_text(content)
+          ignore = Path('.gitignore')
+          ignore.write_text(ignore.read_text().replace('\nreleases/\n', '\n/releases/\n'))
+          Path('developer-setup.json').unlink()
+          print('Imported approved source and developer setup; original release assets unchanged.')
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m 'Add editable DS source and developer setup for 0.5.1'
+          git push origin HEAD:main
