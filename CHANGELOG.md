@@ -8,7 +8,8 @@
 - Add a repeatable release workflow that tags and packages the exact verified commit.
 - Remove a Mac-specific package-check cache path.
 - Support direct npm installation of versioned GitHub release packages.
-- Component design and source-acceptance boundaries are unchanged from 0.5.0.
+- Fix Escape on an open menu trigger, including the interval before focus enters its panel.
+- Component visual values and source-acceptance boundaries are unchanged from 0.5.0.
 
 ## 0.5.0 — 2026-11-05
 
