@@ -1,0 +1,62 @@
+/* Written16px padding/8px description gap; exact figure245:38719 text and expanded fill. */
+[data-croma-component="Accordion"] {
+  --croma-color-on-background-high-contrast:var(--croma-source-paint-39-2373);
+  --croma-color-on-background-low-contrast:var(--croma-source-paint-39-2429);
+  box-sizing:border-box;max-width:100%;padding:16px;
+  font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);
+  color:var(--croma-color-on-background-high-contrast);background:transparent;
+}
+[data-croma-component="Accordion"][open] {background:color-mix(in srgb,var(--croma-color-on-background-high-contrast) 4%,transparent);}
+[data-croma-component="Accordion"] summary {
+  cursor:pointer;font-family:inherit;font-size:16px;line-height:24px;font-weight:400;letter-spacing:0;
+  color:var(--croma-color-on-background-high-contrast);align-items:center;gap:16px;
+}
+[data-croma-component="Accordion"][open] summary {font-weight:600;}
+[data-croma-component="Accordion"] summary[data-has-icon="true"] {display:flex;list-style:none;}
+[data-croma-component="Accordion"] summary[data-has-icon="true"]::-webkit-details-marker {display:none;}
+[data-croma-component="Accordion"] summary[data-has-icon="false"] {display:list-item;}
+.croma-accordion-heading {min-width:0;overflow-wrap:anywhere;}
+[data-croma-component="Accordion"] .croma-accordion-icon {display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+[data-croma-component="Accordion"]>div {margin-block-start:8px;color:var(--croma-color-on-background-low-contrast);font-size:14px;line-height:20px;font-weight:400;letter-spacing:0;overflow-wrap:anywhere;}
+[data-croma-component="Accordion"]>div>:first-child {margin-block-start:0;}
+[data-croma-component="Accordion"]>div>:last-child {margin-block-end:0;}
+
+[data-croma-component="Accordion"] .croma-accordion-icon {width:16px;height:16px;}
+.croma-accordion-default-expanded {display:none;}
+[data-croma-component="Accordion"][open] .croma-accordion-default-collapsed {display:none;}
+[data-croma-component="Accordion"][open] .croma-accordion-default-expanded {display:block;}
+/* Written layout245:38980: icon remains top-aligned when the heading wraps. */
+[data-croma-component="Accordion"] .croma-accordion-icon {align-self:flex-start;}
+
+/* Local set463:83388: exact saved branch, separate from the written guide instance above. */
+.croma-local-accordion {box-sizing:border-box;width:390px;height:max-content;max-width:100%;min-width:0;display:flex;flex-direction:column;gap:24px;padding:12px 15px;background:#f9f9f9;color:#191919;font-family:var(--croma-font-family);}
+.croma-local-accordion[data-background="Dark"] {background:#191919;color:#fff;}
+.croma-local-accordion__section-title {margin:0;width:314px;max-width:100%;font:700 24px/28px var(--croma-font-family);letter-spacing:-.24px;overflow-wrap:anywhere;}
+.croma-local-accordion details {min-width:0;}
+.croma-local-accordion summary {display:flex;align-items:center;list-style:none;cursor:pointer;font:600 16px/22px var(--croma-font-family);letter-spacing:0;min-width:0;}
+.croma-local-accordion summary::-webkit-details-marker {display:none;}
+.croma-local-accordion summary>span {flex:1;min-width:0;overflow-wrap:anywhere;}
+.croma-local-accordion__arrow {display:block;flex:none;width:16px;height:16px;max-width:none;}
+.croma-local-accordion[data-state="Open"] .croma-local-accordion__arrow {transform:rotate(180deg);}
+.croma-local-accordion__content {margin-top:24px;padding:16px;display:flex;flex-direction:column;gap:10px;border-radius:8px;background:linear-gradient(rgb(42 42 42 / .05),rgb(42 42 42 / .05)),#f9f9f9;font:400 14px/20px var(--croma-font-family);letter-spacing:0;overflow-wrap:anywhere;}
+.croma-local-accordion__content>p {margin:0;}
+.croma-local-accordion[data-background="Dark"] .croma-local-accordion__content {background:#393939;}
+.croma-local-accordion__divider {height:1px;flex:none;width:100%;background:linear-gradient(rgb(42 42 42 / .14),rgb(42 42 42 / .14)),#f9f9f9;}
+/* Dark divider instance and its paint child each carry opacity .4 in the saved branch. */
+.croma-local-accordion[data-background="Dark"] .croma-local-accordion__divider {opacity:.16;}
+.croma-colour-accordion {box-sizing:border-box;width:390px;max-width:100%;min-width:0;padding:32px 15px;background:#191919;color:#fff;display:flex;flex-direction:column;gap:24px;font-family:var(--croma-font-family);}
+.croma-colour-accordion h2 {margin:0;font:700 24px/28px var(--croma-font-family);letter-spacing:-.24px;}
+.croma-colour-accordion__panel {display:flex;flex-direction:column;gap:8px;padding:8px 10px;border-radius:14px;overflow:hidden;background-size:100% 100%;background-repeat:no-repeat;}
+.croma-colour-accordion details {padding:12px 15px;min-width:0;}
+.croma-colour-accordion summary {display:flex;align-items:center;gap:8px;list-style:none;font:700 18px/28px var(--croma-font-family);cursor:pointer;}
+.croma-colour-accordion summary::-webkit-details-marker {display:none;}
+.croma-colour-accordion summary>span {flex:1;min-width:0;overflow-wrap:anywhere;}
+.croma-colour-accordion summary>img {display:block;flex:none;width:24px;height:24px;max-width:none;}
+.croma-colour-accordion details[open] .croma-colour-accordion__arrow {transform:rotate(180deg);}
+.croma-colour-accordion__content {margin-top:24px;font:600 16px/22px var(--croma-font-family);overflow-wrap:anywhere;}
+.croma-colour-accordion__content>p {margin:0;}
+/* Explicitly preserve native closed disclosure even with a flex content layout. */
+.croma-local-accordion details:not([open])>.croma-local-accordion__content,
+.croma-colour-accordion details:not([open])>.croma-colour-accordion__content {display:none;}
+/* Match the supplied Figma render's grayscale text rasterisation on WebKit/Chromium macOS. */
+.croma-local-accordion,.croma-colour-accordion {-webkit-font-smoothing:antialiased;}

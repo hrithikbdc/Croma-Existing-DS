@@ -1,0 +1,39 @@
+{
+  "sourceFigures": {
+    "darkThin": "153:12635",
+    "darkThick": "153:12636",
+    "darkText": "153:12640",
+    "lightThin": "153:12645",
+    "lightThick": "153:12646",
+    "lightText": "153:12650"
+  },
+  "properties": {
+    "Size": [
+      "1px",
+      "4px"
+    ],
+    "Type": [
+      "w/o text",
+      "w/ text"
+    ],
+    "Theme": [
+      "dark",
+      "light"
+    ]
+  },
+  "validity": "Only1px is authored with text;4px with text is not fabricated.",
+  "writtenPriority": {
+    "marginInline": 16,
+    "lineOpacity": 0.24,
+    "textGap": 8
+  },
+  "sameFileFallback": {
+    "darkOutline": "#929094",
+    "lightOutline": "#78767A",
+    "darkText": "#ABABAB",
+    "lightText": "#474747",
+    "textMetrics": "SwitzerRegular12/16,tracking0.5px"
+  },
+  "adaptation": "Long caller copy wraps; lines flex within the available width. Margin16 belongs outside the line, so a360px host yields the328px source line.",
+  "acceptance": "Focused six-case review passed:328pxline in360pxhost, heights1/4/16,16pxoutermargins and8pxcaptiongap. Inter exception applies."
+}

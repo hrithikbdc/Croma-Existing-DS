@@ -1,0 +1,120 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "frame": "160:13843",
+  "ancestry": [
+    {
+      "id": "160:13843",
+      "name": "Behavior",
+      "visible": false
+    },
+    {
+      "id": "160:13746",
+      "name": "Tooltips - Guidelines",
+      "visible": true
+    },
+    {
+      "id": "159:12949",
+      "name": "Tooltip  \u2714\ufe0f",
+      "visible": true
+    },
+    {
+      "id": "0:0",
+      "name": "Document",
+      "visible": true
+    }
+  ],
+  "descendants": [
+    {
+      "id": "160:13843",
+      "name": "Behavior",
+      "type": "FRAME",
+      "visible": false,
+      "text": null
+    },
+    {
+      "id": "160:13850",
+      "name": "Row",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13853",
+      "name": "Col",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13854",
+      "name": "Example",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13855",
+      "name": "device",
+      "type": "INSTANCE",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13851",
+      "name": "Col",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13852",
+      "name": "Consecutive toasts\nWhen multiple toast updates are necessary, they should appear one at a time.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Transitions\nTooltips use a fade transition pattern to enter and exit the screen.\nOn desktop, tooltips appear in the center of click targets and stay in place while cursor moves within the target."
+    },
+    {
+      "id": "160:13847",
+      "name": "Row",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13848",
+      "name": "Col",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13849",
+      "name": "Appearing and disappearing\nToasts appear without warning, and don't require user interaction. They automatically disappear from the screen after a minimum of four seconds, and a maximum of ten seconds.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Timing\nDisplay the tooltip for 1.5 seconds. If the user takes another action before that time ends, the tooltip will disappear."
+    },
+    {
+      "id": "160:13844",
+      "name": "Content",
+      "type": "FRAME",
+      "visible": true,
+      "text": null
+    },
+    {
+      "id": "160:13846",
+      "name": "A tooltip is displayed upon tapping and holding a screen element or component (on mobile) or hovering over it (desktop). Continuously display the tooltip as long as the user long-presses or hovers over the element.",
+      "type": "TEXT",
+      "visible": true,
+      "text": "A tooltip is displayed upon tapping and holding a screen element or component (on mobile) or hovering over it (desktop). Continuously display the tooltip as long as the user long-presses or hovers over the element."
+    },
+    {
+      "id": "160:13845",
+      "name": "Behavior",
+      "type": "TEXT",
+      "visible": true,
+      "text": "Behavior"
+    }
+  ],
+  "classification": "Tooltip-specific behavior prose, rather than hidden copied table rows. Timing applies to transient touch after release; continuous hold/hover remains visible. Fade timing/easing not supplied by this block."
+}

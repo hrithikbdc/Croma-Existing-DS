@@ -1,5 +1,15 @@
 # Croma Figma DS changes
 
+## 0.5.1 — 11 November 2026
+
+- Put editable component, token, asset, Storybook and test sources directly in Git.
+- Add standard development commands, contributor guidance and pull request checks.
+- Build and deploy Storybook from verified main-branch source with GitHub Pages.
+- Add a repeatable release workflow that tags and packages the exact verified commit.
+- Remove a Mac-specific package-check cache path.
+- Support direct npm installation of versioned GitHub release packages.
+- Component design and source-acceptance boundaries are unchanged from 0.5.0.
+
 ## 0.5.0 — 2026-11-05
 
 - Added PlainSection, SurfaceCard and HelpDisclosure with shared grouping, card anatomy, accessible disclosure and one base plus one card surface in themed forms. Nested SurfaceCards flatten into plain subsections.

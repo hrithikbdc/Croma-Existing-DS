@@ -1,0 +1,31 @@
+{
+  "version": "0.2.1",
+  "date": "2026-11-04",
+  "status": "Focused field and Dropdown patch verified; full visual acceptance incomplete",
+  "sourcePolicy": "Written specifications first; effective same-file context, original artwork and verified saved bindings fill gaps. Cached raw child properties alone do not establish rendered values.",
+  "corrections": [
+    "Audit findings A30.1\u2013A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "Removed added outer focus rectangles from Dropdown trigger/options so focus uses the source field border and source option-hover fill.",
+    "The main interactive Dropdown story now uses the separate FormDropdown branch with floating label and source border artwork.",
+    "Form Field review width is298px and Dropdown review width is294px; source-state galleries use dark review surfaces."
+  ],
+  "checks": [
+    "The focused field-focus.spec.ts browser regression passed1/1 in914ms: clicking the input label activates its floating caption at\u22128px without added outline/shadow in298\u00d754px; entered text remains filled after blur.",
+    "FormDropdown click opens exact source state840:82415 with floating caption at\u22128px, no added outline/shadow and294\u00d754px geometry; Option2 selection commits, Space opens the list and Escape returns focus.",
+    "The earlier21focused acceptance tests,3consumer regressions and195-story smoke pass belong to frozen0.2.0 and were not rerun for this bounded patch. Their exact checkpoint is preserved in release history.",
+    "Portable installation/build/type checks are recorded separately in this release manifest."
+  ],
+  "remaining": [
+    "Whole Header has only a raster reference; exact editable anatomy remains source-limited.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_49627bc35024819188643bc35c48fa81",
+  "previousRelease": "0.2.0",
+  "previousReleaseCheckpoint": "history/releases/0.2.0-checkpoint.json"
+}

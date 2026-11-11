@@ -1,0 +1,40 @@
+/* Default Dropdown set1715:79529; original vectors retained unchanged. */
+.croma-dropdown {position:relative;inline-size:100%;min-inline-size:0;max-inline-size:100%;font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:#5f5f5f;}
+.croma-dropdown__control {position:relative;block-size:54px;border-radius:8px;background:#fff;}
+.croma-dropdown .croma-dropdown__native {position:absolute;z-index:2;inset:0;box-sizing:border-box;inline-size:100%;block-size:54px;margin:0;border:0;padding:0;outline:none;box-shadow:none;cursor:pointer;}
+.croma-dropdown__value {position:absolute;inset-inline-start:17px;inset-inline-end:33px;inset-block-start:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;pointer-events:none;}
+.croma-dropdown__border {position:absolute;inset:0;pointer-events:none;}
+.croma-dropdown__left,.croma-dropdown__right {position:absolute;top:-1px;width:18px;height:56px;max-width:none;}
+.croma-dropdown__left {left:-1px;}.croma-dropdown__right {right:-1px;}
+.croma-dropdown__top,.croma-dropdown__bottom {position:absolute;height:2px;background-repeat:repeat-x;background-position:left center;}
+.croma-dropdown__top {left:11px;right:13px;top:-1px;}.croma-dropdown__bottom {left:17px;right:17px;bottom:-1px;}
+.croma-dropdown__arrow {position:absolute;right:9px;top:21px;width:16px;height:16px;max-width:none;pointer-events:none;}
+/* Open-state SVGs already contain the original upward arrow. */
+.croma-dropdown:is([data-source-id="1715:79530"],[data-source-id="1715:79540"]) .croma-dropdown__top {left:11.001px;right:17px;}
+.croma-dropdown__list {position:absolute;z-index:20;left:1px;top:55px;width:calc(100% - 1px);max-height:min(320px,50vh,var(--croma-dropdown-available-height,320px));overflow:auto;background:#fff;border-radius:8px;filter:drop-shadow(0 4px 2px rgb(0 0 0 / .1));}
+.croma-dropdown__option {box-sizing:border-box;padding:12px 20px;min-height:44px;background:#fff;color:#5f5f5f;overflow-wrap:anywhere;cursor:pointer;}
+/* Same-file Option Hover845:82253 uses a surface change, not an added outline. */
+.croma-dropdown__option[data-active="true"] {background:#f9f9f9;}
+.croma-dropdown__option[aria-disabled="true"] {cursor:default;}
+/* The original border artwork carries the active colour; do not add a second outer ring. */
+.croma-dropdown__control:has(select:focus-visible) {outline:none;box-shadow:none;}
+.croma-dropdown[data-disabled="true"] select {cursor:default;}
+
+.croma-dropdown[data-popup-above="true"] .croma-dropdown__list {top:auto;bottom:55px;}
+/* Form Dropdown840:82414 has visible floating labels; Default Dropdown1715:79529 does not. */
+.croma-dropdown__floating-label {position:absolute;top:-8px;left:17px;max-width:calc(100% - 40px);font:700 12px/16px var(--croma-font-family);color:#9b9b9b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;}
+.croma-dropdown__form-top {position:absolute;left:11px;right:13px;top:-8px;height:16px;display:flex;align-items:center;}
+.croma-dropdown__notch {font:700 12px/16px var(--croma-font-family);white-space:nowrap;visibility:hidden;flex:0 1 auto;min-width:0;width:0;overflow:hidden;}
+.croma-dropdown[data-floating="true"] .croma-dropdown__notch {padding-inline:6px;width:auto;}
+.croma-dropdown__form-top>span:last-child {height:2px;min-width:0;flex:1;background-repeat:repeat-x;background-position:left center;}
+.croma-dropdown[data-dropdown-branch="Form"][data-open="true"] .croma-dropdown__arrow {transform:rotate(180deg);}
+/* Design-context Right assets retain their base path; the source frame mirrors them. */
+.croma-dropdown[data-dropdown-branch="Form"] .croma-dropdown__right {transform:scaleX(-1);}
+.croma-dropdown[data-dropdown-branch="Form"][data-floating="false"] .croma-dropdown__form-top {right:17px;}
+.croma-dropdown[data-dropdown-branch="Form"] {-webkit-font-smoothing:antialiased;}
+
+.croma-dropdown, .croma-dropdown__floating-label, .croma-dropdown__value,
+.croma-dropdown__notch, .croma-dropdown__option {font-style:normal;}
+/* Restored alternate focus presentation; source remains the default. */
+.croma-dropdown[data-focus-appearance="outer-outline"] .croma-dropdown__control:has(select:focus-visible) {outline:auto;outline-offset:3px;}
+.croma-dropdown[data-focus-appearance="outer-outline"]:has(select:focus-visible) .croma-dropdown__option[data-active="true"] {outline:1px solid currentColor;outline-offset:-1px;background:#fff;}

@@ -1,0 +1,40 @@
+/* Source52 Tooltip variants. SVG ink roots remain32×9 inside logical32×8 slots. */
+[data-tooltip-family="source-52"] {font-family:var(--croma-font-family);}
+[data-tooltip-family="source-52"] .croma-tooltip-content {overflow:visible;max-width:100vw;max-height:100vh;}
+[data-tooltip-family="source-52"] .croma-tooltip-body {position:relative;display:flex;padding:8px;border:0;border-radius:4px;background-image:var(--croma-tooltip-source-background);box-shadow:none;filter:drop-shadow(0 2px 3px rgb(0 0 0 / .15)) drop-shadow(0 1px 1px rgb(0 0 0 / .3));min-width:32px;}
+[data-tooltip-family="source-52"][data-type="Outlined"] .croma-tooltip-body {border-width:0;}
+[data-tooltip-family="source-52"][data-stroke="On"] .croma-tooltip-body::before {content:"";position:absolute;inset:0;border:1px solid var(--croma-color-outline);border-radius:inherit;pointer-events:none;}
+[data-tooltip-family="source-52"] .croma-tooltip-copy {display:flex;flex-direction:column;gap:4px;}
+[data-tooltip-family="source-52"] .croma-tooltip-heading {display:flex;align-items:center;gap:4px;}
+[data-tooltip-family="source-52"] .croma-tooltip-title {font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:#c6c6c6;}
+[data-tooltip-family="source-52"] .croma-tooltip-description {font-family:var(--croma-font-family);font-size:12px;font-weight:400;line-height:16px;letter-spacing:.5px;color:#ababab;overflow-wrap:anywhere;}
+[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-title {color:#2a2a2a;}
+[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-description {color:#474747;}
+[data-tooltip-family="source-52"] .croma-tooltip-icon {width:16px;height:16px;}
+[data-tooltip-family="source-52"] .croma-tooltip-icon img {display:block;max-width:none;}
+[data-tooltip-family="source-52"] .croma-tooltip-beak {position:absolute;display:block;width:32px;height:8px;left:calc(50% - 16px);bottom:-8px;}
+[data-tooltip-family="source-52"] .croma-tooltip-beak>img {position:relative;top:-1px;display:block;max-width:none;}
+[data-tooltip-family="source-52"][data-position="Top Left"] .croma-tooltip-beak {left:auto;right:0;}
+[data-tooltip-family="source-52"][data-position="Top Right"] .croma-tooltip-beak {left:0;}
+[data-tooltip-family="source-52"][data-position^="Bottom"] .croma-tooltip-beak {top:-8px;bottom:auto;transform:rotate(180deg);}
+[data-tooltip-family="source-52"][data-position="Bottom Left"] .croma-tooltip-beak {left:auto;right:0;}
+[data-tooltip-family="source-52"][data-position="Bottom Right"] .croma-tooltip-beak {left:0;}
+[data-tooltip-family="source-52"][data-position^="Left"] .croma-tooltip-beak {left:calc(100% - 12px);top:calc(50% - 4px);bottom:auto;transform:rotate(-90deg);}
+[data-tooltip-family="source-52"][data-position^="Right"] .croma-tooltip-beak {left:-20px;top:calc(50% - 4px);bottom:auto;transform:rotate(90deg);}
+[data-tooltip-family="source-52"]:is([data-position="Left Top"],[data-position="Right Top"]) .croma-tooltip-beak {top:calc(100% - 20px);}
+[data-tooltip-family="source-52"]:is([data-position="Left Bottom"],[data-position="Right Bottom"]) .croma-tooltip-beak {top:12px;}
+/* Constrain long copy while leaving the authored pointer outside the body. */
+[data-tooltip-family="source-52"] .croma-tooltip-content {z-index:var(--croma-tooltip-z-index,1);}
+[data-tooltip-family="source-52"] .croma-tooltip-copy {max-block-size:calc(100vh - 24px);overflow:auto;}
+[data-tooltip-family="source-52"][data-beak="Off"] .croma-tooltip-copy {max-block-size:calc(100vh - 16px);}
+
+/* Source information artwork is also a valid trigger (visible guideline160:13870). */
+.croma-tooltip-information-trigger {appearance:none;display:inline-flex;align-items:center;justify-content:center;flex:none;width:16px;height:16px;padding:0;margin:0;border:0;background:transparent;color:inherit;cursor:help;}
+.croma-tooltip-information-trigger img {display:block;max-width:none;}
+.croma-tooltip-information-trigger:focus-visible {outline:2px solid currentColor;outline-offset:2px;}
+
+/* Written160:13852 defines opacity fade, without a duration/easing value.
+   Supply source-approved duration/easing via props or the duration variable; no arbitrary token is inferred. */
+[data-tooltip-family="source-52"] .croma-tooltip-content {transition-property:opacity;transition-duration:var(--croma-tooltip-fade-duration,0ms);}
+@starting-style { [data-tooltip-family="source-52"] .croma-tooltip-content {opacity:0;} }
+@media(prefers-reduced-motion:reduce) { [data-tooltip-family="source-52"] .croma-tooltip-content {transition-duration:0ms!important;} }

@@ -1,0 +1,79 @@
+const imgProperty1LightOutline = "https://www.figma.com/api/mcp/asset/1d25a36f-6622-4543-ba23-c7732cf18db6.svg";
+const imgIconsSparkle = "https://www.figma.com/api/mcp/asset/e6c2631a-8939-4d74-9e2c-dd4c3973a6f3.svg";
+const imgIconsSustainable = "https://www.figma.com/api/mcp/asset/586840f4-8844-40d3-b040-8c63b543b99b.svg";
+
+type IconsDealProps = {
+  className?: string;
+  property1?: "Light_Outline";
+};
+
+function IconsDeal({ className, property1 = "Light_Outline" }: IconsDealProps) {
+  return (
+    <div className={className || "relative size-[32px]"} data-node-id="219:35023">
+      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgProperty1LightOutline} />
+    </div>
+  );
+}
+
+type LabelProps = {
+  className?: string;
+  property1?: "Default" | "New" | "Deal" | "Sustainable" | "Light";
+};
+
+export default function Label({ className, property1 = "Default" }: LabelProps) {
+  const isDeal = property1 === "Deal";
+  const isLight = property1 === "Light";
+  const isNew = property1 === "New";
+  const isSustainable = property1 === "Sustainable";
+  return (
+    <div className={className || `content-stretch flex h-[32px] items-center justify-center px-[14px] py-[8px] relative rounded-[518px] ${isSustainable ? "bg-[#cffff3] gap-[4px]" : isDeal ? "bg-[#6035e9] gap-[4px]" : isNew ? "bg-[#a02c8c] gap-[4px]" : isLight ? "bg-[#cfcfcf]" : "bg-[#393939]"}`} id={isSustainable ? "node-304_72608" : isDeal ? "node-304_72599" : isNew ? "node-304_72593" : isLight ? "node-307_72622" : "node-304_72591"}>
+      {["Default", "Light"].includes(property1) && (
+        <p className={`[word-break:break-word] font-["Switzer:Bold"] leading-[20px] not-italic relative shrink-0 text-[14px] tracking-[0.5px] whitespace-nowrap ${isLight ? "text-[#191919]" : "text-white"}`} id={isLight ? "node-307_72623" : "node-304_72590"}>
+          Label
+        </p>
+      )}
+      {isNew && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="304:72595" data-name="Icons/Sparkle">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsSparkle} />
+          </div>
+          <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white tracking-[0.5px] whitespace-nowrap" data-node-id="304:72594">
+            Label
+          </p>
+        </>
+      )}
+      {isDeal && (
+        <>
+          <IconsDeal className="relative shrink-0 size-[16px]" />
+          <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[20px] not-italic relative shrink-0 text-[14px] text-white tracking-[0.5px] whitespace-nowrap" data-node-id="304:72601">
+            Label
+          </p>
+        </>
+      )}
+      {isSustainable && (
+        <>
+          <div className="relative shrink-0 size-[16px]" data-node-id="304:72617" data-name="Icons/Sustainable">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsSustainable} />
+          </div>
+          <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[20px] not-italic relative shrink-0 text-[#088466] text-[14px] tracking-[0.5px] whitespace-nowrap" data-node-id="304:72611">
+            Label
+          </p>
+        </>
+      )}
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Primary/Pearl: #FFFFFF, Neutral/Charcoal: #393939, Primary/Onyx Black: #191919, Neutral/Grey Goose: #CFCFCF, Primary/Croma White: #FFFFFF, Secondary 2/Violet Eggplant: #A02C8C, Secondary 1/Periwinkle Blue: #6035E9, Primary/Deep Sea: #088466, Primary/Foam: #CFFFF3.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

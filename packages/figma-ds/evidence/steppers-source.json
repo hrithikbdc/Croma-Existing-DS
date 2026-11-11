@@ -1,0 +1,47 @@
+{
+  "sourceFigures": {
+    "darkHorizontal": "245:48010",
+    "darkVertical": "245:48052",
+    "lightHorizontal": "245:48078",
+    "lightVertical": "245:48120"
+  },
+  "annotationScope": {
+    "layout": "245:48709",
+    "groupGap": {
+      "node": "245:48763",
+      "px": 8,
+      "bounds": {
+        "x": 337,
+        "y": 200,
+        "height": 8
+      },
+      "meaning": "Between second and third item frames, at y200..208"
+    },
+    "copyPaddingBottom": {
+      "node": "245:48764",
+      "px": 24,
+      "bounds": {
+        "x": 428,
+        "y": 248,
+        "height": 24
+      },
+      "meaning": "Below third subtitle endingy248 through itemend272"
+    },
+    "iconToPath": {
+      "node": "245:48765",
+      "px": 8
+    },
+    "iconToCopy": {
+      "node": "245:48762",
+      "px": 12
+    }
+  },
+  "sourceStatus": "Written literals retained with corrected annotation applicability. Source fonts use approved Inter substitute.",
+  "scopedPaintFallback": "Actual figure paints are scoped by theme, state and slot, including light horizontal path#006A6A vs count#088466. These are not asserted as canonical global secondary aliases.",
+  "adaptations": [
+    "Default numbers advance sequentially; number and icon slots permit source exemplar repeated1s and original caller artwork.",
+    "Long labels wrap; additional horizontal steps scroll within the component, preserving count24 and gaps8.",
+    "Written typography roles take priority over overview font-weight discrepancies."
+  ],
+  "acceptance": "Focused four-case browser review passed: horizontal328\u00d768, vertical240\u00d7328, count24\u00d724, copygap0, verticalgroupgap8 and nonlastcopypadding24. Source-layout screenshot and rendered four-case screenshot inspected; Inter exception applies."
+}

@@ -1,0 +1,1814 @@
+{
+  "source": "Approved same-file archive reference graph, exact override keys and explicit overrides/current referenced styles. Root figure live paint captures are separate; this corpus projects text.",
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "entries": [
+    {
+      "id": "245:35760@970:57430",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:35760",
+      "mainId": "141:5273",
+      "mainName": "Type=filled, State=enabled, Size=large",
+      "targetNodeId": "141:5276",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "970:57430"
+      ],
+      "virtualNodeId": "I245:35760;970:57430",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:35759",
+          "name": "1",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35758",
+          "name": "Row",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35757",
+          "name": "Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35756",
+          "name": "Preview",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35754",
+          "name": "Button types",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35745",
+          "name": "Buttons - Overview",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5273",
+          "name": "Type=filled, State=enabled, Size=large",
+          "type": "SYMBOL",
+          "key": "970:57429"
+        },
+        {
+          "nodeId": "141:5274",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9725:204126"
+        },
+        {
+          "nodeId": "141:5276",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "970:57430"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "value": 20,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "paragraphSpacing": 10,
+        "textCase": "UPPER",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontName"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontSize"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "paragraphSpacing": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "paragraphSpacing"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "textCase"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:35760",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "970:57430"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:35760",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "906e3b4414c9911dcd023d5970b345394a4fe9ef",
+          "version": "49:289"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "245:35760",
+        "fieldPath": [
+          "symbolData",
+          "symbolOverrides",
+          1,
+          "styleIdForFill"
+        ],
+        "overridePath": [
+          "970:57430"
+        ]
+      },
+      "fillStyleDefinitionId": "242:35514",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "906e3b4414c9911dcd023d5970b345394a4fe9ef",
+          "version": "49:289"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "242:35514"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.2235294133424759,
+            "c1": 0.2235294133424759,
+            "c2": 0.2235294133424759,
+            "c3": 1
+          }
+        },
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853,
+            "a": 1
+          },
+          "opacity": 0.05000000074505806,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.7764706015586853,
+            "c1": 0.7764706015586853,
+            "c2": 0.7764706015586853,
+            "c3": 0.05000000074505806
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.25117647316525965 0.25117647316525965 0.25117647316525965 / 1)",
+        "composite": {
+          "r": 0.25117647316525965,
+          "g": 0.25117647316525965,
+          "b": 0.25117647316525965,
+          "a": 1
+        },
+        "method": "exact-normal-source-over-paint-stack"
+      },
+      "fillRawOrigin": {
+        "nodeId": "242:35514",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5276",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": false,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "20px",
+        "letter-spacing": "2px",
+        "text-transform": "uppercase"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    },
+    {
+      "id": "245:35763@1016:36482",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:35763",
+      "mainId": "141:5305",
+      "mainName": "Type=outlined, State=enabled, Size=large",
+      "targetNodeId": "141:5308",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "1016:36482"
+      ],
+      "virtualNodeId": "I245:35763;1016:36482",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:35762",
+          "name": "2",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35758",
+          "name": "Row",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35757",
+          "name": "Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35756",
+          "name": "Preview",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35754",
+          "name": "Button types",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35745",
+          "name": "Buttons - Overview",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5305",
+          "name": "Type=outlined, State=enabled, Size=large",
+          "type": "SYMBOL",
+          "key": "1016:36481"
+        },
+        {
+          "nodeId": "141:5306",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9726:204763"
+        },
+        {
+          "nodeId": "141:5308",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "1016:36482"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "value": 20,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "paragraphSpacing": 10,
+        "textCase": "UPPER",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontName"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontSize"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "paragraphSpacing": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "paragraphSpacing"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "textCase"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:35763",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "1016:36482"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:35763",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "245:35763",
+        "fieldPath": [
+          "symbolData",
+          "symbolOverrides",
+          1,
+          "styleIdForFill"
+        ],
+        "overridePath": [
+          "1016:36482"
+        ]
+      },
+      "fillStyleDefinitionId": "242:35513",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "242:35513"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.07118052244186401,
+            "g": 0.8541666865348816,
+            "b": 0.6600931286811829,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.07118052244186401,
+            "c1": 0.8541666865348816,
+            "c2": 0.6600931286811829,
+            "c3": 1
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.07118052244186401 0.8541666865348816 0.6600931286811829 / 1)",
+        "composite": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "method": "exact-solid-rgba-and-paint-opacity"
+      },
+      "fillRawOrigin": {
+        "nodeId": "242:35513",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5308",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": false,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "20px",
+        "letter-spacing": "2px",
+        "text-transform": "uppercase"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    },
+    {
+      "id": "245:35766@1021:37085",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:35766",
+      "mainId": "141:5337",
+      "mainName": "Type=text, State=enabled, Size=large",
+      "targetNodeId": "141:5340",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "1021:37085"
+      ],
+      "virtualNodeId": "I245:35766;1021:37085",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:35765",
+          "name": "3",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35758",
+          "name": "Row",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35757",
+          "name": "Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35756",
+          "name": "Preview",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35754",
+          "name": "Button types",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35745",
+          "name": "Buttons - Overview",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5337",
+          "name": "Type=text, State=enabled, Size=large",
+          "type": "SYMBOL",
+          "key": "1021:37084"
+        },
+        {
+          "nodeId": "141:5338",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9730:204985"
+        },
+        {
+          "nodeId": "141:5340",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "1021:37085"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "value": 20,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "paragraphSpacing": 10,
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontName"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontSize"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "paragraphSpacing": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "paragraphSpacing"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "textCase"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "textDecoration": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "textDecoration"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:35766",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "1021:37085"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:35766",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "245:35766",
+        "fieldPath": [
+          "symbolData",
+          "symbolOverrides",
+          0,
+          "styleIdForFill"
+        ],
+        "overridePath": [
+          "1021:37085"
+        ]
+      },
+      "fillStyleDefinitionId": "242:35513",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "242:35513"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.07118052244186401,
+            "g": 0.8541666865348816,
+            "b": 0.6600931286811829,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.07118052244186401,
+            "c1": 0.8541666865348816,
+            "c2": 0.6600931286811829,
+            "c3": 1
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.07118052244186401 0.8541666865348816 0.6600931286811829 / 1)",
+        "composite": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "method": "exact-solid-rgba-and-paint-opacity"
+      },
+      "fillRawOrigin": {
+        "nodeId": "242:35513",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5340",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": false,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "20px",
+        "letter-spacing": "2px",
+        "text-transform": "none",
+        "text-decoration": "underline"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    },
+    {
+      "id": "245:36065@1016:36453",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:36065",
+      "mainId": "141:5289",
+      "mainName": "Type=filled, State=enabled, Size=small",
+      "targetNodeId": "141:5292",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "1016:36453"
+      ],
+      "virtualNodeId": "I245:36065;1016:36453",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:36062",
+          "name": "Container",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36061",
+          "name": "2",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36054",
+          "name": "Preview/Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36053",
+          "name": "Anatomy",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36004",
+          "name": "Layout",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35833",
+          "name": "Filled buttons",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35815",
+          "name": "Buttons - Specs",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5289",
+          "name": "Type=filled, State=enabled, Size=small",
+          "type": "SYMBOL",
+          "key": "1016:36452"
+        },
+        {
+          "nodeId": "141:5290",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9726:204678"
+        },
+        {
+          "nodeId": "141:5292",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "1016:36453"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "value": 20,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "paragraphSpacing": 10,
+        "textCase": "UPPER",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontName"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontSize"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "paragraphSpacing": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "paragraphSpacing"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "textCase"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:36065",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "1016:36453"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:36065",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "21b8b101b2a98bd8601dd8fc14e917841b76bc43",
+          "version": "315:3"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "141:5292",
+        "fieldPath": [
+          "styleIdForFill"
+        ]
+      },
+      "fillStyleDefinitionId": "39:2400",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "21b8b101b2a98bd8601dd8fc14e917841b76bc43",
+          "version": "315:3"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "39:2400"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.16862745583057404,
+            "g": 0,
+            "b": 0.32156863808631897,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.16862745583057404,
+            "c1": 0,
+            "c2": 0.32156863808631897,
+            "c3": 1
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.16862745583057404 0 0.32156863808631897 / 1)",
+        "composite": {
+          "r": 0.16862745583057404,
+          "g": 0,
+          "b": 0.32156863808631897,
+          "a": 1
+        },
+        "method": "exact-solid-rgba-and-paint-opacity"
+      },
+      "fillRawOrigin": {
+        "nodeId": "39:2400",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5292",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": true,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "20px",
+        "letter-spacing": "2px",
+        "text-transform": "uppercase"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    },
+    {
+      "id": "245:36357@1016:36511",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:36357",
+      "mainId": "141:5321",
+      "mainName": "Type=outlined, State=enabled, Size=small",
+      "targetNodeId": "141:5324",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "1016:36511"
+      ],
+      "virtualNodeId": "I245:36357;1016:36511",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:36342",
+          "name": "Container",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36341",
+          "name": "2",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36322",
+          "name": "Preview/Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36321",
+          "name": "Anatomy",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36272",
+          "name": "Layout",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36089",
+          "name": "Outline buttons",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35815",
+          "name": "Buttons - Specs",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5321",
+          "name": "Type=outlined, State=enabled, Size=small",
+          "type": "SYMBOL",
+          "key": "1016:36510"
+        },
+        {
+          "nodeId": "141:5322",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9726:204844"
+        },
+        {
+          "nodeId": "141:5324",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "1016:36511"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "value": 20,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "paragraphSpacing": 10,
+        "textCase": "UPPER",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontName"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontSize"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "paragraphSpacing": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "paragraphSpacing"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "textCase"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:36357",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            1,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "1016:36511"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:36357",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "245:36357",
+        "fieldPath": [
+          "symbolData",
+          "symbolOverrides",
+          1,
+          "styleIdForFill"
+        ],
+        "overridePath": [
+          "1016:36511"
+        ]
+      },
+      "fillStyleDefinitionId": "242:35513",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "242:35513"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.07118052244186401,
+            "g": 0.8541666865348816,
+            "b": 0.6600931286811829,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.07118052244186401,
+            "c1": 0.8541666865348816,
+            "c2": 0.6600931286811829,
+            "c3": 1
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.07118052244186401 0.8541666865348816 0.6600931286811829 / 1)",
+        "composite": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "method": "exact-solid-rgba-and-paint-opacity"
+      },
+      "fillRawOrigin": {
+        "nodeId": "242:35513",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5324",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": false,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "14px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "20px",
+        "letter-spacing": "2px",
+        "text-transform": "uppercase"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    },
+    {
+      "id": "245:36565@3425:77934",
+      "family": "Buttons ",
+      "pageId": "242:34930",
+      "instanceId": "245:36565",
+      "mainId": "141:5362",
+      "mainName": "Type=text, State=hovered, Size=small",
+      "targetNodeId": "141:5365",
+      "targetName": "label-text",
+      "targetNodeOrOverridePath": [
+        "3425:77934"
+      ],
+      "virtualNodeId": "I245:36565;3425:77934",
+      "visibleWithinInstance": true,
+      "instanceRootVisible": true,
+      "descendantVisibleWithinInstance": true,
+      "sourceAncestors": [
+        {
+          "id": "245:36563",
+          "name": "Container",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36562",
+          "name": "2",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36554",
+          "name": "Preview/Dark",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36552",
+          "name": "Anatomy",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36526",
+          "name": "Layout",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:36381",
+          "name": "Text buttons",
+          "type": "FRAME"
+        },
+        {
+          "id": "245:35815",
+          "name": "Buttons - Specs",
+          "type": "FRAME"
+        },
+        {
+          "id": "242:34930",
+          "name": "Buttons ",
+          "type": "CANVAS"
+        },
+        {
+          "id": "0:0",
+          "name": "Document",
+          "type": "DOCUMENT"
+        }
+      ],
+      "mainRelativeAncestors": [
+        {
+          "nodeId": "141:5362",
+          "name": "Type=text, State=hovered, Size=small",
+          "type": "SYMBOL",
+          "key": "3425:77932"
+        },
+        {
+          "nodeId": "141:5363",
+          "name": "label",
+          "type": "FRAME",
+          "key": "9731:206567"
+        },
+        {
+          "nodeId": "141:5365",
+          "name": "label-text",
+          "type": "TEXT",
+          "key": "3425:77934"
+        }
+      ],
+      "raw": {
+        "fontName": {
+          "family": "Switzer",
+          "style": "Semibold",
+          "postscript": "Switzer-Semibold"
+        },
+        "fontSize": 12,
+        "lineHeight": {
+          "value": 16,
+          "units": "PIXELS"
+        },
+        "letterSpacing": {
+          "value": 2,
+          "units": "PIXELS"
+        },
+        "textCase": "ORIGINAL",
+        "textDecoration": "UNDERLINE",
+        "fontVariations": []
+      },
+      "propertyOrigins": {
+        "fontName": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontName"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "fontSize": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontSize"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "lineHeight": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "lineHeight"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "letterSpacing": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "letterSpacing"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "textCase": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "textCase"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "textDecoration": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "textDecoration"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        },
+        "fontVariations": {
+          "nodeId": "245:36565",
+          "fieldPath": [
+            "symbolData",
+            "symbolOverrides",
+            0,
+            "fontVariations"
+          ],
+          "overridePath": [
+            "3425:77934"
+          ]
+        }
+      },
+      "fontWeight": {
+        "value": 600,
+        "nodeId": "245:36565",
+        "fieldPath": [
+          "derivedSymbolData",
+          0,
+          "derivedTextData",
+          "fontMetaData",
+          0,
+          "fontWeight"
+        ],
+        "method": "actual-instance-derived-metadata-at-exact-override-key-path"
+      },
+      "text": "Label",
+      "textStyleReference": {
+        "guid": {
+          "sessionID": 4294967295,
+          "localID": 4294967295
+        }
+      },
+      "fillStyleReference": {
+        "assetRef": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        }
+      },
+      "fillStyleOrigin": {
+        "nodeId": "245:36565",
+        "fieldPath": [
+          "symbolData",
+          "symbolOverrides",
+          0,
+          "styleIdForFill"
+        ],
+        "overridePath": [
+          "3425:77934"
+        ]
+      },
+      "fillStyleDefinitionId": "242:35513",
+      "fillStyleResolution": {
+        "status": "exact-key-version",
+        "requested": {
+          "key": "c74cc104b581c2f74887bcb86f68987cba549d03",
+          "version": "40:66"
+        },
+        "equivalentDuplicates": false,
+        "definitionIds": [
+          "242:35513"
+        ]
+      },
+      "textStyleResolution": {
+        "status": "cleared",
+        "definitionIds": []
+      },
+      "fillRaw": [
+        {
+          "type": "SOLID",
+          "color": {
+            "r": 0.07118052244186401,
+            "g": 0.8541666865348816,
+            "b": 0.6600931286811829,
+            "a": 1
+          },
+          "opacity": 1,
+          "visible": true,
+          "blendMode": "NORMAL",
+          "authoredColor": {
+            "space": "DEFAULT",
+            "c0": 0.07118052244186401,
+            "c1": 0.8541666865348816,
+            "c2": 0.6600931286811829,
+            "c3": 1
+          }
+        }
+      ],
+      "fillCss": {
+        "value": "color(srgb 0.07118052244186401 0.8541666865348816 0.6600931286811829 / 1)",
+        "composite": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "method": "exact-solid-rgba-and-paint-opacity"
+      },
+      "fillRawOrigin": {
+        "nodeId": "242:35513",
+        "fieldPath": [
+          "fillPaints"
+        ],
+        "method": "actual-referenced-style-definition; explicit reference origin retained separately"
+      },
+      "cachedFillOrigin": {
+        "nodeId": "141:5365",
+        "fieldPath": [
+          "fillPaints"
+        ]
+      },
+      "cachedFillMatchesDefinition": false,
+      "writtenPriorityOverrides": [],
+      "effectiveCss": {
+        "font-size": "12px",
+        "font-weight": "600",
+        "font-family": "\"Switzer\"",
+        "line-height": "16px",
+        "letter-spacing": "2px",
+        "text-transform": "none",
+        "text-decoration": "underline"
+      },
+      "notes": "Ordinary FRAME ancestry is not part of Figma guidPath: paths contain instance hops plus the descendant overrideKey. Explicit instance override fields win; actual referenced text-style definition precedes cached main fields. No semantic role is assigned solely from style name."
+    }
+  ],
+  "issues": [],
+  "summary": {
+    "selectedInstances": 512,
+    "textEntries": 1296,
+    "visibleTextEntries": 823,
+    "issues": 0
+  }
+}

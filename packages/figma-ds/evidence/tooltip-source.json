@@ -1,0 +1,1387 @@
+{
+  "variants": [
+    {
+      "id": "160:13656",
+      "mainId": "160:13032",
+      "name": "Position=Top Left, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Top Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13656-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13656-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13643",
+      "mainId": "160:13050",
+      "name": "Position=Bottom Left, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Bottom Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13643-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13643-beak.svg",
+          "sha256": "1adf550f6f14d420b14b947aa7848239ab802f8a529e00b1f86f887f5e2c0b2f",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13644",
+      "mainId": "160:13048",
+      "name": "Position=Bottom Left, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Bottom Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13644-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13644-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13646",
+      "mainId": "160:13046",
+      "name": "Position=Bottom, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13646-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13646-beak.svg",
+          "sha256": "1adf550f6f14d420b14b947aa7848239ab802f8a529e00b1f86f887f5e2c0b2f",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13647",
+      "mainId": "160:13044",
+      "name": "Position=Bottom, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13647-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13647-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13649",
+      "mainId": "160:13054",
+      "name": "Position=Bottom Right, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Bottom Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13649-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13649-beak.svg",
+          "sha256": "1adf550f6f14d420b14b947aa7848239ab802f8a529e00b1f86f887f5e2c0b2f",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13650",
+      "mainId": "160:13052",
+      "name": "Position=Bottom Right, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Bottom Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13650-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13650-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13653",
+      "mainId": "160:13028",
+      "name": "Position=Top, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13653-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13653-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13654",
+      "mainId": "160:13030",
+      "name": "Position=Top, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13654-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13654-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13657",
+      "mainId": "160:13034",
+      "name": "Position=Top Left, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Top Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13657-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13657-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13659",
+      "mainId": "160:13036",
+      "name": "Position=Top Right, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Top Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13659-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13659-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13660",
+      "mainId": "160:13038",
+      "name": "Position=Top Right, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Top Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13660-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13660-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13664",
+      "mainId": "160:13066",
+      "name": "Position=Left Top, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Left Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13664-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13664-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13665",
+      "mainId": "160:13064",
+      "name": "Position=Left Top, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Left Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13665-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13665-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13667",
+      "mainId": "160:13058",
+      "name": "Position=Left, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13667-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13667-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13668",
+      "mainId": "160:13056",
+      "name": "Position=Left, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13668-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13668-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13670",
+      "mainId": "160:13060",
+      "name": "Position=Left Bottom, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Left Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13670-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13670-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13671",
+      "mainId": "160:13062",
+      "name": "Position=Left Bottom, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Left Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13671-information.svg",
+          "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13671-beak.svg",
+          "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13674",
+      "mainId": "160:13068",
+      "name": "Position=Right, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13674-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13674-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13675",
+      "mainId": "160:13070",
+      "name": "Position=Right, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13675-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13675-beak.svg",
+          "sha256": "cdc8cab4109c7a2600e7dc3c6821c5bcbc3730ced79f49ae50766773ac0bda95",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13677",
+      "mainId": "160:13072",
+      "name": "Position=Right Bottom, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Right Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13677-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13677-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13678",
+      "mainId": "160:13074",
+      "name": "Position=Right Bottom, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Right Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13678-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13678-beak.svg",
+          "sha256": "cdc8cab4109c7a2600e7dc3c6821c5bcbc3730ced79f49ae50766773ac0bda95",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13680",
+      "mainId": "160:13076",
+      "name": "Position=Right Top, Beak=On, Stroke=On",
+      "Theme": "dark",
+      "Position": "Right Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13680-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13680-beak.svg",
+          "sha256": "64ba832e0a4e59cc1b283b4bef693c0649e48feaba7f66889c6570c97057d8b2",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13681",
+      "mainId": "160:13078",
+      "name": "Position=Right Top, Beak=On, Stroke=Off",
+      "Theme": "dark",
+      "Position": "Right Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13681-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13681-beak.svg",
+          "sha256": "cdc8cab4109c7a2600e7dc3c6821c5bcbc3730ced79f49ae50766773ac0bda95",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13683",
+      "mainId": "160:13040",
+      "name": "Position=N/A, Beak=Off, Stroke=On",
+      "Theme": "dark",
+      "Position": "N/A",
+      "Beak": "Off",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13683-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": "929094"
+    },
+    {
+      "id": "160:13684",
+      "mainId": "160:13042",
+      "name": "Position=N/A, Beak=Off, Stroke=Off",
+      "Theme": "dark",
+      "Position": "N/A",
+      "Beak": "Off",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13684-information.svg",
+          "sha256": "99169167c4613d6765667efaa0dfb656e21678248d550c4dfd7b248d04069909",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(198, 198, 198, 0.08) 0%, rgba(198, 198, 198, 0.08) 100%), linear-gradient(90deg, rgb(42, 42, 42) 0%, rgb(42, 42, 42) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13697",
+      "mainId": "160:13123",
+      "name": "Position=Bottom Left, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Bottom Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13697-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13697-beak.svg",
+          "sha256": "acfb70eff9456c63895fe81383bd61a0ec7c7fb5e5b1b3d0a7984e437b2acd8c",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13698",
+      "mainId": "160:13121",
+      "name": "Position=Bottom Left, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Bottom Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13698-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13698-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13700",
+      "mainId": "160:13119",
+      "name": "Position=Bottom, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13700-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13700-beak.svg",
+          "sha256": "acfb70eff9456c63895fe81383bd61a0ec7c7fb5e5b1b3d0a7984e437b2acd8c",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13701",
+      "mainId": "160:13117",
+      "name": "Position=Bottom, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13701-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13701-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13703",
+      "mainId": "160:13127",
+      "name": "Position=Bottom Right, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Bottom Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13703-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13703-beak.svg",
+          "sha256": "acfb70eff9456c63895fe81383bd61a0ec7c7fb5e5b1b3d0a7984e437b2acd8c",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13704",
+      "mainId": "160:13125",
+      "name": "Position=Bottom Right, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Bottom Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13704-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13704-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13707",
+      "mainId": "160:13101",
+      "name": "Position=Top, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13707-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13707-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13708",
+      "mainId": "160:13103",
+      "name": "Position=Top, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13708-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13708-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13710",
+      "mainId": "160:13105",
+      "name": "Position=Top Left, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Top Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13710-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13710-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13711",
+      "mainId": "160:13107",
+      "name": "Position=Top Left, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Top Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13711-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13711-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13713",
+      "mainId": "160:13109",
+      "name": "Position=Top Right, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Top Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13713-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13713-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13714",
+      "mainId": "160:13111",
+      "name": "Position=Top Right, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Top Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13714-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13714-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13718",
+      "mainId": "160:13139",
+      "name": "Position=Left Top, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Left Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13718-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13718-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13719",
+      "mainId": "160:13137",
+      "name": "Position=Left Top, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Left Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13719-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13719-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13721",
+      "mainId": "160:13131",
+      "name": "Position=Left, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Left",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13721-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13721-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13722",
+      "mainId": "160:13129",
+      "name": "Position=Left, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Left",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13722-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13722-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13724",
+      "mainId": "160:13133",
+      "name": "Position=Left Bottom, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Left Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13724-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13724-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13725",
+      "mainId": "160:13135",
+      "name": "Position=Left Bottom, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Left Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13725-information.svg",
+          "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13725-beak.svg",
+          "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13728",
+      "mainId": "160:13141",
+      "name": "Position=Right, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Right",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13728-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13728-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13729",
+      "mainId": "160:13143",
+      "name": "Position=Right, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Right",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13729-information.svg",
+          "sha256": "8507d62841fd95409207bddedbdf9a8c4082b3a4afea5208e34648fa579b1120",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13729-beak.svg",
+          "sha256": "9976afdb292047c51bc37b44bdd5d961ff61b051640b3ccc20f1a8d49614e076",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13731",
+      "mainId": "160:13145",
+      "name": "Position=Right Bottom, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Right Bottom",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13731-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13731-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13732",
+      "mainId": "160:13147",
+      "name": "Position=Right Bottom, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Right Bottom",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13732-information.svg",
+          "sha256": "8507d62841fd95409207bddedbdf9a8c4082b3a4afea5208e34648fa579b1120",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13732-beak.svg",
+          "sha256": "9976afdb292047c51bc37b44bdd5d961ff61b051640b3ccc20f1a8d49614e076",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13734",
+      "mainId": "160:13149",
+      "name": "Position=Right Top, Beak=On, Stroke=On",
+      "Theme": "light",
+      "Position": "Right Top",
+      "Beak": "On",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13734-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13734-beak.svg",
+          "sha256": "cb96b2844ce37576e06bca6b1652d238989755214a09a3953c8344ae950b5851",
+          "bytes": 847,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13735",
+      "mainId": "160:13151",
+      "name": "Position=Right Top, Beak=On, Stroke=Off",
+      "Theme": "light",
+      "Position": "Right Top",
+      "Beak": "On",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13735-information.svg",
+          "sha256": "8507d62841fd95409207bddedbdf9a8c4082b3a4afea5208e34648fa579b1120",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        },
+        "beak": {
+          "file": "variant-160-13735-beak.svg",
+          "sha256": "9976afdb292047c51bc37b44bdd5d961ff61b051640b3ccc20f1a8d49614e076",
+          "bytes": 621,
+          "width": "32",
+          "height": "9"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    },
+    {
+      "id": "160:13737",
+      "mainId": "160:13113",
+      "name": "Position=N/A, Beak=Off, Stroke=On",
+      "Theme": "light",
+      "Position": "N/A",
+      "Beak": "Off",
+      "Stroke": "On",
+      "assets": {
+        "information": {
+          "file": "variant-160-13737-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": "78767a"
+    },
+    {
+      "id": "160:13738",
+      "mainId": "160:13115",
+      "name": "Position=N/A, Beak=Off, Stroke=Off",
+      "Theme": "light",
+      "Position": "N/A",
+      "Beak": "Off",
+      "Stroke": "Off",
+      "assets": {
+        "information": {
+          "file": "variant-160-13738-information.svg",
+          "sha256": "485fa462b794c09513386a40fe66f625486ff68141ad6595fdd6530383630882",
+          "bytes": 929,
+          "width": "16",
+          "height": "16"
+        }
+      },
+      "backgroundImage": "linear-gradient(90deg, rgba(42, 42, 42, 0.08) 0%, rgba(42, 42, 42, 0.08) 100%), linear-gradient(90deg, rgb(244, 244, 244) 0%, rgb(244, 244, 244) 100%)",
+      "outline": null
+    }
+  ],
+  "policy": "Written first; exact same-file figure assets and generated design context. Native SVG dimensions are preserved.",
+  "status": "Focused browser review passed all52 authored tuples: geometry/type/logical beak-slot/artwork load; source darkTopLeft and lightRightBottom outlined screenshots inspected. Long copy at320\u00d7600 scrolls within592px body; Escape dismisses. Approved Inter exception remains; checks are scoped and do not accept the whole library.",
+  "adaptations": [
+    "Native keyboard/focus/Escape and pointer hover; source position selects body and beak placement.",
+    "Viewport-aware placement may flip to the opposite authored orientation; wraps long copy.",
+    "Long copy scrolls within viewport after reserving16px body padding plus8px logical beak, preserving the original pointer artwork. Tooltip uses a fallback stacking layer above surrounding content."
+  ]
+}

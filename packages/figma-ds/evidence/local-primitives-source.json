@@ -1,0 +1,50 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "checked": "2026-11-04",
+  "contexts": [
+    "294:72589",
+    "304:72592",
+    "845:82252",
+    "845:82271",
+    "557:83996"
+  ],
+  "assets": [
+    {
+      "file": "assets/search/local-leading.svg",
+      "source": "245:44135",
+      "bytes": 534,
+      "sha256": "5a6f4007a6f13f033f44af561cc97a0ffad014e1f978950b374f7e13ad93f0ad",
+      "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "file": "assets/local-primitives/badge-new.svg",
+      "source": "304:72595",
+      "bytes": 892,
+      "sha256": "86c8c2c8315ce7960771fbec46c33e94caef1ddbcd48e4fe3c2276faa091f798",
+      "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "file": "assets/local-primitives/badge-deal.svg",
+      "source": "219:35023 (instance304:72605 at0.5scale)",
+      "bytes": 855,
+      "sha256": "def6abda2ef4803c4445734785c5e4bcee31a9d438189acb7a84b3102eca9a15",
+      "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "file": "assets/local-primitives/badge-sustainable.svg",
+      "source": "304:72617",
+      "bytes": 1374,
+      "sha256": "cba0c9570c668a5ae99ba54c1ab338cb2417a20d295353971da94259db8e931f",
+      "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">"
+    },
+    {
+      "file": "assets/local-primitives/container-state5-close.svg",
+      "source": "557:84009",
+      "bytes": 536,
+      "sha256": "96f5733984a33fcf3781a82974f111cbb49fd7b582f4b9c430dd083fa22c545e",
+      "svgRoot": "<svg preserveAspectRatio=\"none\" overflow=\"visible\" style=\"display: block;\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">"
+    }
+  ],
+  "sourcePolicy": "Written-first; live high-fidelity context and screenshot verified before new branch implementation. Cached fills are not the authoritative effective render.",
+  "sourceConstraintCorrection": "Local Label32px frame: preserve actual labely6 and icony8, centering text rather than blindly applying inconsistent saved8px vertical auto-layout padding."
+}

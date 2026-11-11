@@ -1,0 +1,348 @@
+const imgStateInvisible = "https://www.figma.com/api/mcp/asset/61904564-213f-4889-8d75-9dd08ef59f6b.svg";
+const imgStateVisible = "https://www.figma.com/api/mcp/asset/e3b0bd3f-bbc3-4d9e-a9a8-1e5b8926fa7d.svg";
+const imgLeft = "https://www.figma.com/api/mcp/asset/11b787f1-c24f-4ab9-9a6f-070e920890e0.svg";
+const imgRight = "https://www.figma.com/api/mcp/asset/5850d8d6-3010-4ec7-a5ea-a6086d36953d.svg";
+const imgTopLine = "https://www.figma.com/api/mcp/asset/9731ba9e-30af-43b7-8386-281144acdcf1.svg";
+const imgBottomLine = "https://www.figma.com/api/mcp/asset/3fcee6d6-bd23-4b4b-8ed2-c2d22a2d23c1.svg";
+const imgLeft1 = "https://www.figma.com/api/mcp/asset/fea63693-7dc3-4e28-aac8-a002033e8841.svg";
+const imgRight1 = "https://www.figma.com/api/mcp/asset/3818d3c6-0fdb-49be-8675-029442893ae8.svg";
+const imgTopLine1 = "https://www.figma.com/api/mcp/asset/cabb4033-37e7-4b62-8cf4-9ccb81a72a39.svg";
+const imgBottomLine1 = "https://www.figma.com/api/mcp/asset/0ee2a110-975b-4c69-a50e-7e65edf44e6a.svg";
+const imgLeft2 = "https://www.figma.com/api/mcp/asset/5f4f66c8-0edf-47db-aeaa-c4d60715b674.svg";
+const imgRight2 = "https://www.figma.com/api/mcp/asset/57964af4-000b-4eb8-bde8-69e5d2674244.svg";
+const imgTopLine2 = "https://www.figma.com/api/mcp/asset/4674b92c-e881-48ec-98b8-69f43ee47c87.svg";
+const imgBottomLine2 = "https://www.figma.com/api/mcp/asset/df1357d6-6190-4d43-9d48-1e38fcd8789f.svg";
+const imgTopLine3 = "https://www.figma.com/api/mcp/asset/5a728a1b-6596-4fcd-8aac-7589966708c0.svg";
+const imgTopLine4 = "https://www.figma.com/api/mcp/asset/9c7ab7b3-24e7-4717-998e-3edf0709c459.svg";
+const imgLeft3 = "https://www.figma.com/api/mcp/asset/1abf7b8f-6397-4605-b887-ec94935c0730.svg";
+const imgRight3 = "https://www.figma.com/api/mcp/asset/a9196960-64f0-4e5c-9549-7dfe233fbbc7.svg";
+const imgTopLine5 = "https://www.figma.com/api/mcp/asset/50708466-5fc6-4565-a103-5ee1e93ec5e1.svg";
+const imgBottomLine3 = "https://www.figma.com/api/mcp/asset/ec022722-cdad-4197-8945-74ecc84c5023.svg";
+const imgTopLine6 = "https://www.figma.com/api/mcp/asset/27b2ad89-18ff-4123-b706-71ee733e980b.svg";
+
+type CursorProps = {
+  className?: string;
+  state?: "Invisible" | "Visible";
+};
+
+function Cursor({ className, state = "Invisible" }: CursorProps) {
+  const isVisible = state === "Visible";
+  return (
+    <div className={className || "h-[27px] relative w-0"} id={isVisible ? "node-827_82251" : "node-827_82249"}>
+      {state === "Invisible" && <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgStateInvisible} />}
+      {isVisible && (
+        <div className="absolute inset-[0_-1px]">
+          <img alt="" className="block max-w-none size-full" src={imgStateVisible} />
+        </div>
+      )}
+    </div>
+  );
+}
+
+type FormFieldProps = {
+  className?: string;
+  label?: string;
+  state?: "Default" | "Active" | "Hover" | "Filled" | "Error" | "Error 2" | "Hover 2";
+};
+
+export default function FormField({ className, label = "Default label", state = "Default" }: FormFieldProps) {
+  if (state === "Hover") {
+    return (
+      <button className={className || "bg-white block cursor-pointer h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="827:82239" data-name="State=Hover">
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#5f5f5f] text-[14px] text-left top-[17px] whitespace-nowrap" data-node-id="827:82240">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="827:82241" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft1} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="827:82242" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="827:82243" data-name="top part">
+          <div className="content-stretch flex items-start relative shrink-0 w-[0.001px]" data-node-id="827:82244" data-name="Small label autolayout">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] text-left whitespace-nowrap" data-node-id="827:82245">
+              {label}
+            </p>
+          </div>
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="827:82246" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine1} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="827:82247" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine1} />
+          </div>
+        </div>
+      </button>
+    );
+  }
+  if (state === "Active") {
+    return (
+      <button className={className || "bg-white block cursor-pointer h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="827:82202" data-name="State=Active">
+        <p className="[word-break:break-word] absolute font-['Switzer:Bold'] leading-[16px] left-[17px] not-italic text-[#9b9b9b] text-[12px] text-left top-[-8px] whitespace-nowrap" data-node-id="827:82203">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="827:82204" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft2} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="827:82205" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight2} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="827:82206" data-name="top part">
+          <div className="content-stretch flex items-start px-[6px] relative shrink-0" data-node-id="827:82207" data-name="Small label autolayout">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] text-left whitespace-nowrap" data-node-id="827:82208">
+              {label}
+            </p>
+          </div>
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="827:82209" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine2} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="827:82210" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine2} />
+          </div>
+        </div>
+        <Cursor className="absolute h-[27px] left-[19px] top-[14px] w-0" state="Visible" />
+      </button>
+    );
+  }
+  if (state === "Filled") {
+    return (
+      <div className={className || "bg-white h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="840:82224" data-name="State=Filled">
+        <p className="[word-break:break-word] absolute font-['Switzer:Bold'] leading-[16px] left-[17px] not-italic text-[#9b9b9b] text-[12px] top-[-8px] whitespace-nowrap" data-node-id="840:82225">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="840:82226" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="840:82227" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="840:82228" data-name="top part">
+          <div className="content-stretch flex items-start px-[6px] relative shrink-0" data-node-id="840:82229" data-name="Small label autolayout">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] whitespace-nowrap" data-node-id="840:82230">
+              {label}
+            </p>
+          </div>
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="840:82231" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine3} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="840:82232" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#5f5f5f] text-[14px] top-[17px] whitespace-nowrap" data-node-id="840:82235">
+          {label}
+        </p>
+      </div>
+    );
+  }
+  if (state === "Hover 2") {
+    return (
+      <button className={className || "bg-white block cursor-pointer h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="942:82560" data-name="State=Hover 2">
+        <p className="[word-break:break-word] absolute font-['Switzer:Bold'] leading-[16px] left-[17px] not-italic text-[#9b9b9b] text-[12px] text-left top-[-8px] whitespace-nowrap" data-node-id="942:82561">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="942:82562" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft1} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="942:82563" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight1} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="942:82564" data-name="top part">
+          <div className="content-stretch flex items-start px-[6px] relative shrink-0" data-node-id="942:82565" data-name="Small label autolayout">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] text-left whitespace-nowrap" data-node-id="942:82566">
+              {label}
+            </p>
+          </div>
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="942:82567" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine4} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="942:82568" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine1} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#5f5f5f] text-[14px] text-left top-[17px] whitespace-nowrap" data-node-id="942:82570">
+          {label}
+        </p>
+      </button>
+    );
+  }
+  if (state === "Error") {
+    return (
+      <button className={className || "bg-white block cursor-pointer h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="840:82257" data-name="State=Error">
+        <p className="[word-break:break-word] absolute font-['Switzer:Bold'] leading-[16px] left-[17px] not-italic text-[#9b9b9b] text-[12px] text-left top-[-8px] whitespace-nowrap" data-node-id="840:82258">
+          {label}
+        </p>
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[16px] left-[17px] not-italic text-[#ff5959] text-[12px] text-left top-[62px] whitespace-nowrap" data-node-id="840:82270">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="840:82259" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft3} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="840:82260" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight3} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="840:82261" data-name="top part">
+          <div className="content-stretch flex items-start px-[6px] relative shrink-0" data-node-id="840:82262" data-name="Small label autolayout">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] text-left whitespace-nowrap" data-node-id="840:82263">
+              {label}
+            </p>
+          </div>
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="840:82264" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine5} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="840:82265" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine3} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#5f5f5f] text-[14px] text-left top-[17px] whitespace-nowrap" data-node-id="840:82267">
+          {label}
+        </p>
+      </button>
+    );
+  }
+  if (state === "Error 2") {
+    return (
+      <button className={className || "bg-white block cursor-pointer h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="840:82301" data-name="State=Error 2">
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[16px] left-[17px] not-italic text-[#ff5959] text-[12px] text-left top-[62px] whitespace-nowrap" data-node-id="840:82303">
+          {label}
+        </p>
+        <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="840:82304" data-name="Left">
+          <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+            <img alt="" className="block max-w-none size-full" src={imgLeft3} />
+          </div>
+        </div>
+        <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="840:82305" style={{ containerType: "size" }}>
+          <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+            <div className="relative size-full" data-name="Right">
+              <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgRight3} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="840:82306" data-name="top part">
+          <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="840:82309" data-name="top line">
+            <div className="absolute inset-[-1px_0]">
+              <img alt="" className="block max-w-none size-full" src={imgTopLine6} />
+            </div>
+          </div>
+        </div>
+        <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="840:82310" data-name="bottom line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgBottomLine3} />
+          </div>
+        </div>
+        <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#ff5959] text-[14px] text-left top-[17px] whitespace-nowrap" data-node-id="840:82311">
+          {label}
+        </p>
+      </button>
+    );
+  }
+  return (
+    <div className={className || "bg-white h-[54px] relative rounded-[8px] w-[298px]"} data-node-id="820:82191" data-name="State=Default">
+      <p className="[word-break:break-word] absolute font-['Switzer:Semibold'] leading-[20px] left-[17px] not-italic text-[#5f5f5f] text-[14px] top-[17px] whitespace-nowrap" data-node-id="820:82181">
+        {label}
+      </p>
+      <div className="absolute bottom-0 left-0 top-0 w-[17px]" data-node-id="820:82182" data-name="Left">
+        <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+          <img alt="" className="block max-w-none size-full" src={imgLeft} />
+        </div>
+      </div>
+      <div className="absolute bottom-0 flex items-center justify-center right-0 top-0 w-[17px]" data-node-id="820:82184" style={{ containerType: "size" }}>
+        <div className="-scale-x-100 flex-none h-[100cqh] w-[100cqw]">
+          <div className="relative size-full" data-name="Right">
+            <div className="absolute inset-[-1.85%_0_-1.85%_-5.88%]">
+              <img alt="" className="block max-w-none size-full" src={imgRight} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="absolute content-stretch flex h-[16px] items-center left-[11px] right-[17px] top-[-8px]" data-node-id="820:82189" data-name="top part">
+        <div className="content-stretch flex items-start relative shrink-0 w-[0.001px]" data-node-id="820:82188" data-name="Small label autolayout">
+          <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[16px] not-italic relative shrink-0 text-[12px] text-[rgba(0,0,0,0)] whitespace-nowrap" data-node-id="820:82185">
+            {label}
+          </p>
+        </div>
+        <div className="flex-[1_0_0] h-0 min-w-px relative" data-node-id="820:82186" data-name="top line">
+          <div className="absolute inset-[-1px_0]">
+            <img alt="" className="block max-w-none size-full" src={imgTopLine} />
+          </div>
+        </div>
+      </div>
+      <div className="absolute bottom-0 h-0 left-[17px] right-[17px]" data-node-id="820:82187" data-name="bottom line">
+        <div className="absolute inset-[-1px_0]">
+          <img alt="" className="block max-w-none size-full" src={imgBottomLine} />
+        </div>
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Neutral/Carbon Grey: #5F5F5F, Mobile/Body/B3 - Semibold: Font(family: "Switzer", style: Semibold, size: 14, weight: 600, lineHeight: 20, letterSpacing: 0), Neutral/Grey Goose: #CFCFCF, Mobile/Body/B4 - Bold: Font(family: "Switzer", style: Bold, size: 12, weight: 700, lineHeight: 16, letterSpacing: 0), Primary/Pearl: #FFFFFF, Neutral/Star Dust: #9B9B9B, Primary/Deep Sea: #088466, Error and Sucess/Sunset Orange: #FF5959, Mobile/Body/B4 - Semibold: Font(family: "Switzer", style: Semibold, size: 12, weight: 600, lineHeight: 16, letterSpacing: 0), Page Background/Ghost White: #F9F9F9.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

@@ -1,0 +1,13 @@
+import type {Meta,StoryObj} from '@storybook/react-vite';
+import {Steppers,Icon} from '@croma/figma-ds';
+import {sourcePreviewSurfaces} from '../../figma-prototype/src/IconCatalogue';
+const cases=([{Orientation:'Horizontal',Theme:'dark'},{Orientation:'Horizontal',Theme:'light'},{Orientation:'Vertical',Theme:'dark'},{Orientation:'Vertical',Theme:'light'}] as const);
+const meta={title:'Components/Steppers/Figma states',parameters:{controls:{disable:true}},render:()=> <div style={{display:'flex',flexWrap:'wrap',gap:32,alignItems:'flex-start'}}>{cases.map(c=><section key={c.Orientation+c.Theme}><h3>{c.Orientation} / {c.Theme}</h3><div style={{padding:24,width:(c.Orientation==='Horizontal'?328:240)+48,maxWidth:'100%',boxSizing:'border-box',background:sourcePreviewSurfaces[c.Theme==='dark'?'Dark':'Light']}}><Steppers {...c} label={`${c.Orientation} ${c.Theme} steps`} current={1} steps={(c.Orientation==='Horizontal'?[1,2,1,1]:[1,2,1,1,1]).map(number=>({label:'Title',description:'Subtitle',number}))}/></div></section>)}</div>} satisfies Meta;
+export default meta;
+export const AllFourCases:StoryObj<typeof meta>={};
+
+/** Distinct progress values expose completed, active and inactive source state styling. */
+export const ProgressionStates:StoryObj<typeof meta>={render:()=> <div style={{display:'grid',gap:32}}>{(['dark','light'] as const).flatMap(Theme=>(['Horizontal','Vertical'] as const).flatMap(Orientation=>[0,1,3,4].map(current=><section key={Theme+Orientation+current}><h3>{Theme} / {Orientation} / current {current}</h3><div style={{padding:24,background:sourcePreviewSurfaces[Theme==='dark'?'Dark':'Light']}}><Steppers Theme={Theme} Orientation={Orientation} label={`${Theme} ${Orientation} progression ${current}`} current={current} steps={['Title','Title','Title','Title'].map(label=>({label,description:'Subtitle'}))}/></div></section>)))}</div>};
+
+/** Caller-supplied original icons demonstrate12px slot fitting; these labels are prototype content. */
+export const IconSteps:StoryObj<typeof meta>={render:()=> <div style={{display:'flex',flexWrap:'wrap',gap:32,alignItems:'flex-start'}}>{cases.map(c=><section key={c.Orientation+c.Theme}><h3>{c.Orientation} / {c.Theme} / icons</h3><div style={{padding:24,background:sourcePreviewSurfaces[c.Theme==='dark'?'Dark':'Light']}}><Steppers {...c} label={`${c.Orientation} ${c.Theme} icon steps`} current={1} steps={[{label:'Delivery',icon:<Icon nodeId="219:35013" decorative monochrome/>},{label:'Payment',icon:<Icon nodeId="111:2136" decorative monochrome/>},{label:'Review',icon:<Icon nodeId="219:35355" decorative monochrome/>}]}/></div></section>)}</div>};

@@ -1,0 +1,8 @@
+import type {Meta,StoryObj} from '@storybook/react-vite';
+import {LayoutGrid} from '../../../packages/figma-ds/src/LayoutGrid';
+const meta={title:'Foundations/Layout and responsive grid',component:LayoutGrid,args:{children:null},parameters:{controls:{disable:true}}} satisfies Meta<typeof LayoutGrid>;
+export default meta;
+type Story=StoryObj<typeof meta>;
+const widths=[320,767,768,1366,1440,1920];
+export const WrittenBreakpoints:Story={render:()=> <main className="croma-catalogue"><h1>Written fluid grid</h1><p>Mobile 320–767px: four columns, 15px outer margin, 16px gutter. Desktop from 768px: twelve columns, 32px minimum outer margin, 32px gutter and 1320px maximum column-content width. The content centres once it reaches the cap.</p><p>The saved 23px annotation is not substituted for the written 32px margin. With both written constraints respected, the desktop grid at 1366px is 1302px wide; it reaches 1320px at 1384px. The source sentence suggesting an already fixed width at 1366px conflicts with those constraints. This implementation gives priority to the explicit numeric specifications.</p>{widths.map(width=><section key={width}><h2>{width}px</h2><div style={{overflowX:'auto'}}><div data-grid-viewport={width} style={{width,background:'#e8eef0'}}><LayoutGrid mode={width<768?'Mobile':'Desktop'}>{Array.from({length:width<768?4:12},(_,i)=><div key={i} data-grid-column={i+1} style={{background:'#12daa8',minHeight:80,overflowWrap:'anywhere'}}>{i+1}</div>)}</LayoutGrid></div></div></section>)}</main>};
+export const AutomaticResponsiveLayout:Story={args:{mode:'auto',children:Array.from({length:12},(_,i)=><div key={i} style={{background:'#12daa8',paddingBlock:16}}>{i+1}</div>)}};

@@ -1,0 +1,314 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "pageId": "245:52051",
+  "chat": {
+    "id": "245:52312",
+    "name": "Chat",
+    "width": 342,
+    "height": 755,
+    "absoluteBoundingBox": {
+      "x": -1428,
+      "y": -230,
+      "width": 342,
+      "height": 755
+    }
+  },
+  "assets": [
+    {
+      "id": "245:52314",
+      "name": "Union",
+      "type": "BOOLEAN_OPERATION",
+      "parentId": "245:52313",
+      "width": 342,
+      "height": 755,
+      "absoluteBoundingBox": {
+        "x": -1428,
+        "y": -230,
+        "width": 342,
+        "height": 755
+      },
+      "absoluteRenderBounds": {
+        "x": -1436,
+        "y": -238,
+        "width": 358,
+        "height": 771
+      },
+      "relativeToParent": {
+        "x": 277,
+        "y": -152,
+        "width": 342,
+        "height": 755
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          277
+        ],
+        [
+          0,
+          1,
+          -152
+        ]
+      ],
+      "relativeToChat": {
+        "x": 0,
+        "y": 0,
+        "width": 342,
+        "height": 755
+      },
+      "status": "exported",
+      "file": "245-52314.svg",
+      "sha256": "c60796bedda6a265fae0d0795952977f210d0b628c40b08e6f44483488371d3e",
+      "bytes": 1002
+    },
+    {
+      "id": "245:52329",
+      "name": "Icon",
+      "type": "GROUP",
+      "parentId": "245:52328",
+      "width": 22,
+      "height": 21.689594268798828,
+      "absoluteBoundingBox": {
+        "x": -1404,
+        "y": -72,
+        "width": 22,
+        "height": 21.689594268798828
+      },
+      "absoluteRenderBounds": {
+        "x": -1404,
+        "y": -72,
+        "width": 22,
+        "height": 21.689594268798828
+      },
+      "relativeToParent": {
+        "x": 301,
+        "y": 6,
+        "width": 22,
+        "height": 21.689594268798828
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          301
+        ],
+        [
+          0,
+          1,
+          6
+        ]
+      ],
+      "relativeToChat": {
+        "x": 24,
+        "y": 158,
+        "width": 22,
+        "height": 21.689594268798828
+      },
+      "status": "exported",
+      "file": "245-52329.svg",
+      "sha256": "67ae5077fd18c03332da401c972a830fd66d68d4f76f7267f423e00ea40ed46b",
+      "bytes": 2789
+    },
+    {
+      "id": "245:52349",
+      "name": "Icon",
+      "type": "GROUP",
+      "parentId": "245:52328",
+      "width": 22,
+      "height": 22,
+      "absoluteBoundingBox": {
+        "x": -1404,
+        "y": 273,
+        "width": 22,
+        "height": 22
+      },
+      "absoluteRenderBounds": {
+        "x": -1404,
+        "y": 273,
+        "width": 22,
+        "height": 22
+      },
+      "relativeToParent": {
+        "x": 301,
+        "y": 351,
+        "width": 22,
+        "height": 22
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          301
+        ],
+        [
+          0,
+          1,
+          351
+        ]
+      ],
+      "relativeToChat": {
+        "x": 24,
+        "y": 503,
+        "width": 22,
+        "height": 22
+      },
+      "status": "exported",
+      "file": "245-52349.svg",
+      "sha256": "006702ff9f9538f50a047316c4010cf50eda1fd2b4db1aefab9e2f8a4504cf57",
+      "bytes": 2765
+    },
+    {
+      "id": "245:52381",
+      "name": "Icons/Add",
+      "type": "INSTANCE",
+      "parentId": "245:52380",
+      "width": 24.516128540039062,
+      "height": 24,
+      "absoluteBoundingBox": {
+        "x": -1404,
+        "y": 479,
+        "width": 24.516128540039062,
+        "height": 24
+      },
+      "absoluteRenderBounds": {
+        "x": -1404,
+        "y": 479,
+        "width": 24.516128540039062,
+        "height": 24
+      },
+      "relativeToParent": {
+        "x": 301,
+        "y": 557,
+        "width": 24.516128540039062,
+        "height": 24
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          301
+        ],
+        [
+          0,
+          1,
+          557
+        ]
+      ],
+      "relativeToChat": {
+        "x": 24,
+        "y": 709,
+        "width": 24.516128540039062,
+        "height": 24
+      },
+      "status": "exported",
+      "file": "245-52381.svg",
+      "sha256": "38e925651d00657c0dc8e1f14ce75c5c966804019f7b080f82a0717b0c4c9507",
+      "bytes": 306
+    },
+    {
+      "id": "245:52385",
+      "name": "Icons/microphone",
+      "type": "INSTANCE",
+      "parentId": "245:52382",
+      "width": 25.249170303344727,
+      "height": 24,
+      "absoluteBoundingBox": {
+        "x": -1156.7520751953125,
+        "y": 479,
+        "width": 25.249170303344727,
+        "height": 24
+      },
+      "absoluteRenderBounds": {
+        "x": -1156.7520751953125,
+        "y": 479,
+        "width": 25.249170303344727,
+        "height": 24
+      },
+      "relativeToParent": {
+        "x": 548.2478942871094,
+        "y": 557,
+        "width": 25.249170303344727,
+        "height": 24
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          548.2478942871094
+        ],
+        [
+          0,
+          1,
+          557
+        ]
+      ],
+      "relativeToChat": {
+        "x": 271.2479248046875,
+        "y": 709,
+        "width": 25.249170303344727,
+        "height": 24
+      },
+      "status": "exported",
+      "file": "245-52385.svg",
+      "sha256": "98e7434fab3264717ba54f3120d99d136f8c027b7b5371ecd1d11cd879b6d157",
+      "bytes": 672
+    },
+    {
+      "id": "245:52388",
+      "name": "Icons/Close",
+      "type": "INSTANCE",
+      "parentId": "245:52386",
+      "width": 32,
+      "height": 32,
+      "absoluteBoundingBox": {
+        "x": -1150,
+        "y": -214,
+        "width": 32,
+        "height": 32
+      },
+      "absoluteRenderBounds": {
+        "x": -1150,
+        "y": -214,
+        "width": 32,
+        "height": 32
+      },
+      "relativeToParent": {
+        "x": 555,
+        "y": -136,
+        "width": 32,
+        "height": 32
+      },
+      "relativeTransform": [
+        [
+          1,
+          0,
+          555
+        ],
+        [
+          0,
+          1,
+          -136
+        ]
+      ],
+      "relativeToChat": {
+        "x": 278,
+        "y": 16,
+        "width": 32,
+        "height": 32
+      },
+      "status": "exported",
+      "file": "245-52388.svg",
+      "sha256": "d0cdbc2e61431ec3c94909a0403e0b3608b4232b36bd812246ded0b613e89f9b",
+      "bytes": 310
+    }
+  ],
+  "serializedBytes": 11265,
+  "adaptations": [
+    "The original decorative Union SVG uses nine-slice borders to preserve its source corners and shadow at fluid widths.",
+    "Message bubbles use intrinsic height from source8px padding and20px line height; saved55px/95px frames can overflow by1px and are allowed to grow.",
+    "Composer input uses flexible columns instead of the saved279px right padding inside a252.312px frame.",
+    "Caller owns messages, send and action results; no external chat/voice service is called."
+  ],
+  "status": "Focused reference geometry and native prototype flows passed:342\u00d7755,64pxheader,32pxclose at278/16,36pxcomposer atx56.6875/y703. Six original artwork slots load. Width320 fits; Enter/send,close/reopen tested. Inter substitute and intrinsic bubble-height adaptations remain explicit."
+}

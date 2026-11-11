@@ -1,0 +1,37 @@
+{
+  "version": "0.5.0",
+  "date": "2026-11-05",
+  "status": "Shared prototype hygiene defaults verified within recorded scope; full original-Figma visual acceptance remains incomplete",
+  "sourcePolicy": "The user approved promoting exchange review fixes into shared DS rules with “sure, update the ds”. Changes apply to user-approved prototype extensions. Authored Figma components, source evidence and frozen releases are unchanged. Semantic assignments and responsive composition rules are deliberate extension decisions, not newly recovered Figma variants.",
+  "corrections": [
+    "No authored Figma component correction is made in this release."
+  ],
+  "changes": [
+    "Added PlainSection, SurfaceCard and HelpDisclosure with shared grouping, card anatomy, accessible disclosure and one base plus one card surface in themed forms. Nested SurfaceCards flatten into plain subsections.",
+    "PrototypeField owns 8px label and 12px hint/error spacing, forwards its input ref and uses one accent focus border. SearchCombobox uses one combined-control focus boundary and the same help spacing.",
+    "SelectionPillGroup compact pills are text-only by default with hidden native input glyphs; icons and swatches are explicit. Card rows use equal responsive columns, invariant state geometry and immediate selection without fill transitions. Focus uses one contiguous inner stroke.",
+    "Themed purchase/notification/search extensions share semantic surfaces and readable text. Light field error colour is reassigned from saved source paint278:81072 for contrast; original source components are unchanged.",
+    "ActionGroup supports start/end/between alignment. SurfaceCard actions have shared spacing and align quiet-action labels with card copy. CompositionDialog uses page background and retains body scrolling/footer visibility.",
+    "Added five Design hygiene compositions, component-specific authoring/migration guidance, and four regression cases. The extension suite is now part of figma:verify. Existing 0.4.0 adapter compatibility hooks remain."
+  ],
+  "checks": [
+    "Final Storybook/component builds and TypeScript check passed. The existing prototype build and package-boundary checks passed.",
+    "All34 Storybook browser regressions passed in14.8seconds, including four new hygiene cases covering field focus/help/error association, state geometry/rerender/native keyboard use, dark/light text and error contrast, nested surfaces, long actions, narrow layouts and dialog focus return.",
+    "All3 existing prototype consumer checks passed in2.0seconds. The283-rule source literal check passed; it checks numeric boundaries rather than full semantic applicability.",
+    "Visual review inspected the dark composition on the normal browser viewport and at320px. The final wide capture records the transparent IMEI section, single focus border, readable help and aligned card actions. This is agent visual review, not stakeholder sign-off.",
+    "The browser harness initially could not launch: its preferred Chromium revision1248 was absent, and restricted launching of installed revision1243 was denied. Final tests used the installed revision1243 via CROMA_TEST_BROWSER with permitted browser launching. No failed UI assertion remains; an initial viewport-coordinate test was corrected to compare document geometry across scrolling.",
+    "A hash comparison against frozen0.4.0 found changes only in seven existing DS extension/export source files plus the new PrototypeSurfaces module. Authored Figma component files and foundation values remain unchanged. Portable installation/build checks are recorded in the release manifest."
+  ],
+  "remaining": [
+    "The original whole Header remains raster-only. Editable CommerceHeader is a prototype extension; LiveCommerceHeader uses separately dated live-site evidence and is not an authored Figma variant.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance.",
+    "Prototype-extension theme assignments and composed-screen visuals remain reviewable implementation proposals, not stakeholder design sign-off.",
+    "The final exchange application remains a separately pinned consumer; its existing local overrides were not automatically migrated by this DS-only update.",
+    "The public hosted catalogue remains at its separately recorded published version. This is a new downloadable code release; no hosting deployment is included.",
+    "Text contrast checks cover the exercised themes/card/help/error roles. This does not establish whole-library accessibility conformance or eliminate the need for consumer review."
+  ]
+}

@@ -1,0 +1,31 @@
+/* Shared extension contract, approved in exchange annotations1/17,5November2026.
+   Constant border/padding/weight reserve the same geometry in every selection state. */
+.croma-selection-group{--croma-selection-accent:#12daa8;--croma-selection-fill:#393939;--croma-selection-outline:#777;--croma-selection-text:#fff;border:0;padding:0;margin:0;min-width:0;font:600 14px/20px var(--croma-font-family)}
+.croma-selection-group[data-theme=light]{--croma-selection-accent:#088466;--croma-selection-fill:#f9f9f9;--croma-selection-outline:#9b9b9b;--croma-selection-text:#191919}
+.croma-selection-group>legend{padding:0;margin-bottom:8px}.croma-selection-group__options{display:flex;flex-wrap:wrap;gap:12px}
+/* Data hooks also adapt retained native choices in non-React prototypes. */
+:is(.cx-theme,.croma-selection-group) [data-croma-selection][data-selection-variant]{box-sizing:border-box;position:relative;display:inline-flex;align-items:center;gap:8px;max-width:100%;min-width:0;min-height:44px;margin:0;border:1px solid var(--croma-selection-outline,#777)!important;border-radius:8px;padding:10px 16px!important;background:transparent!important;color:var(--croma-selection-text,#fff)!important;font-family:var(--croma-font-family);font-size:14px;font-weight:600!important;line-height:22px;letter-spacing:normal;cursor:pointer;transition:none;animation:none}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection][data-selection-variant]:is([aria-pressed=true],:has(input:checked)){border-width:1px!important;border-color:var(--croma-selection-accent,#12daa8)!important;color:var(--croma-selection-accent,#12daa8)!important;background:var(--croma-selection-fill,#393939)!important;font-weight:600!important;padding:10px 16px!important}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection][data-selection-variant=card]{padding:16px!important;min-height:64px}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection][data-selection-variant=card]:is([aria-pressed=true],:has(input:checked)){padding:16px!important}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection] input{flex:none;width:20px;height:20px;margin:0;accent-color:var(--croma-selection-accent,#12daa8)}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection] :is(.croma-selection-label,.croma-selection-label>span){color:inherit!important;font-weight:600!important;min-width:0;overflow-wrap:anywhere}
+.croma-selection-label{display:flex;flex-direction:column;gap:4px}.croma-selection-label>small{font-weight:400;font-size:12px;line-height:16px;color:inherit}.croma-selection-icon{display:inline-flex;align-items:center;justify-content:center;flex:none}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection]:is(:focus-visible,:has(input:focus-visible)){outline:none;border-color:var(--croma-selection-accent,#12daa8)!important;box-shadow:inset 0 0 0 1px var(--croma-selection-accent,#12daa8)}
+:is(.cx-theme,.croma-selection-group) [data-croma-selection]:is(:disabled,[data-disabled=true],:has(input:disabled)){opacity:.5;cursor:default}
+@media(prefers-reduced-motion:reduce){:is(.cx-theme,.croma-selection-group) [data-croma-selection]{transition:none}}
+
+[data-croma-selection-group]{gap:12px!important}
+
+/* Native inputs preserve radio/checkbox keyboard behaviour. Compact pills use
+   the label as their visual control, without a second radio-looking glyph. */
+.croma-selection-group [data-selection-variant=pill]>input{position:absolute;width:1px;height:1px;clip-path:inset(50%);overflow:hidden;white-space:nowrap}
+.croma-selection-group [data-croma-selection]>input:focus-visible{outline:none}
+.croma-selection-group__options:has([data-selection-variant=card]){display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+.croma-selection-group [data-selection-variant=card]{width:100%;height:100%}
+.croma-selection-swatch{width:16px;height:16px;border-radius:50%;border:1px solid currentColor;box-sizing:border-box;flex:none}
+.cx-theme .croma-selection-group{--croma-selection-fill:var(--cx-surface);--croma-selection-text:var(--cx-text);--croma-selection-outline:var(--cx-border);--croma-selection-accent:var(--cx-accent)}
+@media(max-width:479px){.croma-selection-group__options:has([data-selection-variant=card]){grid-template-columns:1fr}}
+@media(forced-colors:active){.croma-selection-group [data-croma-selection]:has(input:focus-visible){outline:2px solid Highlight;outline-offset:0}}
+
+.croma-selection-group{color-scheme:dark}.croma-selection-group[data-theme=light]{color-scheme:light}

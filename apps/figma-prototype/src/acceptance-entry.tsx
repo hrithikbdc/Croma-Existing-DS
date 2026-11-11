@@ -1,0 +1,13 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import '@croma/figma-foundations/fonts.css';
+import '@croma/figma-foundations/tokens.css';
+import '@croma/figma-foundations/typography.css';
+import '@croma/figma-ds/styles.css';
+import {ButtonGate} from './ButtonGate';
+import {LogoCatalogue} from './LogoCatalogue';
+import {IconCatalogue} from './IconCatalogue';
+import {AcceptanceHarness} from './AcceptanceHarness';
+import './acceptance.css';
+const query=new URLSearchParams(location.search);
+createRoot(document.getElementById('root')!).render(<React.StrictMode>{query.get('buttonGate')==='1'?<ButtonGate Branch={(query.get('branch')??'All') as 'All'|'Guide'|'Local set'|'Segmented specification'} Case={query.get('case')??'All'} LongContent={query.get('stress')==='1'} SourceWidth={query.get('sourceWidth')==='1'}/>:query.get('logos')==='1'?<LogoCatalogue/>:query.get('icons')==='1'?<IconCatalogue/>:<AcceptanceHarness only={query.get('case')??undefined} stress={query.get('stress')==='1'}/>}</React.StrictMode>);

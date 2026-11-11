@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="9" viewBox="0 0 32 9" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Beak">
+<g id="Fill">
+<use xlink:href="#stroke0_0_84" fill="#F4F4F4"/>
+<use xlink:href="#stroke0_0_84" fill="#2A2A2A" fill-opacity="0.08"/>
+</g>
+<g id="Stroke">
+</g>
+</g>
+<defs>
+<path id="stroke0_0_84" d="M14.5858 6.58579L8.87868 0.87868C8.31607 0.316071 7.55301 0 6.75736 0H25.2426C24.447 0 23.6839 0.31607 23.1213 0.878679L17.4142 6.58579C16.6332 7.36684 15.3668 7.36684 14.5858 6.58579Z"/>
+</defs>
+</svg>

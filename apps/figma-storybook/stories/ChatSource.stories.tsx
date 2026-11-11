@@ -1,0 +1,9 @@
+import {useState} from 'react';
+import type {Meta,StoryObj} from '@storybook/react-vite';
+import {Chat,type ChatMessage} from '@croma/figma-ds';
+function ChatExample({Width=342}:{Width?:number}){const[open,setOpen]=useState(true);const[status,setStatus]=useState('');const initial:ChatMessage[]=[{id:'one',author:'Croma Digital Assistant',direction:'incoming',content:'Good afternoon Sita. How can we help you today ?',time:'12:21'},{id:'two',author:'Sita',direction:'outgoing',content:'We’re looking for a Smart TV for our new home.',time:'12:23'},{id:'three',author:'Croma Digital Assistant',direction:'incoming',content:'Great. We have lots of options for you to find the right TV. We recommend trying our Product Finder to narrow your search.',time:'12:24',actions:['Product Finder','Chat with an expert','Shop with Video'].map(label=>({id:label,label,onSelect:()=>setStatus(label+' selected.')}))}];const[messages,setMessages]=useState(initial);return <main style={{width:Width,maxWidth:'100%'}}>{open?<Chat label="Croma assistant" messages={messages} open={open} onClose={()=>setOpen(false)} onSend={text=>setMessages(m=>[...m,{id:String(m.length+1),author:'Sita',direction:'outgoing',content:text,time:'12:25'}])} onVoice={()=>setStatus('Voice input selected.')} onAttach={files=>setStatus(`${files.length} attachment${files.length===1?'':'s'} selected.`)}/>:<button onClick={()=>setOpen(true)}>Open chat</button>}{status&&<p role="status">{status}</p>}</main>;}
+const meta={title:'Components/Chat/Figma conversation',parameters:{layout:'fullscreen'},args:{Width:342},argTypes:{Width:{control:'select',options:[320,342]}},render:args=><ChatExample {...args}/>} satisfies Meta<typeof ChatExample>;
+export default meta;
+type Story=StoryObj<typeof meta>;
+export const Conversation:Story={};
+export const Narrow:Story={args:{Width:320}};

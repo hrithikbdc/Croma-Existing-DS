@@ -1,0 +1,115 @@
+[
+  {
+    "nodeId": "13:1774",
+    "name": "Envelope color filled",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024,
+    "sourceBand": "White background",
+    "file": "13-1774.svg",
+    "bytes": 202026,
+    "sha256": "701e0a1001643db08beaa0df0e72539b1041928b9508cce9592fb55c861d5678",
+    "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+    "originalImages": [
+      {
+        "nodeId": "13:1775",
+        "archiveImageHash": "91b307897c0d266d9160a0403102ba3e64d24d25",
+        "sha256": "9b5fc310987782160769d1c5bebff6b913b04aae0745a3bc135320cbc624b793",
+        "bytes": 151131
+      }
+    ],
+    "fillBindings": [],
+    "officialComparison": "pending"
+  },
+  {
+    "nodeId": "13:1829",
+    "name": "Receipt",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024,
+    "sourceBand": "White background",
+    "file": "13-1829.svg",
+    "bytes": 445020,
+    "sha256": "8996e5826a0b7210ac6aa4681b90102a937a5c7dd8f4e511c3db923864409f59",
+    "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+    "originalImages": [
+      {
+        "nodeId": "13:1831",
+        "archiveImageHash": "c49252c42dcb253b4f3dba18e50e4c1609dfac67",
+        "sha256": "b54f78987dedd9c5a5b07864b610bb2247446844471a0742450c76cf4233b0c3",
+        "bytes": 332886
+      }
+    ],
+    "fillBindings": [
+      {
+        "nodeId": "13:1832",
+        "styleId": "1:119",
+        "reference": {
+          "assetRef": {
+            "key": "7082498d403428955002a57b98274eb5c93c16c0",
+            "version": "714:22"
+          }
+        }
+      }
+    ],
+    "officialComparison": "pending"
+  },
+  {
+    "nodeId": "13:1833",
+    "name": "Popcorn",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024,
+    "sourceBand": "White background",
+    "file": "13-1833.svg",
+    "bytes": 1013803,
+    "sha256": "675cc9f8cfdd4419e59c5249886a046d7c2578ebe41b9b71bb18f14f958a9525",
+    "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+    "originalImages": [
+      {
+        "nodeId": "13:1835",
+        "archiveImageHash": "36d769c26b740665405c51548e2733fd3b26c753",
+        "sha256": "8fa9d70949309b589b4293fc944bfd6e6f827fa246055ed05e3d701c6fb42292",
+        "bytes": 214308
+      },
+      {
+        "nodeId": "13:1836",
+        "archiveImageHash": "50e9bac0708863d0982093025cf3b90ee82003c1",
+        "sha256": "34af28befb5de8d57831e744d521c5578e11de12c994e2d060c7d206f22d9c21",
+        "bytes": 109645
+      },
+      {
+        "nodeId": "13:1837",
+        "archiveImageHash": "d332dc609c1e6474b125254a672e5254b9fea00e",
+        "sha256": "84c421c01a729962a0af586c0f2524c8a1c35020ee26b3840db9f0083821f02f",
+        "bytes": 435639
+      }
+    ],
+    "fillBindings": [],
+    "officialComparison": "pending"
+  },
+  {
+    "nodeId": "13:1853",
+    "name": "Television",
+    "sourceWidth": 1024,
+    "sourceHeight": 1024,
+    "sourceBand": "White background",
+    "file": "13-1853.svg",
+    "bytes": 638378,
+    "sha256": "b150b1d77be83961a44719db8700c4d5d0a4d98435137f4041af557e1b8a37e7",
+    "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+    "originalImages": [
+      {
+        "nodeId": "13:1855",
+        "archiveImageHash": "885f4fedec96d15e32dd73fe094bdd29902f5dd1",
+        "sha256": "9d7e2a7145e5654c805cff153e51c48e1c22e341b5e7dad77ac655533dd6da5e",
+        "bytes": 185499
+      },
+      {
+        "nodeId": "13:1856",
+        "archiveImageHash": "5a00401516695465dcbf8ddca99937d3a5fa6731",
+        "sha256": "f8aedbc7587d38bd2891a66ac1286d1431080e41254ccb7752291403bdde20da",
+        "bytes": 292556
+      }
+    ],
+    "fillBindings": [],
+    "officialComparison": "pending"
+  }
+]

@@ -1,0 +1,239 @@
+{
+  "sourceFile": "2WzKPv4y8rw4zJ94LmI3yS",
+  "sourceContext": "fixes-a-live-design-context.json",
+  "scope": "Read-only source asset downloads and exact gradients returned in context; unchanged SVG bytes except the source radial fill markup materialised as standalone local files.",
+  "assets": [
+    {
+      "file": "accordion/local-closed.svg",
+      "bytes": 307,
+      "sha256": "e4165be1816a89dd644a0427401a554813318d6d0030315df44a8537a1238c7b",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "accordion/local-dark-closed.svg",
+      "bytes": 305,
+      "sha256": "b487f44ce86f6785299d6bd1c3cfb96e1e7f0574c02211bfbf4a7bc469d3fe8e",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "accordion/local-dark-open-base.svg",
+      "bytes": 305,
+      "sha256": "b487f44ce86f6785299d6bd1c3cfb96e1e7f0574c02211bfbf4a7bc469d3fe8e",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "accordion/local-open-base.svg",
+      "bytes": 307,
+      "sha256": "e4165be1816a89dd644a0427401a554813318d6d0030315df44a8537a1238c7b",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "accordion/colour-gradient-blue.svg",
+      "bytes": 508,
+      "sha256": "f17faf52a218181534c0f57cf880d1a33b43ad97709958154f2738340ea43596",
+      "width": null,
+      "height": null,
+      "viewBox": "0 0 360 360"
+    },
+    {
+      "file": "accordion/colour-deal.svg",
+      "bytes": 626,
+      "sha256": "2e1d78e542e8fbaf836c928a32fd69b6c662df9c411bb62798d4c97d89d6bcc9",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "accordion/colour-arrow.svg",
+      "bytes": 314,
+      "sha256": "5cede46f325dd9c8843478b5038e72093760fd963a098d5d5f4a814239946262",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "accordion/colour-store.svg",
+      "bytes": 355,
+      "sha256": "3e490015c8ae78ad4085964468ef4c4fa623a31a877b4eac312292b8ff05072f",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "accordion/colour-sparkle.svg",
+      "bytes": 454,
+      "sha256": "15e540701cf35bf434403503f4f1e221be186f66e190fae4063c2a9008330648",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "accordion/colour-delivery.svg",
+      "bytes": 677,
+      "sha256": "36c419671fed5191cfe69cabf8767f6da9d4d4279177e9bf22058a88f2c6ce77",
+      "width": "24",
+      "height": "24",
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "file": "accordion/colour-gradient-purple.svg",
+      "bytes": 447,
+      "sha256": "1df095fd96f51a752e9ae0741acc086da43c6f8cdbc0556b4cbaf9903da7d9bd",
+      "width": null,
+      "height": null,
+      "viewBox": "0 0 360 360"
+    },
+    {
+      "file": "dropdown/form-imgRight1.svg",
+      "bytes": 294,
+      "sha256": "b3155a16fe6352aa5e08800b14eb1158dd42502bcf72d4d22c155642c9eb720a",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgIconsArrows1.svg",
+      "bytes": 307,
+      "sha256": "5603f5bc5fe9b475f4ffdeab4644225801952fd4f212104afc4c5ad69d585d27",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "dropdown/form-imgIconsArrows.svg",
+      "bytes": 307,
+      "sha256": "5603f5bc5fe9b475f4ffdeab4644225801952fd4f212104afc4c5ad69d585d27",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "dropdown/form-imgTopLine.svg",
+      "bytes": 254,
+      "sha256": "b49308af23c47a19324a688688a84407c237c4555eb5fb0baefcb12ab76d6af0",
+      "width": "265.999",
+      "height": "2",
+      "viewBox": "0 0 265.999 2"
+    },
+    {
+      "file": "dropdown/form-imgRight2.svg",
+      "bytes": 294,
+      "sha256": "3e36c357b2b617866bb2e77b6d46ccd1d3f317a36c92a0e7d424c6efe639450e",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgIconsArrows2.svg",
+      "bytes": 307,
+      "sha256": "5603f5bc5fe9b475f4ffdeab4644225801952fd4f212104afc4c5ad69d585d27",
+      "width": "16",
+      "height": "16",
+      "viewBox": "0 0 16 16"
+    },
+    {
+      "file": "dropdown/form-imgLeft.svg",
+      "bytes": 293,
+      "sha256": "053a109e2fbb6070b4726c7662e43ce2561437f29a78c6f3873244f6dcc5c681",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgRight.svg",
+      "bytes": 294,
+      "sha256": "0d6c5553d40f1c4200a96eed053ee9da17564d0fb31e7fe9051529ee2b5dbda5",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgTopLine3.svg",
+      "bytes": 242,
+      "sha256": "6d8b394f63791c017206fc735f6ff9ffae5406bae168f13e7b110bc5e2129a9c",
+      "width": "198",
+      "height": "2",
+      "viewBox": "0 0 198 2"
+    },
+    {
+      "file": "dropdown/form-imgTopLine2.svg",
+      "bytes": 242,
+      "sha256": "4206f11de7eb97019e52c282e4570203da76398db06b7eb60e8765ede60db1da",
+      "width": "198",
+      "height": "2",
+      "viewBox": "0 0 198 2"
+    },
+    {
+      "file": "dropdown/form-imgBottomLine.svg",
+      "bytes": 245,
+      "sha256": "46670b304aae627b7f283e94dbfabf25e9d9afd933b24d1c7e3888bc3bc2be45",
+      "width": "260",
+      "height": "2",
+      "viewBox": "0 0 260 2"
+    },
+    {
+      "file": "dropdown/form-imgTopLine1.svg",
+      "bytes": 254,
+      "sha256": "44071c72210cd7939f440faf179d0ab3297ea335bf3ae98913ede955eb3bdf63",
+      "width": "265.999",
+      "height": "2",
+      "viewBox": "0 0 265.999 2"
+    },
+    {
+      "file": "dropdown/form-imgTopLine4.svg",
+      "bytes": 242,
+      "sha256": "88ceb760850abc2855b893816b2555d339fd00476d81b7adbb30de6a9a21d722",
+      "width": "198",
+      "height": "2",
+      "viewBox": "0 0 198 2"
+    },
+    {
+      "file": "dropdown/form-imgLeft1.svg",
+      "bytes": 293,
+      "sha256": "16d062f2c847da741c798019fcdbd8ac5379566b68e558b989316d34e0f1d84a",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgLeft2.svg",
+      "bytes": 293,
+      "sha256": "132a4b562ab1713b4250d4fda16b10d7be3c8abd325bf86e211ba54f7ad2d80f",
+      "width": "18",
+      "height": "56",
+      "viewBox": "0 0 18 56"
+    },
+    {
+      "file": "dropdown/form-imgBottomLine1.svg",
+      "bytes": 245,
+      "sha256": "cd6cc10e2f7a4637df8d60e586e65a3c474513617159bdbd41dfd3c66f0cac01",
+      "width": "260",
+      "height": "2",
+      "viewBox": "0 0 260 2"
+    },
+    {
+      "file": "dropdown/form-imgBottomLine2.svg",
+      "bytes": 245,
+      "sha256": "7e42d78f496c4d98543f1825043977230ab37ce332cf0a5b4f1bd40673459852",
+      "width": "260",
+      "height": "2",
+      "viewBox": "0 0 260 2"
+    },
+    {
+      "file": "cards/skeleton-media-tile.svg",
+      "bytes": 238,
+      "sha256": "9ee959395db32bb564b4b24a9cd1af0d84e450c87b5f1f7df01593f9af4e9065",
+      "width": "45",
+      "height": "22.5",
+      "viewBox": "0 0 45 22.5"
+    }
+  ]
+}

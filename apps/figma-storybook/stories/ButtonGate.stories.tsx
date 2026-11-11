@@ -1,0 +1,11 @@
+import type {Meta,StoryObj} from '@storybook/react-vite';
+import {ButtonGate,buttonGuideVariants,buttonIconVariants} from '../../figma-prototype/src/ButtonGate';
+import '../../figma-prototype/src/acceptance.css';
+const meta={title:'Components/Button/Figma variants',component:ButtonGate,args:{Branch:'All',Case:'All',LongContent:false,SourceWidth:false,OptionalIcons:false},argTypes:{Branch:{control:'select',options:['All','Guide','Local set','Segmented specification']},Case:{control:'select',options:['All',...buttonGuideVariants.map(variant=>variant.id),...buttonIconVariants.map(variant=>variant.id)]},LongContent:{control:'boolean'},SourceWidth:{control:'boolean'},OptionalIcons:{control:'boolean'}},parameters:{docs:{description:{component:'Whole-component gate: every written guide combination, native Icon states, actual Segmented Anatomy composition and the separate23-variant local set. Original-source caller artwork is used; no plus-sign acceptance placeholder. Each branch remains pending until its complete source/behaviour/layout matrix passes.'}}}} satisfies Meta<typeof ButtonGate>;
+export default meta;
+type Story=StoryObj<typeof meta>;
+export const WholeButtonGate:Story={name:'All Button families'};
+export const LocalFigmaSet:Story={args:{Branch:'Local set'},name:'Local Figma set —23 variants'};
+export const GuideSourceWidths:Story={args:{Branch:'Guide',SourceWidth:true,OptionalIcons:false}};
+export const SegmentedActualAnatomy:Story={args:{Branch:'Segmented specification'}};
+export const NarrowLongLabels:Story={args:{Branch:'Guide',LongContent:true}};

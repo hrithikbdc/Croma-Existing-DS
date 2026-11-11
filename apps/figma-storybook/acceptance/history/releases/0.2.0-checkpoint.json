@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "date": "2026-11-04",
+  "status": "Prototype release verified within the recorded scope; full visual acceptance incomplete",
+  "sourcePolicy": "Written specifications first; effective same-file context, original artwork and verified saved bindings fill gaps. Cached raw child properties alone do not establish rendered values.",
+  "corrections": [
+    "Audit findings A30.1–A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "Native form reset now reads after the browser default and respects cancelled resets, synchronising Toggle artwork, Checkbox source metadata, Form Field and Dropdown state.",
+    "Added local Accordion, Colour Accordion, light/dark Card masters, Skeleton Card and separate Form Dropdown.",
+    "Added local Label/Search, Option/List and all five mapped Sheet Container states, including fullscreen State5 with original close artwork.",
+    "Added scrolling/icon/alignment Tabs, Tooltip information/custom triggers and the written1500ms post-touch-release lifetime with held-touch persistence, drawer swipe and explicit Fixed/Flow/Sticky Footer layout modes.",
+    "Added72original Illustration assets, four source Device viewports, Phone/Desktop casing compositions, fluid Grid and Experience/Motion/Content guidance.",
+    "Added safe chip-removal focus, navigable Steppers and temporary Menu/popup action compositions."
+  ],
+  "checks": [
+    "TypeScript, foundation verifier,283source-literal boundaries and installable package-content exclusions passed.",
+    "Twenty-one focused acceptance browser tests passed with no skips/flakes, including expanded ContainerState5 and drawer gesture/tap separation.",
+    "Three existing consumer browser regressions passed at wide and320pxviewports.",
+    "All195exported Storybook stories rendered without JavaScript exceptions or non-lazy broken images in the final smoke pass.",
+    "All47written typography styles rendered with loaded Switzer and correct size, weight, line height and tracking.",
+    "Fourteen written Grid/Device content viewport layout and resizing checks passed.",
+    "All72Illustration assets rendered and matched their registry hashes;56are original Figma exports and16are archive-backed original image/mask/fill compositions.",
+    "All359original icons and7logos retained source hash/native geometry and rendered on paired light/dark contact sheets.",
+    "New Local/Colour Accordion, Skeleton, six local Card masters and Form Dropdown cases received source-to-render geometry, artwork and visual review; platform font smoothing does not imply universal pixel equality.",
+    "Five of sixteen archive-recovered Illustrations were compared with official Figma renders: geometry/paint visually match, with94.90–97.56%identical pixels; raster equality is not claimed."
+  ],
+  "remaining": [
+    "Whole Header has only a raster reference; exact editable anatomy remains source-limited.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_b78cb4694ec0819190f1756ae7aaae1d"
+}

@@ -1,0 +1,87 @@
+const imgIconsAdd = "https://www.figma.com/api/mcp/asset/65b78c22-7efe-4bce-913b-296145808348.svg";
+const imgIconsAdd1 = "https://www.figma.com/api/mcp/asset/68d64ce6-845b-4842-810e-4aeed5580b6a.svg";
+const imgIconsAdd2 = "https://www.figma.com/api/mcp/asset/c4518e0a-f3aa-4d3c-870d-ea35acd5ddc3.svg";
+const imgIconsAdd3 = "https://www.figma.com/api/mcp/asset/91372a22-34a9-4edf-9ff3-1e5dcad1fb3c.svg";
+
+type ButtonProps = {
+  className?: string;
+  rightIcon?: boolean;
+  rightIconInstance?: React.ReactNode | null;
+  size?: "Desktop" | "Mobile";
+  state?: "Active" | "Hover" | "Pressed" | "Disabled" | "Link on Light" | "Link on Dark" | "Outlined";
+  type?: "Primary" | "Secondary" | "Link" | "Link with icon";
+};
+
+export default function Button({ className, rightIcon = true, rightIconInstance = null, size = "Desktop", state = "Active", type = "Primary" }: ButtonProps) {
+  const isDesktopAndDisabledAndIsSecondaryOrPrimary = size === "Desktop" && state === "Disabled" && ["Secondary", "Primary"].includes(type);
+  const isDesktopAndLinkAndLinkOnDark = size === "Desktop" && type === "Link" && state === "Link on Dark";
+  const isDesktopAndLinkAndLinkOnLight = size === "Desktop" && type === "Link" && state === "Link on Light";
+  const isDesktopAndLinkWithIconAndLinkOnDark = size === "Desktop" && type === "Link with icon" && state === "Link on Dark";
+  const isDesktopAndLinkWithIconAndLinkOnLight = size === "Desktop" && type === "Link with icon" && state === "Link on Light";
+  const isDesktopAndPrimaryAndActive = size === "Desktop" && type === "Primary" && state === "Active";
+  const isDesktopAndPrimaryAndDisabled = size === "Desktop" && type === "Primary" && state === "Disabled";
+  const isDesktopAndPrimaryAndHover = size === "Desktop" && type === "Primary" && state === "Hover";
+  const isDesktopAndPrimaryAndOutlined = size === "Desktop" && type === "Primary" && state === "Outlined";
+  const isDesktopAndPrimaryAndPressed = size === "Desktop" && type === "Primary" && state === "Pressed";
+  const isDesktopAndSecondaryAndActive = size === "Desktop" && type === "Secondary" && state === "Active";
+  const isDesktopAndSecondaryAndDisabled = size === "Desktop" && type === "Secondary" && state === "Disabled";
+  const isDesktopAndSecondaryAndHover = size === "Desktop" && type === "Secondary" && state === "Hover";
+  const isDesktopAndSecondaryAndPressed = size === "Desktop" && type === "Secondary" && state === "Pressed";
+  const isMobileAndDisabledAndIsSecondaryOrPrimary = size === "Mobile" && state === "Disabled" && ["Secondary", "Primary"].includes(type);
+  const isMobileAndLinkWithIconAndLinkOnDark = size === "Mobile" && type === "Link with icon" && state === "Link on Dark";
+  const isMobileAndLinkWithIconAndLinkOnLight = size === "Mobile" && type === "Link with icon" && state === "Link on Light";
+  const isMobileAndPrimaryAndActive = size === "Mobile" && type === "Primary" && state === "Active";
+  const isMobileAndPrimaryAndDisabled = size === "Mobile" && type === "Primary" && state === "Disabled";
+  const isMobileAndPrimaryAndHover = size === "Mobile" && type === "Primary" && state === "Hover";
+  const isMobileAndPrimaryAndPressed = size === "Mobile" && type === "Primary" && state === "Pressed";
+  const isMobileAndSecondaryAndActive = size === "Mobile" && type === "Secondary" && state === "Active";
+  const isMobileAndSecondaryAndDisabled = size === "Mobile" && type === "Secondary" && state === "Disabled";
+  const isMobileAndSecondaryAndPressed = size === "Mobile" && type === "Secondary" && state === "Pressed";
+  return (
+    <div className={className || `content-stretch flex flex-col items-center px-[24px] relative rounded-[14px] ${isDesktopAndPrimaryAndOutlined ? "border-2 border-[#12daa8] border-solid py-[14px]" : isDesktopAndPrimaryAndActive ? "bg-[#12daa8] py-[14px]" : isDesktopAndPrimaryAndPressed ? "bg-[#088466] py-[14px]" : isDesktopAndPrimaryAndHover ? "bg-[#cffff3] py-[14px]" : size === "Desktop" && ((type === "Secondary" && state === "Active") || (type === "Link with icon" && state === "Link on Light") || (type === "Link" && state === "Link on Light") || (type === "Link" && state === "Link on Dark") || (type === "Link with icon" && state === "Link on Dark")) ? "py-[14px]" : isDesktopAndDisabledAndIsSecondaryOrPrimary ? "bg-[#9b9b9b] py-[14px]" : isDesktopAndSecondaryAndPressed ? "bg-[#191919] border border-solid border-white py-[14px]" : isDesktopAndSecondaryAndHover ? "bg-[#cfcfcf] py-[14px]" : isMobileAndPrimaryAndActive ? "bg-[#12daa8] py-[12px]" : isMobileAndPrimaryAndPressed ? "bg-[#088466] py-[12px]" : isMobileAndPrimaryAndHover ? "bg-[#cffff3] py-[12px]" : size === "Mobile" && ((type === "Secondary" && state === "Active") || (type === "Link with icon" && state === "Link on Light") || (type === "Link with icon" && state === "Link on Dark")) ? "py-[12px]" : isMobileAndDisabledAndIsSecondaryOrPrimary ? "bg-[#9b9b9b] py-[12px]" : isMobileAndSecondaryAndPressed ? "bg-[#191919] border border-solid border-white py-[12px]" : "bg-[#cfcfcf] py-[12px]"}`} id={isMobileAndLinkWithIconAndLinkOnDark ? "node-394_72680" : isDesktopAndLinkWithIconAndLinkOnDark ? "node-394_72632" : isMobileAndLinkWithIconAndLinkOnLight ? "node-394_72676" : isDesktopAndLinkAndLinkOnDark ? "node-1304_79528" : isDesktopAndLinkAndLinkOnLight ? "node-1296_79520" : isDesktopAndLinkWithIconAndLinkOnLight ? "node-393_73004" : isDesktopAndPrimaryAndOutlined ? "node-1597_79520" : isDesktopAndPrimaryAndActive ? "node-393_72967" : isDesktopAndPrimaryAndDisabled ? "node-393_72964" : isDesktopAndPrimaryAndPressed ? "node-393_72961" : isDesktopAndPrimaryAndHover ? "node-393_72958" : isDesktopAndSecondaryAndActive ? "node-393_72955" : isDesktopAndSecondaryAndDisabled ? "node-393_72952" : isDesktopAndSecondaryAndPressed ? "node-393_72949" : isDesktopAndSecondaryAndHover ? "node-393_72946" : isMobileAndPrimaryAndActive ? "node-393_72943" : isMobileAndPrimaryAndDisabled ? "node-393_72940" : isMobileAndPrimaryAndPressed ? "node-393_72937" : isMobileAndPrimaryAndHover ? "node-393_72934" : isMobileAndSecondaryAndActive ? "node-393_72931" : isMobileAndSecondaryAndDisabled ? "node-393_72928" : isMobileAndSecondaryAndPressed ? "node-393_72925" : "node-393_72922"} style={type === "Secondary" && state === "Active" ? { backgroundImage: "linear-gradient(90deg, rgba(198, 198, 198, 0.05) 0%, rgba(198, 198, 198, 0.05) 100%), linear-gradient(90deg, rgb(57, 57, 57) 0%, rgb(57, 57, 57) 100%)" } : undefined}>
+      <div className={`content-stretch flex h-[28px] relative shrink-0 ${type === "Link with icon" && ["Link on Light", "Link on Dark"].includes(state) ? "gap-[4px] items-center" : size === "Desktop" && ((type === "Secondary" && state === "Hover") || (type === "Secondary" && state === "Pressed") || (type === "Secondary" && state === "Disabled") || (type === "Secondary" && state === "Active") || (type === "Primary" && state === "Hover") || (type === "Primary" && state === "Pressed") || (type === "Primary" && state === "Disabled") || (type === "Primary" && state === "Active") || (type === "Primary" && state === "Outlined")) ? "items-start" : "items-center"}`} id={isMobileAndLinkWithIconAndLinkOnDark ? "node-394_72681" : isDesktopAndLinkWithIconAndLinkOnDark ? "node-394_72633" : isMobileAndLinkWithIconAndLinkOnLight ? "node-394_72677" : isDesktopAndLinkAndLinkOnDark ? "node-1304_79529" : isDesktopAndLinkAndLinkOnLight ? "node-1296_79521" : isDesktopAndLinkWithIconAndLinkOnLight ? "node-393_73005" : isDesktopAndPrimaryAndOutlined ? "node-1597_79521" : isDesktopAndPrimaryAndActive ? "node-393_72968" : isDesktopAndPrimaryAndDisabled ? "node-393_72965" : isDesktopAndPrimaryAndPressed ? "node-393_72962" : isDesktopAndPrimaryAndHover ? "node-393_72959" : isDesktopAndSecondaryAndActive ? "node-393_72956" : isDesktopAndSecondaryAndDisabled ? "node-393_72953" : isDesktopAndSecondaryAndPressed ? "node-393_72950" : isDesktopAndSecondaryAndHover ? "node-393_72947" : isMobileAndPrimaryAndActive ? "node-393_72944" : isMobileAndPrimaryAndDisabled ? "node-393_72941" : isMobileAndPrimaryAndPressed ? "node-393_72938" : isMobileAndPrimaryAndHover ? "node-393_72935" : isMobileAndSecondaryAndActive ? "node-393_72932" : isMobileAndSecondaryAndDisabled ? "node-393_72929" : isMobileAndSecondaryAndPressed ? "node-393_72926" : "node-393_72923"} data-name="Content">
+        <p className={`[word-break:break-word] font-["Switzer:Bold"] not-italic relative shrink-0 whitespace-nowrap ${isMobileAndLinkWithIconAndLinkOnDark ? "leading-[24px] text-[#12daa8] text-[16px]" : isDesktopAndLinkWithIconAndLinkOnDark ? "leading-[28px] text-[#12daa8] text-[18px]" : isMobileAndLinkWithIconAndLinkOnLight ? "leading-[24px] text-[#088466] text-[16px]" : isDesktopAndLinkAndLinkOnDark ? "[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid leading-[28px] text-[#12daa8] text-[18px] underline" : isDesktopAndLinkAndLinkOnLight ? "[text-decoration-skip-ink:none] [text-underline-position:from-font] decoration-from-font decoration-solid leading-[28px] text-[#088466] text-[18px] underline" : isDesktopAndLinkWithIconAndLinkOnLight ? "leading-[28px] text-[#088466] text-[18px]" : isDesktopAndDisabledAndIsSecondaryOrPrimary ? "leading-[28px] text-[#cfcfcf] text-[18px]" : size === "Desktop" && type === "Secondary" && ["Pressed", "Active"].includes(state) ? "leading-[28px] text-[18px] text-white" : size === "Desktop" && ((type === "Secondary" && state === "Hover") || (type === "Primary" && state === "Hover") || (type === "Primary" && state === "Pressed") || (type === "Primary" && state === "Active") || (type === "Primary" && state === "Outlined")) ? "leading-[28px] text-[#191919] text-[18px]" : isMobileAndDisabledAndIsSecondaryOrPrimary ? "leading-[22px] text-[#cfcfcf] text-[16px]" : size === "Mobile" && type === "Secondary" && ["Pressed", "Active"].includes(state) ? "leading-[22px] text-[16px] text-white" : "leading-[22px] text-[#191919] text-[16px]"}`} id={isMobileAndLinkWithIconAndLinkOnDark ? "node-394_72682" : isDesktopAndLinkWithIconAndLinkOnDark ? "node-394_72634" : isMobileAndLinkWithIconAndLinkOnLight ? "node-394_72678" : isDesktopAndLinkAndLinkOnDark ? "node-1304_79530" : isDesktopAndLinkAndLinkOnLight ? "node-1296_79522" : isDesktopAndLinkWithIconAndLinkOnLight ? "node-393_73006" : isDesktopAndPrimaryAndOutlined ? "node-1597_79522" : isDesktopAndPrimaryAndActive ? "node-393_72969" : isDesktopAndPrimaryAndDisabled ? "node-393_72966" : isDesktopAndPrimaryAndPressed ? "node-393_72963" : isDesktopAndPrimaryAndHover ? "node-393_72960" : isDesktopAndSecondaryAndActive ? "node-393_72957" : isDesktopAndSecondaryAndDisabled ? "node-393_72954" : isDesktopAndSecondaryAndPressed ? "node-393_72951" : isDesktopAndSecondaryAndHover ? "node-393_72948" : isMobileAndPrimaryAndActive ? "node-393_72945" : isMobileAndPrimaryAndDisabled ? "node-393_72942" : isMobileAndPrimaryAndPressed ? "node-393_72939" : isMobileAndPrimaryAndHover ? "node-393_72936" : isMobileAndSecondaryAndActive ? "node-393_72933" : isMobileAndSecondaryAndDisabled ? "node-393_72930" : isMobileAndSecondaryAndPressed ? "node-393_72927" : "node-393_72924"}>
+          Call to action
+        </p>
+        {isDesktopAndLinkWithIconAndLinkOnLight &&
+          rightIcon &&
+          (rightIconInstance || (
+            <div className="relative shrink-0 size-[24px]" data-node-id="394:72583" data-name="Icons/Add">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsAdd} />
+            </div>
+          ))}
+        {isMobileAndLinkWithIconAndLinkOnLight &&
+          rightIcon &&
+          (rightIconInstance || (
+            <div className="relative shrink-0 size-[22px]" data-node-id="394:72679" data-name="Icons/Add">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsAdd1} />
+            </div>
+          ))}
+        {isDesktopAndLinkWithIconAndLinkOnDark &&
+          rightIcon &&
+          (rightIconInstance || (
+            <div className="relative shrink-0 size-[24px]" data-node-id="394:72635" data-name="Icons/Add">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsAdd2} />
+            </div>
+          ))}
+        {isMobileAndLinkWithIconAndLinkOnDark &&
+          rightIcon &&
+          (rightIconInstance || (
+            <div className="relative shrink-0 size-[22px]" data-node-id="394:72683" data-name="Icons/Add">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsAdd3} />
+            </div>
+          ))}
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Primary/Onyx Black: #191919, Neutral/Grey Goose: #CFCFCF, Primary/Pearl: #FFFFFF, Neutral/Star Dust: #9B9B9B, Surface/Dark/Surface at +1: #393939,#C6C6C6, Primary/Foam: #CFFFF3, Primary/Deep Sea: #088466, Primary/Aqua Green: #12DAA8, Page Background/Ghost White: #F9F9F9.
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

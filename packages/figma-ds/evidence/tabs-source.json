@@ -1,0 +1,65 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "writtenPriority": {
+    "layoutTableId": "278:74563",
+    "structureTableId": "278:74492",
+    "tabHeight": 48,
+    "indicatorHeight": 2,
+    "paddingInline": 8,
+    "equalSegments": true,
+    "fullWidthIndicator": true
+  },
+  "actualFigures": {
+    "dark": {
+      "instanceId": "278:66348",
+      "mainId": "278:66171",
+      "activeTextEntry": "278:66348@2100:67084;2100:67022",
+      "inactiveTextEntry": "278:66348@2100:67085;2100:67024",
+      "activeTextStyleId": "39:2373",
+      "inactiveTextStyleId": "39:2429",
+      "activeIndicatorStyleId": "278:66216",
+      "inactiveIndicatorStyleId": "39:2435",
+      "activeIndicatorReference": {
+        "key": "43faab54a6dceccb48e6f05a80e5f35d21fe2127",
+        "version": "9652:11"
+      },
+      "labelMetrics": {
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "selectedWeight": 600,
+        "inactiveWeight": 400
+      }
+    },
+    "light": {
+      "instanceId": "278:66360",
+      "mainId": "141:5152",
+      "activeTextEntry": "278:66360@2100:67123;2100:67150",
+      "inactiveTextEntry": "278:66360@2100:67124;2100:67152",
+      "activeTextStyleId": "39:2047",
+      "inactiveTextStyleId": "39:2052",
+      "activeIndicatorStyleId": "141:5495",
+      "inactiveIndicatorStyleId": "39:2062",
+      "activeIndicatorReference": {
+        "key": "bc7f4750e8197b1e973937f6bfba2f0f47c0f56d",
+        "version": "9652:8"
+      },
+      "labelMetrics": {
+        "fontSize": 16,
+        "lineHeight": 24,
+        "letterSpacing": 0,
+        "selectedWeight": 400,
+        "inactiveWeight": 400
+      }
+    }
+  },
+  "conversion": "Original exact-affine source gradients rendered via public per-ID SVG-backed CSS variables; no angle approximation. Written2px overrides selected saved1px border. Indicator uses separate bottom paint layer and does not change label layout.",
+  "behavior": "Controlled active value; native disabled; roving focus with arrows/Home/End skipping disabled; RTL directional reversal; tab/panel ARIA links. Focus outline is implementation behavior, not a claimed authored Figma value.",
+  "limits": [
+    "Original Switzer replaced with approved temporary Inter; width/appearance cannot be claimed pixel-identical.",
+    "Disabled visual treatment has no independently recovered Tabs-specific source state; uses authored inactive appearance plus native disabled behavior.",
+    "Transparent source container requires a matching host canvas for dark/light theme.",
+    "Sentence-case source label instruction is preserved by avoiding forced uppercase; caller labels remain editable.",
+    "Written label regular role does not explicitly provide numeric metrics; actual selected labelweight600 dark versus400 light is retained contextually."
+  ]
+}

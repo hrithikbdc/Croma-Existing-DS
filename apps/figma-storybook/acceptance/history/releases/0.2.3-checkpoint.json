@@ -1,0 +1,32 @@
+{
+  "version": "0.2.3",
+  "date": "2026-11-04",
+  "status": "Stepper icon placement verified within focused scope; full visual acceptance incomplete",
+  "sourcePolicy": "Written specifications first; effective same-file context, original artwork and verified saved bindings fill gaps. Cached raw child properties alone do not establish rendered values.",
+  "corrections": [
+    "Audit findings A30.1\u2013A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "Stepper caller artwork is uniformly scaled and centred inside the written12pxicon slot; original SVG root geometry and asset bytes remain unchanged.",
+    "Numbered Stepper acceptance examples no longer pass a placeholder plus icon.",
+    "Added an Icon Steps review story covering both themes and both orientations with original source icons."
+  ],
+  "checks": [
+    "The two focused stepper-icons.spec.ts browser regressions passed2/2 in2.0seconds: all12original icons fit and centre within12\u00d712pxslots to0.01pxtolerance across both themes and orientations; native32pxasset dimensions and24pxcounter geometry are preserved.",
+    "The numbered Stepper fixture retains six1,2,3counters without placeholder plus icons.",
+    "The original working-tree build and TypeScript checks passed for this patch before release preparation.",
+    "Earlier full-suite and focused-patch results remain historical in their frozen version checkpoints; they were not rerun for this bounded Stepper patch.",
+    "Portable installation/build/type checks are recorded separately in this release manifest."
+  ],
+  "remaining": [
+    "Whole Header has only a raster reference; exact editable anatomy remains source-limited.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_49627bc35024819188643bc35c48fa81",
+  "previousRelease": "0.2.2",
+  "previousReleaseCheckpoint": "history/releases/0.2.2-checkpoint.json"
+}

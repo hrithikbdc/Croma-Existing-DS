@@ -1,0 +1,4093 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "pageId": "247:45267",
+  "sourceMethod": "Unmodified native SVG export of exact border-part nodes",
+  "assets": [
+    {
+      "nodeId": "820:82182",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -2088,
+        "y": 4226,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -2089,
+        "y": 4225,
+        "width": 18,
+        "height": 56
+      },
+      "file": "820-82182.svg",
+      "bytes": 213,
+      "sha256": "4d5cc41fbefc5cab7714c8a309f4697562c3a3c29a54317e617927182e035321",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "820:82184",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -1807,
+        "y": 4226,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -1807,
+        "y": 4225,
+        "width": 18,
+        "height": 56
+      },
+      "file": "820-82184.svg",
+      "bytes": 214,
+      "sha256": "2b60519bd16283ea839749f0f11cf936e08887084c0a14b15aed60a89cf07357",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "820:82186",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 269.9989929199219,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2076.9990234375,
+        "y": 4226,
+        "width": 269.9989929199219,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2076.9990234375,
+        "y": 4225,
+        "width": 269.9990234375,
+        "height": 2
+      },
+      "file": "820-82186.svg",
+      "bytes": 162,
+      "sha256": "083ca42eff828dbf3eeb27b4af96a000a6e0761982a9e5c1547675485ef6d301",
+      "svgWidth": "270",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "820:82187",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 264,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2071,
+        "y": 4280,
+        "width": 264,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2071,
+        "y": 4279,
+        "width": 264,
+        "height": 2
+      },
+      "file": "820-82187.svg",
+      "bytes": 158,
+      "sha256": "6c480ad6ce0c9a4041967f8472a96f05f1562c88efca4407e830bd961d456e51",
+      "svgWidth": "264",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "827:82241",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -2088,
+        "y": 4298,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -2089,
+        "y": 4297,
+        "width": 18,
+        "height": 56
+      },
+      "file": "827-82241.svg",
+      "bytes": 213,
+      "sha256": "da20057ee74b5e417c58fa28c2066d275cefe7b1a0d1c7dfc7c78dd3c56ef566",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "827:82242",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -1807,
+        "y": 4298,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -1807,
+        "y": 4297,
+        "width": 18,
+        "height": 56
+      },
+      "file": "827-82242.svg",
+      "bytes": 214,
+      "sha256": "95dc58af905f0031cb0845dbd88b5c5053f9970120a113420fcf303ee11c156a",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "827:82246",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 269.9989929199219,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2076.9990234375,
+        "y": 4298,
+        "width": 269.9989929199219,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2076.9990234375,
+        "y": 4297,
+        "width": 269.9990234375,
+        "height": 2
+      },
+      "file": "827-82246.svg",
+      "bytes": 162,
+      "sha256": "f4893e02a5516cf4b87ad6f2f959ed015bcec590aa77f705f8dde8fc826cb2d1",
+      "svgWidth": "270",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "827:82247",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 264,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2071,
+        "y": 4352,
+        "width": 264,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2071,
+        "y": 4351,
+        "width": 264,
+        "height": 2
+      },
+      "file": "827-82247.svg",
+      "bytes": 158,
+      "sha256": "5458255e2056cb9070b9a2fa25562796dcf410337f4bd3d837788968bd1565b7",
+      "svgWidth": "264",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "827:82204",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -2088,
+        "y": 4381,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -2089,
+        "y": 4380,
+        "width": 18,
+        "height": 56
+      },
+      "file": "827-82204.svg",
+      "bytes": 213,
+      "sha256": "95dd4ec174208e2e7f3c87feba8b7762939862ae8e923d5a9fa3c3d57d564472",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "827:82205",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -1807,
+        "y": 4381,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -1807,
+        "y": 4380,
+        "width": 18,
+        "height": 56
+      },
+      "file": "827-82205.svg",
+      "bytes": 214,
+      "sha256": "a3463bbc07fd761e7e121454099884ac00634fcb364a686883ab61f8c71ddbd0",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "827:82209",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 187,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -1994,
+        "y": 4381,
+        "width": 187,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -1994,
+        "y": 4380,
+        "width": 187,
+        "height": 2
+      },
+      "file": "827-82209.svg",
+      "bytes": 158,
+      "sha256": "6e442686dd1b82c412e1a0f9e1401d73a2df981b79da7f4c27d86a9b8a4525cd",
+      "svgWidth": "187",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "827:82210",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 264,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2071,
+        "y": 4435,
+        "width": 264,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2071,
+        "y": 4434,
+        "width": 264,
+        "height": 2
+      },
+      "file": "827-82210.svg",
+      "bytes": 158,
+      "sha256": "75bc57b810b536e5b066c346e9d8d89f0a4b2680d82e46e0b84cbc2db3ccf328",
+      "svgWidth": "264",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "840:82259",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -2087,
+        "y": 4597,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -2088,
+        "y": 4596,
+        "width": 18,
+        "height": 56
+      },
+      "file": "840-82259.svg",
+      "bytes": 213,
+      "sha256": "8f41297885e9d24812079e5877ccbadfe0d78b1c2f68562ed281190aede936ef",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "840:82260",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "absoluteBoundingBox": {
+        "x": -1806,
+        "y": 4597,
+        "width": 17,
+        "height": 54
+      },
+      "absoluteRenderBounds": {
+        "x": -1806,
+        "y": 4596,
+        "width": 18,
+        "height": 56
+      },
+      "file": "840-82260.svg",
+      "bytes": 214,
+      "sha256": "325d193b8e77b8c09405d2059ee1f0e5ab85442b6ab95e2caa0cfa5c7f969fef",
+      "svgWidth": "18",
+      "svgHeight": "56"
+    },
+    {
+      "nodeId": "840:82264",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 187,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -1993,
+        "y": 4597,
+        "width": 187,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -1993,
+        "y": 4596,
+        "width": 187,
+        "height": 2
+      },
+      "file": "840-82264.svg",
+      "bytes": 158,
+      "sha256": "06dc51eae46bce4cefd8ddba736564eb1a821bef337430520927580b0c37f428",
+      "svgWidth": "187",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "840:82265",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 264,
+      "height": 0,
+      "absoluteBoundingBox": {
+        "x": -2070,
+        "y": 4651,
+        "width": 264,
+        "height": 0
+      },
+      "absoluteRenderBounds": {
+        "x": -2070,
+        "y": 4650,
+        "width": 264,
+        "height": 2
+      },
+      "file": "840-82265.svg",
+      "bytes": 158,
+      "sha256": "93bb32676891d4d4212820b9263143075cf4bca7b4d6cbd0647ce2912d456261",
+      "svgWidth": "264",
+      "svgHeight": "2"
+    },
+    {
+      "nodeId": "827:82251",
+      "name": "State=Visible",
+      "width": 0,
+      "height": 27,
+      "absoluteBoundingBox": {
+        "x": -390,
+        "y": 1910,
+        "width": 0,
+        "height": 27
+      },
+      "absoluteRenderBounds": {
+        "x": -391,
+        "y": 1910,
+        "width": 2,
+        "height": 27
+      },
+      "file": "827-82251.svg",
+      "bytes": 155,
+      "sha256": "18459c00658a507394035912c621c4b1a299e30539146446ab56c9031d360532",
+      "svgWidth": "2",
+      "svgHeight": "27"
+    }
+  ],
+  "liveSlots": {
+    "pageId": "247:45267",
+    "states": [
+      {
+        "id": "820:82191",
+        "name": "State=Default",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "820:82191",
+            "name": "State=Default",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 20,
+            "y": 20,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                20
+              ],
+              [
+                0,
+                1,
+                20
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4226,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4218,
+              "width": 300,
+              "height": 63
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "820:82181",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "820:82191",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4243,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2070.06201171875,
+              "y": 4247.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.3708333373069763,
+                  "g": 0.3708333373069763,
+                  "b": 0.3708333373069763
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "820:82182",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "820:82191",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4226,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4225,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "820:82184",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "820:82191",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1807,
+              "y": 4226,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1807,
+              "y": 4225,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "820:82189",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "820:82191",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4218,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4218,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "820:82188",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "820:82189",
+            "x": 0,
+            "y": 0,
+            "width": 0.0010000000474974513,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4218,
+              "width": 0.0010000000474974513,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4218,
+              "width": 0.0010000000474974513,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 0.0010000000474974513,
+              "height": 16
+            }
+          },
+          {
+            "id": "820:82185",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "820:82188",
+            "x": 0,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4218,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "820:82186",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "820:82189",
+            "x": 0.0009999871253967285,
+            "y": 8,
+            "width": 269.9989929199219,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0.0009999871253967285
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076.9990234375,
+              "y": 4226,
+              "width": 269.9989929199219,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2076.9990234375,
+              "y": 4225,
+              "width": 269.9990234375,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 11.0009765625,
+              "y": 0,
+              "width": 269.9989929199219,
+              "height": 0
+            }
+          },
+          {
+            "id": "820:82187",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "820:82191",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4280,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2071,
+              "y": 4279,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "827:82202",
+        "name": "State=Active",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "827:82202",
+            "name": "State=Active",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 20,
+            "y": 175,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                20
+              ],
+              [
+                0,
+                1,
+                175
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4381,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4373,
+              "width": 300,
+              "height": 63
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82203",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "827:82202",
+            "x": 17,
+            "y": -8,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4373,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2070.26806640625,
+              "y": 4376.16796875,
+              "width": 69.05224609375,
+              "height": 9.02392578125
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.6083333492279053,
+                  "g": 0.6083333492279053,
+                  "b": 0.6083333492279053
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "827:82204",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "827:82202",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4381,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4380,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82205",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "827:82202",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1807,
+              "y": 4381,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1807,
+              "y": 4380,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82206",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "827:82202",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4373,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4373,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "827:82207",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "827:82206",
+            "x": 0,
+            "y": 0,
+            "width": 83,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4373,
+              "width": 83,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4373,
+              "width": 83,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 83,
+              "height": 16
+            }
+          },
+          {
+            "id": "827:82208",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "827:82207",
+            "x": 6,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4373,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "827:82209",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "827:82206",
+            "x": 83,
+            "y": 8,
+            "width": 187,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                83
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1994,
+              "y": 4381,
+              "width": 187,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -1994,
+              "y": 4380,
+              "width": 187,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 94,
+              "y": 0,
+              "width": 187,
+              "height": 0
+            }
+          },
+          {
+            "id": "827:82210",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "827:82202",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4435,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2071,
+              "y": 4434,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          },
+          {
+            "id": "827:82263",
+            "name": "cursor",
+            "type": "INSTANCE",
+            "parentId": "827:82202",
+            "x": 19,
+            "y": 14,
+            "width": 0,
+            "height": 27,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                19
+              ],
+              [
+                0,
+                1,
+                14
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2069,
+              "y": 4395,
+              "width": 0,
+              "height": 27
+            },
+            "absoluteRenderBounds": {
+              "x": -2070,
+              "y": 4395,
+              "width": 2,
+              "height": 27
+            },
+            "relativeBounds": {
+              "x": 19,
+              "y": 14,
+              "width": 0,
+              "height": 27
+            }
+          },
+          {
+            "id": "I827:82263;827:82252",
+            "name": "cursor",
+            "type": "VECTOR",
+            "parentId": "827:82263",
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 27,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2069,
+              "y": 4395,
+              "width": 0,
+              "height": 27
+            },
+            "absoluteRenderBounds": {
+              "x": -2070,
+              "y": 4395,
+              "width": 2,
+              "height": 27
+            },
+            "relativeBounds": {
+              "x": 19,
+              "y": 14,
+              "width": 0,
+              "height": 27
+            }
+          }
+        ]
+      },
+      {
+        "id": "827:82239",
+        "name": "State=Hover",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "827:82239",
+            "name": "State=Hover",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 20,
+            "y": 92,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                20
+              ],
+              [
+                0,
+                1,
+                92
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4298,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4290,
+              "width": 300,
+              "height": 63
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82240",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "827:82239",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4315,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2070.06201171875,
+              "y": 4319.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.3708333373069763,
+                  "g": 0.3708333373069763,
+                  "b": 0.3708333373069763
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "827:82241",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "827:82239",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4298,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4297,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82242",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "827:82239",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1807,
+              "y": 4298,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1807,
+              "y": 4297,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "827:82243",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "827:82239",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4290,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4290,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "827:82244",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "827:82243",
+            "x": 0,
+            "y": 0,
+            "width": 0.0010000000474974513,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4290,
+              "width": 0.0010000000474974513,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4290,
+              "width": 0.0010000000474974513,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 0.0010000000474974513,
+              "height": 16
+            }
+          },
+          {
+            "id": "827:82245",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "827:82244",
+            "x": 0,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4290,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "827:82246",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "827:82243",
+            "x": 0.0009999871253967285,
+            "y": 8,
+            "width": 269.9989929199219,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0.0009999871253967285
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076.9990234375,
+              "y": 4298,
+              "width": 269.9989929199219,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2076.9990234375,
+              "y": 4297,
+              "width": 269.9990234375,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 11.0009765625,
+              "y": 0,
+              "width": 269.9989929199219,
+              "height": 0
+            }
+          },
+          {
+            "id": "827:82247",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "827:82239",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4352,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2071,
+              "y": 4351,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": "840:82224",
+        "name": "State=Filled",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "840:82224",
+            "name": "State=Filled",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 20,
+            "y": 247,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                20
+              ],
+              [
+                0,
+                1,
+                247
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4453,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4445,
+              "width": 300,
+              "height": 63
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82225",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82224",
+            "x": 17,
+            "y": -8,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4445,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2070.26806640625,
+              "y": 4448.16796875,
+              "width": 69.05224609375,
+              "height": 9.02392578125
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.6083333492279053,
+                  "g": 0.6083333492279053,
+                  "b": 0.6083333492279053
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82226",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "840:82224",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2088,
+              "y": 4453,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2089,
+              "y": 4452,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82227",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "840:82224",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1807,
+              "y": 4453,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1807,
+              "y": 4452,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82228",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "840:82224",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4445,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4445,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82229",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "840:82228",
+            "x": 0,
+            "y": 0,
+            "width": 83,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2077,
+              "y": 4445,
+              "width": 83,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2077,
+              "y": 4445,
+              "width": 83,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 83,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82230",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "840:82229",
+            "x": 6,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4445,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82231",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "840:82228",
+            "x": 83,
+            "y": 8,
+            "width": 187,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                83
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1994,
+              "y": 4453,
+              "width": 187,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -1994,
+              "y": 4452,
+              "width": 187,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 94,
+              "y": 0,
+              "width": 187,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82232",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "840:82224",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4507,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2071,
+              "y": 4506,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82233",
+            "name": "cursor",
+            "type": "INSTANCE",
+            "parentId": "840:82224",
+            "x": 19,
+            "y": 14,
+            "width": 0,
+            "height": 27,
+            "visible": false,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                19
+              ],
+              [
+                0,
+                1,
+                14
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2069,
+              "y": 4467,
+              "width": 0,
+              "height": 27
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 19,
+              "y": 14,
+              "width": 0,
+              "height": 27
+            }
+          },
+          {
+            "id": "840:82235",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82224",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2071,
+              "y": 4470,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2070.06201171875,
+              "y": 4474.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.3708333373069763,
+                  "g": 0.3708333373069763,
+                  "b": 0.3708333373069763
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "840:82257",
+        "name": "State=Error",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "840:82257",
+            "name": "State=Error",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 21,
+            "y": 391,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                21
+              ],
+              [
+                0,
+                1,
+                391
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4597,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4589,
+              "width": 300,
+              "height": 82.18017578125
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82258",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82257",
+            "x": 17,
+            "y": -8,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4589,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.26806640625,
+              "y": 4592.16796875,
+              "width": 69.05224609375,
+              "height": 9.02392578125
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.6083333492279053,
+                  "g": 0.6083333492279053,
+                  "b": 0.6083333492279053
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82270",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82257",
+            "x": 17,
+            "y": 62,
+            "width": 70,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                62
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4659,
+              "width": 70,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.196044921875,
+              "y": 4662.18017578125,
+              "width": 67.5924072265625,
+              "height": 9
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 62,
+              "width": 70,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:d7140660f0252fdbd17e68b01be2ee3275118cd2,",
+            "fillStyleId": "S:d8cd141375d33977d9bfea1e90702336ca407ebe,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 0.3490196466445923,
+                  "b": 0.3490196466445923
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82259",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "840:82257",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4597,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4596,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82260",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "840:82257",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1806,
+              "y": 4597,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1806,
+              "y": 4596,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82261",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "840:82257",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4589,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4589,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82262",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "840:82261",
+            "x": 0,
+            "y": 0,
+            "width": 83,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4589,
+              "width": 83,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4589,
+              "width": 83,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 83,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82263",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "840:82262",
+            "x": 6,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4589,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82264",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "840:82261",
+            "x": 83,
+            "y": 8,
+            "width": 187,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                83
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1993,
+              "y": 4597,
+              "width": 187,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -1993,
+              "y": 4596,
+              "width": 187,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 94,
+              "y": 0,
+              "width": 187,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82265",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "840:82257",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4651,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2070,
+              "y": 4650,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82267",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82257",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4614,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.06201171875,
+              "y": 4618.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.3708333373069763,
+                  "g": 0.3708333373069763,
+                  "b": 0.3708333373069763
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "840:82301",
+        "name": "State=Error 2",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "840:82301",
+            "name": "State=Error 2",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 21,
+            "y": 486,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                21
+              ],
+              [
+                0,
+                1,
+                486
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4692,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4684,
+              "width": 300,
+              "height": 82.18017578125
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82302",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82301",
+            "x": 17,
+            "y": -8,
+            "width": 71,
+            "height": 16,
+            "visible": false,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4684,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.6083333492279053,
+                  "g": 0.6083333492279053,
+                  "b": 0.6083333492279053
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82303",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82301",
+            "x": 17,
+            "y": 62,
+            "width": 70,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                62
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4754,
+              "width": 70,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.196044921875,
+              "y": 4757.18017578125,
+              "width": 67.5924072265625,
+              "height": 9
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 62,
+              "width": 70,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:d7140660f0252fdbd17e68b01be2ee3275118cd2,",
+            "fillStyleId": "S:d8cd141375d33977d9bfea1e90702336ca407ebe,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 0.3490196466445923,
+                  "b": 0.3490196466445923
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82304",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "840:82301",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4692,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4691,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82305",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "840:82301",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1806,
+              "y": 4692,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1806,
+              "y": 4691,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "840:82306",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "840:82301",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4684,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4684,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82307",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "840:82306",
+            "x": 0,
+            "y": 0,
+            "width": 83,
+            "height": 16,
+            "visible": false,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4684,
+              "width": 83,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 83,
+              "height": 16
+            }
+          },
+          {
+            "id": "840:82308",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "840:82307",
+            "x": 6,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4684,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "840:82309",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "840:82306",
+            "x": 0,
+            "y": 8,
+            "width": 270,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4692,
+              "width": 270,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4691,
+              "width": 270,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": 0,
+              "width": 270,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82310",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "840:82301",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4746,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2070,
+              "y": 4745,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          },
+          {
+            "id": "840:82311",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "840:82301",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4709,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.06201171875,
+              "y": 4713.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:d8cd141375d33977d9bfea1e90702336ca407ebe,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 0.3490196466445923,
+                  "b": 0.3490196466445923
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "942:82560",
+        "name": "State=Hover 2",
+        "width": 298,
+        "height": 54,
+        "slots": [
+          {
+            "id": "942:82560",
+            "name": "State=Hover 2",
+            "type": "COMPONENT",
+            "parentId": "827:82201",
+            "x": 21,
+            "y": 319,
+            "width": 298,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                21
+              ],
+              [
+                0,
+                1,
+                319
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4525,
+              "width": 298,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4517,
+              "width": 300,
+              "height": 63
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 298,
+              "height": 54
+            }
+          },
+          {
+            "id": "942:82561",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "942:82560",
+            "x": 17,
+            "y": -8,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4517,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.26806640625,
+              "y": 4520.16796875,
+              "width": 69.05224609375,
+              "height": 9.02392578125
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.6083333492279053,
+                  "g": 0.6083333492279053,
+                  "b": 0.6083333492279053
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "942:82562",
+            "name": "Left",
+            "type": "VECTOR",
+            "parentId": "942:82560",
+            "x": 0,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2087,
+              "y": 4525,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -2088,
+              "y": 4524,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 0,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "942:82563",
+            "name": "Right",
+            "type": "VECTOR",
+            "parentId": "942:82560",
+            "x": 298,
+            "y": 0,
+            "width": 17,
+            "height": 54,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                -1,
+                0,
+                298
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1806,
+              "y": 4525,
+              "width": 17,
+              "height": 54
+            },
+            "absoluteRenderBounds": {
+              "x": -1806,
+              "y": 4524,
+              "width": 18,
+              "height": 56
+            },
+            "relativeBounds": {
+              "x": 281,
+              "y": 0,
+              "width": 17,
+              "height": 54
+            }
+          },
+          {
+            "id": "942:82564",
+            "name": "top part",
+            "type": "FRAME",
+            "parentId": "942:82560",
+            "x": 11,
+            "y": -8,
+            "width": 270,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                11
+              ],
+              [
+                0,
+                1,
+                -8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4517,
+              "width": 270,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4517,
+              "width": 270,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 270,
+              "height": 16
+            }
+          },
+          {
+            "id": "942:82565",
+            "name": "Small label autolayout",
+            "type": "FRAME",
+            "parentId": "942:82564",
+            "x": 0,
+            "y": 0,
+            "width": 83,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                0
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2076,
+              "y": 4517,
+              "width": 83,
+              "height": 16
+            },
+            "absoluteRenderBounds": {
+              "x": -2076,
+              "y": 4517,
+              "width": 83,
+              "height": 16
+            },
+            "relativeBounds": {
+              "x": 11,
+              "y": -8,
+              "width": 83,
+              "height": 16
+            }
+          },
+          {
+            "id": "942:82566",
+            "name": "small label",
+            "type": "TEXT",
+            "parentId": "942:82565",
+            "x": 6,
+            "y": 0,
+            "width": 71,
+            "height": 16,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                6
+              ],
+              [
+                0,
+                1,
+                0
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4517,
+              "width": 71,
+              "height": 16
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 17,
+              "y": -8,
+              "width": 71,
+              "height": 16
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Bold"
+            },
+            "fontSize": 12,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 16
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+            "fillStyleId": "",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 0,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0,
+                  "g": 0,
+                  "b": 0
+                },
+                "boundVariables": {}
+              }
+            ]
+          },
+          {
+            "id": "942:82567",
+            "name": "top line",
+            "type": "VECTOR",
+            "parentId": "942:82564",
+            "x": 83,
+            "y": 8,
+            "width": 187,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                83
+              ],
+              [
+                0,
+                1,
+                8
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -1993,
+              "y": 4525,
+              "width": 187,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -1993,
+              "y": 4524,
+              "width": 187,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 94,
+              "y": 0,
+              "width": 187,
+              "height": 0
+            }
+          },
+          {
+            "id": "942:82568",
+            "name": "bottom line",
+            "type": "VECTOR",
+            "parentId": "942:82560",
+            "x": 17,
+            "y": 54,
+            "width": 264,
+            "height": 0,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                54
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4579,
+              "width": 264,
+              "height": 0
+            },
+            "absoluteRenderBounds": {
+              "x": -2070,
+              "y": 4578,
+              "width": 264,
+              "height": 2
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 54,
+              "width": 264,
+              "height": 0
+            }
+          },
+          {
+            "id": "942:82569",
+            "name": "cursor",
+            "type": "INSTANCE",
+            "parentId": "942:82560",
+            "x": 19,
+            "y": 14,
+            "width": 0,
+            "height": 27,
+            "visible": false,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                19
+              ],
+              [
+                0,
+                1,
+                14
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2068,
+              "y": 4539,
+              "width": 0,
+              "height": 27
+            },
+            "absoluteRenderBounds": null,
+            "relativeBounds": {
+              "x": 19,
+              "y": 14,
+              "width": 0,
+              "height": 27
+            }
+          },
+          {
+            "id": "942:82570",
+            "name": "Big label",
+            "type": "TEXT",
+            "parentId": "942:82560",
+            "x": 17,
+            "y": 17,
+            "width": 81,
+            "height": 20,
+            "visible": true,
+            "opacity": 1,
+            "relativeTransform": [
+              [
+                1,
+                0,
+                17
+              ],
+              [
+                0,
+                1,
+                17
+              ]
+            ],
+            "absoluteBoundingBox": {
+              "x": -2070,
+              "y": 4542,
+              "width": 81,
+              "height": 20
+            },
+            "absoluteRenderBounds": {
+              "x": -2069.06201171875,
+              "y": 4546.7099609375,
+              "width": 78.8577880859375,
+              "height": 10.5
+            },
+            "relativeBounds": {
+              "x": 17,
+              "y": 17,
+              "width": 81,
+              "height": 20
+            },
+            "characters": "Default label",
+            "fontName": {
+              "family": "Switzer",
+              "style": "Semibold"
+            },
+            "fontSize": 14,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 20
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textStyleId": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+            "fillStyleId": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 0.3708333373069763,
+                  "g": 0.3708333373069763,
+                  "b": 0.3708333373069763
+                },
+                "boundVariables": {}
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "layoutAdaptations": [
+    "Original border caps keep intrinsic18x56 size and source1px outset; original flat2px line assets repeat/clip rather than stretch under content resizing.",
+    "Empty .001px invisible Figma label spacer is represented by zero-width layout to remove the construction workaround.",
+    "Real inputs use native browser carets; original27px cursor is used only for an explicit inactive Active-state preview.",
+    "Error/support text occupies normal flow at the source8px gap so following content cannot overlap it.",
+    "Inter replaces unavailable Switzer under the approved temporary-font exception."
+  ]
+}

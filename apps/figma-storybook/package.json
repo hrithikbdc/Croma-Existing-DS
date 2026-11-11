@@ -1,0 +1,20 @@
+{
+  "name": "@croma/figma-storybook",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "storybook dev -c .storybook -p 6020 --no-open --disable-telemetry",
+    "build": "storybook build -c .storybook -o dist --disable-telemetry",
+    "preview": "vite preview --outDir dist --host 127.0.0.1 --port 6021 --strictPort"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikbdc/Croma-Existing-DS.git",
+    "directory": "apps/figma-storybook"
+  },
+  "homepage": "https://hrithikbdc.github.io/Croma-Existing-DS/",
+  "bugs": {
+    "url": "https://github.com/hrithikbdc/Croma-Existing-DS/issues"
+  }
+}

@@ -1,0 +1,66 @@
+const imgIconsClose = "https://www.figma.com/api/mcp/asset/5329a002-d4de-4ef6-aefb-f9e0f9a5b561.svg";
+
+type ContainerProps = {
+  className?: string;
+  state?: "Close" | "State5";
+};
+
+function Container({ className, state = "Close" }: ContainerProps) {
+  if (state === "State5") {
+    return (
+      <div className={className || "bg-[rgba(53,53,53,0.8)] h-[844px] overflow-clip relative w-[390px]"} data-node-id="557:83996" data-name="State=State5">
+        <div className="-translate-x-1/2 absolute bg-[#f9f9f9] bottom-0 content-stretch flex flex-col h-[844px] items-center left-1/2 overflow-clip shadow-[0px_-4px_8px_3px_rgba(0,0,0,0.1)] w-[390px]" data-node-id="557:83997" data-name="bottom-sheet">
+          <div className="content-stretch flex h-[44px] items-start justify-center px-[16px] py-[20px] relative shrink-0 w-full" data-node-id="I557:83997;549:83693" data-name="Drag handle" />
+          <div className="content-stretch flex flex-col gap-[8px] h-[390px] items-center pb-[24px] pt-[8px] relative shrink-0 w-[360px]" data-node-id="I557:83997;549:83698" data-name="bottom-sheet/template/.placeholder">
+            <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[28px] min-w-full not-italic opacity-80 relative shrink-0 text-[#404040] text-[24px] text-center tracking-[-0.24px] w-[min-content]" data-node-id="I557:83997;549:83699">
+              Placeholder
+            </p>
+            <div className="h-[180px] relative shrink-0 w-[360px]" data-node-id="I557:83997;549:83726" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+            <div className="h-[131px] relative shrink-0 w-[360px]" data-node-id="I557:83997;550:83850" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+            <div className="h-[131px] relative shrink-0 w-[360px]" data-node-id="I557:83997;557:84042" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+            <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I557:83997;557:84059" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+            <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I557:83997;557:84156" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+            <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I557:83997;557:84181" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          </div>
+        </div>
+        <button className="absolute block cursor-pointer left-[351px] size-[24px] top-[10px]" data-node-id="557:84009" data-name="Icons/Close">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgIconsClose} />
+        </button>
+      </div>
+    );
+  }
+  return (
+    <button className={className || "block cursor-pointer h-[844px] relative w-[390px]"} data-node-id="549:83701" data-name="State=Close">
+      <div className="-translate-x-1/2 absolute bg-[#f9f9f9] bottom-[-494px] content-stretch flex flex-col h-[480px] items-center left-1/2 overflow-clip rounded-tl-[20px] rounded-tr-[20px] shadow-[0px_-4px_8px_3px_rgba(0,0,0,0.1)] w-[390px]" data-node-id="549:83711" data-name="bottom-sheet">
+        <div className="content-stretch flex items-start justify-center px-[16px] py-[20px] relative shrink-0 w-full" data-node-id="I549:83711;549:83693" data-name="Drag handle">
+          <div className="bg-[#9b9b9b] h-[4px] opacity-40 relative rounded-[2px] shrink-0 w-[32px]" data-node-id="I549:83711;549:83694" data-name="Drag handle" />
+        </div>
+        <div className="content-stretch flex flex-col gap-[8px] h-[390px] items-center pb-[24px] pt-[8px] relative shrink-0 w-[360px]" data-node-id="I549:83711;549:83698" data-name="bottom-sheet/template/.placeholder">
+          <p className="[word-break:break-word] font-['Switzer:Bold'] leading-[28px] min-w-full not-italic opacity-80 relative shrink-0 text-[#404040] text-[24px] text-center tracking-[-0.24px] w-[min-content]" data-node-id="I549:83711;549:83699">
+            Placeholder
+          </p>
+          <div className="h-[180px] relative shrink-0 w-[360px]" data-node-id="I549:83711;549:83726" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          <div className="h-[131px] relative shrink-0 w-[360px]" data-node-id="I549:83711;550:83850" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          <div className="h-[131px] relative shrink-0 w-[360px]" data-node-id="I549:83711;557:84042" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I549:83711;557:84059" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I549:83711;557:84156" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+          <div className="h-[211px] relative shrink-0 w-[360px]" data-node-id="I549:83711;557:84181" style={{ backgroundImage: "linear-gradient(90deg, rgba(42, 42, 42, 0.05) 0%, rgba(42, 42, 42, 0.05) 100%), linear-gradient(90deg, rgb(249, 249, 249) 0%, rgb(249, 249, 249) 100%)" }} />
+        </div>
+      </div>
+    </button>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Surface/Dark/Surface at +1: #393939,#C6C6C6, Desktop/Headine/H6: Font(family: "Switzer", style: Bold, size: 24, weight: 700, lineHeight: 28, letterSpacing: -1), Surface/Light/Surface at +1: #F9F9F9,#2A2A2A, Page Background/Background Light: #F9F9F9.
+
+The generated code contains image and SVG URL constants, e.g. const image = 'https://www.figma.com/api/mcp/asset/550e8400-e29b-41d4-a716-446655440000.png'. These URLs are temporary download sources and expire after 7 days. Download each asset into the project with curl -L, then replace its URL in the generated code with a reference to the downloaded asset. Never use the temporary URLs as runtime image sources.

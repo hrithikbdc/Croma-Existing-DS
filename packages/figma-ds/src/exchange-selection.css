@@ -1,0 +1,44 @@
+/* Proposed prototype extension recipes using existing Croma palette and spacing values. */
+.croma-purchase-card,.croma-purchase-group,.croma-inline-notification,.croma-loading-indicator{--cx-surface:#393939;--cx-text:#f9f9f9;--cx-muted:#cfcfcf;--cx-selected:#12daa8;--cx-stroke:#9b9b9b;--cx-error:#ff5959;font-family:var(--croma-font-family,"Switzer",sans-serif);font-style:normal;box-sizing:border-box;color:var(--cx-text)}
+:is(.croma-purchase-card,.croma-purchase-group,.croma-inline-notification,.croma-loading-indicator)[data-theme="light"]{--cx-surface:#f9f9f9;--cx-text:#191919;--cx-muted:#5f5f5f;--cx-selected:#088466;--cx-stroke:#9b9b9b}
+.croma-purchase-card{position:relative;display:flex;align-items:flex-start;gap:12px;padding:16px;border:1px solid var(--cx-stroke);border-radius:8px;background:var(--cx-surface);min-width:0;max-width:100%;cursor:pointer;font-size:14px;line-height:20px}
+.croma-purchase-card[data-selected="true"]{border-color:var(--cx-selected);box-shadow:none}
+.croma-purchase-card[data-error="true"]{border-color:var(--cx-error)}
+.croma-purchase-card[data-error="true"][data-selected="true"]{box-shadow:none}
+.croma-purchase-card[data-disabled="true"]{opacity:.5;cursor:default}
+.croma-purchase-card:has(input:focus-visible){outline:2px solid var(--cx-selected);outline-offset:3px}
+.croma-purchase-card input{flex:none;width:24px;height:24px;margin:0;accent-color:var(--cx-selected);cursor:inherit}
+.croma-purchase-card__image{flex:none;width:56px;height:64px;object-fit:contain;max-width:100%}
+.croma-purchase-card__copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px;overflow-wrap:anywhere}
+.croma-purchase-card__model{font-size:16px;line-height:22px;font-weight:600}
+.croma-purchase-card__variant{font-weight:600}
+.croma-purchase-card__metadata{color:var(--cx-muted);font-size:12px;line-height:16px}
+.croma-purchase-card__price{flex:none;max-width:40%;overflow-wrap:anywhere;font-weight:600;text-align:end}
+.croma-purchase-group{min-width:0;width:100%;margin:0;padding:0;border:0}
+.croma-purchase-group legend{padding:0;font-size:16px;line-height:22px;font-weight:600;margin-bottom:8px}
+.croma-purchase-group__description{color:var(--cx-muted);font-size:14px;line-height:20px;margin:0 0 16px}
+.croma-purchase-group__items{display:grid;gap:16px;min-width:0}
+.croma-purchase-group__items[data-layout="grid"]{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}
+.croma-purchase-group__error{font-size:12px;line-height:16px;color:var(--cx-error);margin:8px 0 0}
+.croma-inline-notification{display:flex;align-items:flex-start;gap:12px;background:var(--cx-surface);border-inline-start:4px solid #35a7ff;border-radius:4px;padding:16px;font-size:14px;line-height:20px;min-width:0;max-width:100%}
+.croma-inline-notification[data-tone="success"]{border-inline-start-color:var(--cx-selected)}
+.croma-inline-notification[data-tone="warning"]{border-inline-start-color:#f7b401}
+.croma-inline-notification[data-tone="error"]{border-inline-start-color:var(--cx-error)}
+.croma-inline-notification__icon{display:flex;flex:none;width:24px;height:24px;align-items:center;justify-content:center}
+.croma-inline-notification__copy{min-width:0;flex:1;overflow-wrap:anywhere}
+.croma-inline-notification__copy>strong{display:block;margin-bottom:4px;font-weight:600}
+.croma-inline-notification__action{margin-top:12px}
+.croma-inline-notification__dismiss{flex:none;width:32px;height:32px;margin:-4px;border:0;background:transparent;color:inherit;font:400 24px/32px var(--croma-font-family);cursor:pointer}
+.croma-loading-indicator{display:inline-flex;align-items:center;gap:8px;font-size:14px;line-height:20px;min-height:24px}
+.croma-loading-indicator__spinner{display:inline-block;flex:none;box-sizing:border-box;border:2px solid var(--cx-stroke);border-top-color:var(--cx-selected);border-radius:50%;animation:croma-exchange-spin .8s linear infinite}
+.croma-exchange-visually-hidden{position:absolute;clip-path:inset(50%);height:1px;width:1px;overflow:hidden;white-space:nowrap}
+@keyframes croma-exchange-spin{to{transform:rotate(360deg)}}
+@media(prefers-reduced-motion:reduce){.croma-loading-indicator__spinner{animation:none}}
+@media(max-width:479px){.croma-purchase-card{flex-wrap:wrap}.croma-purchase-card__price{max-width:100%;margin-inline-start:36px;text-align:start}.croma-purchase-card__image{width:40px;height:48px}}
+
+/* Within a themed composition, reusable cards use the same single surface role. */
+.cx-theme :is(.croma-purchase-card,.croma-purchase-group,.croma-inline-notification,.croma-loading-indicator){--cx-selected:var(--cx-accent);--cx-stroke:var(--cx-border);--cx-surface:inherit;--cx-text:inherit;--cx-muted:inherit}
+.cx-theme :is(.croma-purchase-card,.croma-inline-notification){background:var(--cx-surface);color:var(--cx-text)}
+.croma-purchase-card:has(input:focus-visible){outline:none;border-color:var(--cx-selected);box-shadow:inset 0 0 0 1px var(--cx-selected)}
+.croma-purchase-card input:focus-visible{outline:none}
+@media(forced-colors:active){.croma-purchase-card:has(input:focus-visible){outline:2px solid Highlight;outline-offset:0}}

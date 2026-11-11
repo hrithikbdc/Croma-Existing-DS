@@ -1,0 +1,20 @@
+{
+  "name": "@croma/figma-prototype",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5182 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5183 --strictPort"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikbdc/Croma-Existing-DS.git",
+    "directory": "apps/figma-prototype"
+  },
+  "homepage": "https://hrithikbdc.github.io/Croma-Existing-DS/",
+  "bugs": {
+    "url": "https://github.com/hrithikbdc/Croma-Existing-DS/issues"
+  }
+}

@@ -1,0 +1,1074 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "pageId": "13:1772",
+  "expectedArtworkCount": 72,
+  "downloaded": 56,
+  "assets": [
+    {
+      "nodeId": "13:1774",
+      "name": "Envelope color filled",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1774.png",
+      "bytes": 118099,
+      "sha256": "e2ce92de2c951e0419169a95cc89d7e937e6d65ea0de1a7131f25417c03a46c1"
+    },
+    {
+      "nodeId": "13:1776",
+      "name": "Envelope",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1776.png",
+      "bytes": 126648,
+      "sha256": "dea4ff70ea92d8945332dd37e90aef795f5cd551aee9e24323a61e7ec94a5f6e"
+    },
+    {
+      "nodeId": "203:34943",
+      "name": "Illustration 50",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "203-34943.png",
+      "bytes": 135969,
+      "sha256": "f3024e0d6f534fdf5eb2e246e9e900dc4dc6be65239e971355f9e1ccad503271"
+    },
+    {
+      "nodeId": "203:34946",
+      "name": "Receipts",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "203-34946.png",
+      "bytes": 166281,
+      "sha256": "6fb818123c94c804901bf8a72950b6e8b87d52a4f8985e42eb2ce09d1fd10e3d"
+    },
+    {
+      "nodeId": "3166:2",
+      "name": "Time",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3166-2.png",
+      "bytes": 70520,
+      "sha256": "f55e306c92480f729d1e7dde751cddad940f263ff79b98e80242a43bb001e0c6"
+    },
+    {
+      "nodeId": "3166:7",
+      "name": "Power",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3166-7.png",
+      "bytes": 60139,
+      "sha256": "b66d1913920940f416f6932b009be614339a676fe1bc424a37d4074b9b1d03dd"
+    },
+    {
+      "nodeId": "3166:15",
+      "name": "Plug",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3166-15.png",
+      "bytes": 82637,
+      "sha256": "4bef14148996ff2f1db9543e837013786cb79278dbb7b94ec505d9975f2fc5b1"
+    },
+    {
+      "nodeId": "3167:29",
+      "name": "Power",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3167-29.png",
+      "bytes": 92686,
+      "sha256": "2275445c90e044fff23ff257bd8adc7202e2a96becfb53a710966b2ca79e7666"
+    },
+    {
+      "nodeId": "3183:2",
+      "name": "Power",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3183-2.png",
+      "bytes": 65658,
+      "sha256": "11b9e5f78ca40e800217e575697fae392174fb253ecbbe07b01c5e2f4b38f60d"
+    },
+    {
+      "nodeId": "3260:1201",
+      "name": "Power",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1201.png",
+      "bytes": 59482,
+      "sha256": "a84bdf4e93bdb0d046a2d7c69efc59beb197d9f216b3ef3b991da2da2f6bb18f"
+    },
+    {
+      "nodeId": "3260:1205",
+      "name": "Video",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1205.png",
+      "bytes": 72529,
+      "sha256": "10cd7168a70907294eca73d409339c737c8cd26b14dd570ac5253461adba1af1"
+    },
+    {
+      "nodeId": "3260:1207",
+      "name": "Video",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1207.png",
+      "bytes": 51394,
+      "sha256": "ca6d29a6e9c9fcd55796b6f8d09ea567350ab04dee1fcfd7cc461c70addda856"
+    },
+    {
+      "nodeId": "3260:1209",
+      "name": "Alert",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1209.png",
+      "bytes": 57601,
+      "sha256": "a98b470979a301f99c2688125ec28257c5db7ff429b350458bd8e2e4050a20b6"
+    },
+    {
+      "nodeId": "3260:1213",
+      "name": "Earbuds",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1213.png",
+      "bytes": 69073,
+      "sha256": "ea0b3003850d8df51917b50f1813c7efb8ac46f6c221b512643f036e2572b664"
+    },
+    {
+      "nodeId": "3260:1217",
+      "name": "Comment",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1217.png",
+      "bytes": 48520,
+      "sha256": "c9915ea702320e775cec838c09de9204143698f6bb430a46b2bb3d3a8cafe70a"
+    },
+    {
+      "nodeId": "3260:1221",
+      "name": "Send",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1221.png",
+      "bytes": 55520,
+      "sha256": "9cc9675b3fa0d33e4d807ea929c2426008ddf9e1a2902698d95b94e904579d14"
+    },
+    {
+      "nodeId": "3260:1225",
+      "name": "Headphones",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1225.png",
+      "bytes": 91713,
+      "sha256": "2ced8c0965a7f1155e3dd3066ca9c9b3c4c58183e2f4c30b0942a61009ab1d1f"
+    },
+    {
+      "nodeId": "3260:1229",
+      "name": "Power",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1229.png",
+      "bytes": 84214,
+      "sha256": "1a2783d24ccfbe1358e163b48259c1e7474bdc478de2ddc6d279fc0d59f27faa"
+    },
+    {
+      "nodeId": "3260:1241",
+      "name": "Delivery",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1241.png",
+      "bytes": 86232,
+      "sha256": "6a2864c889054c694bef74a4baa68bd899abf5593a1e3b54c13954d19c129d71"
+    },
+    {
+      "nodeId": "3260:1244",
+      "name": "Contact",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1244.png",
+      "bytes": 40522,
+      "sha256": "0e0b154b912d9aa1534f5c2d9e5d8aa9340371bce23f4a3140d5bff7ffe1ad07"
+    },
+    {
+      "nodeId": "3260:1246",
+      "name": "Ratings",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1246.png",
+      "bytes": 94682,
+      "sha256": "94575460530c66f49fdb9ab8b7455bf7dc6d2c238db1ec1b876265b2a2bd9119"
+    },
+    {
+      "nodeId": "3260:1250",
+      "name": "Recycle",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1250.png",
+      "bytes": 73826,
+      "sha256": "86a77c5a63f11c3a02d8b282f769d2bfd0afe58c3df90cb5c1e23bbbcd4366ba"
+    },
+    {
+      "nodeId": "3260:1252",
+      "name": "Delivery",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1252.png",
+      "bytes": 103132,
+      "sha256": "c5fecf549372e75a1422132b8c224737325ff277d946c37f473ed0e703014ffc"
+    },
+    {
+      "nodeId": "3260:1254",
+      "name": "Package",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1254.png",
+      "bytes": 106751,
+      "sha256": "27c537118a0dda0cc1570b59200ce464439290bce15924344507399efda9d722"
+    },
+    {
+      "nodeId": "3260:1258",
+      "name": "Express",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1258.png",
+      "bytes": 77798,
+      "sha256": "f799810e9cdb12f53b3da84c4c5feae37d4275f7bce64c1e9d6000f26a5efe35"
+    },
+    {
+      "nodeId": "3260:1260",
+      "name": "Recycle",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1260.png",
+      "bytes": 126196,
+      "sha256": "2efaabfac5c897707290c218b0257316b55824a3e258091c0018ad48002a2925"
+    },
+    {
+      "nodeId": "3260:1271",
+      "name": "Ratings",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1271.png",
+      "bytes": 88694,
+      "sha256": "d0444b0a5f93461b26f2c311a93c6f962d1c79e72124b08706e633daef43284b"
+    },
+    {
+      "nodeId": "3260:1273",
+      "name": "Inbox",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Add-ons",
+      "file": "3260-1273.png",
+      "bytes": 88350,
+      "sha256": "f79f52b027d143a83c4ae2a1a3d3e122ae4ba472d8d191616c3c9146cd0941e1"
+    },
+    {
+      "nodeId": "13:1778",
+      "name": "Illustration 2",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1778.png",
+      "bytes": 125755,
+      "sha256": "cf5c90082931ef8369e4b8324e852a7eb20f414a7e8c106038cdf58aec620b4c"
+    },
+    {
+      "nodeId": "13:1780",
+      "name": "Share",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1780.png",
+      "bytes": 86523,
+      "sha256": "f5589b6b8651b209a4335c84f615f96f5220d4371f7817dfcf650ec6fb45c608"
+    },
+    {
+      "nodeId": "13:1782",
+      "name": "Illustration 12",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1782.png",
+      "bytes": 132443,
+      "sha256": "5e265af1b0e959600331532bee3e7e929f4b4db9b21772ba3a83f9b33587f8a0"
+    },
+    {
+      "nodeId": "13:1784",
+      "name": "Wifi",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1784.png",
+      "bytes": 144476,
+      "sha256": "963ff5a09c3986b0e31feae201d9c69c46e7b92a1d2fcc107ea79af652b895f5"
+    },
+    {
+      "nodeId": "13:1786",
+      "name": "Illustration 14",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1786.png",
+      "bytes": 147779,
+      "sha256": "35a9514770e6ba3151c50b01ab7dc6ab657da6ee703d46ac3bb54151a112c0b6"
+    },
+    {
+      "nodeId": "13:1788",
+      "name": "Plug",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1788.png",
+      "bytes": 120998,
+      "sha256": "067a55ca2a3e518b5121ed9820676d71033ee3fa1642cc096cac3e1b5d9852da"
+    },
+    {
+      "nodeId": "13:1790",
+      "name": "Illustration 19",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1790.png",
+      "bytes": 147317,
+      "sha256": "447aa3365006e1a1e52a5736b9ec7e5a77fda7937d82e2456c9e036b20fe93dc"
+    },
+    {
+      "nodeId": "13:1793",
+      "name": "Wires",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1793.png",
+      "bytes": 152976,
+      "sha256": "728c13f37e63dbe3e21fcce7e06438aa5ff475e65afc7662d321c697d3a3778a"
+    },
+    {
+      "nodeId": "13:1797",
+      "name": "Bubble",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1797.png",
+      "bytes": 73321,
+      "sha256": "89ea8643c5430feeb73866bfc7fdcb44461f927bd6268504aed441f00477d429"
+    },
+    {
+      "nodeId": "13:1801",
+      "name": "Illustration 49",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1801.png",
+      "bytes": 84523,
+      "sha256": "7ed673c8d9489e28a9f2bb0d0e9de64d2fcefc0d811dc2d8aa527ff0a88ae64a"
+    },
+    {
+      "nodeId": "13:1803",
+      "name": "Magnify glass",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1803.png",
+      "bytes": 106342,
+      "sha256": "5dba240a285acbee992d1a8700c0a715915e1c9e9ebc1919466e4f22c9c1cb58"
+    },
+    {
+      "nodeId": "13:1807",
+      "name": "Battery",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1807.png",
+      "bytes": 93457,
+      "sha256": "6d3dc9127eb0c07cb5fef471c8ba32e2a05512201b91115441c1e4af6cf218ae"
+    },
+    {
+      "nodeId": "13:1811",
+      "name": "Pencil",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1811.png",
+      "bytes": 73376,
+      "sha256": "1e0cf279455bfcb25ac5979e80be5b052195645678a21dde2e9f979dbb46a063"
+    },
+    {
+      "nodeId": "13:1813",
+      "name": "Recycle",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1813.png",
+      "bytes": 101141,
+      "sha256": "b537bdceb623508b4b8e57c0f20b60bd25e237bd3c20bba0a050298792a0102e"
+    },
+    {
+      "nodeId": "13:1815",
+      "name": "Music notes",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1815.png",
+      "bytes": 77302,
+      "sha256": "9cc342b41ec185a700b8736c41fb8068db8dd4f1a4b7910c19bb4cee5846a80e"
+    },
+    {
+      "nodeId": "13:1819",
+      "name": "Guy with Headphones",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "Dark background",
+      "file": "13-1819.png",
+      "bytes": 112700,
+      "sha256": "c50e3cf05de31656db112ffa86dd2179d9d41d254ff62446996347f60bd4e8dc"
+    },
+    {
+      "nodeId": "13:1823",
+      "name": "Guy with Headphones",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1823.png",
+      "bytes": 95653,
+      "sha256": "4b2c621a593a7ff7b7c4f941bc2bb1335210e26dbe1a85b70cc3597fa168bc01"
+    },
+    {
+      "nodeId": "13:1825",
+      "name": "Illustration 7",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1825.png",
+      "bytes": 183795,
+      "sha256": "06814670b474055e6d009259c8d50fb4422d7d336a93041c9093a49bc5c86b93"
+    },
+    {
+      "nodeId": "13:1827",
+      "name": "Bulb",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1827.png",
+      "bytes": 118857,
+      "sha256": "fd2967cfd29c69d022bb8a2b6783dac975485e1d275c8bf29d35b94e91a9647a"
+    },
+    {
+      "nodeId": "13:1829",
+      "name": "Receipt",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1829.png",
+      "bytes": 93391,
+      "sha256": "d8f3238cc31f6c7dd77c3cbae2b4c659ad843c01e67b01f8f3a8754190e3b933"
+    },
+    {
+      "nodeId": "13:1833",
+      "name": "Popcorn",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1833.png",
+      "bytes": 162156,
+      "sha256": "a3e4a9eab11fef587e54cc4d03f92761962b360f301439fa1c31bb750e61b510"
+    },
+    {
+      "nodeId": "13:1838",
+      "name": "Tools2",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1838.png",
+      "bytes": 53743,
+      "sha256": "4fb5ab5ce8b84953963cb7d80f0cb6d1a5f0351f45b49008d7fcdfdbe68d7aaa"
+    },
+    {
+      "nodeId": "13:1845",
+      "name": "Vehicle",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1845.png",
+      "bytes": 84933,
+      "sha256": "c5bc596993d860d83e0ff1be94ecead76ebdf245266032a2f2cc1b81a13d8559"
+    },
+    {
+      "nodeId": "13:1849",
+      "name": "Illustration 30",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1849.png",
+      "bytes": 109021,
+      "sha256": "853a1f0d18b8eae87f1330b844e2dad053471d8618c822f4ab90056f6d7b4b4e"
+    },
+    {
+      "nodeId": "13:1853",
+      "name": "Television",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1853.png",
+      "bytes": 92501,
+      "sha256": "146df3e705e53a19f873458cef979b5dca873dfafc09cc4a881884d5293293bd"
+    },
+    {
+      "nodeId": "13:1857",
+      "name": "Home Theatre",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1857.png",
+      "bytes": 94433,
+      "sha256": "6ac7eafa37ac386c33bcfc31384c9dcd4f7eb3d6e625692be44629f250f679bb"
+    },
+    {
+      "nodeId": "13:1861",
+      "name": "Surround sound",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1861.png",
+      "bytes": 77762,
+      "sha256": "c9d34d8feaac7a20b2f636e88bc8124c4e00361e82860b462db3d62de081b96a"
+    },
+    {
+      "nodeId": "13:1865",
+      "name": "Ticket",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1865.png",
+      "bytes": 159741,
+      "sha256": "673b4910ec7b94150bce7202c30f924fa4ed12768ec9626a61af432cee81b527"
+    },
+    {
+      "nodeId": "13:1867",
+      "name": "Illustration 40",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1867.svg",
+      "bytes": 402304,
+      "sha256": "9412e809b6171f3029213fa67aed04868fd56788ffa0609f07b2688a764365fa",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1868",
+          "archiveImageHash": "f3c6fca0dd1b13c0211509ffc45448a5bbb04e22",
+          "sha256": "92261fffe6112fa1ade3d496bce909f0a1f0130389cb273e015964edc8455a19",
+          "bytes": 301342
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": {
+        "status": "official-native-render-compared; geometry/paint visually consistent; pixels differ",
+        "screenshotSha256": "ec5b8fa4473e3c73d1f1abfaf05125f395774db91066dac5bb5ef0f4b6a7e491",
+        "metrics": {
+          "nodeId": "13:1867",
+          "officialSize": [
+            1024,
+            1024
+          ],
+          "browserSize": [
+            1024,
+            1024
+          ],
+          "identicalPixelsPercent": 94.90242004394531,
+          "meanAbsoluteChannelDifference": 0.1318221092224121,
+          "pixelsOver8DifferencePercent": 0.8713722229003906,
+          "maxChannelDifference": 51
+        },
+        "scope": "QA reference only; never used as a runtime asset"
+      }
+    },
+    {
+      "nodeId": "13:1869",
+      "name": "Camera",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1869.svg",
+      "bytes": 199523,
+      "sha256": "466876de521b1f2dc8a6475c0e8739e31a460da6c27310dcbefa44d09218f50a",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1870",
+          "archiveImageHash": "a36705c5ce54b4d642d2ae192d0b8a374a423dee",
+          "sha256": "08f1f8c9db6e598bc415b38feea38653a62cf97b2c168e39ceedd53aee3ce6d1",
+          "bytes": 149249
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": {
+        "status": "official-native-render-compared; geometry/paint visually consistent; pixels differ",
+        "screenshotSha256": "28dfd99ff819df18ac81525731b72cedba0111321bb811f8f9ec02ef774128d5",
+        "metrics": {
+          "nodeId": "13:1869",
+          "officialSize": [
+            1024,
+            1024
+          ],
+          "browserSize": [
+            1024,
+            1024
+          ],
+          "identicalPixelsPercent": 97.56383895874023,
+          "meanAbsoluteChannelDifference": 0.07880592346191406,
+          "pixelsOver8DifferencePercent": 0.4334449768066406,
+          "maxChannelDifference": 38
+        },
+        "scope": "QA reference only; never used as a runtime asset"
+      }
+    },
+    {
+      "nodeId": "13:1871",
+      "name": "Illustration 45",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1871.svg",
+      "bytes": 333083,
+      "sha256": "cf70a4a93a55b02e1931dcaa54d4228c91e118fd59931e4ff4aa906aad9f052d",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1873",
+          "archiveImageHash": "a115fce9f77eb2314f7a3489de7debc606c5ccb0",
+          "sha256": "9d4712aadd132c3a4fe65cf4a4589dd9efb104b24228acf44766dea7fc634523",
+          "bytes": 248963
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1874",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": {
+        "status": "official-native-render-compared; geometry/paint visually consistent; pixels differ",
+        "screenshotSha256": "13fde921cc0d151435978b9d08f3029e48e4999e2ba401aeab9d618a2b3437da",
+        "metrics": {
+          "nodeId": "13:1871",
+          "officialSize": [
+            1024,
+            1024
+          ],
+          "browserSize": [
+            1024,
+            1024
+          ],
+          "identicalPixelsPercent": 95.94602584838867,
+          "meanAbsoluteChannelDifference": 0.15097403526306152,
+          "pixelsOver8DifferencePercent": 0.801849365234375,
+          "maxChannelDifference": 42
+        },
+        "scope": "QA reference only; never used as a runtime asset"
+      }
+    },
+    {
+      "nodeId": "13:1875",
+      "name": "Notifications",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1875.svg",
+      "bytes": 199715,
+      "sha256": "80a7ed16855bf8aa59ab45721c218a26b9fc34860c97201b6d381abf942166c5",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1877",
+          "archiveImageHash": "576b18a4408d6533b234da8860f2b4790d6b50cf",
+          "sha256": "9e70ee17672fc740e2b29054ed79fd84c93bf1f7b02759bdedd1c8c767fa58ed",
+          "bytes": 148870
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1878",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1879",
+      "name": "Order shipped",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1879.svg",
+      "bytes": 247390,
+      "sha256": "f978494e0c4fa32ba75fd9d3fac10cb44fe87413944b26b21b55bbd56fb88574",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1881",
+          "archiveImageHash": "6abcacdc79635e569fdf7fb91e8aa6c43e658c59",
+          "sha256": "03a03afff7be907cf2495a38336f6f827334fd308562db7b834efe6f18d4169b",
+          "bytes": 184706
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": {
+        "status": "official-native-render-compared; geometry/paint visually consistent; pixels differ",
+        "screenshotSha256": "e9504061b3b2f77ff7f16faf62cd3f33e6d42145a94588047412b3a06df63c7a",
+        "metrics": {
+          "nodeId": "13:1879",
+          "officialSize": [
+            1024,
+            1024
+          ],
+          "browserSize": [
+            1024,
+            1024
+          ],
+          "identicalPixelsPercent": 97.1893310546875,
+          "meanAbsoluteChannelDifference": 0.10169363021850586,
+          "pixelsOver8DifferencePercent": 0.5301475524902344,
+          "maxChannelDifference": 47
+        },
+        "scope": "QA reference only; never used as a runtime asset"
+      }
+    },
+    {
+      "nodeId": "13:1883",
+      "name": "Like",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1883.svg",
+      "bytes": 157900,
+      "sha256": "4bbdd78a0a5f519b9ca1580c22d5349aafd0ad4965791b977b0a7edcf6455d91",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1885",
+          "archiveImageHash": "e67a8029d06be1cf16a281314cf577c045848d17",
+          "sha256": "f38dddd4cec227df65dc1356feb4c3775e99a2b7c31d52b40cb4fd944602eac2",
+          "bytes": 117420
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1887",
+      "name": "Delivery",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1887.svg",
+      "bytes": 172047,
+      "sha256": "4a295c90574ba18f598c029b83ec160c8d025fb036353c077d696d96b4ce6175",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1889",
+          "archiveImageHash": "cce57d9c65fa8d280113d8115c16401fd4698c6b",
+          "sha256": "32af07e0e8d6e05b6cffbbaaf7c80c36ad5956fa88872c70fdfe00ebcb7c1093",
+          "bytes": 128164
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1890",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1891",
+      "name": "Illustration 42",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1891.svg",
+      "bytes": 296001,
+      "sha256": "eacc3876c4aca56a3e038597e723e5e44aec2ba793aed04ca7ffe628d9d8bb17",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1893",
+          "archiveImageHash": "217376f49077522f489596ec98a1cb1f2b19515a",
+          "sha256": "fb5830a0a70dedd1e3aaf3ec495164495ebcb5563031f56726af786d7fce1933",
+          "bytes": 221120
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1894",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1895",
+      "name": "Ticket with Confetti",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1895.svg",
+      "bytes": 399088,
+      "sha256": "83df289fbb6b804b0190d3dfc2a8e3d40997fc7c379491fb46e50666e5ba4d98",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1896",
+          "archiveImageHash": "bf211c975c46e281ffe2d07303c5bbc720659423",
+          "sha256": "b83dca6631cbf5ef34d4b17749eb576f9612dec3681a07655294f38173586cc5",
+          "bytes": 298931
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1897",
+      "name": "Tools",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1897.svg",
+      "bytes": 469177,
+      "sha256": "bf67b92cfa707691166b090db4fe0e5a899481cb57564763d8e11560cafd797c",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1899",
+          "archiveImageHash": "43211f5d72d094d0b62fad2e9f1d2ca9c9396223",
+          "sha256": "eb173e011fedbfcd785076908efea82fc53d763ca04d63cb583cfcdae099c264",
+          "bytes": 351030
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1900",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1901",
+      "name": "Cleanup",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1901.svg",
+      "bytes": 263862,
+      "sha256": "cf99dd9217f6e776cc404b5a12ff503c8ba2364da4f66f572dbce174cb46ffa5",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1903",
+          "archiveImageHash": "1ac7d533ea87ac16407363d553ffebbc66c5eb09",
+          "sha256": "c07a2a7797cae2e5e16e860fe06c756d53090767084a30c549b26d05add06d00",
+          "bytes": 197044
+        }
+      ],
+      "fillBindings": [
+        {
+          "nodeId": "13:1904",
+          "styleId": "1:119",
+          "reference": {
+            "assetRef": {
+              "key": "7082498d403428955002a57b98274eb5c93c16c0",
+              "version": "714:22"
+            }
+          }
+        }
+      ],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1905",
+      "name": "Illustration 25",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1905.svg",
+      "bytes": 171212,
+      "sha256": "14900d1df3f76cb16390e5a87145082fadfc7cdfd5b2a16e7ea902cf2ba3dc0b",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1906",
+          "archiveImageHash": "a2af194b0ec4a696f5a75c1962064cf06e9ca51b",
+          "sha256": "d30f9507b4fd27088bd0cc709db4c8f7812283da2b88028c0a49965bbc3771c4",
+          "bytes": 128025
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1907",
+      "name": "Shopping bags",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1907.svg",
+      "bytes": 186601,
+      "sha256": "a6f48190d85e0ad002f0aade48c3332edad68339caf5c2aeb96242e770c27315",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1909",
+          "archiveImageHash": "ecd31e4ee7908b133c521fd78236c322d5028cfc",
+          "sha256": "d97fa7deb176b1c8e79de1928c0cce901efa862c4a74fa2f0f13dcbebfda312e",
+          "bytes": 139185
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1911",
+      "name": "Savings Jar colored",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1911.svg",
+      "bytes": 616004,
+      "sha256": "b0309dceaa3a5e84acf0fe6036cfb5dfe9f64f0ee0f93fa281ca1e979cf36d71",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1912",
+          "archiveImageHash": "fd1339abeb6451c82040273fd6e948c451f2127c",
+          "sha256": "ce62d90619ec45262c9c72dc8d3efe3db45e6968608e03e3f22244bb9d570782",
+          "bytes": 461618
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    },
+    {
+      "nodeId": "13:1913",
+      "name": "Savings Jar",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1913.svg",
+      "bytes": 507556,
+      "sha256": "5e4cdbed9130366a833993202213832150d0a9d40aaf1e6134e7b819e1dba810",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1914",
+          "archiveImageHash": "6a27aaa62d485be1a77d089aa976cd57d5d09fb9",
+          "sha256": "b81a1ed56b8158c430f22371e81108ad3eae78bcca6bb748a2dc261bad5d73b5",
+          "bytes": 380283
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": {
+        "status": "official-native-render-compared; geometry/paint visually consistent; pixels differ",
+        "screenshotSha256": "ea6b5b80609db4e86ce598205584f992e010788df0c7186cca83046f99823ba1",
+        "metrics": {
+          "nodeId": "13:1913",
+          "officialSize": [
+            1024,
+            1024
+          ],
+          "browserSize": [
+            1024,
+            1024
+          ],
+          "identicalPixelsPercent": 97.02606201171875,
+          "meanAbsoluteChannelDifference": 0.1695384979248047,
+          "pixelsOver8DifferencePercent": 1.0067939758300781,
+          "maxChannelDifference": 63
+        },
+        "scope": "QA reference only; never used as a runtime asset"
+      }
+    },
+    {
+      "nodeId": "13:1915",
+      "name": "Share",
+      "sourceWidth": 1024,
+      "sourceHeight": 1024,
+      "sourceBand": "White background",
+      "file": "13-1915.svg",
+      "bytes": 198824,
+      "sha256": "119cd6c13bd4dc4e4d86eb714c7262370c8a2213389f616b24bf502dfc8f7635",
+      "method": "original-archive-PNG-fill-by-hash; exact-source-rect-matrix-alpha-mask-composition",
+      "originalImages": [
+        {
+          "nodeId": "13:1916",
+          "archiveImageHash": "3966af9e3e2235cad05f50134b58f3edd933ba28",
+          "sha256": "7c7d89f2a96c95c03092957d99d865c329cefd117bc6c2d0e89df40c032700b6",
+          "bytes": 148732
+        }
+      ],
+      "fillBindings": [],
+      "officialComparison": "pending"
+    }
+  ],
+  "recovered": 16,
+  "implementedAssetCount": 72,
+  "quotaBoundary": "Official Figma assets stopped after56of72Illustration frames; remaining16 use exact-source image composition and require official render comparison.",
+  "officialRecoveredComparisons": {
+    "reviewed": 5,
+    "remaining": 11,
+    "remainingReason": "Official screenshot requests returned internal errors or timed out; bounded retry stopped.",
+    "pixelIdentical": false
+  }
+}

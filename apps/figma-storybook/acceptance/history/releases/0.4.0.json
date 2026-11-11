@@ -1,0 +1,35 @@
+{
+  "version": "0.4.0",
+  "date": "2026-11-05",
+  "status": "Selection and dated live-header extensions verified within recorded scope; original-Figma full visual acceptance remains incomplete",
+  "sourcePolicy": "Original Figma components retain written-first source contracts. Prototype extensions use user-approved composition contracts. LiveCommerceHeader is separately scoped to the current Croma website layout inspected5November2026 under the user's source permission; its account SVG is original public website artwork, not Figma artwork. Neither extensions nor dated live-site evidence replace the original Figma baseline.",
+  "corrections": [
+    "Audit findings A30.1\u2013A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "Added SelectionPillGroup single/multiple selection with native input semantics and user-approved invariant geometry: green selected stroke/text, neutral grey selected fill and transparent unselected state with grey stroke.",
+    "Added LiveCommerceHeader as a separate dated website-layout preset using logo/menu/search/location/account/cart anatomy; its original public account SVG is bundled. Original Figma Header and generic CommerceHeader remain separate.",
+    "SearchCombobox exposes an inside-results heading/count contract; option semantics remain reserved for selectable suggestions.",
+    "The annotation review distinguishes reusable DS extension gaps from adapter/consumer defects, including duplicate visual classes, double padding and local cascade/state rules. Application integration changes and business logic remain separate from library acceptance."
+  ],
+  "checks": [
+    "Isolated installation, shared component build, TypeScript check and Storybook build passed before browser review.",
+    "All14focused shared-library extension regressions passed in7.6seconds, including selection-pill geometry/state semantics, SearchCombobox, the dated live header after its original-icon edit-marker change, and prior header/card/dialog compositions.",
+    "All223exported stories rendered without JavaScript exceptions or non-lazy broken images on the normal Vite preview. The preliminary Python-served run was220/223; the same build passed223/223 and bounded checks confirmed the three affected stories and SVG HTTP200 responses without runtime changes.",
+    "Root-observed actual8774consumer checks passed48/48 layout assertions at1447,390and320px, including footer bottom visibility and summary/footer alignment. Final mobile-build selection regressions passed4/4 in4.8seconds. These consumer results precede final immutable0.4.0package installation.",
+    "Earlier frozen-release tests remain historical; these focused cases and render smoke do not establish original-Figma pixel acceptance or all17annotation fixes by themselves.",
+    "Portable installation/build/type checks are recorded separately in this release manifest."
+  ],
+  "remaining": [
+    "The original whole Header remains raster-only. Editable CommerceHeader is a prototype extension; LiveCommerceHeader uses separately dated live-site evidence and is not an authored Figma variant.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance.",
+    "Prototype-extension theme assignments and composed-screen visuals remain reviewable implementation proposals, not stakeholder design sign-off."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_dc411d98f9ac8191827e6f8fbc9118eb",
+  "previousRelease": "0.3.0",
+  "previousReleaseCheckpoint": "history/releases/0.3.0-checkpoint.json"
+}

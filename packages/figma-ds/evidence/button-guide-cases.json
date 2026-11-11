@@ -1,0 +1,521 @@
+{
+  "sourceRule": "Exact written-guide linked family; actual figures where present, linked sibling main fallback otherwise. Written properties win.",
+  "cases": [
+    {
+      "caseId": "dark-Filled-Large-Enabled",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "141:5273",
+      "instanceId": "245:35760",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5276",
+        "icon": "141:5275"
+      }
+    },
+    {
+      "caseId": "dark-Filled-Large-Disabled",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "141:5278",
+      "instanceId": "245:35895",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5281",
+        "icon": "141:5280"
+      }
+    },
+    {
+      "caseId": "dark-Filled-Large-Hovered",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "141:5283",
+      "instanceId": "245:35898",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5287",
+        "icon": "141:5286",
+        "stateLayer": "141:5284"
+      }
+    },
+    {
+      "caseId": "dark-Filled-Small-Enabled",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "141:5289",
+      "instanceId": "245:36065",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5292",
+        "icon": "141:5291"
+      }
+    },
+    {
+      "caseId": "dark-Filled-Small-Disabled",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "141:5294",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5297",
+        "icon": "141:5296"
+      }
+    },
+    {
+      "caseId": "dark-Filled-Small-Hovered",
+      "theme": "dark",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "141:5299",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5303",
+        "icon": "141:5302",
+        "stateLayer": "141:5300"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Large-Enabled",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "141:5305",
+      "instanceId": "245:35763",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5308",
+        "icon": "141:5307"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Large-Disabled",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "141:5310",
+      "instanceId": "245:36157",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5313",
+        "icon": "141:5312"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Large-Hovered",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "141:5315",
+      "instanceId": "245:36160",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5319",
+        "icon": "141:5318",
+        "stateLayer": "141:5316"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Small-Enabled",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "141:5321",
+      "instanceId": "245:36357",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5324",
+        "icon": "141:5323"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Small-Disabled",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "141:5326",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5329",
+        "icon": "141:5328"
+      }
+    },
+    {
+      "caseId": "dark-Outlined-Small-Hovered",
+      "theme": "dark",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "141:5331",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5335",
+        "icon": "141:5334",
+        "stateLayer": "141:5332"
+      }
+    },
+    {
+      "caseId": "dark-Text-Large-Enabled",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "141:5337",
+      "instanceId": "245:35766",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5340",
+        "icon": "141:5339"
+      }
+    },
+    {
+      "caseId": "dark-Text-Large-Disabled",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "141:5348",
+      "instanceId": "245:36441",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5351",
+        "icon": "141:5350"
+      }
+    },
+    {
+      "caseId": "dark-Text-Large-Hovered",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "141:5357",
+      "instanceId": "245:36444",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5360",
+        "icon": "141:5359",
+        "stateLayer": "141:5361"
+      }
+    },
+    {
+      "caseId": "dark-Text-Small-Enabled",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "141:5341",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5344",
+        "icon": "141:5343"
+      }
+    },
+    {
+      "caseId": "dark-Text-Small-Disabled",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "141:5352",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "141:5355",
+        "icon": "141:5354"
+      }
+    },
+    {
+      "caseId": "dark-Text-Small-Hovered",
+      "theme": "dark",
+      "type": "Text",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "141:5362",
+      "instanceId": "245:36565",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "141:5365",
+        "icon": "141:5364",
+        "stateLayer": "141:5366"
+      }
+    },
+    {
+      "caseId": "light-Filled-Large-Enabled",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "242:35555",
+      "instanceId": "245:35781",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35558",
+        "icon": "242:35557"
+      }
+    },
+    {
+      "caseId": "light-Filled-Large-Disabled",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "242:35560",
+      "instanceId": "245:35906",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35563",
+        "icon": "242:35562"
+      }
+    },
+    {
+      "caseId": "light-Filled-Large-Hovered",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "242:35565",
+      "instanceId": "245:35909",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35569",
+        "icon": "242:35568",
+        "stateLayer": "242:35566"
+      }
+    },
+    {
+      "caseId": "light-Filled-Small-Enabled",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "242:35571",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35574",
+        "icon": "242:35573"
+      }
+    },
+    {
+      "caseId": "light-Filled-Small-Disabled",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "242:35576",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35579",
+        "icon": "242:35578"
+      }
+    },
+    {
+      "caseId": "light-Filled-Small-Hovered",
+      "theme": "light",
+      "type": "Filled",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "242:35581",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35585",
+        "icon": "242:35584",
+        "stateLayer": "242:35582"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Large-Enabled",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "242:35587",
+      "instanceId": "245:35784",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35590",
+        "icon": "242:35589"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Large-Disabled",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "242:35592",
+      "instanceId": "245:36168",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35595",
+        "icon": "242:35594"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Large-Hovered",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "242:35597",
+      "instanceId": "245:36171",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35601",
+        "icon": "242:35600",
+        "stateLayer": "242:35598"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Small-Enabled",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "242:35603",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35606",
+        "icon": "242:35605"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Small-Disabled",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "242:35608",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35611",
+        "icon": "242:35610"
+      }
+    },
+    {
+      "caseId": "light-Outlined-Small-Hovered",
+      "theme": "light",
+      "type": "Outlined",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "242:35613",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35617",
+        "icon": "242:35616",
+        "stateLayer": "242:35614"
+      }
+    },
+    {
+      "caseId": "light-Text-Large-Enabled",
+      "theme": "light",
+      "type": "Text",
+      "size": "Large",
+      "state": "Enabled",
+      "mainId": "242:35619",
+      "instanceId": "245:35787",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35622",
+        "icon": "242:35621"
+      }
+    },
+    {
+      "caseId": "light-Text-Large-Disabled",
+      "theme": "light",
+      "type": "Text",
+      "size": "Large",
+      "state": "Disabled",
+      "mainId": "242:35627",
+      "instanceId": "245:36452",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35630",
+        "icon": "242:35629"
+      }
+    },
+    {
+      "caseId": "light-Text-Large-Hovered",
+      "theme": "light",
+      "type": "Text",
+      "size": "Large",
+      "state": "Hovered",
+      "mainId": "242:35635",
+      "instanceId": "245:36455",
+      "authority": "actual guide figure effective overrides then linked main",
+      "slotIds": {
+        "label": "242:35638",
+        "icon": "242:35637",
+        "stateLayer": "242:35639"
+      }
+    },
+    {
+      "caseId": "light-Text-Small-Enabled",
+      "theme": "light",
+      "type": "Text",
+      "size": "Small",
+      "state": "Enabled",
+      "mainId": "242:35623",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35626",
+        "icon": "242:35625"
+      }
+    },
+    {
+      "caseId": "light-Text-Small-Disabled",
+      "theme": "light",
+      "type": "Text",
+      "size": "Small",
+      "state": "Disabled",
+      "mainId": "242:35631",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35634",
+        "icon": "242:35633"
+      }
+    },
+    {
+      "caseId": "light-Text-Small-Hovered",
+      "theme": "light",
+      "type": "Text",
+      "size": "Small",
+      "state": "Hovered",
+      "mainId": "242:35640",
+      "instanceId": null,
+      "authority": "actual linked main sibling; no Large palette extrapolation",
+      "slotIds": {
+        "label": "242:35643",
+        "icon": "242:35642",
+        "stateLayer": "242:35644"
+      }
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "historicalCheckpoint": true,
+  "supersededForCurrentStatusBy": "apps/figma-storybook/acceptance/current-checkpoint.json",
+  "historyNote": "Earlier written-only registry. Preserve source citations; do not infer current missing palettes/artwork or current visual acceptance from these old statuses.",
+  "sourceRule": "Written specifications only; undocumented values remain unspecified",
+  "status": "incomplete",
+  "components": {
+    "Button": {
+      "writtenSource": "245:35815",
+      "verifiedWrittenGeometry": {
+        "Large.height": 40,
+        "Small.height": 32,
+        "Filled.horizontalPadding": 24,
+        "Outlined.horizontalPadding": 24,
+        "Text.padding": 8,
+        "Icon.size": 16,
+        "Icon.container": 32,
+        "Outlined.stroke": 1,
+        "Filled.radius": 4,
+        "Outlined.radius": 4,
+        "Filled.gap": 8,
+        "Outlined.gap": 8,
+        "Large.minWidth": 128,
+        "Small.minWidth": 112,
+        "Segmented.radius": 4,
+        "Segmented.horizontalPadding": 16,
+        "Segmented.minHeight": 32
+      },
+      "unspecified": [
+        "semantic colour mappings",
+        "label.button-x-small metrics",
+        "label.button-tiny metrics",
+        "vertical padding",
+        "elevation.1",
+        "focus appearance"
+      ],
+      "unassignedAnnotation": "28px dimension annotation has no verified endpoints; may concern inner segment and does not replace explicit container tableHeight32px."
+    },
+    "Input Fields": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written variant naming",
+        "container geometry without an applicable written value; known image24dp and read-only38% rules are implemented",
+        "all state colour mappings",
+        "text metrics",
+        "responsive rules"
+      ]
+    },
+    "Checkbox / Radio / Toggle": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "numeric semantic colours and label typography alias metrics",
+        "checkbox marker artwork and outline width",
+        "native checkbox radius measured0px vs written4px: not accepted",
+        "custom control icon artwork"
+      ],
+      "knownWritten": "Radio24px/40px/8px; Checkbox24px/40px/8px with writtenradius4px remaining measured nativeappearancegap; Toggle24px/40px/8px. Documented state percentages and roles bound. Native selection feedback retained."
+    },
+    "Chips": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written semantic mappings",
+        "geometry",
+        "state coverage"
+      ]
+    },
+    "Accordion": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written visual mappings",
+        "spacing and typography",
+        "theme roles"
+      ]
+    },
+    "Tabs": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "active-indicator gradient definition",
+        "typography aliases",
+        "semantic state colours"
+      ],
+      "knownWritten": "Visible current layout278:74563:48px tab,2px indicator,equal segments,8px inline padding,centeredlabel. Hidden radius4 row excluded."
+    },
+    "Dropdown": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written visual mappings",
+        "spacing and typography",
+        "theme roles"
+      ]
+    },
+    "Pop ups / Bottom Sheet": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written visual mappings",
+        "geometry",
+        "sheet drag behaviour",
+        "viewport adaptation"
+      ]
+    },
+    "Search bar": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "semantic colour roles and typography aliases",
+        "suggestion behaviour"
+      ],
+      "knownWritten": "Container40px, margins16px, padding12px inline/8px block, gap8px, radius4px. Applied source245:44360."
+    },
+    "Steppers": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "path and icon artwork",
+        "semantic typography and colour aliases",
+        "full state geometry mapping"
+      ],
+      "knownWritten": "Horizontal visible layout245:48455 stepgap0,icontext8; Vertical245:48767 inter-itemgap8,Copybottompadding24,icontext12; actual annotation245:48763/245:48764 establishes scope. Optional Orientation API; path/icon/fullstate visuals incomplete."
+    },
+    "Labels & Badges / Divider / Cards": {
+      "behaviourImplemented": true,
+      "unspecified": [
+        "written visual mappings",
+        "geometry",
+        "theme roles"
+      ],
+      "knownWritten": "Badge Large32px minwidth52,Medium24/52,Small20/48; explicit shape4px/8px; Divider variants1&3 stroke1px,variant2 stroke4px,margins16; Cards outlinedstroke1px."
+    }
+  },
+  "acceptance": "No component fully accepted. Focused and independent browser checks are property-specific. Historical 242/273 checkpoint failures and subsequent corrections are retained in app acceptance evidence; fresh current checkpoint review pending.",
+  "additionalWrittenGeometry": {
+    "Radio": {
+      "source": [
+        "194:34759",
+        "194:36590"
+      ],
+      "iconSize": 24,
+      "touchArea": 40,
+      "iconLabelGap": 8
+    },
+    "Choice": {
+      "source": [
+        "144:9190",
+        "144:9629"
+      ],
+      "outlineWidth": 1,
+      "height": 32,
+      "radius": 4,
+      "horizontalPadding": 16
+    },
+    "Accordion": {
+      "source": [
+        "245:38811",
+        "245:38980"
+      ],
+      "horizontalPadding": 16,
+      "bottomDivider": 1,
+      "titleDescriptionGap": 8,
+      "unimplementedPendingIconMapping": {
+        "iconSize": 16,
+        "titleIconGap": 16
+      }
+    },
+    "Checkbox": {
+      "source": [
+        "194:39811"
+      ],
+      "iconLabelGap": 8
+    }
+  },
+  "sourceCoverage": {
+    "currentEvidence": "../../figma-foundations/local-fig-source/resolved-tables.json",
+    "tableCount": 149,
+    "visibleCells": 9282,
+    "hiddenCellsExcluded": 3103,
+    "resolutionIssues": 0,
+    "history": "remaining-written-tables.json retains earlier MCP quota failures, now superseded by local archive text recovery. Retrieval complete for inventoried tables; source applicability and missing semantic definitions remain distinct."
+  },
+  "runtimeRegistry": "written-values.json:279 generated CSS rules with exact cells/prose, row context and approved visibility scope. Source citation/output verification is separate from browser/fullvisualacceptance.",
+  "applicabilityConflicts": [
+    "Popup/BottomSheet contain copied NeuPass drawer tables; cannot apply those roles to generic dialogs without explicit scope.",
+    "Multiple Toggle tables describe caret/supporting/input text; applied geometry only from explicit Icon/TouchArea/layout rows.",
+    "Tabs/StickyFooter/Chat contain copied SearchBar geometry; only actual search245:44360 applied.",
+    "Filter has32px and48px layout frames without explicit variant names in tables; height unspecified until variant scope is reconciled.",
+    "Segmented height28 annotation vs32 table remains unresolved."
+  ],
+  "checks": {
+    "typecheck": "passed",
+    "packageBuild": "passed",
+    "writtenProvenance": "279 generated rules passed written-cell/prose transcription and emitted CSS verification",
+    "focusedBrowser": "278 checkpointpassed; separate broad278review pending. Checkboxnative0pxradius remains an unaccepted gap against written4px.",
+    "computedValues": {
+      "Tabs.minHeight": "48px",
+      "Checkbox.width": "24px",
+      "Checkbox.gap": "8px",
+      "SearchBar.minHeight": "40px",
+      "SearchBar.inlinePadding": "12px",
+      "Label.Small.minHeight": "20px",
+      "Label.Small.minWidth": "48px",
+      "Divider.Variant2.borderTopWidth": "4px"
+    },
+    "visualAcceptance": "Incomplete: role definitions, actual artwork and property-specific gaps remain. No component fully accepted.",
+    "checkboxVisualFeedback": "Native appearance restored; source radius is not accepted merely because registered CSS contains4px.",
+    "independentBrowser": {
+      "checkpoint": 279,
+      "registrySha256": "647cc76433625b92f9f44842445ea44d0f5fd8d1708a6d3c3c7e9990b866726f",
+      "runtimeFingerprint": "90a5bac2b401244cde28bb29ca1a68f7b1035f428e850e202af04158aad26a11",
+      "registryAndRuntimeStable": true,
+      "uniqueProperties": 535,
+      "numericPropertiesVerified": 223,
+      "measuredUnacceptedGaps": 1,
+      "unresolvedSemanticProperties": 311,
+      "unmeasuredNumericProperties": 0,
+      "foundationChecksPassed": 214,
+      "interactionsPassed": 26,
+      "layoutChecksPassed": 6,
+      "consoleErrors": 0,
+      "sourceCitationErrors": 0,
+      "visualFeedback": "Native checkbox empty/checked/mixed states remain distinct; radius0px vs written4px is not accepted.",
+      "scope": "Fresh production-build/runtime-fingerprinted property-specific checks. No full component visual acceptance."
+    },
+    "remainingKnownSourceWork": {
+      "source": "../../figma-foundations/source/remaining-work-reconciliation.json",
+      "reviewOutcome": "No further concrete independently implementable numeric/code work identified in the audited written requirements. Missing semantic definitions, artwork and annotation scope remain unresolved.",
+      "remainingIndependentWork": []
+    }
+  },
+  "sourceAuthority": "User approved whole hidden written tables. Hidden descendant/template rows remain excluded. No approval to invent numeric palette, typography, elevation or artwork.",
+  "visibilityAuthority": "User approved whole hidden written tables. Hidden descendant/template rows remain excluded. No approval to invent numeric palette, typography, elevation or artwork.",
+  "artworkGaps": [
+    "Tooltipbeak32x8dimensionsarewritten; itsactualoutline/pathisunspecified. Optionalcallerbeakart; emptybysourcedefault."
+  ]
+}

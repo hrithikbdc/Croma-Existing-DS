@@ -1,0 +1,22 @@
+/* Same-file high-fidelity footer278:59574, layout examples278:59737/59803/59855/59907. */
+.croma-sticky-footer[data-croma-component="Sticky Footer"] {
+  box-sizing:border-box;display:flex;flex-direction:column;align-items:flex-end;justify-content:center;
+  gap:6px;min-width:0;width:100%;padding:12px 20px;
+  background:var(--croma-source-paint-2-243);color:var(--croma-source-paint-2-245);
+  font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);
+}
+.croma-sticky-footer[data-sticky="true"] {position:sticky;bottom:0;z-index:1;}
+.croma-sticky-footer-row {display:flex;align-items:center;justify-content:flex-end;gap:16px;width:100%;min-width:0;}
+.croma-sticky-footer-price {display:flex;flex-direction:column;justify-content:center;align-self:stretch;flex:1 1 0;min-width:0;min-height:48px;overflow-wrap:anywhere;}
+.croma-sticky-footer-price-value {font-size:20px;line-height:20px;font-weight:700;letter-spacing:0;color:var(--croma-source-paint-2-245);}
+.croma-sticky-footer-installment {appearance:none;display:block;align-self:flex-start;padding:0;margin:0;border:0;background:transparent;color:var(--croma-source-paint-2-235);font-family:inherit;font-size:16px;font-weight:400;line-height:22px;letter-spacing:0;text-align:start;text-decoration:underline;}
+button.croma-sticky-footer-installment {cursor:pointer;}
+.croma-sticky-footer-action {display:flex;align-items:stretch;flex:none;width:138px;min-width:0;}
+.croma-sticky-footer-cta {appearance:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;flex:1 1 0;min-width:0;min-height:48px;margin:0;padding:12px;border:0;border-radius:8px;background:var(--croma-source-paint-2-235);color:#1a1a1a;font-family:inherit;font-size:16px;line-height:24px;letter-spacing:0;font-weight:700;text-align:center;cursor:pointer;white-space:nowrap;}
+
+/* Source overview278:58649 pinned overlay and guideline278:63640 page-flow recipe are distinct. */
+.croma-sticky-footer[data-footer-mode="Flow"] {position:static;}
+.croma-sticky-footer[data-footer-mode="Fixed"] {position:fixed;inset-inline:0;bottom:0;}
+.croma-sticky-footer-layout {display:flex;flex-direction:column;min-height:100dvh;min-width:0;}
+.croma-sticky-footer-layout-content {flex:1 0 auto;min-width:0;}
+.croma-sticky-footer-layout-footer {flex:none;min-width:0;}

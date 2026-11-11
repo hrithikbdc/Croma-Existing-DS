@@ -1,0 +1,10 @@
+.acceptance-harness {  font-family: var(--croma-font-family); margin: 16px; }
+.acceptance-harness > h1 { font-size: 24px; }
+.acceptance-harness > p { max-width: 80ch; }
+.acceptance-case { margin-block: 32px; border-top: 1px solid #cfcfcf; padding-block-start: 16px; min-width: 0; }
+.acceptance-case > h2 { font: 600 14px/20px system-ui,sans-serif; margin: 0 0 16px; }
+.acceptance-case-content { min-width: 0; }
+
+.button-preview-grid { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,280px),1fr)); gap: 16px; align-items:start; }
+.button-preview-grid > .acceptance-case { margin-block: 16px; }
+.button-preview-grid .acceptance-case-content { min-height:64px; display:flex; align-items:center; padding:16px; box-sizing:border-box; }

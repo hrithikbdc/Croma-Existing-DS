@@ -1,0 +1,324 @@
+{
+  "setId": "1715:79529",
+  "variants": [
+    {
+      "id": "1715:79530",
+      "name": "State=Default, Visible=No"
+    },
+    {
+      "id": "1715:79540",
+      "name": "State=Hover, Visible=No"
+    },
+    {
+      "id": "1715:79550",
+      "name": "State=selected, Visible=Yes"
+    },
+    {
+      "id": "1715:79561",
+      "name": "State=Option 1, Visible=Selected"
+    },
+    {
+      "id": "1715:79573",
+      "name": "State=Option 1, Visible=Yes"
+    },
+    {
+      "id": "1715:79585",
+      "name": "State=Option 1, Visible=Hover"
+    }
+  ],
+  "assets": [
+    {
+      "id": "1715:79532",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79532.svg",
+      "sha256": "4d5cc41fbefc5cab7714c8a309f4697562c3a3c29a54317e617927182e035321"
+    },
+    {
+      "id": "1715:79533",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79533.svg",
+      "sha256": "2b60519bd16283ea839749f0f11cf936e08887084c0a14b15aed60a89cf07357"
+    },
+    {
+      "id": "1715:79537",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 265.9989929199219,
+      "height": 0,
+      "file": "1715-79537.svg",
+      "sha256": "aaf3db50a54e3fbe21d9fc2c53f13170fda34223f63fafd448bb2b519846d6d2"
+    },
+    {
+      "id": "1715:79538",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79538.svg",
+      "sha256": "074b0d9c80ed1e6929092863bee77938188098bf97e694c4dc538a7de6476448"
+    },
+    {
+      "id": "1715:79539",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79539.svg",
+      "sha256": "ddc8664160d7e7227449f2d26dffcfeee58e83594b7fe5af1b914140d9bd6517"
+    },
+    {
+      "id": "1715:79542",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79542.svg",
+      "sha256": "da20057ee74b5e417c58fa28c2066d275cefe7b1a0d1c7dfc7c78dd3c56ef566"
+    },
+    {
+      "id": "1715:79543",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79543.svg",
+      "sha256": "95dc58af905f0031cb0845dbd88b5c5053f9970120a113420fcf303ee11c156a"
+    },
+    {
+      "id": "1715:79547",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 265.9989929199219,
+      "height": 0,
+      "file": "1715-79547.svg",
+      "sha256": "570999f1a42e91028d519ec7361e1d4b30126e1c24a57eefee6cd35c8f2c7283"
+    },
+    {
+      "id": "1715:79548",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79548.svg",
+      "sha256": "cd447a1ad650bf143d95fe54bde4953175b71afc3c2fd3d82c166577213d2b0d"
+    },
+    {
+      "id": "1715:79549",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79549.svg",
+      "sha256": "ddc8664160d7e7227449f2d26dffcfeee58e83594b7fe5af1b914140d9bd6517"
+    },
+    {
+      "id": "1715:79552",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79552.svg",
+      "sha256": "95dd4ec174208e2e7f3c87feba8b7762939862ae8e923d5a9fa3c3d57d564472"
+    },
+    {
+      "id": "1715:79553",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79553.svg",
+      "sha256": "a3463bbc07fd761e7e121454099884ac00634fcb364a686883ab61f8c71ddbd0"
+    },
+    {
+      "id": "1715:79557",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 270,
+      "height": 0,
+      "file": "1715-79557.svg",
+      "sha256": "9faf4ed4b40754ccb65357c1ba7c5965b2737274cc432d11d4c2f96777918fd2"
+    },
+    {
+      "id": "1715:79558",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79558.svg",
+      "sha256": "8504cb6e344e94b147fd514b45c5c0492dd21d65f53ec38e03dd60002dc15fd0"
+    },
+    {
+      "id": "1715:79559",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79559.svg",
+      "sha256": "0d2cee6ae1c6b8ff01fc79eb34d70399576b347894da15047df0f719221bfb19"
+    },
+    {
+      "id": "1715:79563",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79563.svg",
+      "sha256": "95dd4ec174208e2e7f3c87feba8b7762939862ae8e923d5a9fa3c3d57d564472"
+    },
+    {
+      "id": "1715:79564",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79564.svg",
+      "sha256": "a3463bbc07fd761e7e121454099884ac00634fcb364a686883ab61f8c71ddbd0"
+    },
+    {
+      "id": "1715:79568",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 270,
+      "height": 0,
+      "file": "1715-79568.svg",
+      "sha256": "9faf4ed4b40754ccb65357c1ba7c5965b2737274cc432d11d4c2f96777918fd2"
+    },
+    {
+      "id": "1715:79569",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79569.svg",
+      "sha256": "8504cb6e344e94b147fd514b45c5c0492dd21d65f53ec38e03dd60002dc15fd0"
+    },
+    {
+      "id": "1715:79571",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79571.svg",
+      "sha256": "0d2cee6ae1c6b8ff01fc79eb34d70399576b347894da15047df0f719221bfb19"
+    },
+    {
+      "id": "1715:79575",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79575.svg",
+      "sha256": "4d5cc41fbefc5cab7714c8a309f4697562c3a3c29a54317e617927182e035321"
+    },
+    {
+      "id": "1715:79576",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79576.svg",
+      "sha256": "2b60519bd16283ea839749f0f11cf936e08887084c0a14b15aed60a89cf07357"
+    },
+    {
+      "id": "1715:79580",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 270,
+      "height": 0,
+      "file": "1715-79580.svg",
+      "sha256": "5a1a6879d6f225ea96f42cdcf2e0d2c53db2aab8ed96e7a1cfe1ef562952a380"
+    },
+    {
+      "id": "1715:79581",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79581.svg",
+      "sha256": "074b0d9c80ed1e6929092863bee77938188098bf97e694c4dc538a7de6476448"
+    },
+    {
+      "id": "1715:79583",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79583.svg",
+      "sha256": "ddc8664160d7e7227449f2d26dffcfeee58e83594b7fe5af1b914140d9bd6517"
+    },
+    {
+      "id": "1715:79587",
+      "name": "Left",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79587.svg",
+      "sha256": "da20057ee74b5e417c58fa28c2066d275cefe7b1a0d1c7dfc7c78dd3c56ef566"
+    },
+    {
+      "id": "1715:79588",
+      "name": "Right",
+      "type": "VECTOR",
+      "width": 17,
+      "height": 54,
+      "file": "1715-79588.svg",
+      "sha256": "95dc58af905f0031cb0845dbd88b5c5053f9970120a113420fcf303ee11c156a"
+    },
+    {
+      "id": "1715:79592",
+      "name": "top line",
+      "type": "VECTOR",
+      "width": 270,
+      "height": 0,
+      "file": "1715-79592.svg",
+      "sha256": "977f5dc1212659d7d14bd5efc21224622c13b3c2da8a583f3d7ff083d9e8836e"
+    },
+    {
+      "id": "1715:79593",
+      "name": "bottom line",
+      "type": "VECTOR",
+      "width": 260,
+      "height": 0,
+      "file": "1715-79593.svg",
+      "sha256": "cd447a1ad650bf143d95fe54bde4953175b71afc3c2fd3d82c166577213d2b0d"
+    },
+    {
+      "id": "1715:79595",
+      "name": "Icons/Arrows",
+      "type": "INSTANCE",
+      "width": 16,
+      "height": 16,
+      "file": "1715-79595.svg",
+      "sha256": "ddc8664160d7e7227449f2d26dffcfeee58e83594b7fe5af1b914140d9bd6517"
+    }
+  ],
+  "geometry": {
+    "width": 294,
+    "height": 54,
+    "radius": 8,
+    "labelX": 17,
+    "labelY": 17,
+    "arrowRight": 9,
+    "arrowTop": 21,
+    "arrowSize": 16,
+    "panelLeft": 1,
+    "panelTop": 55,
+    "optionPadding": [
+      12,
+      20
+    ],
+    "optionLineHeight": 20
+  },
+  "adaptations": [
+    "Native select retains form/ref/value semantics while the authored overlay and list render its appearance.",
+    "Fluid width and wrapping menu copy; menu can scroll within viewport.",
+    "Native focus and keyboard operation, dismissal, type-ahead, disabled and form reset supported."
+  ],
+  "status": "Six authored states rendered and source artwork reviewed; arrow-doubleflip corrected. Keyboard/pointer selection,Escape,focus,outside dismissal and upward narrow-viewport placement passed. Inter exception applies."
+}

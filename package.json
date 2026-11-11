@@ -1,0 +1,62 @@
+{
+  "name": "croma-figma-design-system",
+  "private": true,
+  "version": "0.5.1",
+  "type": "module",
+  "workspaces": [
+    "packages/figma-foundations",
+    "packages/figma-ds",
+    "apps/figma-storybook",
+    "apps/figma-prototype"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "figma:storybook": "npm run figma:build-ds && npm run dev -w @croma/figma-storybook",
+    "figma:build-storybook": "npm run figma:build-ds && npm run build -w @croma/figma-storybook",
+    "figma:dev": "npm run figma:build-ds && npm run dev -w @croma/figma-prototype",
+    "figma:build": "npm run figma:build-ds && npm run build -w @croma/figma-prototype",
+    "figma:typecheck": "tsc --noEmit -p tsconfig.figma.json",
+    "figma:test": "playwright test -c playwright.figma.config.ts",
+    "figma:build-ds": "npm run build -w @croma/figma-ds",
+    "figma:preview-storybook": "npm run preview -w @croma/figma-storybook",
+    "figma:verify": "node tests/figma/source-literals.mjs && npm run figma:typecheck && npm run figma:build && node scripts/verify-figma-packages.mjs && npm run figma:build-storybook && npm run figma:test && npm run figma:test:extensions",
+    "figma:test:acceptance": "playwright test -c playwright.figma-acceptance.config.ts",
+    "figma:smoke": "node scripts/smoke-figma-stories.mjs",
+    "figma:release": "node scripts/release-figma.mjs",
+    "figma:test:extensions": "playwright test -c playwright.figma-storybook.config.ts",
+    "dev": "npm run figma:storybook",
+    "storybook": "npm run figma:storybook",
+    "build": "npm run figma:build",
+    "build:storybook": "npm run figma:build-storybook",
+    "typecheck": "npm run figma:typecheck",
+    "test": "npm run figma:test && npm run figma:test:extensions",
+    "verify": "npm run build && npm run typecheck && node tests/figma/source-literals.mjs && node scripts/verify-figma-packages.mjs && npm run build:storybook && npm test",
+    "release:pack": "node scripts/package-release.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@storybook/addon-a11y": "10.6.4",
+    "@storybook/addon-docs": "10.6.4",
+    "@storybook/react-vite": "10.6.4",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "5.2.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "storybook": "10.6.4",
+    "typescript": "5.9.3",
+    "vite": "8.3.5"
+  },
+  "packageManager": "npm@10.9.2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikbdc/Croma-Existing-DS.git"
+  },
+  "homepage": "https://hrithikbdc.github.io/Croma-Existing-DS/",
+  "bugs": {
+    "url": "https://github.com/hrithikbdc/Croma-Existing-DS/issues"
+  }
+}

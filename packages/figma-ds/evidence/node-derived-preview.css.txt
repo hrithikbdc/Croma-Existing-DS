@@ -1,0 +1,36 @@
+.croma-figma-button,.croma-figma-field{font-family:var(--croma-implementation-font-family,'Inter Variable',Inter,sans-serif);letter-spacing:0;font-style:normal}
+.croma-figma-button{box-sizing:border-box;display:inline-flex;flex-direction:column;align-items:center;justify-content:center;vertical-align:middle;border:0;border-radius:14px;padding:14px 24px;min-height:56px;font-weight:700;font-size:18px;line-height:28px;color:#191919;background:#12daa8;cursor:pointer;max-width:100%}
+.croma-figma-button[data-size="Mobile"]{padding-block:12px;min-height:52px;font-size:16px;line-height:22px}
+.croma-figma-button-content{display:flex;align-items:center;justify-content:center;gap:4px;height:28px;min-width:0}
+.croma-figma-button-label{white-space:nowrap}
+.croma-figma-button[data-type="Secondary"]{background:linear-gradient(rgba(198,198,198,.05),rgba(198,198,198,.05)),#393939;color:#fff}
+.croma-figma-button[data-state="Hover"],.croma-figma-button[data-live="true"]:hover{background:#cffff3;color:#191919}
+.croma-figma-button[data-type="Secondary"][data-state="Hover"],.croma-figma-button[data-type="Secondary"][data-live="true"]:hover{background:#cfcfcf}
+.croma-figma-button[data-state="Pressed"],.croma-figma-button[data-live="true"]:active{background:#088466;color:#191919}
+.croma-figma-button[data-type="Secondary"][data-state="Pressed"],.croma-figma-button[data-type="Secondary"][data-live="true"]:active{background:#191919;box-shadow:inset 0 0 0 1px #fff;color:#fff}
+.croma-figma-button[data-state="Outlined"]{background:transparent;box-shadow:inset 0 0 0 2px #12daa8}
+.croma-figma-button[data-state="Disabled"]{background:#9b9b9b;color:#cfcfcf;cursor:default}
+.croma-figma-button[data-type="Link"],.croma-figma-button[data-type="Link with icon"]{background:transparent;color:#088466}
+.croma-figma-button[data-state="Link on Dark"]{color:#12daa8}
+.croma-figma-button[data-type="Link"] .croma-figma-button-label{text-decoration:underline;text-underline-position:from-font;text-decoration-skip-ink:none}
+.croma-figma-button-icon{display:flex;flex-shrink:0;width:24px;height:24px}
+.croma-figma-button-icon img{display:block;width:24px;height:24px}
+.croma-figma-button[data-size="Mobile"] .croma-figma-button-icon,.croma-figma-button[data-size="Mobile"] .croma-figma-button-icon img{width:22px;height:22px}
+.croma-figma-button:focus-visible{outline:2px solid #088466;outline-offset:3px}
+.croma-figma-field{box-sizing:border-box;width:298px;max-width:100%;font-size:14px;font-weight:600;line-height:20px;color:#5f5f5f}
+.croma-figma-field-container{position:relative;height:54px;border-radius:8px;background:#fff}
+.croma-figma-field input{box-sizing:border-box;width:100%;height:54px;min-width:0;padding:17px;background:transparent;border:0;outline:0;color:inherit;font:inherit;line-height:20px;border-radius:8px}
+.croma-figma-field-label{position:absolute;left:17px;top:17px;pointer-events:none;white-space:nowrap;max-width:calc(100% - 34px);overflow:hidden}
+.croma-figma-field[data-floating="true"] .croma-figma-field-label{top:-8px;color:#9b9b9b;font-size:12px;font-weight:700;line-height:16px}
+.croma-figma-field:not([data-floating="true"]) input::placeholder{color:transparent}
+.croma-figma-field[data-state="Error 2"]{color:#ff5959}
+.croma-figma-field-outline{position:absolute;inset:0;pointer-events:none}
+.croma-figma-field-left,.croma-figma-field-right{position:absolute;top:-1px;width:18px;height:56px}
+.croma-figma-field-left{left:-1px}
+.croma-figma-field-right{right:-1px;transform:scaleX(-1)}
+.croma-figma-field-top{position:absolute;top:-8px;left:11px;right:17px;height:16px;display:flex;align-items:center}
+.croma-figma-field-gap{visibility:hidden;flex-shrink:0;max-width:calc(100% - 1px);overflow:hidden;padding:0;font-size:12px;font-weight:700;line-height:16px;white-space:nowrap}
+.croma-figma-field[data-floating="true"] .croma-figma-field-gap{padding-inline:6px}
+.croma-figma-field-top img{height:2px;flex:1;min-width:1px;width:0}
+.croma-figma-field-bottom{position:absolute;bottom:-1px;left:17px;width:calc(100% - 34px);height:2px}
+.croma-figma-field-message{display:block;margin:8px 17px 0;color:#ff5959;font-size:12px;font-weight:600;line-height:16px}

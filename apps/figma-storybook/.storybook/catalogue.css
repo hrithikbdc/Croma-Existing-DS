@@ -1,0 +1,14 @@
+.croma-figma-story {  font-family: var(--croma-font-family); color: var(--croma-review-foreground, #f9f9f9); }
+.croma-catalogue { color: #191919; background: #f9f9f9; padding: 24px; max-width: 1100px; line-height: 1.5; font-family: system-ui, sans-serif; }
+.croma-catalogue h1 { font-size: 28px; margin: 0 0 16px; }
+.croma-catalogue h2 { font-size: 20px; margin-top: 32px; }
+.croma-catalogue a { color: #088466; }
+.croma-catalogue table { width: 100%; border-collapse: collapse; text-align: left; }
+.croma-catalogue th, .croma-catalogue td { border-bottom: 1px solid #cfcfcf; padding: 12px 8px; vertical-align: top; }
+.croma-catalogue code { overflow-wrap: anywhere; }
+.croma-catalogue .notice { border-left: 4px solid #088466; padding: 12px 16px; background: #fff; }
+.croma-catalogue .swatches { display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 16px; }
+.croma-catalogue .swatch { min-height: 72px; border: 1px solid #cfcfcf; border-radius: 4px; }
+.croma-catalogue .specimen { background: #fff; padding: 16px; overflow-wrap: anywhere; }
+
+.croma-figma-story :is(h1,h2,h3) {font-style:normal;}

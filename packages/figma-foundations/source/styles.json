@@ -1,0 +1,2048 @@
+{
+  "inspectedOn": "2026-11-03",
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "textStyles": [
+    {
+      "id": "S:41be4ae4340b7219be236601edc2847d00efed5b,",
+      "name": "Desktop/Headine/Feature Title 1",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Extrabold"
+      },
+      "fontSize": 136,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 140
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:5103b04a066da70c8986c351578bbcc0a2741f7b,",
+      "name": "Desktop/Headine/Feature Title 2",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Extrabold"
+      },
+      "fontSize": 86,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 90
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:374a9c83d0c93a8ea2a32f8dcc875a9d1722008b,",
+      "name": "Desktop/Headine/H1",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 64,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 68
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:ae2eafea3b76e257c634ab035e774988ff77f3fb,",
+      "name": "Desktop/Headine/H2",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 56,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 62
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:88df6edb8bd96421eccf376202e6ace7c3b2941c,",
+      "name": "Desktop/Headine/H3",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 48,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 52
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:95cd20bd7078e5eac65659c7d84ccd6fa8d25a91,",
+      "name": "Desktop/Headine/H4",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:d546756d844c596a6116ef4fddf7846e07bd55fd,",
+      "name": "Desktop/Headine/H5",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:72630d721a83a1c2a6d8b137e445d960d3155d0a,",
+      "name": "Desktop/Headine/H6",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:8b7fdb353faf8104253885d3bdeaa651ad5ba688,",
+      "name": "Desktop/Headine/H7",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:893cac3581fb8792bd4fa0d010f5eeb635543a55,",
+      "name": "Desktop/Body/B1 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:0981d8ff0884357b45e3ffc807e4e9ee571efe93,",
+      "name": "Desktop/Body/B1 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:7f1ee832b0d9422a81ee15fd3e826940d5a2b68f,",
+      "name": "Desktop/Body/B1 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:e4251eaa58809e809eed9b35d7bd60a24419f83f,",
+      "name": "Desktop/Body/B2 -  Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:592ce2277da2ebb9ff0d6d9d5091703e89756e6a,",
+      "name": "Desktop/Body/B2 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:3288ab1c36edc29d187ef0bf3f3743e305d44d53,",
+      "name": "Desktop/Body/B2 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:2e2bf5be3a9d6d65943237e8fa8f40fec4cd615a,",
+      "name": "Desktop/Body/B3 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:c6453b6f16c0f0d1b2dc69aad1447bb02b9287cf,",
+      "name": "Desktop/Body/B3 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:13f43ba75c40355e941b796db0a64326ba6fcd83,",
+      "name": "Desktop/Body/B3 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:8f827d83bca20a1e80bdd1e2be5e58e919d71a59,",
+      "name": "Desktop/Body/B4 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:74aa66110b533583ffd128ad07e80288579181fd,",
+      "name": "Desktop/Body/B4 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:bec65064bfb5d38609ec1397a914e160bd45583f,",
+      "name": "Desktop/Body/B4 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 24,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:3c6d8c87dc53f77541d6f864280dec56fde5c808,",
+      "name": "Desktop/Link/B1 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:773098fda4540f9a52a9b15491e3ea888414310d,",
+      "name": "Desktop/Link/B2 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:bb0dd242a3f29c496cdc4ed4d1125d975075e9e0,",
+      "name": "Desktop/Link/B3 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:d64143ee4a31825c2ab8baadda0c7c79c36efced,",
+      "name": "Mobile/Headline/Feature  Title 1",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Extrabold"
+      },
+      "fontSize": 56,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 60
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -2
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:1a5fc73cb0fd8dd675d81bc611636345dc5f5d16,",
+      "name": "Mobile/Headline/H1",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 44
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:f0eee69649c0367962e36c866aab8e679c87d54e,",
+      "name": "Mobile/Headline/H2",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:35fde4232462a867a83bcfbf07a1a020b4d6c007,",
+      "name": "Mobile/Headline/H3",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 28,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:47c59792f2e384f5f9d2ee7cd57a59e3a750fc15,",
+      "name": "Mobile/Headline/H4",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:46d4e1f65aa2d6f6ead2acbd5b3377da90b6ad1c,",
+      "name": "Mobile/Headline/H5",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:e3569df05099f014a2f6e59194b6ee9a5c2026da,",
+      "name": "Mobile/Headline/H6",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": -1
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:e924dced255c9c899d43b6cb496c7491c16b6e3f,",
+      "name": "Mobile/Body/B1 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:216c8e4ab66dd7367ed2ba336d14bf26e7ebf7cd,",
+      "name": "Mobile/Body/B1 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:62d919250aa0462f791a6ee8cf2d573cffd7f76e,",
+      "name": "Mobile/Body/B1 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:1ffb04370f0e7529b0a5386b81091a2dd16fc101,",
+      "name": "Mobile/Body/B2 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:835db3a2ff59d9b48b4128203dc693b9a16dd5d2,",
+      "name": "Mobile/Body/B2 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:88c6a8be00fa66e55de56a8eefb81bddb43d81ef,",
+      "name": "Mobile/Body/B2 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:a90745d367e9cb9471d1cb20c1248b55a2a4bfbf,",
+      "name": "Mobile/Body/B3 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:6f22f624aa71e34350633ca5bbb8c21091d511eb,",
+      "name": "Mobile/Body/B3 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:4577460e161e684859de3aaa053450672be88b85,",
+      "name": "Mobile/Body/B3 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:b190c29d3dc0b5e3cafcf93e9fff0d6b6b0dbcd4,",
+      "name": "Mobile/Body/B4 - Regular",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:d7140660f0252fdbd17e68b01be2ee3275118cd2,",
+      "name": "Mobile/Body/B4 - Semibold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Semibold"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:49ad7f8957b87ac0912ddb95cb1697dbb712b168,",
+      "name": "Mobile/Body/B4 - Bold",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Bold"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 16,
+      "textCase": "ORIGINAL",
+      "textDecoration": "NONE"
+    },
+    {
+      "id": "S:8a235117a3479174f927246098d3bd046984fa57,",
+      "name": "Mobile/Link/B4 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:ac4268879cf80f5963ac4acb25ac210ff9d7a38a,",
+      "name": "Mobile/Link/B3 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:84dd5b331359a52831b0af99d09271e75e0f87d9,",
+      "name": "Mobile/Link/B2 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 24
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    },
+    {
+      "id": "S:e86f8b031866b411d04bf062bfa5ece32dc562d3,",
+      "name": "Mobile/Link/B1 - Link",
+      "description": "",
+      "fontName": {
+        "family": "Switzer",
+        "style": "Regular"
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      },
+      "paragraphSpacing": 0,
+      "textCase": "ORIGINAL",
+      "textDecoration": "UNDERLINE"
+    }
+  ],
+  "paintStyles": [
+    {
+      "id": "S:e63584add84ecfdcfe03379a3e228e6f31e1ff1e,",
+      "name": "Page Background/Ghost White",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:8d626d65f3bce5ea9f6534c44f604727cfa76c72,",
+      "name": "Page Background/Onyx Black",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.09803921729326248,
+            "g": 0.09803921729326248,
+            "b": 0.09803921729326248
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:77a286a1c51390b7e6822a9b64fff0b8bbb21e2d,",
+      "name": "Primary/Aqua Green",
+      "description": "CTA | Hyperlinks",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.07118052244186401,
+            "g": 0.8541666865348816,
+            "b": 0.6600931286811829
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:3d54077ad4cacc65c8e47171c7af159183f6358b,",
+      "name": "Primary/Pearl",
+      "description": "Font Colour",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:b5561507af977aa086319cee777efe55c6115525,",
+      "name": "Primary/Onyx Black",
+      "description": "Font Colour",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.09803921729326248,
+            "g": 0.09803921729326248,
+            "b": 0.09803921729326248
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:dbf849a355c0615ee16b7b38cf3a4c2f08fa7213,",
+      "name": "Primary/Foam",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8125,
+            "g": 1,
+            "b": 0.9535256624221802
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:6bfecffcc3202da0a863793c8c7abacf6615f265,",
+      "name": "Primary/Deep Sea",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0313725508749485,
+            "g": 0.5176470875740051,
+            "b": 0.4000000059604645
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:d887b3102dea54581a75251cfc1d831094d1af56,",
+      "name": "Secondary 1/Corcus Purple",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5647059082984924,
+            "g": 0.4431372582912445,
+            "b": 0.9647058844566345
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:b5b27ec96e0cf16eda6db0a85418b3caace42180,",
+      "name": "Secondary 1/Periwinkle Blue",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3748335540294647,
+            "g": 0.20911461114883423,
+            "b": 0.9125000238418579
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:07ba26c931784c98a0a67f37b241985e8f1f09c3,",
+      "name": "Secondary 1/Daisy Bush",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2570652365684509,
+            "g": 0.13723957538604736,
+            "b": 0.6458333134651184
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:0d84cb28ad3c98153aac76d98e3a49a1818490bc,",
+      "name": "Secondary 2/Lavender Rose",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.6313725709915161,
+            "b": 0.9333333373069763
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:64736ca79e6169febd914bc50de71d5be74515d5,",
+      "name": "Secondary 2/Candy Pink",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.4000000059604645,
+            "b": 0.8941176533699036
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:523e0beaf06502b59cabbf963931e4d8558086c3,",
+      "name": "Secondary 2/Violet Eggplant",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6274510025978088,
+            "g": 0.1725490242242813,
+            "b": 0.5490196347236633
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:f1fb1166340b7d222c9137ee15a60116d074bc4b,",
+      "name": "Secondary 3/Sunset Orange",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.3490196466445923,
+            "b": 0.3490196466445923
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:6967589a359198d9333eb5e872a1affbea43656a,",
+      "name": "Secondary 3/Pale Carmine",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7250000238418579,
+            "g": 0.2446874976158142,
+            "b": 0.2446874976158142
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:462252e42f8caa777c2cd4e8236897915b763918,",
+      "name": "Secondary 3/Light Salmon Pink",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9803921580314636,
+            "g": 0.6000000238418579,
+            "b": 0.6000000238418579
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:973973af6df8cd7850f7077479a636297cb4e359,",
+      "name": "Secondary 4/Pale Peach",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.9046746492385864,
+            "b": 0.6499999761581421
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:0a34523381e0c53dce51bc09776dd8e1fc0fe1d9,",
+      "name": "Secondary 4/Canary Yellow",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9686274528503418,
+            "g": 0.7058823704719543,
+            "b": 0.003921568859368563
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:0377b9e44a325e8ecad7262caf47ca8afb1f52a5,",
+      "name": "Secondary 4/Dark Mustard",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7058823704719543,
+            "g": 0.5137255191802979,
+            "b": 0.0117647061124444
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:d180862938be233944d92a9cc473ae0ef737b17f,",
+      "name": "Secondary 5/Tropical Blue",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7458333373069763,
+            "g": 0.8892738819122314,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:6455e223c1fe985d5fcd77d9e6f09da1b2d8520c,",
+      "name": "Secondary 5/Picton Blue",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2078431397676468,
+            "g": 0.6549019813537598,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:23a1869f125480c56e99d667ddd0b2d6bcd6ac51,",
+      "name": "Secondary 5/Dusk Blue",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.11328125,
+            "g": 0.39031556248664856,
+            "b": 0.6041666865348816
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:ac2adcf875f85c4ddf9063b296749e134f071901,",
+      "name": "Neutral/Snow Drift",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:347832642ccebab23d246027ef6e35d09570f5ba,",
+      "name": "Neutral/Grey Goose",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.8117647171020508,
+            "g": 0.8117647171020508,
+            "b": 0.8117647171020508
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:3e86647d50664086ffdb89f45ad890942ba6561c,",
+      "name": "Neutral/Star Dust",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6083333492279053,
+            "g": 0.6083333492279053,
+            "b": 0.6083333492279053
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:f5f9970ffbd1e321425dbf310dafb0fe6db67bc0,",
+      "name": "Neutral/Carbon Grey",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.3708333373069763,
+            "g": 0.3708333373069763,
+            "b": 0.3708333373069763
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:315ed3df1409def1143f3def2275c689a3e686b7,",
+      "name": "Surface/Dark/Surface",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:1622e8d22e5ff8ffd0c7e860fc590b26dea4ed17,",
+      "name": "Surface/Dark/Surface at +1",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.05000000074505806,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:64e08fc802211ef2cc88f100659a08720c24aa88,",
+      "name": "Surface/Dark/Surface at +2",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.07999999821186066,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:123d1f850cd19650216dcf86a1119eae8692e492,",
+      "name": "Surface/Dark/Surface at +3",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10999999940395355,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:eb18bad4d76cc76b388f98bb774c49e688b17b47,",
+      "name": "Surface/Dark/Surface at +4",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.11999999731779099,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:096a1d78fe8c9b46239c20f971afa45f6fba59ae,",
+      "name": "Surface/Light/Surface",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:7f874a21ca1bd0ca9e08f2e05ba2d4588f82e788,",
+      "name": "Surface/Light/Surface at +1",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.05000000074505806,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.16470588743686676,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:7b3178cacbcfd235c77fdf630b4cf31ebc0a2334,",
+      "name": "Surface/Light/Surface at +2",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.07999999821186066,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.16470588743686676,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:02347f5efeef3664c3743c8e8c18836a6896fc50,",
+      "name": "Surface/Light/Surface at +3",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.10999999940395355,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.16470588743686676,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:98fa30bb0c183726107efd860c915c9a3c9984fd,",
+      "name": "Surface/Light/Surface at +4",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.11999999731779099,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.16470588743686676,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:d8cd141375d33977d9bfea1e90702336ca407ebe,",
+      "name": "Error and Sucess/Sunset Orange",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 0.3490196466445923,
+            "b": 0.3490196466445923
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:4a845913f8dc497c2a7c625280e89ed3fd2afff7,",
+      "name": "Error and Sucess/Deep Sea",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.0313725508749485,
+            "g": 0.5176470875740051,
+            "b": 0.4000000059604645
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:02f3eeae46722c7c0460d47a8f7b855ac0258f08,",
+      "name": "Surface/Light/Surface at +5",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.9764705896377563,
+            "g": 0.9764705896377563,
+            "b": 0.9764705896377563
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.14000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.16470588743686676,
+            "g": 0.16470588743686676,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:798ffa82ac55675f0a1081d58f469eb255904d4f,",
+      "name": "Surface/Dark/Surface at +5",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        },
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 0.14000000059604645,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.7764706015586853,
+            "b": 0.7764706015586853
+          },
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:e9c10cc9d74acc03d13c93af1b6fa9968716032b,",
+      "name": "Neutral/Charcoal",
+      "description": "",
+      "paints": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.2235294133424759,
+            "g": 0.2235294133424759,
+            "b": 0.2235294133424759
+          },
+          "boundVariables": {}
+        }
+      ]
+    }
+  ],
+  "gridStyles": [
+    {
+      "id": "S:8730c14a5b640dd4ea3b9452c3c52c28f4457ab1,",
+      "name": "Mobile/Mobile",
+      "description": "320px - 767px",
+      "layoutGrids": [
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 16,
+          "alignment": "STRETCH",
+          "count": 4,
+          "offset": 15,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "gutterSize": 8,
+          "alignment": "MIN",
+          "count": 100,
+          "sectionSize": 8,
+          "offset": 0,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:2ab41d9173f6b10b1dedbd717c88e9ce26773c59,",
+      "name": "Desktop/Desktop 1366px",
+      "description": "768px - 1366px",
+      "layoutGrids": [
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "gutterSize": 8,
+          "alignment": "MIN",
+          "count": 100,
+          "sectionSize": 8,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 32,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 23,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:cbf0a75cd9e1fa4bc9bf02e7e4411232580a1b61,",
+      "name": "Desktop/Desktop 1440px",
+      "description": "",
+      "layoutGrids": [
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "gutterSize": 8,
+          "alignment": "MIN",
+          "count": 100,
+          "sectionSize": 8,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 32,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 60,
+          "boundVariables": {}
+        }
+      ]
+    },
+    {
+      "id": "S:47dbb6753e766611af80dba20558903332491c6c,",
+      "name": "Desktop/Desktop 1920px",
+      "description": "",
+      "layoutGrids": [
+        {
+          "pattern": "ROWS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.05000000074505806
+          },
+          "gutterSize": 8,
+          "alignment": "MIN",
+          "count": 100,
+          "sectionSize": 8,
+          "offset": 0,
+          "boundVariables": {}
+        },
+        {
+          "pattern": "COLUMNS",
+          "visible": true,
+          "color": {
+            "r": 1,
+            "g": 0,
+            "b": 0,
+            "a": 0.10000000149011612
+          },
+          "gutterSize": 32,
+          "alignment": "STRETCH",
+          "count": 12,
+          "offset": 300,
+          "boundVariables": {}
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6085 @@
+{
+  "source": {
+    "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+    "inspectedOn": "2026-11-03",
+    "method": "get_design_context paragraph text only; documentation CSS excluded; sparse metadata and quota blocks are not absent source values."
+  },
+  "tables": [
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:35852",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:35854;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I245:35855;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I245:35856;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I245:35857;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:35859;458:18814",
+          "text": "1. Container"
+        },
+        {
+          "id": "I245:35860;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:35861;458:18818",
+          "text": "Primary"
+        },
+        {
+          "id": "I245:35862;458:18818",
+          "text": "color.primary"
+        },
+        {
+          "id": "I245:35865;458:18852",
+          "text": "2. Label text"
+        },
+        {
+          "id": "I245:35866;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:35867;458:18818",
+          "text": "On primary"
+        },
+        {
+          "id": "I245:35868;458:18818",
+          "text": "color.on-primary"
+        },
+        {
+          "id": "I245:35870;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I245:35871;458:18818",
+          "text": "Typography"
+        },
+        {
+          "id": "I245:35872;458:18818",
+          "text": "Label button1"
+        },
+        {
+          "id": "I245:35873;458:18818",
+          "text": "label.button-x-small"
+        },
+        {
+          "id": "I245:35876;458:18852",
+          "text": "3. Icon (optional)"
+        },
+        {
+          "id": "I245:35877;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:35878;458:18818",
+          "text": "On primary"
+        },
+        {
+          "id": "I245:35879;458:18818",
+          "text": "color.on-primary"
+        },
+        {
+          "id": "I245:35881;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I245:35882;458:18854",
+          "text": "Size"
+        },
+        {
+          "id": "I245:35883;458:18854",
+          "text": "16"
+        },
+        {
+          "id": "I245:35884;458:18854",
+          "text": "size.400"
+        }
+      ]
+    },
+    {
+      "pageId": "245:38543",
+      "nodeId": "245:39463",
+      "parent": "Footer Links",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:39465;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:39466;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:39467;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:39469;458:18814",
+          "text": "Container height"
+        },
+        {
+          "id": "I245:39470;458:18818",
+          "text": "Dynamic height dynamic based on content"
+        },
+        {
+          "id": "I245:39471;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39473;458:18814",
+          "text": "Container width"
+        },
+        {
+          "id": "I245:39474;458:18818",
+          "text": "Full width"
+        },
+        {
+          "id": "I245:39475;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39477;458:18814",
+          "text": "Divider (Bottom)"
+        },
+        {
+          "id": "I245:39478;458:18818",
+          "text": "1px"
+        },
+        {
+          "id": "I245:39479;458:18814",
+          "text": "-"
+        },
+        {
+          "id": "I245:39481;458:18814",
+          "text": "Padding"
+        },
+        {
+          "id": "I245:39482;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39483;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39485;458:18814",
+          "text": "Icon alignment"
+        },
+        {
+          "id": "I245:39486;458:18818",
+          "text": "Vertically top"
+        },
+        {
+          "id": "I245:39487;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39489;458:18814",
+          "text": "Left/right padding with border"
+        },
+        {
+          "id": "I245:39490;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39491;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39493;458:18814",
+          "text": "Space between Title & Icon"
+        },
+        {
+          "id": "I245:39494;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39495;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39497;458:18852",
+          "text": "Space between Title & Description"
+        },
+        {
+          "id": "I245:39498;458:18854",
+          "text": "8px"
+        },
+        {
+          "id": "I245:39499;458:18854",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36535",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36537;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36538;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36539;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36541;458:18814",
+          "text": "Icon size"
+        },
+        {
+          "id": "I245:36542;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:36543;458:18818",
+          "text": "size.400"
+        },
+        {
+          "id": "I245:36545;458:18814",
+          "text": "Padding between elements"
+        },
+        {
+          "id": "I245:36546;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I245:36547;458:18818",
+          "text": "spacing.8"
+        },
+        {
+          "id": "I245:36549;458:18852",
+          "text": "Label text alignment"
+        },
+        {
+          "id": "I245:36550;458:18854",
+          "text": "Center-aligned"
+        },
+        {
+          "id": "I245:36551;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36068",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36070;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36071;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36072;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36074;458:18814",
+          "text": "Height (Large)"
+        },
+        {
+          "id": "I245:36075;458:18818",
+          "text": "40px"
+        },
+        {
+          "id": "I245:36076;458:18818",
+          "text": "size.1000"
+        },
+        {
+          "id": "I245:36078;458:18814",
+          "text": "Height (Small)"
+        },
+        {
+          "id": "I245:36079;458:18818",
+          "text": "32px"
+        },
+        {
+          "id": "I245:36080;458:18818",
+          "text": "size.800"
+        },
+        {
+          "id": "I245:36082;458:18814",
+          "text": "Min. width (Large)"
+        },
+        {
+          "id": "I245:36083;458:18818",
+          "text": "128px"
+        },
+        {
+          "id": "I245:36084;458:18818",
+          "text": "size.3200"
+        },
+        {
+          "id": "I245:36086;458:18852",
+          "text": "Min. width (Small)"
+        },
+        {
+          "id": "I245:36087;458:18854",
+          "text": "112px"
+        },
+        {
+          "id": "I245:36088;458:18854",
+          "text": "size.2800"
+        }
+      ]
+    },
+    {
+      "pageId": "245:38543",
+      "nodeId": "245:39382",
+      "parent": "Key Differentiator",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:39384;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:39385;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:39386;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:39388;458:18814",
+          "text": "Container height"
+        },
+        {
+          "id": "I245:39389;458:18818",
+          "text": "Dynamic height dynamic based on content"
+        },
+        {
+          "id": "I245:39390;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39392;458:18814",
+          "text": "Container width"
+        },
+        {
+          "id": "I245:39393;458:18818",
+          "text": "Full width"
+        },
+        {
+          "id": "I245:39394;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39396;458:18814",
+          "text": "Divider (Bottom)"
+        },
+        {
+          "id": "I245:39397;458:18818",
+          "text": "1px"
+        },
+        {
+          "id": "I245:39398;458:18814",
+          "text": "-"
+        },
+        {
+          "id": "I245:39400;458:18814",
+          "text": "Padding"
+        },
+        {
+          "id": "I245:39401;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39402;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39404;458:18814",
+          "text": "Icon alignment"
+        },
+        {
+          "id": "I245:39405;458:18818",
+          "text": "Vertically top"
+        },
+        {
+          "id": "I245:39406;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39408;458:18814",
+          "text": "Left/right padding with border"
+        },
+        {
+          "id": "I245:39409;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39410;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39412;458:18814",
+          "text": "Space between Title & Icon"
+        },
+        {
+          "id": "I245:39413;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39414;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39416;458:18852",
+          "text": "Space between Title & Description"
+        },
+        {
+          "id": "I245:39417;458:18854",
+          "text": "8px"
+        },
+        {
+          "id": "I245:39418;458:18854",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36028",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36030;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36031;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36032;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36034;458:18814",
+          "text": "Shape"
+        },
+        {
+          "id": "I245:36035;458:18818",
+          "text": "4px corner radius"
+        },
+        {
+          "id": "I245:36036;458:18818",
+          "text": "border-radius.small"
+        },
+        {
+          "id": "I245:36038;458:18814",
+          "text": "Icon size"
+        },
+        {
+          "id": "I245:36039;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:36040;458:18818",
+          "text": "size.400"
+        },
+        {
+          "id": "I245:36042;458:18814",
+          "text": "Left/right padding"
+        },
+        {
+          "id": "I245:36043;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I245:36044;458:18818",
+          "text": "spacing.24"
+        },
+        {
+          "id": "I245:36046;458:18814",
+          "text": "Padding between elements"
+        },
+        {
+          "id": "I245:36047;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I245:36048;458:18818",
+          "text": "spacing.8"
+        },
+        {
+          "id": "I245:36050;458:18852",
+          "text": "Label text alignment"
+        },
+        {
+          "id": "I245:36051;458:18854",
+          "text": "Center-aligned"
+        },
+        {
+          "id": "I245:36052;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "245:38543",
+      "nodeId": "245:39594",
+      "parent": "Footer Links",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:39596;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:39597;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:39598;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:39600;458:18814",
+          "text": "Container height"
+        },
+        {
+          "id": "I245:39601;458:18818",
+          "text": "Dynamic height dynamic based on content"
+        },
+        {
+          "id": "I245:39602;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39604;458:18814",
+          "text": "Container width"
+        },
+        {
+          "id": "I245:39605;458:18818",
+          "text": "Full width"
+        },
+        {
+          "id": "I245:39606;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39608;458:18814",
+          "text": "Divider (Bottom)"
+        },
+        {
+          "id": "I245:39609;458:18818",
+          "text": "1px"
+        },
+        {
+          "id": "I245:39610;458:18814",
+          "text": "-"
+        },
+        {
+          "id": "I245:39612;458:18814",
+          "text": "Padding"
+        },
+        {
+          "id": "I245:39613;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39614;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39616;458:18814",
+          "text": "Icon alignment"
+        },
+        {
+          "id": "I245:39617;458:18818",
+          "text": "Vertically top"
+        },
+        {
+          "id": "I245:39618;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:39620;458:18814",
+          "text": "Left/right padding with border"
+        },
+        {
+          "id": "I245:39621;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39622;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39624;458:18814",
+          "text": "Space between Title & Icon"
+        },
+        {
+          "id": "I245:39625;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:39626;458:18814",
+          "text": "spacing.16"
+        },
+        {
+          "id": "I245:39628;458:18852",
+          "text": "Space between Title & Description"
+        },
+        {
+          "id": "I245:39629;458:18854",
+          "text": "8px"
+        },
+        {
+          "id": "I245:39630;458:18854",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36360",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36362;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36363;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36364;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36366;458:18814",
+          "text": "Height (Large)"
+        },
+        {
+          "id": "I245:36367;458:18818",
+          "text": "40px"
+        },
+        {
+          "id": "I245:36368;458:18818",
+          "text": "size.1000"
+        },
+        {
+          "id": "I245:36370;458:18814",
+          "text": "Height (Small)"
+        },
+        {
+          "id": "I245:36371;458:18818",
+          "text": "32px"
+        },
+        {
+          "id": "I245:36372;458:18818",
+          "text": "size.800"
+        },
+        {
+          "id": "I245:36374;458:18814",
+          "text": "Min. width (Large)"
+        },
+        {
+          "id": "I245:36375;458:18818",
+          "text": "128px"
+        },
+        {
+          "id": "I245:36376;458:18818",
+          "text": "size.3200"
+        },
+        {
+          "id": "I245:36378;458:18852",
+          "text": "Min. width (Small)"
+        },
+        {
+          "id": "I245:36379;458:18854",
+          "text": "112px"
+        },
+        {
+          "id": "I245:36380;458:18854",
+          "text": "size.2800"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36570",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36572;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36573;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36574;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36576;458:18814",
+          "text": "Height (Large)"
+        },
+        {
+          "id": "I245:36577;458:18818",
+          "text": "40px"
+        },
+        {
+          "id": "I245:36578;458:18818",
+          "text": "size.1000"
+        },
+        {
+          "id": "I245:36580;458:18852",
+          "text": "Height (Small)"
+        },
+        {
+          "id": "I245:36581;458:18854",
+          "text": "32px"
+        },
+        {
+          "id": "I245:36582;458:18854",
+          "text": "size.800"
+        },
+        {
+          "id": "I245:36584;458:18852",
+          "text": "Left/right margin"
+        },
+        {
+          "id": "I245:36585;458:18854",
+          "text": "8px"
+        },
+        {
+          "id": "I245:36586;458:18854",
+          "text": "size.200"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36296",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36298;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36299;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36300;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36302;458:18814",
+          "text": "Shape"
+        },
+        {
+          "id": "I245:36303;458:18818",
+          "text": "4px corner radius"
+        },
+        {
+          "id": "I245:36304;458:18818",
+          "text": "border-radius.small"
+        },
+        {
+          "id": "I245:36306;458:18814",
+          "text": "Icon size"
+        },
+        {
+          "id": "I245:36307;458:18818",
+          "text": "16px"
+        },
+        {
+          "id": "I245:36308;458:18818",
+          "text": "size.400"
+        },
+        {
+          "id": "I245:36310;458:18814",
+          "text": "Left/right padding"
+        },
+        {
+          "id": "I245:36311;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I245:36312;458:18818",
+          "text": "spacing.24"
+        },
+        {
+          "id": "I245:36314;458:18814",
+          "text": "Padding between elements"
+        },
+        {
+          "id": "I245:36315;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I245:36316;458:18818",
+          "text": "spacing.8"
+        },
+        {
+          "id": "I245:36318;458:18852",
+          "text": "Label text alignment"
+        },
+        {
+          "id": "I245:36319;458:18854",
+          "text": "Center-aligned"
+        },
+        {
+          "id": "I245:36320;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18229",
+      "parent": "Takeaways",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18231;458:18764",
+          "text": "Type"
+        },
+        {
+          "id": "I171:18232;458:18766",
+          "text": "Naming"
+        },
+        {
+          "id": "I171:18234;458:18814",
+          "text": "2 row x 2 col / 2x3"
+        },
+        {
+          "id": "I171:18235;458:18818",
+          "text": "Grid"
+        },
+        {
+          "id": "I171:18237;458:18814",
+          "text": "Horizontal swipe"
+        },
+        {
+          "id": "I171:18238;458:18818",
+          "text": "Carousel"
+        },
+        {
+          "id": "I171:18240;458:18814",
+          "text": "End to end banner"
+        },
+        {
+          "id": "I171:18241;458:18818",
+          "text": "Full Width"
+        },
+        {
+          "id": "I171:18243;458:18852",
+          "text": "Video Content"
+        },
+        {
+          "id": "I171:18244;458:18854",
+          "text": "Video"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18572",
+      "parent": "Filled card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18574;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18575;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18576;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I171:18577;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18579;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18580;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18581;458:18854",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18582;458:18854",
+          "text": "color.surface"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18470",
+      "parent": "Elevated card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18472;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I171:18473;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18474;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18475;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18476;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18478;458:18852",
+          "text": "1. Hovered"
+        },
+        {
+          "id": "I171:18479;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18480;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18481;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18482;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18484;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18485;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18486;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18487;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I171:18488;458:18814",
+          "text": "opacity.8"
+        },
+        {
+          "id": "I171:18490;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18491;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18492;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18493;458:18818",
+          "text": "Level 2"
+        },
+        {
+          "id": "I171:18494;458:18818",
+          "text": "elevation.2"
+        },
+        {
+          "id": "I171:18496;458:18852",
+          "text": "2. Focused"
+        },
+        {
+          "id": "I171:18497;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18498;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18499;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18500;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18502;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18503;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18504;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18505;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18506;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18508;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18509;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18510;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18511;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I171:18512;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I171:18514;458:18852",
+          "text": "3. Pressed"
+        },
+        {
+          "id": "I171:18515;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18516;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18517;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18518;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18520;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18521;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18522;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18523;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18524;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18526;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18527;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18528;458:18854",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18529;458:18854",
+          "text": "Level 1"
+        },
+        {
+          "id": "I171:18530;458:18854",
+          "text": "elevation.1"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18756",
+      "parent": "Outlined card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18758;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I171:18759;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18760;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18761;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18762;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18764;458:18852",
+          "text": "1. Hovered"
+        },
+        {
+          "id": "I171:18765;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18766;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18767;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18768;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18770;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18771;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18772;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18773;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I171:18774;458:18814",
+          "text": "opacity.8"
+        },
+        {
+          "id": "I171:18776;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18777;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18778;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18779;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I171:18780;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I171:18782;458:18852",
+          "text": "2. Focused"
+        },
+        {
+          "id": "I171:18783;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18784;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18785;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18786;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18788;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18789;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18790;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18791;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18792;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18794;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18795;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18796;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18797;458:18818",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18798;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I171:18800;458:18852",
+          "text": "3. Pressed"
+        },
+        {
+          "id": "I171:18801;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18802;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18803;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18804;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18806;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18807;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18808;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18809;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18810;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18812;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18813;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18814;458:18854",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18815;458:18854",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18816;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18216",
+      "parent": "Takeaways",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18218;458:18764",
+          "text": "Type"
+        },
+        {
+          "id": "I171:18219;458:18766",
+          "text": "Naming"
+        },
+        {
+          "id": "I171:18221;458:18814",
+          "text": "Has image and copy embeded"
+        },
+        {
+          "id": "I171:18222;458:18818",
+          "text": "Image Only"
+        },
+        {
+          "id": "I171:18224;458:18814",
+          "text": "Image + Title and Desc"
+        },
+        {
+          "id": "I171:18225;458:18818",
+          "text": "With Copy"
+        },
+        {
+          "id": "I171:18227;458:18852",
+          "text": "Image + Title and Desc + CTA"
+        },
+        {
+          "id": "I171:18228;458:18854",
+          "text": "All rounder"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18689",
+      "parent": "Token Table",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18691;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18692;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18693;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18694;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18696;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18697;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18698;458:18818",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18699;458:18818",
+          "text": "color.surface"
+        },
+        {
+          "id": "I171:18701;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18702;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18703;458:18818",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18704;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I171:18706;458:18852",
+          "text": "2. Outline"
+        },
+        {
+          "id": "I171:18707;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I171:18708;458:18818",
+          "text": "Outline"
+        },
+        {
+          "id": "I171:18709;458:18818",
+          "text": "color.outline"
+        },
+        {
+          "id": "I171:18711;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18712;458:18854",
+          "text": "Outline size"
+        },
+        {
+          "id": "I171:18713;458:18854",
+          "text": "1px"
+        },
+        {
+          "id": "I171:18714;458:18854",
+          "text": "border-width.extrasmall"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18605",
+      "parent": "Filled card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18607;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I171:18608;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18609;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18610;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18611;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18613;458:18852",
+          "text": "1. Hovered"
+        },
+        {
+          "id": "I171:18614;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18615;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18616;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18617;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18619;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18620;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18621;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18622;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I171:18623;458:18814",
+          "text": "opacity.8"
+        },
+        {
+          "id": "I171:18625;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18626;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18627;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18628;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I171:18629;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I171:18631;458:18852",
+          "text": "2. Focused"
+        },
+        {
+          "id": "I171:18632;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18633;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18634;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18635;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18637;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18638;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18639;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18640;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18641;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18643;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I171:18644;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I171:18645;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18646;458:18818",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18647;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I171:18649;458:18852",
+          "text": "3. Pressed"
+        },
+        {
+          "id": "I171:18650;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I171:18651;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I171:18652;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18653;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18655;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18656;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18657;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I171:18658;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I171:18659;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I171:18661;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18662;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I171:18663;458:18854",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18664;458:18854",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18665;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18553",
+      "parent": "Token Table",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18555;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18556;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18557;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I171:18558;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18560;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18561;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18562;458:18818",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18563;458:18818",
+          "text": "color.surface"
+        },
+        {
+          "id": "I171:18565;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18566;458:18854",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18567;458:18854",
+          "text": "Level 0"
+        },
+        {
+          "id": "I171:18568;458:18854",
+          "text": "-"
+        }
+      ]
+    },
+    {
+      "pageId": "242:34930",
+      "nodeId": "245:36936",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:36938;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:36939;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:36940;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:36942;458:18814",
+          "text": "Shape"
+        },
+        {
+          "id": "I245:36943;458:18818",
+          "text": "4px corner radius"
+        },
+        {
+          "id": "I245:36944;458:18818",
+          "text": "border-radius.small"
+        },
+        {
+          "id": "I245:36946;458:18814",
+          "text": "Width"
+        },
+        {
+          "id": "I245:36947;458:18818",
+          "text": "dynamic based on labels, but fixed (equal segments)"
+        },
+        {
+          "id": "I245:36948;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:36950;458:18814",
+          "text": "Height"
+        },
+        {
+          "id": "I245:36951;458:18818",
+          "text": "32px"
+        },
+        {
+          "id": "I245:36952;458:18818",
+          "text": "size.800"
+        },
+        {
+          "id": "I245:36954;458:18814",
+          "text": "Label text alignment"
+        },
+        {
+          "id": "I245:36955;458:18818",
+          "text": "Center-aligned"
+        },
+        {
+          "id": "I245:36956;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:36958;458:18852",
+          "text": "Left/right padding"
+        },
+        {
+          "id": "I245:36959;458:18854",
+          "text": "16px"
+        },
+        {
+          "id": "I245:36960;458:18854",
+          "text": "spacing.16"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18718",
+      "parent": "Outlined card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18720;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18721;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18722;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I171:18723;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18725;458:18814",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18726;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18727;458:18818",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18728;458:18818",
+          "text": "color.surface"
+        },
+        {
+          "id": "I171:18730;458:18852",
+          "text": "2. Outline"
+        },
+        {
+          "id": "I171:18731;458:18854",
+          "text": "Outline color"
+        },
+        {
+          "id": "I171:18732;458:18854",
+          "text": "Outline"
+        },
+        {
+          "id": "I171:18733;458:18854",
+          "text": "color.outline"
+        }
+      ]
+    },
+    {
+      "pageId": "245:52051",
+      "nodeId": "245:53054",
+      "parent": "Layout",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:53056;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I245:53057;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I245:53058;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:53060;458:18814",
+          "text": "Container height"
+        },
+        {
+          "id": "I245:53061;458:18818",
+          "text": "40px"
+        },
+        {
+          "id": "I245:53062;458:18814",
+          "text": "size.1000"
+        },
+        {
+          "id": "I245:53064;458:18814",
+          "text": "Container width"
+        },
+        {
+          "id": "I245:53065;458:18818",
+          "text": "Dynamic width (with left, right margin 16px)"
+        },
+        {
+          "id": "I245:53066;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:53068;458:18814",
+          "text": "Left/right padding"
+        },
+        {
+          "id": "I245:53069;458:18818",
+          "text": "12px"
+        },
+        {
+          "id": "I245:53070;458:18814",
+          "text": "spacing.12"
+        },
+        {
+          "id": "I245:53072;458:18814",
+          "text": "Top/bottom padding"
+        },
+        {
+          "id": "I245:53073;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I245:53074;458:18814",
+          "text": "spacing.8"
+        },
+        {
+          "id": "I245:53076;458:18814",
+          "text": "Icon alignment"
+        },
+        {
+          "id": "I245:53077;458:18818",
+          "text": "Vertically center"
+        },
+        {
+          "id": "I245:53078;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I245:53080;458:18814",
+          "text": "Space between Icon & Placeholder"
+        },
+        {
+          "id": "I245:53081;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I245:53082;458:18814",
+          "text": "spacing.8"
+        },
+        {
+          "id": "I245:53084;458:18814",
+          "text": "Container shape"
+        },
+        {
+          "id": "I245:53085;458:18818",
+          "text": "4px border radius"
+        },
+        {
+          "id": "I245:53086;458:18814",
+          "text": "border-radius.small"
+        },
+        {
+          "id": "I245:53088;458:18852",
+          "text": "Space between Input area & Close Icon"
+        },
+        {
+          "id": "I245:53089;458:18854",
+          "text": "8px"
+        },
+        {
+          "id": "I245:53090;458:18854",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18427",
+      "parent": "Elevated card",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18429;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18430;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18431;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18432;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18434;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18435;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18436;458:18818",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18437;458:18818",
+          "text": "color.surface"
+        },
+        {
+          "id": "I171:18439;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18440;458:18818",
+          "text": "Surface tint color"
+        },
+        {
+          "id": "I171:18441;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18442;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18444;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18445;458:18854",
+          "text": "Surface tint opacity"
+        },
+        {
+          "id": "I171:18446;458:18854",
+          "text": "5%"
+        },
+        {
+          "id": "I171:18447;458:18814",
+          "text": "opacity.5"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18245",
+      "parent": "Takeaways",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18247;458:18764",
+          "text": "Aspect Ratio"
+        },
+        {
+          "id": "I171:18248;458:18766",
+          "text": "Naming"
+        },
+        {
+          "id": "I171:18249;458:18766",
+          "text": "Dimensions"
+        },
+        {
+          "id": "I171:18251;458:18814",
+          "text": "4:1"
+        },
+        {
+          "id": "I171:18252;458:18818",
+          "text": "Horizontal small"
+        },
+        {
+          "id": "I171:18253;458:18818",
+          "text": "1024x256"
+        },
+        {
+          "id": "I171:18255;458:18814",
+          "text": "2:1"
+        },
+        {
+          "id": "I171:18256;458:18818",
+          "text": "Horizontal medium"
+        },
+        {
+          "id": "I171:18257;458:18818",
+          "text": "1024x512"
+        },
+        {
+          "id": "I171:18259;458:18814",
+          "text": "16:9"
+        },
+        {
+          "id": "I171:18260;458:18818",
+          "text": "Horizontal large"
+        },
+        {
+          "id": "I171:18261;458:18818",
+          "text": "1024x576"
+        },
+        {
+          "id": "I171:18263;458:18814",
+          "text": "4:3"
+        },
+        {
+          "id": "I171:18264;458:18818",
+          "text": "Horizontal x-large"
+        },
+        {
+          "id": "I171:18265;458:18818",
+          "text": "1024x768"
+        },
+        {
+          "id": "I171:18267;458:18814",
+          "text": "1:1"
+        },
+        {
+          "id": "I171:18268;458:18818",
+          "text": "Square"
+        },
+        {
+          "id": "I171:18269;458:18818",
+          "text": "1024x1024"
+        },
+        {
+          "id": "I171:18271;458:18814",
+          "text": "3:4"
+        },
+        {
+          "id": "I171:18272;458:18818",
+          "text": "Vertical small"
+        },
+        {
+          "id": "I171:18273;458:18818",
+          "text": "768x1024"
+        },
+        {
+          "id": "I171:18275;458:18852",
+          "text": "9:16"
+        },
+        {
+          "id": "I171:18276;458:18854",
+          "text": "Vertical large"
+        },
+        {
+          "id": "I171:18277;458:18854",
+          "text": "576x1024"
+        }
+      ]
+    },
+    {
+      "pageId": "245:52051",
+      "nodeId": "245:52863",
+      "parent": "Structure",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I245:52865;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I245:52866;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I245:52867;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I245:52868;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I245:52871;458:18814",
+          "text": "1. Container"
+        },
+        {
+          "id": "I245:52872;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:52873;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I245:52874;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I245:52876;458:18814",
+          "text": "\u200b"
+        },
+        {
+          "id": "I245:52877;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I245:52878;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I245:52879;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I245:52881;458:18814",
+          "text": "\u200b"
+        },
+        {
+          "id": "I245:52882;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I245:52883;458:18818",
+          "text": "Outline"
+        },
+        {
+          "id": "I245:52884;458:18818",
+          "text": "color.outline"
+        },
+        {
+          "id": "I245:52886;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I245:52887;458:18818",
+          "text": "Outline opacity"
+        },
+        {
+          "id": "I245:52888;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I245:52889;458:18814",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I245:52902;458:18852",
+          "text": "2. Icon"
+        },
+        {
+          "id": "I245:52903;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:52904;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I245:52905;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I245:52907;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I245:52908;458:18818",
+          "text": "Size"
+        },
+        {
+          "id": "I245:52909;458:18818",
+          "text": "16"
+        },
+        {
+          "id": "I245:52910;458:18814",
+          "text": "size.400"
+        },
+        {
+          "id": "I245:52913;458:18852",
+          "text": "3. Placeholder"
+        },
+        {
+          "id": "I245:52914;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:52915;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I245:52916;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I245:52918;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I245:52919;458:18854",
+          "text": "Typography"
+        },
+        {
+          "id": "I245:52920;458:18854",
+          "text": "Body3 regular"
+        },
+        {
+          "id": "I245:52921;458:18854",
+          "text": "body.x-small-regular"
+        },
+        {
+          "id": "I245:52924;458:18852",
+          "text": "4. Input Text"
+        },
+        {
+          "id": "I245:52925;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I245:52926;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I245:52927;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I245:52929;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I245:52930;458:18854",
+          "text": "Typography"
+        },
+        {
+          "id": "I245:52931;458:18854",
+          "text": "Body3 regular"
+        },
+        {
+          "id": "I245:52932;458:18854",
+          "text": "body.x-small-regular"
+        },
+        {
+          "id": "I245:52934;458:18852",
+          "text": "5. Icon Button"
+        },
+        {
+          "id": "I245:52935;458:18854",
+          "text": "Size"
+        },
+        {
+          "id": "I245:52936;458:18854",
+          "text": "24"
+        },
+        {
+          "id": "I245:52937;458:18854",
+          "text": "size.600"
+        }
+      ]
+    },
+    {
+      "pageId": "144:6142",
+      "nodeId": "171:18397",
+      "parent": "Token Table",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I171:18399;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I171:18400;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I171:18401;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I171:18402;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I171:18405;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I171:18406;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I171:18407;458:18818",
+          "text": "Surface"
+        },
+        {
+          "id": "I171:18408;458:18818",
+          "text": "color.surface"
+        },
+        {
+          "id": "I171:18410;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18411;458:18818",
+          "text": "Surface tint color"
+        },
+        {
+          "id": "I171:18412;458:18818",
+          "text": "On surface high contrast"
+        },
+        {
+          "id": "I171:18413;458:18818",
+          "text": "color.on-surface-high-contrast"
+        },
+        {
+          "id": "I171:18415;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18416;458:18818",
+          "text": "Surface tint opacity"
+        },
+        {
+          "id": "I171:18417;458:18818",
+          "text": "5%"
+        },
+        {
+          "id": "I171:18418;458:18814",
+          "text": "opacity.5"
+        },
+        {
+          "id": "I171:18420;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I171:18421;458:18854",
+          "text": "Elevation"
+        },
+        {
+          "id": "I171:18422;458:18854",
+          "text": "Level 1"
+        },
+        {
+          "id": "I171:18423;458:18854",
+          "text": "elevation.1"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36897",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36899;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:36900;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:36901;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:36902;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36905;458:18852",
+          "text": "1. Icon"
+        },
+        {
+          "id": "I194:36906;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36907;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36908;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36910;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36911;458:18818",
+          "text": "Size"
+        },
+        {
+          "id": "I194:36912;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I194:36913;458:18818",
+          "text": "size.600"
+        },
+        {
+          "id": "I194:36916;458:18852",
+          "text": "2.  Label text"
+        },
+        {
+          "id": "I194:36917;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36918;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:36919;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:36921;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36922;458:18818",
+          "text": "Typography"
+        },
+        {
+          "id": "I194:36923;458:18818",
+          "text": "Label regular"
+        },
+        {
+          "id": "I194:36924;458:18854",
+          "text": "label.x-small-regular"
+        },
+        {
+          "id": "I194:36927;458:18852",
+          "text": "3. Touch Area"
+        },
+        {
+          "id": "I194:36928;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36929;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36930;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36932;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:36933;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36934;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:36935;458:18818",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I194:36937;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:36938;458:18818",
+          "text": "Outline Color"
+        },
+        {
+          "id": "I194:36939;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36940;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36942;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:36943;458:18818",
+          "text": "Outline Opacity"
+        },
+        {
+          "id": "I194:36944;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:36945;458:18818",
+          "text": "outline-opacity.12"
+        },
+        {
+          "id": "I194:36947;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36948;458:18818",
+          "text": "Size"
+        },
+        {
+          "id": "I194:36949;458:18818",
+          "text": "40px"
+        },
+        {
+          "id": "I194:36950;458:18818",
+          "text": "size.1000"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36725",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36727;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:36728;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:36729;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:36730;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:36731;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36733;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:36734;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36735;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36736;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:36737;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:36739;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36740;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36741;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36742;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36743;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36745;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36746;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36747;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36748;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36749;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36751;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:36752;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36753;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36754;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36755;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36757;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36758;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36759;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36760;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36761;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:36763;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36764;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36765;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36766;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36767;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36769;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36770;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36771;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36772;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36773;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:36775;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36776;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36777;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36778;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36779;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36781;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36782;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36783;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36784;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36785;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:36787;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:36788;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36789;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:36790;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36791;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36793;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36794;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:36795;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:36796;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36797;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:36799;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36800;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36801;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:36802;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:36803;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:36805;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36806;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36807;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36808;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36809;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36811;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36812;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36813;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36814;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36815;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36399",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36401;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:36402;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:36403;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:36404;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36407;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I194:36408;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I194:36409;458:18818",
+          "text": "Outline"
+        },
+        {
+          "id": "I194:36410;458:18818",
+          "text": "color.outline"
+        },
+        {
+          "id": "I194:36413;458:18852",
+          "text": "2.  Label text (unpopulated)"
+        },
+        {
+          "id": "I194:36414;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36415;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36416;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36419;458:18852",
+          "text": "3. Label text (populated)"
+        },
+        {
+          "id": "I194:36420;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36421;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36422;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36425;458:18852",
+          "text": "4. Trailing icon(optional)"
+        },
+        {
+          "id": "I194:36426;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36427;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36428;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36431;458:18852",
+          "text": "5. Container (focused)"
+        },
+        {
+          "id": "I194:36432;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I194:36433;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36434;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36437;458:18852",
+          "text": "6. Caret"
+        },
+        {
+          "id": "I194:36438;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36439;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36440;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36443;458:18852",
+          "text": "7. Input text"
+        },
+        {
+          "id": "I194:36444;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36445;458:18818",
+          "text": "On background"
+        },
+        {
+          "id": "I194:36446;458:18818",
+          "text": "color.on-background"
+        },
+        {
+          "id": "I194:36449;458:18852",
+          "text": "8. Supporting text (optional)"
+        },
+        {
+          "id": "I194:36450;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36451;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36452;458:18818",
+          "text": "color.on-surface"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:34982",
+      "parent": "Color ",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:34984;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:34985;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:34986;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:34987;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:35022;458:18852",
+          "text": "Icon"
+        },
+        {
+          "id": "I194:35023;458:18818",
+          "text": "Color (Selected)"
+        },
+        {
+          "id": "I194:35024;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:35025;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:35027;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:35028;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:35029;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:35030;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:35033;458:18852",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35034;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35035;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:35036;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:35039;458:18852",
+          "text": "Touch Area"
+        },
+        {
+          "id": "I194:35040;458:18818",
+          "text": "Color (Selected)"
+        },
+        {
+          "id": "I194:35041;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:35042;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:35044;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:35045;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:35046;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:35047;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:35049;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:35050;458:18818",
+          "text": "Outline Color (Selected)"
+        },
+        {
+          "id": "I194:35051;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:35052;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:35054;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:35055;458:18818",
+          "text": "Outline Color (Unselected)"
+        },
+        {
+          "id": "I194:35056;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:35057;458:18818",
+          "text": "color.on-background-high-contrast"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:37169",
+      "parent": "Color ",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:37171;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:37172;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:37173;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:37174;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:37209;458:18852",
+          "text": "Icon"
+        },
+        {
+          "id": "I194:37210;458:18818",
+          "text": "Color (Selected)"
+        },
+        {
+          "id": "I194:37211;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:37212;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:37214;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:37215;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:37216;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:37217;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:37220;458:18852",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37221;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37222;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:37223;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:37226;458:18852",
+          "text": "Touch Area"
+        },
+        {
+          "id": "I194:37227;458:18818",
+          "text": "Color (Selected)"
+        },
+        {
+          "id": "I194:37228;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:37229;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:37231;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:37232;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:37233;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:37234;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:37236;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:37237;458:18818",
+          "text": "Outline Color (Selected)"
+        },
+        {
+          "id": "I194:37238;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:37239;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:37241;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:37242;458:18818",
+          "text": "Outline Color (Unselected)"
+        },
+        {
+          "id": "I194:37243;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:37244;458:18818",
+          "text": "color.on-background-high-contrast"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36816",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36818;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I194:36819;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I194:36820;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36822;458:18814",
+          "text": "Icon container"
+        },
+        {
+          "id": "I194:36823;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I194:36824;458:18814",
+          "text": "size.600"
+        },
+        {
+          "id": "I194:36826;458:18814",
+          "text": "Padding between icons and text"
+        },
+        {
+          "id": "I194:36827;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I194:36828;458:18814",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:35400",
+      "parent": "States",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:35402;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:35403;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:35404;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:35405;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:35406;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:35408;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:35409;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35410;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35411;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:35412;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:35414;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35415;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35416;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35417;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35418;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35420;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:35421;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35422;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35423;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35424;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35426;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:35427;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35428;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35429;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35430;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35432;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35433;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35434;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35435;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35436;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:35438;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35439;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35440;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35441;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35442;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35444;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35445;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35446;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35447;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35448;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:35450;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35451;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35452;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35453;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35454;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35456;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:35457;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35458;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35459;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35460;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:35462;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:35463;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35464;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:35465;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35466;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35468;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35469;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:35470;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:35471;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35472;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:35474;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35475;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35476;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:35477;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:35478;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:35480;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35481;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35482;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35483;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35484;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35486;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35487;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35488;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35489;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35490;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:35191",
+      "parent": "Color ",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:35193;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:35194;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:35195;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:35196;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:35197;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:35199;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:35200;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35201;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35202;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:35203;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:35205;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35206;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35207;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35208;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35209;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35211;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:35212;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35213;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35214;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35215;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35217;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:35218;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35219;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35220;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35221;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35223;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35224;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35225;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35226;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35227;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:35229;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35230;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35231;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35232;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35233;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35235;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35236;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35237;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35238;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35239;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:35241;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35242;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35243;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35244;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:35245;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:35247;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:35248;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35249;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:35250;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35251;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:35253;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:35254;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:35255;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:35256;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35257;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35259;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35260;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:35261;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:35262;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:35263;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:35265;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35266;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:35267;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:35268;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:35269;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:35271;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35272;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:35273;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35274;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35275;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:35277;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:35278;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:35279;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:35280;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:35281;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:34859",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:34861;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:34862;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:34863;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:34864;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:34865;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:34867;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:34868;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:34869;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34870;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:34871;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:34873;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34874;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:34875;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34876;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:34877;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:34879;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:34880;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:34881;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34882;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:34883;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:34885;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:34886;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:34887;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34888;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:34889;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:34891;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34892;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:34893;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:34894;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:34895;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:34897;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34898;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:34899;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34900;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:34901;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:34903;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34904;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:34905;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:34906;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:34907;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:34909;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34910;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:34911;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34912;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:34913;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:34915;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:34916;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:34917;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:34918;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:34919;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:34921;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:34922;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:34923;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:34924;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:34925;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:34927;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34928;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:34929;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:34930;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:34931;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:34933;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34934;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:34935;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:34936;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:34937;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:34939;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34940;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:34941;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34942;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:34943;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:34945;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:34946;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:34947;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:34948;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:34949;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36625",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36627;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:36628;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:36629;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:36630;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36633;458:18852",
+          "text": "1. Container"
+        },
+        {
+          "id": "I194:36634;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I194:36635;458:18818",
+          "text": "Outline"
+        },
+        {
+          "id": "I194:36636;458:18818",
+          "text": "color.outline"
+        },
+        {
+          "id": "I194:36639;458:18852",
+          "text": "2.  Label text (unpopulated)"
+        },
+        {
+          "id": "I194:36640;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36641;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36642;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36645;458:18852",
+          "text": "3. Label text (populated)"
+        },
+        {
+          "id": "I194:36646;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36647;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36648;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36651;458:18852",
+          "text": "4. Trailing icon(optional)"
+        },
+        {
+          "id": "I194:36652;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36653;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36654;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36657;458:18852",
+          "text": "5. Container (focused)"
+        },
+        {
+          "id": "I194:36658;458:18818",
+          "text": "Outline color"
+        },
+        {
+          "id": "I194:36659;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36660;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36663;458:18852",
+          "text": "6. Caret"
+        },
+        {
+          "id": "I194:36664;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36665;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:36666;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:36669;458:18852",
+          "text": "7. Input text"
+        },
+        {
+          "id": "I194:36670;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36671;458:18818",
+          "text": "On background"
+        },
+        {
+          "id": "I194:36672;458:18818",
+          "text": "color.on-background"
+        },
+        {
+          "id": "I194:36675;458:18852",
+          "text": "8. Supporting text (optional)"
+        },
+        {
+          "id": "I194:36676;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36677;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36678;458:18818",
+          "text": "color.on-surface"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36997",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36999;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:37000;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:37001;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:37002;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:37003;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:37005;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:37006;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37007;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37008;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:37009;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:37011;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37012;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37013;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37014;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37015;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37017;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37018;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37019;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37020;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37021;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37023;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:37024;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37025;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37026;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37027;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37029;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37030;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37031;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37032;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37033;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:37035;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37036;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37037;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37038;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37039;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37041;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37042;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37043;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37044;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37045;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37047;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37048;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37049;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37050;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37051;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37053;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37054;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37055;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37056;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37057;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37059;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:37060;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37061;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:37062;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37063;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37065;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37066;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:37067;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:37068;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37069;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:37071;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37072;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37073;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:37074;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:37075;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:37077;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37078;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37079;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37080;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37081;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37083;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37084;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37085;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37086;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37087;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:35491",
+      "parent": "States",
+      "status": "sparse-metadata-needs-child-read",
+      "cells": []
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:36499",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:36501;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:36502;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:36503;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:36504;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:36505;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:36507;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:36508;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36509;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36510;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:36511;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:36513;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36514;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36515;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36516;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36517;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36519;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36520;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36521;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36522;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36523;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36525;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:36526;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36527;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36528;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36529;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36531;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36532;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36533;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36534;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36535;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:36537;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36538;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36539;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36540;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36541;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36543;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36544;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36545;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36546;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36547;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:36549;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36550;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36551;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36552;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:36553;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:36555;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:36556;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36557;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:36558;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36559;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:36561;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:36562;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:36563;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:36564;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36565;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36567;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36568;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:36569;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:36570;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:36571;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:36573;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36574;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:36575;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:36576;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:36577;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:36579;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36580;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:36581;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36582;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36583;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:36585;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:36586;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:36587;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:36588;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:36589;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:37587",
+      "parent": "States",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:37589;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:37590;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:37591;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:37592;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:37593;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:37595;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:37596;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37597;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37598;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:37599;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:37601;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37602;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37603;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37604;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37605;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37607;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37608;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37609;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37610;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37611;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37613;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:37614;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37615;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37616;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37617;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37619;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37620;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37621;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37622;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37623;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:37625;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37626;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37627;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37628;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37629;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37631;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37632;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37633;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37634;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37635;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37637;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37638;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37639;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37640;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37641;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37643;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37644;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37645;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37646;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37647;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37649;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:37650;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37651;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:37652;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37653;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37655;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37656;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:37657;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:37658;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37659;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:37661;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37662;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37663;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:37664;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:37665;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:37667;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37668;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37669;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37670;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37671;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37673;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37674;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37675;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37676;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37677;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:37378",
+      "parent": "Color ",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:37380;458:18764",
+          "text": "State"
+        },
+        {
+          "id": "I194:37381;458:18766",
+          "text": "Element"
+        },
+        {
+          "id": "I194:37382;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:37383;458:18766",
+          "text": "Role"
+        },
+        {
+          "id": "I194:37384;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:37386;458:18852",
+          "text": "1. Enabled"
+        },
+        {
+          "id": "I194:37387;458:18818",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37388;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37389;458:18818",
+          "text": "Primary container"
+        },
+        {
+          "id": "I194:37390;458:18818",
+          "text": "color.primary-container"
+        },
+        {
+          "id": "I194:37392;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37393;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37394;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37395;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37396;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37398;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37399;458:18818",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37400;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37401;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37402;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37404;458:18852",
+          "text": "2. Disabled"
+        },
+        {
+          "id": "I194:37405;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37406;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37407;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37408;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37410;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37411;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37412;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37413;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37414;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:37416;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37417;458:18854",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37418;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37419;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37420;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37422;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37423;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37424;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37425;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37426;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37428;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37429;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37430;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37431;458:18818",
+          "text": "On surface"
+        },
+        {
+          "id": "I194:37432;458:18818",
+          "text": "color.on-surface"
+        },
+        {
+          "id": "I194:37434;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:37435;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37436;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:37437;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37438;458:18818",
+          "text": "38%"
+        },
+        {
+          "id": "I194:37440;458:18852",
+          "text": "3. Hovered"
+        },
+        {
+          "id": "I194:37441;458:18854",
+          "text": "Container"
+        },
+        {
+          "id": "I194:37442;458:18818",
+          "text": "State layer color"
+        },
+        {
+          "id": "I194:37443;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37444;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37446;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37447;458:18854",
+          "text": ""
+        },
+        {
+          "id": "I194:37448;458:18818",
+          "text": "State layer opacity"
+        },
+        {
+          "id": "I194:37449;458:18818",
+          "text": "-"
+        },
+        {
+          "id": "I194:37450;458:18818",
+          "text": "8%"
+        },
+        {
+          "id": "I194:37452;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37453;458:18818",
+          "text": ""
+        },
+        {
+          "id": "I194:37454;458:18818",
+          "text": "Elevation"
+        },
+        {
+          "id": "I194:37455;458:18818",
+          "text": "Level 1"
+        },
+        {
+          "id": "I194:37456;458:18818",
+          "text": "elevation.1"
+        },
+        {
+          "id": "I194:37458;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37459;458:18818",
+          "text": "Label text"
+        },
+        {
+          "id": "I194:37460;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37461;458:18818",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37462;458:18818",
+          "text": "color.on-primary-container"
+        },
+        {
+          "id": "I194:37464;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:37465;458:18854",
+          "text": "Icon (optional)"
+        },
+        {
+          "id": "I194:37466;458:18854",
+          "text": "Color"
+        },
+        {
+          "id": "I194:37467;458:18854",
+          "text": "On primary container"
+        },
+        {
+          "id": "I194:37468;458:18854",
+          "text": "color.on-primary-container"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:38692",
+      "parent": "Filled buttons",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:38930",
+      "parent": "Filled buttons",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:38783",
+      "parent": "Filled buttons",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:39604",
+      "parent": "States",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:38592",
+      "parent": "Filled buttons",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:38830",
+      "parent": "Filled buttons",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:39811",
+      "parent": "Layout",
+      "status": "blocked-figma-tool-call-limit",
+      "cells": [],
+      "error": "You've reached the Figma MCP tool call limit for your Full seat on the Professional plan. Upgrade your seat or plan for more tool calls."
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:37678",
+      "parent": "States",
+      "status": "sparse-metadata-needs-child-read",
+      "cells": []
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:39021",
+      "parent": "Filled buttons",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:39023;458:18764",
+          "text": "Layout attribute"
+        },
+        {
+          "id": "I194:39024;458:18766",
+          "text": "Value"
+        },
+        {
+          "id": "I194:39025;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:39027;458:18814",
+          "text": "Icon container"
+        },
+        {
+          "id": "I194:39028;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I194:39029;458:18814",
+          "text": "size.600"
+        },
+        {
+          "id": "I194:39031;458:18814",
+          "text": "Padding between icons and text"
+        },
+        {
+          "id": "I194:39032;458:18818",
+          "text": "8px"
+        },
+        {
+          "id": "I194:39033;458:18814",
+          "text": "spacing.8"
+        }
+      ]
+    },
+    {
+      "pageId": "144:15458",
+      "nodeId": "194:39433",
+      "parent": "Structure",
+      "status": "written-cells-read",
+      "cells": [
+        {
+          "id": "I194:39435;458:18764",
+          "text": "Element"
+        },
+        {
+          "id": "I194:39436;458:18766",
+          "text": "Design attribute"
+        },
+        {
+          "id": "I194:39437;458:18766",
+          "text": "Role/Value"
+        },
+        {
+          "id": "I194:39438;458:18766",
+          "text": "Token"
+        },
+        {
+          "id": "I194:39441;458:18852",
+          "text": "1. Icon"
+        },
+        {
+          "id": "I194:39442;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:39443;458:18818",
+          "text": "Outline"
+        },
+        {
+          "id": "I194:39444;458:18818",
+          "text": "color.outline"
+        },
+        {
+          "id": "I194:39446;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:39447;458:18818",
+          "text": "Color (Selected / Indeterminate)"
+        },
+        {
+          "id": "I194:39448;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:39449;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:39451;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:39452;458:18818",
+          "text": "Shape"
+        },
+        {
+          "id": "I194:39453;458:18818",
+          "text": "4px corner radius"
+        },
+        {
+          "id": "I194:39454;458:18818",
+          "text": "border-radius.small"
+        },
+        {
+          "id": "I194:39456;458:18814",
+          "text": ""
+        },
+        {
+          "id": "I194:39457;458:18818",
+          "text": "Size"
+        },
+        {
+          "id": "I194:39458;458:18818",
+          "text": "24px"
+        },
+        {
+          "id": "I194:39459;458:18818",
+          "text": "size.600"
+        },
+        {
+          "id": "I194:39462;458:18852",
+          "text": "2.  Label text"
+        },
+        {
+          "id": "I194:39463;458:18818",
+          "text": "Color"
+        },
+        {
+          "id": "I194:39464;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:39465;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:39467;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:39468;458:18818",
+          "text": "Typography"
+        },
+        {
+          "id": "I194:39469;458:18818",
+          "text": "Label regular"
+        },
+        {
+          "id": "I194:39470;458:18854",
+          "text": "label.x-small-regular"
+        },
+        {
+          "id": "I194:39473;458:18852",
+          "text": "3. Touch Area"
+        },
+        {
+          "id": "I194:39474;458:18818",
+          "text": "Color (Unselected)"
+        },
+        {
+          "id": "I194:39475;458:18818",
+          "text": "On background high contrast"
+        },
+        {
+          "id": "I194:39476;458:18818",
+          "text": "color.on-background-high-contrast"
+        },
+        {
+          "id": "I194:39478;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:39479;458:18818",
+          "text": "Color (Selected / Indeterminate)"
+        },
+        {
+          "id": "I194:39480;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:39481;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:39483;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:39484;458:18818",
+          "text": "Opacity"
+        },
+        {
+          "id": "I194:39485;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:39486;458:18818",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I194:39488;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:39489;458:18818",
+          "text": "Outline Color (Unselected)"
+        },
+        {
+          "id": "I194:39490;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:39491;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:39493;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:39494;458:18818",
+          "text": "Outline Color (Selected / Indeterminate)"
+        },
+        {
+          "id": "I194:39495;458:18818",
+          "text": "Secondary"
+        },
+        {
+          "id": "I194:39496;458:18818",
+          "text": "color.secondary"
+        },
+        {
+          "id": "I194:39498;458:18852",
+          "text": "\u200b"
+        },
+        {
+          "id": "I194:39499;458:18818",
+          "text": "Outline Opacity"
+        },
+        {
+          "id": "I194:39500;458:18818",
+          "text": "12%"
+        },
+        {
+          "id": "I194:39501;458:18818",
+          "text": "opacity.12"
+        },
+        {
+          "id": "I194:39503;458:18852",
+          "text": ""
+        },
+        {
+          "id": "I194:39504;458:18854",
+          "text": "Size"
+        },
+        {
+          "id": "I194:39505;458:18854",
+          "text": "40px"
+        },
+        {
+          "id": "I194:39506;458:18854",
+          "text": "size.1000"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "assigned": 50,
+    "writtenCellsRead": 41,
+    "sparseNeedsChildRead": 2,
+    "blockedByQuota": 7
+  }
+}

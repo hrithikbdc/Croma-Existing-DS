@@ -1,0 +1,1 @@
+export function writtenCss(record){return '\n/* Generated exclusively from evidence/written-values.json. */\n'+record.rules.map(rule=>'/* '+[...(rule.sourceTableIds??[]),...(rule.sourceTextNodeIds??[])].join(', ')+' */\n'+rule.selector+'{'+Object.entries(rule.declarations).map(([k,v])=>k+':'+v).join(';')+'}').join('\n')+'\n';}

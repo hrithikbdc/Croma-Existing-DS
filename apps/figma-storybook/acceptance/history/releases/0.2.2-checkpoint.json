@@ -1,0 +1,32 @@
+{
+  "version": "0.2.2",
+  "date": "2026-11-04",
+  "status": "Optional focus appearance and upright labels verified within focused scope; full visual acceptance incomplete",
+  "sourcePolicy": "Written specifications first; effective same-file context, original artwork and verified saved bindings fill gaps. Cached raw child properties alone do not establish rendered values.",
+  "corrections": [
+    "Audit findings A30.1\u2013A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "User-approved reconsideration: retain the current source focus appearance as default and restore the previous outer outline as an optional alternate.",
+    "FormField and Dropdown expose focusAppearance=\"source\"|\"outer-outline\"; the alternate restores the earlier outer focus outline and Dropdown row rectangle. This is a presentation option, not a new authored Figma variant.",
+    "Fields, floating labels, inputs, Dropdown text and review-story titles explicitly use normal upright font style; source typography sizes, weights, line heights and tracking remain unchanged.",
+    "Added separate Previous focus outline alternate stories for Form Field and Dropdown."
+  ],
+  "checks": [
+    "The two focused field-focus.spec.ts browser regressions passed2/2 in2.6seconds: default single-border field/Dropdown geometry, selection and Space/Escape interaction passed957ms; default and alternate outline presence, upright normal labels/value/input and Option3 selection passed483ms.",
+    "The original working-tree build and TypeScript checks passed for this patch before release preparation.",
+    "The earlier21focused acceptance tests,3consumer regressions and195-story smoke pass belong to frozen0.2.0; they were not rerun for this bounded patch. Earlier checkpoint history, including0.2.1, is preserved.",
+    "Portable installation/build/type checks are recorded separately in this release manifest."
+  ],
+  "remaining": [
+    "Whole Header has only a raster reference; exact editable anatomy remains source-limited.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_49627bc35024819188643bc35c48fa81",
+  "previousRelease": "0.2.1",
+  "previousReleaseCheckpoint": "history/releases/0.2.1-checkpoint.json"
+}

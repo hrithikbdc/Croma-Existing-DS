@@ -1,0 +1,78 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "pageId": "410:85003",
+  "assets": [
+    {
+      "device": "414:82817",
+      "name": "imgScreenChangeMe",
+      "file": "414-82817-imgScreenChangeMe.svg",
+      "bytes": 1298,
+      "sha256": "8981db4da8583b0ec0d601e957e8fa7bc0251c1a5748b228d2e40b33f4c12203"
+    },
+    {
+      "device": "414:82817",
+      "name": "imgScreenBorder",
+      "file": "414-82817-imgScreenBorder.svg",
+      "bytes": 2785,
+      "sha256": "19e9c14f2a7a1c10776906a2d3f63f102c6edb1bbbb881b9083828d474a9069f"
+    },
+    {
+      "device": "418:83949",
+      "name": "imgMac1",
+      "file": "418-83949-imgMac1.png",
+      "bytes": 115272,
+      "sha256": "2e751c3536c1aabe51134f7d871a3b6f3989cdcdd39cc9d6e869efa2612b47b9"
+    },
+    {
+      "device": "418:83949",
+      "name": "imgFrame6",
+      "file": "418-83949-imgFrame6.svg",
+      "bytes": 252,
+      "sha256": "7e165cdc8b47fdc20037e3d27326d7941d77a1e9547151fd41ea79426501941f"
+    }
+  ],
+  "role": "Original source casing/screen/mask assets; QA screenshots excluded from runtime.",
+  "implementedFrames": [
+    {
+      "nodeId": "414:82817",
+      "name": "Phone",
+      "width": 422,
+      "height": 876,
+      "screen": {
+        "nodeId": "414:82821",
+        "x": 16,
+        "y": 16,
+        "width": 390,
+        "height": 844
+      },
+      "officialReference": "screenshot request timed out; high-fidelity source context and original assets available"
+    },
+    {
+      "nodeId": "418:83949",
+      "name": "Desktop",
+      "width": 2131,
+      "height": 1773,
+      "screen": {
+        "nodeId": "414:82853",
+        "x": 106,
+        "y": 133,
+        "width": 1920,
+        "height": 1080
+      },
+      "officialReference": "isolated2131x1773PNG used for QAonly; casing-region comparison mean channel difference0.290829, not pixel-identical"
+    }
+  ],
+  "checks": {
+    "browserCases": 4,
+    "passed": 4,
+    "viewports": [
+      320,
+      1440
+    ],
+    "scope": "Phone/Desktop source-canvas scaling, screen-slot geometry, loaded original assets, no horizontal page overflow, editable input interactions",
+    "physicalBranchesStillMissing": [
+      "414:82823",
+      "414:82828"
+    ]
+  }
+}

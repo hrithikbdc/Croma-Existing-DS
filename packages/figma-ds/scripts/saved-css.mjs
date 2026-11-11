@@ -1,0 +1,1 @@
+export function savedCss(record){return '\n/* Approved same-file saved fallback; unlayered written rules have priority. */\n@layer croma-saved{\n'+(record?.bindings??[]).map(binding=>'/* '+binding.id+' '+binding.source.nodeId+' */\n'+binding.selector+'{'+Object.entries(binding.declarations).map(([key,value])=>key+':'+value).join(';')+'}').join('\n')+'\n}\n';}

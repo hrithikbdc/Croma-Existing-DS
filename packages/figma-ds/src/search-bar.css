@@ -1,0 +1,46 @@
+/* Actual active source245:44147/44166. Written geometry/opacity overrides source light44px. */
+[data-croma-component="Search bar"] {
+  --croma-search-label:var(--croma-source-paint-39-2373);
+  --croma-search-fill:var(--croma-source-paint-141-5420-color-0);
+  --croma-search-outline:var(--croma-source-paint-141-5531-color-0);
+  min-width:0;font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);
+}
+[data-croma-component="Search bar"][data-theme="light"] {
+  --croma-search-label:var(--croma-source-paint-39-2047);
+  --croma-search-fill:var(--croma-source-paint-144-16110-color-0);
+  --croma-search-outline:var(--croma-source-paint-144-8806-color-0);
+}
+[data-croma-component="Search bar"] .croma-spec-search-container {
+  position:relative;display:flex;align-items:center;box-sizing:border-box;min-width:0;min-height:40px;
+  margin-inline:16px;padding:8px 12px;gap:8px;border:0;border-radius:4px;
+  background:color-mix(in srgb,var(--croma-search-fill) 12%,transparent);
+  box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--croma-search-outline) 12%,transparent);
+  color:var(--croma-search-label);
+}
+[data-croma-component="Search bar"] input {
+  appearance:none;box-sizing:border-box;flex:1 1 0;min-width:0;width:100%;height:24px;
+  margin:0;padding:0;border:0;border-radius:0;background:transparent;outline-offset:2px;
+  font-family:inherit;font-size:14px;font-weight:400;line-height:20px;letter-spacing:0;color:var(--croma-search-label);
+}
+[data-croma-component="Search bar"] input::placeholder {color:var(--croma-search-label);opacity:1;}
+[data-croma-component="Search bar"] input::-webkit-search-cancel-button {appearance:none;}
+[data-croma-component="Search bar"] .croma-search-icon {display:flex;align-items:center;justify-content:center;flex:0 0 16px;width:16px;height:16px;color:inherit;}
+[data-croma-component="Search bar"] .croma-search-clear {appearance:none;display:flex;align-items:center;justify-content:center;flex:0 0 auto;min-width:24px;min-height:24px;margin:0;padding:0;border:0;border-radius:0;background:transparent;color:inherit;font:inherit;cursor:pointer;}
+.croma-search-visually-hidden {position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip-path:inset(50%)!important;white-space:nowrap!important;border:0!important;}
+
+/* Approved same-file composition; native original15px leading artwork in16px slot. */
+[data-croma-component="Search bar"] .croma-search-icon>img {display:block;flex-shrink:0;max-width:none;}
+[data-croma-component="Search bar"] .croma-search-clear {box-sizing:border-box;width:24px;height:24px;min-width:24px;min-height:24px;padding:6px;border-radius:12px;background:#444347;color:#c8c5ca;}
+[data-croma-component="Search bar"][data-theme="light"] .croma-search-clear {background:#e4e1e6;color:#444347;}
+.croma-search-clear-slot {display:flex;align-items:center;justify-content:center;flex:0 0 12px;width:12px;height:12px;}
+.croma-search-clear-mask {display:block;flex-shrink:0;width:16px;height:16px;transform:scale(.75);background:currentColor;mask-size:10.6667px 10.6667px;mask-position:center;mask-repeat:no-repeat;-webkit-mask-size:10.6667px 10.6667px;-webkit-mask-position:center;-webkit-mask-repeat:no-repeat;}
+/* Actual cursor141:5406/245:43094 paint; native caret geometry and editing behavior. */
+[data-croma-component="Search bar"][data-theme="dark"] input{caret-color:#cb92ff}
+[data-croma-component="Search bar"][data-theme="light"] input{caret-color:#8800ec}
+
+/* Separate local Search294:72589 verified in live design context. */
+[data-croma-component="Search bar"][data-source-branch="Local"] {width:579px;max-width:100%;color:#191919;}
+[data-croma-component="Search bar"][data-source-branch="Local"] .croma-spec-search-container {min-height:48px;margin:0;padding:12px 16px;gap:8px;border:0;border-radius:14px;background:#fff;box-shadow:none;color:#191919;}
+[data-croma-component="Search bar"][data-source-branch="Local"] input {height:22px;font:400 16px/22px var(--croma-font-family,"Switzer",sans-serif);letter-spacing:0;color:#191919;caret-color:auto;}
+[data-croma-component="Search bar"][data-source-branch="Local"] input::placeholder {color:#191919;opacity:.5;}
+[data-croma-component="Search bar"][data-source-branch="Local"] .croma-search-icon {flex-basis:24px;width:24px;height:24px;}

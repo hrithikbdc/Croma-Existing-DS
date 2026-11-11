@@ -1,0 +1,216 @@
+/* Functional layout rules are implementation mechanics, not inferred Figma design values. */
+.croma-spec-button{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;max-width:100%;min-width:0;cursor:pointer;font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);font-size:var(--croma-label-button-size);font-weight:var(--croma-label-button-weight);line-height:var(--croma-label-button-line-height);letter-spacing:var(--croma-label-button-tracking);padding-block:var(--croma-button-padding-block);border:0}
+.croma-spec-button-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
+.croma-spec-button-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.croma-spec-button[data-type="Filled"]{background:var(--croma-color-primary);color:var(--croma-color-on-primary)}
+.croma-spec-button[data-type="Outlined"]{background:transparent;border-style:solid;border-color:var(--croma-button-outline-colour,var(--croma-color-primary));color:var(--croma-color-primary)}
+.croma-spec-button[data-type="Text"]{background:transparent;color:var(--croma-color-primary)}
+.croma-spec-button[data-type="Icon"]{padding:0;border-radius:50%;background:var(--croma-color-surface-variant);color:var(--croma-color-on-surface-variant)}
+.croma-spec-button[data-type="Segmented"]{background:var(--croma-color-surface-variant);color:var(--croma-color-on-surface-variant)}
+.croma-spec-button[data-type="Segmented"][aria-pressed="true"],.croma-spec-button[data-type="Icon"][aria-pressed="true"]{background:var(--croma-color-secondary);color:var(--croma-color-on-secondary)}
+.croma-spec-button:disabled{cursor:default}
+.croma-spec-button:is([data-type="Filled"],[data-type="Outlined"],[data-type="Text"]):disabled .croma-spec-button-label,.croma-spec-button:is([data-type="Filled"],[data-type="Outlined"],[data-type="Text"]):disabled .croma-spec-button-icon{color:var(--croma-color-on-surface-high-contrast)}
+.croma-spec-button[data-type="Filled"]:disabled{background:color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent)}
+.croma-spec-button[data-type="Outlined"]:disabled{border-color:color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent)}
+.croma-spec-button[data-type="Filled"]:not(:disabled):hover,.croma-spec-button[data-type="Filled"][data-state="Hovered"]{box-shadow:var(--croma-elevation-1);background:linear-gradient(color-mix(in srgb,var(--croma-color-on-primary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-primary) 8%,transparent)),var(--croma-color-primary)}
+.croma-spec-button[data-type="Outlined"]:not(:disabled):hover,.croma-spec-button[data-type="Text"]:not(:disabled):hover{background:color-mix(in srgb,var(--croma-color-primary) 8%,transparent)}
+.croma-spec-field{display:flex;flex-direction:column;max-width:100%;min-width:0;font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+.croma-spec-field input{min-width:0;max-width:100%;box-sizing:border-box;font:inherit}
+[data-croma-component="Radio"] label{display:inline-flex;align-items:center}
+[data-croma-component="Radio"] input[type="radio"]{box-sizing:border-box;margin:0;flex-shrink:0}
+[data-croma-component="Choice"] [data-croma-component="Radio"] label{box-sizing:border-box;position:relative;border-style:solid;justify-content:center}
+[data-croma-component="Choice"] input[type="radio"]{position:absolute;inset:0;width:100%;height:100%;opacity:0;margin:0;cursor:pointer}
+[data-croma-component="Choice"] label:has(input:focus-visible){outline:auto}
+[data-croma-component="Accordion"]{box-sizing:border-box;max-width:100%;border-bottom-style:solid}
+[data-croma-component="Accordion"]>div{overflow-wrap:anywhere}
+[data-croma-component="Checkbox"]{display:inline-flex;align-items:center}
+[data-croma-component="Checkbox"] input{box-sizing:border-box;margin:0;flex-shrink:0}
+[data-croma-component="Cards"]{background:var(--croma-color-surface)}
+[data-croma-component="Cards"][data-type="Outlined"]{border-style:solid;border-color:var(--croma-color-outline)}
+
+/* Semantic layout mechanics; numeric design values are generated from written-values.json. */
+[data-croma-component="Toggle"]{display:inline-flex;align-items:center}
+[data-croma-component="Toggle"] input{margin:0;flex-shrink:0}
+.croma-spec-search-container{display:flex;align-items:center;box-sizing:border-box;max-width:100%}
+.croma-spec-search-container input{min-width:0;flex:1;max-width:100%}
+[data-croma-component="Tabs"] [role="tablist"]{display:flex}
+[data-croma-component="Tabs"] [role="tab"]{flex:1;box-sizing:border-box}
+[data-croma-component="Tabs"] [role="tab"][aria-selected="true"]{border-bottom-style:solid;border-bottom-color:var(--croma-active-indicator)}
+[data-croma-component="Labels & Badges"]{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+[data-croma-component="Divider"]{border-style:none;border-top-style:solid;border-top-color:var(--croma-color-outline)}
+[data-croma-component="Steppers"] ol{display:flex;list-style:none;padding:0}
+[data-croma-component="Steppers"][data-orientation="Vertical"] ol{flex-direction:column}
+[data-croma-component="Steppers"] li{display:flex;align-items:center}
+.croma-spec-step-count{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+[data-croma-component="Tooltip"]{position:relative;display:inline-flex}
+.croma-tooltip-content{position:fixed;z-index:var(--croma-tooltip-z-index);width:max-content;max-width:min(100vw,var(--croma-tooltip-max-width,100vw));max-height:100vh;overflow:auto;box-sizing:border-box}
+.croma-tooltip-body{display:flex;align-items:flex-start;box-sizing:border-box;overflow-wrap:anywhere}
+.croma-tooltip-copy{display:flex;flex-direction:column;min-width:0}
+.croma-tooltip-icon,.croma-menu-icon,.croma-menu-trailing,.croma-drawer-quick-icon{display:inline-flex;flex-shrink:0}
+.croma-tooltip-beak{display:block;color:var(--croma-tooltip-beak-fill)}
+.croma-tooltip-beak>svg,.croma-tooltip-beak>img{display:block;max-width:none}
+[data-croma-component="Tooltip"][data-type="Outlined"] .croma-tooltip-body{border-style:solid;border-width:var(--croma-tooltip-outline-width)}
+[data-croma-component="Menu"] ul{list-style:none;margin:0;padding:0}
+[data-croma-component="Menu"] section,[data-croma-component="Menu"] li{min-width:0}
+[data-croma-component="Menu"] li>button,[data-croma-component="Menu"] li>a,[data-croma-component="Menu"] summary{box-sizing:border-box;display:flex;align-items:center;width:100%;text-align:start;font:inherit;color:inherit;overflow-wrap:anywhere}
+.croma-menu-label{flex:1;min-width:0}
+.croma-menu-icon-background{box-sizing:border-box;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.croma-menu-section-title{box-sizing:border-box;margin:0}
+.croma-menu-message{box-sizing:border-box;overflow-wrap:anywhere}
+.croma-drawer-header,.croma-drawer-neupass,.croma-drawer-quick-links{box-sizing:border-box}
+.croma-drawer-profile{display:flex;align-items:flex-start}
+.croma-drawer-profile img{object-fit:cover;flex-shrink:0}
+.croma-drawer-quick-links{display:flex;flex-wrap:wrap}
+.croma-drawer-quick-links>a{display:flex;align-items:flex-start;box-sizing:border-box}
+[data-croma-component="Header"]{display:flex;align-items:center;flex-wrap:wrap;max-width:100%}
+.croma-header-content{flex:1;min-width:0}
+[data-croma-component="Chat"] [role="log"]{overflow:auto;overflow-wrap:anywhere}
+[data-croma-component="Sticky Footer"]{position:sticky;inset-block-end:0;display:flex;flex-wrap:wrap;max-width:100%}
+[data-croma-component="Filter"],[data-croma-component="Info chip"],[data-croma-component="Input chip"]{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box}
+[data-croma-component="Info chip"]{border-style:solid}
+.croma-chip-icon{display:inline-flex;flex-shrink:0}
+[data-croma-component="Accordion"] summary{display:flex;align-items:flex-start;justify-content:space-between}
+.croma-accordion-icon{display:inline-flex;flex-shrink:0}
+[data-croma-component="Labels & Badges"][data-type="Number Indicator"]{border-style:solid}
+
+.croma-menu-control-row{display:flex;align-items:center;box-sizing:border-box;width:100%}
+[data-croma-component="Labels & Badges"][data-emphasis="Low"]{border-style:solid}
+[data-croma-component="Labels & Badges"][data-type="Text Badges"][data-emphasis="Low"]::before{border-width:var(--croma-badge-outline-width)}
+[data-croma-component], [data-croma-component] *{box-sizing:border-box}
+[data-croma-component="Badge"]{display:inline-flex;align-items:center;justify-content:center}
+.croma-control-label{overflow-wrap:anywhere}
+.croma-sheet-handle{touch-action:none}
+[data-croma-component]{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+.croma-search-icon{display:inline-flex;flex-shrink:0}
+.croma-control-touch{position:relative;display:inline-flex;flex-shrink:0;align-items:center;justify-content:center}
+.croma-control-touch::before{content:"";position:absolute;inset-block-start:50%;inset-inline-start:50%;transform:translate(-50%,-50%);pointer-events:none;border-radius:var(--croma-control-touch-radius);outline-style:solid;outline-width:var(--croma-control-focus-outline-width);outline-color:transparent}
+.croma-control-touch input{position:relative}
+[data-croma-component="Choice"] .croma-control-touch{position:static;width:0;height:0}
+[data-croma-component="Choice"] .croma-control-touch::before{content:none}
+[data-croma-component="Choice"] [data-croma-component="Radio"] label .croma-control-touch{position:static;width:0;height:0}
+[data-croma-component="Choice"] [data-croma-component="Radio"]{display:flex;flex-wrap:wrap;min-width:0;max-width:100%}
+[data-croma-component="Choice"] label{max-width:100%}
+[data-croma-component="Choice"] .croma-control-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}
+[data-croma-component="Choice"] label::after{content:"";position:absolute;width:100%;inset-block-start:50%;inset-inline-start:50%;transform:translate(-50%,-50%);cursor:pointer}
+
+.croma-field-control{display:flex;align-items:center;min-width:0;max-width:100%}
+.croma-field-control input{flex:1;min-width:0}
+.croma-field-leading-image,.croma-field-trailing-icon{display:inline-flex;flex-shrink:0}
+[data-croma-component]{min-width:0;max-width:100%;overflow-wrap:anywhere}
+
+/* Native selection feedback is provisional until approved checkbox mark artwork is supplied.
+   Native rendering may ignore the written radius; this remains a measured acceptance gap. */
+[data-croma-component="Checkbox"] input{appearance:none;background:transparent;border-style:solid;border-color:var(--croma-checkbox-outline-color);background-position:center;background-repeat:no-repeat}
+[data-croma-component="Checkbox"] input:checked{background-image:var(--croma-checkbox-selected-image);border-width:0}
+[data-croma-component="Checkbox"] input:indeterminate{background-image:var(--croma-checkbox-mixed-image);border-width:0}
+[data-croma-component="Checkbox"] input:focus-visible{outline:auto}
+[data-croma-component="Dropdown"]{display:flex;flex-direction:column;min-width:0;max-width:100%}
+[data-croma-component="Dropdown"] select{min-width:0;max-width:100%;width:100%;text-overflow:ellipsis}
+[data-croma-component="Steppers"] li{min-width:0;align-items:flex-start}
+[data-croma-component="Steppers"][data-orientation="Horizontal"] li{flex:1;flex-direction:column}
+.croma-step-track{display:flex;align-items:center;align-self:stretch}
+.croma-step-copy{display:flex;flex-direction:column;min-width:0}
+.croma-step-icon{display:inline-flex;flex-shrink:0}
+.croma-step-path{display:block;flex-shrink:0}
+[data-croma-component="Steppers"][data-orientation="Horizontal"] .croma-step-path{flex:1}
+[data-croma-component="Steppers"][data-orientation="Horizontal"] .croma-step-copy{text-align:center;width:100%}
+[data-croma-component="Steppers"][data-orientation="Vertical"] .croma-step-track{flex-direction:column;align-self:auto}
+[data-croma-component="Divider"][data-with-text="true"]{display:flex;align-items:center;border:0}
+[data-croma-component="Divider"][data-with-text="true"] hr{flex:1;min-width:0;margin:0;border-style:none;border-top-style:solid}
+[data-croma-component="Divider"][data-with-text="true"]>span{min-width:0;overflow-wrap:anywhere}
+.croma-dialog-close-icon{display:inline-flex}
+.croma-menu-divider{border-style:none;border-top-style:solid;border-color:var(--croma-color-outline);margin:0}
+[data-croma-component="Chip group"]{display:flex;flex-wrap:wrap}
+[data-croma-component="Filter"],[data-croma-component="Input chip"] button{position:relative}
+[data-croma-component="Filter"]::after,[data-croma-component="Input chip"] button::after{content:"";position:absolute;inset-block-start:50%;inset-inline-start:50%;transform:translate(-50%,-50%);width:100%;cursor:pointer}
+[data-croma-component="Segmented"]{display:inline-grid;max-width:100%;width:max-content}
+[data-croma-component="Segmented"] .croma-spec-button{min-width:0;width:100%}
+.croma-menu-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.croma-dialog-header{display:flex;align-items:flex-start;justify-content:space-between}
+.croma-dialog-header h2{min-width:0;overflow-wrap:anywhere}
+.croma-dialog-header>button{flex-shrink:0}
+.croma-dialog-actions{display:flex;justify-content:flex-end}
+
+.croma-chip-label{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+[data-croma-component="Input chip"] button{flex-shrink:0}
+
+.croma-label-icon{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0}
+.croma-label-icon>svg,.croma-label-icon>img{display:block;max-width:none}
+
+fieldset[data-croma-component="Radio"]{border:0;margin:0;padding:0}
+
+.croma-card-media{overflow:hidden;min-width:0;max-width:100%}
+.croma-card-media>img:not([data-croma-asset-id]){width:100%;height:100%;object-fit:cover}
+.croma-card-content,.croma-card-details{display:flex;flex-direction:column;min-width:0}
+.croma-card-title{margin:0}
+
+[data-croma-component="Toggle"] .croma-control-touch{position:relative}
+[data-croma-component="Toggle"] input{position:absolute;inset:0;appearance:none;background:transparent;border:0;opacity:0;margin:0;z-index:1}
+.croma-toggle-artwork{position:absolute;inset-block-start:0;inset-inline-start:0;pointer-events:none;max-width:none;display:block}
+[data-croma-component="Toggle"] .croma-control-touch:has(input:focus-visible){outline:auto}
+
+.croma-spec-button[data-type="Outlined"],[data-croma-component="Labels & Badges"][data-type="Number Indicator"]{position:relative;border-width:0}
+.croma-spec-button[data-type="Outlined"]::before,[data-croma-component="Labels & Badges"][data-type="Number Indicator"]::before{content:"";position:absolute;inset:0;border-style:solid;border-color:inherit;border-radius:inherit;box-sizing:border-box;pointer-events:none}
+.croma-card-title{color:var(--croma-card-title-color)}
+.croma-card-description{color:var(--croma-card-description-color)}
+
+.croma-tooltip-copy{flex:1}
+.croma-tooltip-heading{display:flex;align-items:center;min-width:0}
+.croma-tooltip-title{min-width:0;flex:1}
+.croma-tooltip-icon>img{display:block;max-width:none}
+.croma-tooltip-beak{position:relative;align-self:center}
+.croma-tooltip-beak>img{position:relative;top:-1px}
+
+[data-croma-component="Checkbox"] input:checked:disabled{background-image:var(--croma-checkbox-selected-disabled-image)}
+[data-croma-component="Checkbox"] input:indeterminate:disabled{background-image:var(--croma-checkbox-mixed-disabled-image)}
+
+/* Guide Segmented: written outer32 and source inner28; centering derives the inset. */
+[data-croma-component="Segmented"]{box-sizing:border-box;align-items:center;position:relative;border:0;box-shadow:inset 0 0 0 var(--croma-segment-stroke-width) var(--croma-segment-stroke);padding-block:calc((32px - var(--croma-segment-option-height))/2)}
+[data-croma-component="Segmented"] .croma-spec-button{min-height:var(--croma-segment-option-height);font-size:inherit;font-weight:inherit;line-height:inherit;letter-spacing:inherit;text-transform:none}
+
+[data-croma-component="Segmented"] .croma-spec-button[data-type="Segmented"]{background-color:transparent}
+[data-croma-component="Segmented"] .croma-spec-button[aria-pressed="true"]{background-color:var(--croma-color-secondary);color:var(--croma-color-on-secondary)}
+
+[data-croma-component="Segmented"]{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+
+/* Actual per-case foreground properties stay separate from state-layer colour. */
+.croma-spec-button-label{color:var(--croma-button-label-colour,inherit)}
+.croma-spec-button-icon{color:var(--croma-button-icon-colour,inherit)}
+
+/* Original24px radio artwork; native input retains keyboard and selection semantics. */
+[data-croma-component="Radio"]:not([data-croma-component="Choice"] *) input[type="radio"]{appearance:none;border:0;background-color:transparent;background-repeat:no-repeat;background-position:center;padding:0}
+
+/* Paint inside strokes separately; native button chrome is not a source style. */
+[data-croma-component="Filter"]{position:relative;background-color:transparent;border-width:0;cursor:pointer;font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+[data-croma-component="Filter"]::before,[data-croma-component="Labels & Badges"][data-type="Text Badges"][data-emphasis="Low"]::before{content:"";position:absolute;inset:0;pointer-events:none;box-sizing:border-box;border-style:solid;border-color:inherit;border-radius:inherit}
+[data-croma-component="Labels & Badges"][data-type="Text Badges"][data-emphasis="Low"]{position:relative;border-width:0;background-color:transparent}
+
+[data-croma-component="Info chip"],[data-croma-component="Labels & Badges"]{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+
+/* Direct source245:36918:310px outer width; shrink within narrow prototype hosts. */
+[data-croma-component="Segmented"]{width:310px;max-width:100%}
+
+/* Menu rows retain the source layout, without native button and heading chrome. */
+[data-croma-component="Menu"]{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+[data-croma-component="Menu"] li>button,[data-croma-component="Menu"] li>a,[data-croma-component="Menu"] summary{border:0;background:transparent;margin:0;text-decoration:none;cursor:pointer}
+[data-croma-component="Menu"] .croma-menu-section-title{margin:0}
+[data-croma-component="Menu"] li[data-selected="true"]>button,[data-croma-component="Menu"] li[data-selected="true"]>a,[data-croma-component="Menu"] li[data-selected="true"]>details>summary{background:color(srgb 0.10588235408067703 0.10588235408067703 0.10588235408067703 / 0.07999999821186066)}
+[data-croma-component="Menu"] :is(button:disabled,[aria-disabled="true"]){cursor:default}
+/* Choice has an accessible fieldset name without a source-extraneous visible legend. */
+[data-croma-component="Choice"] fieldset{border:0;padding:0;margin:0;min-width:0}
+[data-croma-component="Choice"] legend{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden;white-space:nowrap}
+[data-croma-component="Choice"] label{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);cursor:pointer}
+
+[data-croma-component="Input chip"]{gap:8px;padding-inline-end:8px;padding-block:6px;font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
+[data-croma-component="Input chip"] .croma-input-chip-remove{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:16px;height:16px;padding:0;margin:0;border:0;background:transparent;color:inherit;cursor:pointer}
+[data-croma-component="Input chip"] .croma-input-chip-remove:disabled{cursor:default}
+[data-croma-component="Input chip"] .croma-input-chip-remove img{display:block;max-width:none}
+
+[data-croma-component="Menu"] .croma-menu-section-title,[data-croma-component="Menu"] .croma-menu-message{color:var(--croma-color-on-surface-high-contrast)}
+
+/* Written strokes paint inside Info/Choice bounds; they do not consume source padding. */
+[data-croma-component="Info chip"],[data-croma-component="Choice"] [data-croma-component="Radio"] label{position:relative;border-width:0}
+[data-croma-component="Info chip"]::before,[data-croma-component="Choice"] [data-croma-component="Radio"] label::before{content:"";position:absolute;inset:0;box-sizing:border-box;border-style:solid;border-color:inherit;border-radius:inherit;pointer-events:none}
+
+[data-croma-component="Info chip"]{padding-block:6px;max-width:100%;overflow-wrap:anywhere}
+[data-croma-component="Choice"] [data-croma-component="Radio"] label{padding-block:6px}

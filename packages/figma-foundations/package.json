@@ -1,0 +1,35 @@
+{
+  "name": "@croma/figma-foundations",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "sideEffects": [
+    "*.css"
+  ],
+  "exports": {
+    ".": "./index.ts",
+    "./tokens.json": "./tokens.json",
+    "./tokens.css": "./tokens.css",
+    "./typography.css": "./typography.css",
+    "./fonts.css": "./fonts.css"
+  },
+  "scripts": {},
+  "files": [
+    "index.ts",
+    "tokens.json",
+    "tokens.css",
+    "typography.css",
+    "README.md",
+    "fonts.css",
+    "fonts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikbdc/Croma-Existing-DS.git",
+    "directory": "packages/figma-foundations"
+  },
+  "homepage": "https://hrithikbdc.github.io/Croma-Existing-DS/",
+  "bugs": {
+    "url": "https://github.com/hrithikbdc/Croma-Existing-DS/issues"
+  }
+}

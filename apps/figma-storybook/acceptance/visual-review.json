@@ -1,0 +1,49 @@
+{
+  "checkpointRules": 279,
+  "inspectedOn": "2026-11-03",
+  "reviews": [
+    {
+      "scope": "320px long-content Text Button, Input chip and Menu",
+      "status": "layout-pass",
+      "finding": "Labels remain contained; button and removable-chip labels use ellipsis; menu text remains readable. Screenshots inspected directly.",
+      "screenshots": [
+        "button-text-large-enabled-320.png",
+        "input-chip-text-enabled-320.png",
+        "menu-320.png"
+      ]
+    },
+    {
+      "scope": "Unbound-theme Checkbox unselected / selected / indeterminate",
+      "status": "native-feedback-visible-with-radius-gap",
+      "finding": "At checkpoint 278 the native fallback restores distinct empty, blue checked and blue mixed states. The native input computes 0 pxradius instead of the written 4 px; that source mismatch remains failed.",
+      "screenshots": [
+        "checkbox-unselected-278-feedback.png",
+        "checkbox-selected-278-feedback.png",
+        "checkbox-indeterminate-278-feedback.png"
+      ]
+    },
+    {
+      "scope": "Unbound-theme selected Toggle and Radio",
+      "status": "native-feedback-visible",
+      "finding": "Selected Toggle has a native blue check and selected Radio has a native blue dot. This verifies visible browser feedback, not Croma styling or final switch artwork.",
+      "screenshots": [
+        "toggle-selected-feedback.png",
+        "radio-feedback.png"
+      ]
+    },
+    {
+      "scope": "Tooltip beak artwork slot",
+      "status": "artwork-unresolved",
+      "finding": "The production browser reports clip-path none and a 32 by 8 px slot with no child artwork. No triangle shape is inferred. Tooltip focus, hover, Escape and viewport containment checks pass.",
+      "screenshots": [
+        "tooltip-unspecified-art-slot.png"
+      ]
+    }
+  ],
+  "limits": [
+    "Original palette mappings and artwork remain unresolved.",
+    "Inter is a temporary user-approved substitution.",
+    "User includes hidden whole-table written specifications and excludes hidden template rows.",
+    "Layout or numeric success is not full visual approval."
+  ]
+}

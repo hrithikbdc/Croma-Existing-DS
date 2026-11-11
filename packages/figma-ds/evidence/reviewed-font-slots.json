@@ -1,0 +1,243 @@
+{
+  "policy": "Explicit component-slot review of effective actual figure text entries; original family stored, Inter temporaryexception remains separate.",
+  "slots": [
+    {
+      "id": "tooltip-dark-title",
+      "selector": "[data-croma-component=\"Tooltip\"][data-theme=\"dark\"] .croma-tooltip-title",
+      "alias": "label-x-small-semibold",
+      "entryId": "160:13654@1796:60026;1796:60015",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "tooltip-dark-description",
+      "selector": "[data-croma-component=\"Tooltip\"][data-theme=\"dark\"] .croma-tooltip-description",
+      "alias": "caption-xx-small-regular",
+      "entryId": "160:13654@1796:60026;1803:61611",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "tooltip-light-title",
+      "selector": "[data-croma-component=\"Tooltip\"][data-theme=\"light\"] .croma-tooltip-title",
+      "alias": "label-x-small-semibold",
+      "entryId": "160:13708@4035:84676;4035:85429",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "tooltip-light-description",
+      "selector": "[data-croma-component=\"Tooltip\"][data-theme=\"light\"] .croma-tooltip-description",
+      "alias": "caption-xx-small-regular",
+      "entryId": "160:13708@4035:84676;4035:85430",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "checkbox-dark-label",
+      "selector": "[data-croma-component=\"Checkbox\"][data-theme=\"dark\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "194:39516@1749:55728",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "checkbox-light-label",
+      "selector": "[data-croma-component=\"Checkbox\"][data-theme=\"light\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "194:39383@2049:63459",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "radio-dark-label",
+      "selector": "[data-croma-component=\"Radio\"][data-theme=\"dark\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "194:35322@1750:56616",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "radio-light-label",
+      "selector": "[data-croma-component=\"Radio\"][data-theme=\"light\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "194:34613@2387:67660",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "info-chip-dark-label",
+      "selector": "[data-croma-component=\"Info chip\"][data-theme=\"dark\"]",
+      "alias": "caption-xx-small-regular",
+      "entryId": "144:9064@1286:48989",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "info-chip-light-label",
+      "selector": "[data-croma-component=\"Info chip\"][data-theme=\"light\"]",
+      "alias": "caption-xx-small-regular",
+      "entryId": "144:9070@7826:194020",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "filter-dark-label",
+      "selector": "[data-croma-component=\"Filter\"][data-theme=\"dark\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:9762@4035:81903",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "filter-light-label",
+      "selector": "[data-croma-component=\"Filter\"][data-theme=\"light\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:9803@4035:83100",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "input-chip-dark-label",
+      "selector": "[data-croma-component=\"Input chip\"][data-theme=\"dark\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:10284@1286:48994",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "input-chip-light-label",
+      "selector": "[data-croma-component=\"Input chip\"][data-theme=\"light\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:10290@4035:83105",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "badge-dark-label",
+      "selector": "[data-croma-component=\"Badge\"][data-theme=\"dark\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:10753@4011:79809",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "badge-light-label",
+      "selector": "[data-croma-component=\"Badge\"][data-theme=\"light\"]",
+      "alias": "label-x-small-regular",
+      "entryId": "144:10758@4035:83108",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "accordion-open-title",
+      "selector": "[data-croma-component=\"Accordion\"][open] summary",
+      "alias": "body-small-semibold",
+      "entryId": "245:38719@2116:74368;2116:74080",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "accordion-closed-title",
+      "selector": "[data-croma-component=\"Accordion\"]:not([open]) summary",
+      "alias": "body-small-regular",
+      "entryId": "245:38719@2116:74352;2116:73993",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "accordion-description",
+      "selector": "[data-croma-component=\"Accordion\"]>div",
+      "alias": "body-x-small-regular",
+      "entryId": "245:38719@2116:74368;2116:74384",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "text-badge-label",
+      "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"]",
+      "alias": "caption-xx-small-semibold",
+      "entryId": "278:81479@16816:237507",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "number-indicator-label",
+      "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"]",
+      "alias": "caption-xx-small-semibold",
+      "entryId": "278:82216@16816:237819",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "menu-label",
+      "selector": "[data-croma-component=\"Menu\"] .croma-menu-label",
+      "alias": "body-small-regular",
+      "entryId": "247:53347@10052:205846",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "drawer-profile",
+      "selector": "[data-croma-component=\"Navigation Drawer\"] .croma-drawer-profile",
+      "alias": "body-small-semibold",
+      "entryId": "247:51437@15132:211522",
+      "review": "Exact actual figure slot reviewed against component element and written role; no name-only style assignment."
+    },
+    {
+      "id": "card-title",
+      "selector": ".croma-card-title",
+      "alias": "card-title",
+      "entryId": "171:19111@836:34184",
+      "review": "Actualwritten-cardfigureWithCopytitle; mediaaspectratioandcopycontentseparatelyscoped."
+    },
+    {
+      "id": "card-description",
+      "selector": ".croma-card-description",
+      "alias": "card-description",
+      "entryId": "171:19111@836:34185",
+      "review": "Actualwritten-cardfigureWithCopydescription."
+    },
+    {
+      "id": "checkbox-dark-disabled-label",
+      "selector": "[data-croma-component=\"Checkbox\"][data-theme=\"dark\"]:has(input:disabled) .croma-control-label",
+      "entryId": "194:39524@1750:55277",
+      "alias": "label-x-small-regular",
+      "review": "Exact actual disabled guide label; scoped state fallback. Written opacity38% applies once."
+    },
+    {
+      "id": "checkbox-light-disabled-label",
+      "selector": "[data-croma-component=\"Checkbox\"][data-theme=\"light\"]:has(input:disabled) .croma-control-label",
+      "entryId": "194:39569@2049:63468",
+      "alias": "label-x-small-regular",
+      "review": "Exact actual disabled guide label; scoped state fallback. Written opacity38% applies once."
+    },
+    {
+      "id": "radio-dark-disabled-label",
+      "selector": "[data-croma-component=\"Radio\"][data-theme=\"dark\"] label:has(input:disabled) .croma-control-label",
+      "entryId": "194:35325@1750:56625",
+      "alias": "label-x-small-regular",
+      "review": "Exact actual disabled guide label; scoped state fallback. Written opacity38% applies once."
+    },
+    {
+      "id": "radio-light-disabled-label",
+      "selector": "[data-croma-component=\"Radio\"][data-theme=\"light\"] label:has(input:disabled) .croma-control-label",
+      "entryId": "194:35371@2387:67666",
+      "alias": "label-x-small-regular",
+      "review": "Exact actual disabled guide label; scoped state fallback. Written opacity38% applies once."
+    },
+    {
+      "id": "menu-section-title",
+      "selector": "[data-croma-component=\"Menu\"] .croma-menu-section-title",
+      "alias": "body-small-bold",
+      "entryId": "248:60972@13054:206235",
+      "review": "Explicit Mobile section title branch16/24/700; separate generic Section title20/26 branch is not merged."
+    },
+    {
+      "id": "menu-submenu-label",
+      "selector": "[data-croma-component=\"Menu\"] li[data-submenu=\"true\"] .croma-menu-label",
+      "alias": "body-x-small-regular",
+      "entryId": "248:65256@4125:96484;4125:96468",
+      "review": "Actual authored Menu component element; source metrics retained."
+    },
+    {
+      "id": "menu-message",
+      "selector": "[data-croma-component=\"Menu\"] .croma-menu-message",
+      "alias": "caption-xx-small-regular",
+      "entryId": "248:65256@13995:210966",
+      "review": "Actual authored Menu component element; source metrics retained."
+    },
+    {
+      "id": "choice-dark-label",
+      "selector": "[data-croma-component=\"Choice\"][data-theme=\"dark\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "144:9169@7819:194044",
+      "review": "Actual authored choice chip label; root visibility does not disable its text."
+    },
+    {
+      "id": "choice-light-label",
+      "selector": "[data-croma-component=\"Choice\"][data-theme=\"light\"] .croma-control-label",
+      "alias": "label-x-small-regular",
+      "entryId": "144:9179@7823:194597",
+      "review": "Actual authored choice chip label; root visibility does not disable its text."
+    }
+  ]
+}

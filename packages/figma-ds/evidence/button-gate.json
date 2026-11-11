@@ -1,0 +1,133 @@
+{
+  "component": "Button",
+  "status": "candidate-under-independent-review; not fully accepted",
+  "policy": "Written wins. Same-file saved main/instance properties and original artwork fill unwritten gaps. Hidden whole written tables included, hidden descendant template rows excluded.",
+  "branches": [
+    {
+      "export": "Button",
+      "source": "Written-guide family",
+      "pageId": "242:34930",
+      "types": [
+        "Filled",
+        "Outlined",
+        "Text",
+        "Icon"
+      ],
+      "sizes": {
+        "Filled": [
+          "Large",
+          "Small"
+        ],
+        "Outlined": [
+          "Large",
+          "Small"
+        ],
+        "Text": [
+          "Large",
+          "Small"
+        ],
+        "Icon": []
+      },
+      "states": {
+        "Filled": [
+          "Enabled",
+          "Disabled",
+          "Hovered"
+        ],
+        "Outlined": [
+          "Enabled",
+          "Disabled",
+          "Hovered"
+        ],
+        "Text": [
+          "Enabled",
+          "Disabled",
+          "Hovered"
+        ],
+        "Icon": [
+          "Enabled",
+          "Hovered",
+          "Selected"
+        ]
+      },
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "selection": "Icon Selected boolean supports selected+hover; native focus/active use accessible browser mechanics where no source paint is documented."
+    },
+    {
+      "export": "Segmented",
+      "writtenType": "Segmented",
+      "sourceFigure": "245:36918",
+      "sourceMain": "242:35527",
+      "scope": "Full group. Type=Segmented on Button is compatibility individual option only.",
+      "metrics": {
+        "outerHeight": 32,
+        "outerRadius": 4,
+        "innerHeight": 28,
+        "innerRadius": 100,
+        "labelFontSize": 14,
+        "labelLineHeight": 20,
+        "labelTracking": 0,
+        "labelWeight": 700,
+        "horizontalInset": 4,
+        "gap": 2
+      },
+      "layoutConversions": [
+        "vertical inset=(written32-source28)/2=2",
+        "gap=source unselected x156-selected x4-selected width150=2",
+        "equal dynamic columns replace authored fixed widths; inset stroke does not consume layout"
+      ]
+    },
+    {
+      "export": "Local.Button",
+      "sourceSet": "393:72921",
+      "owner": "root",
+      "status": "Distinct23variant branch under integration. No Primary\u2194Filled or Mobile\u2194Small assumption."
+    }
+  ],
+  "priorityConflicts": [
+    {
+      "source": "245:36918 / main242:35527",
+      "saved": "outer height36/radius100",
+      "written": "245:36936 height32/radius4",
+      "result": "Written outer32/4 wins; inner28/100 kept separately."
+    },
+    {
+      "source": "245:35760 and corresponding states",
+      "saved": "outer radius14",
+      "written": "4px",
+      "result": "Written4 wins."
+    },
+    {
+      "source": "disabled figure root opacity1; actual opaque RGB may be premixed",
+      "written": "container12%,label/icon38%",
+      "result": "Retain actual authored RGB, apply written opacity once; intentional divergence recorded. No inferred unblending."
+    }
+  ],
+  "sourceStateNotes": [
+    {
+      "nodeId": "245:36565",
+      "actualState": "hovered",
+      "size": "small",
+      "type": "text",
+      "note": "Canonical actual Hovered exemplar retained. Other state metrics/paints now come from their exact linked mains, not this Hovered exemplar."
+    }
+  ],
+  "checks": {
+    "writtenRules": 281,
+    "savedBindings": 508,
+    "sourceTranscription": "pass",
+    "assets": "359 icons+7 logos+16 component artworks byte identity pass",
+    "wholeAppearance": "pending independent Button gate",
+    "temporaryFont": "Inter substitute remains explicit; not exact Switzer acceptance"
+  },
+  "remaining": [
+    "Independent whole-component source\u2192runtime geometry/slot/paint/state review",
+    "Local23variant integration and independent acceptance",
+    "Temporary font exception means final exact font rendering not proven"
+  ],
+  "guideCaseManifest": "button-guide-cases.json",
+  "sourceScope": "36 guide Filled/Outlined/Text cases plus Icon and full Segmented collection; local23 branch separately under integration."
+}

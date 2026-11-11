@@ -1,0 +1,4102 @@
+{
+  "historicalCheckpoint": true,
+  "supersededForCurrentStatusBy": "apps/figma-storybook/acceptance/current-checkpoint.json",
+  "historyNote": "Earlier written-only registry. Preserve source citations; do not infer current missing palettes/artwork or current visual acceptance from these old statuses.",
+  "status": "candidate; no full visual acceptance",
+  "registryRules": 279,
+  "visibilityAuthority": "User approved whole hidden written tables. Hidden descendant/template rows remain excluded. No approval to invent numeric palette, typography, elevation or artwork.",
+  "globalGaps": [
+    "numeric semantic palette and gradients",
+    "elevation definitions",
+    "component typography alias metrics",
+    "source icon artwork where not supplied"
+  ],
+  "components": {
+    "Button": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-spec-button:is([data-type=\"Filled\"],[data-type=\"Outlined\"],[data-type=\"Text\"])[data-size=\"Large\"]",
+          "properties": {
+            "min-height": "40px"
+          },
+          "sourceTableIds": [
+            "245:36068",
+            "245:36360",
+            "245:36570"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:is([data-type=\"Filled\"],[data-type=\"Outlined\"],[data-type=\"Text\"])[data-size=\"Small\"]",
+          "properties": {
+            "min-height": "32px"
+          },
+          "sourceTableIds": [
+            "245:36068",
+            "245:36360",
+            "245:36570"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:is([data-type=\"Filled\"],[data-type=\"Outlined\"])[data-size=\"Large\"]",
+          "properties": {
+            "min-width": "128px"
+          },
+          "sourceTableIds": [
+            "245:36068",
+            "245:36360"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:is([data-type=\"Filled\"],[data-type=\"Outlined\"])[data-size=\"Small\"]",
+          "properties": {
+            "min-width": "112px"
+          },
+          "sourceTableIds": [
+            "245:36068",
+            "245:36360"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:is([data-type=\"Filled\"],[data-type=\"Outlined\"])",
+          "properties": {
+            "border-radius": "4px",
+            "padding-inline": "24px",
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "245:36028",
+            "245:36296"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Text\"]",
+          "properties": {
+            "margin-inline": "8px",
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "245:36535",
+            "245:36570"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "245:35852",
+            "245:36398",
+            "245:36608"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Outlined\"]",
+          "properties": {
+            "border-width": "1px"
+          },
+          "sourceTableIds": [
+            "245:36108"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Icon\"]",
+          "properties": {
+            "width": "32px",
+            "min-height": "32px",
+            "border-radius": "50%"
+          },
+          "sourceTableIds": [
+            "245:36608"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]",
+          "properties": {
+            "border-radius": "4px",
+            "padding-inline": "16px"
+          },
+          "sourceTableIds": [
+            "245:36936"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:disabled .croma-spec-button-label,.croma-spec-button:disabled .croma-spec-button-icon",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "245:35913",
+            "245:36175",
+            "245:36459"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button:not([data-type=\"Icon\"])",
+          "properties": {
+            "font-size": "var(--croma-type-label-button-x-small-font-size)",
+            "font-weight": "var(--croma-type-label-button-x-small-font-weight)",
+            "line-height": "var(--croma-type-label-button-x-small-line-height)",
+            "letter-spacing": "var(--croma-type-label-button-x-small-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:35852"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Icon\"]:is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "245:36685"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:disabled",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:disabled .croma-spec-button-label",
+          "properties": {
+            "color": "var(--croma-color-on-surface-variant)",
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:not(:disabled):is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"][aria-pressed=\"true\"]:not(:disabled):hover",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Text\"][data-size=\"Small\"]",
+          "properties": {
+            "font-size": "var(--croma-type-label-button-tiny-font-size)",
+            "font-weight": "var(--croma-type-label-button-tiny-font-weight)",
+            "line-height": "var(--croma-type-label-button-tiny-line-height)",
+            "letter-spacing": "var(--croma-type-label-button-tiny-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:36398"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Outlined\"]:disabled .croma-spec-button-label",
+          "properties": {
+            "color": "var(--croma-color-on-surface-1)"
+          },
+          "sourceTableIds": [
+            "245:36175"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Outlined\"]:not(:disabled):is(:hover,[data-state=\"Hovered\"]),.croma-spec-button[data-type=\"Text\"]:not(:disabled):is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-primary) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "245:36175",
+            "245:36459"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Text\"]",
+          "properties": {
+            "max-width": "calc(100% - 8px - 8px)"
+          },
+          "sourceTableIds": [
+            "245:36570"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]",
+          "properties": {
+            "min-height": "32px"
+          },
+          "sourceTableIds": [
+            "245:36936"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "FormField": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-spec-field input[readonly]",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "247:53945"
+          ]
+        },
+        {
+          "selector": ".croma-field-leading-image,.croma-field-leading-image img",
+          "properties": {
+            "height": "24px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "247:53908"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Checkbox": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]",
+          "properties": {
+            "min-height": "40px"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] input",
+          "properties": {
+            "width": "24px",
+            "height": "24px",
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "194:39811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:has(input:disabled) .croma-control-label,[data-croma-component=\"Checkbox\"] input:disabled",
+          "properties": {
+            "opacity": ".38",
+            "color": "var(--croma-color-on-background-low-contrast)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] input",
+          "properties": {
+            "accent-color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] .croma-control-label",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] .croma-control-touch",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] .croma-control-touch::before",
+          "properties": {
+            "width": "40px",
+            "height": "40px"
+          },
+          "sourceTableIds": [
+            "194:39433"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"] input",
+          "properties": {
+            "accent-color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Checkbox\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:39604"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance.",
+      "measuredGaps": [
+        {
+          "property": "input border-radius",
+          "written": "4px",
+          "observed": "0px in native Chromium appearance",
+          "status": "not accepted",
+          "reason": "Native rendering preserves essential selected/mixed feedback; custom appearance without approved marker artwork was visually indistinguishable and was rejected.",
+          "sourceTableId": "194:39433"
+        }
+      ]
+    },
+    "RadioGroup": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label",
+          "properties": {
+            "gap": "8px",
+            "min-height": "40px"
+          },
+          "sourceTableIds": [
+            "194:34759",
+            "194:36590"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) input[type=\"radio\"]",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:34759",
+            "194:36590"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"] label",
+          "properties": {
+            "min-height": "32px",
+            "padding-inline": "16px",
+            "border-width": "1px",
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "144:9190",
+            "144:9629"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-touch",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-touch::before",
+          "properties": {
+            "width": "40px",
+            "height": "40px"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label input",
+          "properties": {
+            "accent-color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-label",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:disabled) .croma-control-label,[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label input:disabled",
+          "properties": {
+            "opacity": ".38",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]",
+          "properties": {
+            "gap": "12px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "ToggleSwitch": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Toggle\"]",
+          "properties": {
+            "gap": "8px",
+            "min-height": "40px"
+          },
+          "sourceTableIds": [
+            "194:36897",
+            "194:38783"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"] input",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:36897"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"] .croma-control-touch",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"] .croma-control-touch::before",
+          "properties": {
+            "width": "40px",
+            "height": "40px"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"] input",
+          "properties": {
+            "accent-color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"] .croma-control-label",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:has(input:disabled) .croma-control-label,[data-croma-component=\"Toggle\"] input:disabled",
+          "properties": {
+            "opacity": ".38",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Toggle\"]:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:37678"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Choice": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label",
+          "properties": {
+            "gap": "8px",
+            "min-height": "40px"
+          },
+          "sourceTableIds": [
+            "194:34759",
+            "194:36590"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) input[type=\"radio\"]",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:34759",
+            "194:36590"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"] label",
+          "properties": {
+            "min-height": "32px",
+            "padding-inline": "16px",
+            "border-width": "1px",
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "144:9190",
+            "144:9629"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:checked)",
+          "properties": {
+            "background": "var(--croma-color-secondary)",
+            "color": "var(--croma-color-on-secondary)"
+          },
+          "sourceTableIds": [
+            "144:9190"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label",
+          "properties": {
+            "border-color": "var(--croma-color-outline)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:9190"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] .croma-control-label",
+          "properties": {
+            "font-size": "var(--croma-type-label-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-label-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-label-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-label-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "144:9190"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:not(:has(input:checked)):not(:has(input:disabled)):has(input:hover)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:checked):not(:has(input:disabled)):has(input:hover)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:not(:has(input:checked)):not(:has(input:disabled)):has(input:focus-visible)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:checked):not(:has(input:disabled)):has(input:focus-visible)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:not(:has(input:checked)):not(:has(input:disabled)):has(input:active)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:checked):not(:has(input:disabled)):has(input:active)",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-touch",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-touch::before",
+          "properties": {
+            "width": "40px",
+            "height": "40px"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label input",
+          "properties": {
+            "accent-color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label .croma-control-label",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:disabled) .croma-control-label,[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label input:disabled",
+          "properties": {
+            "opacity": ".38",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:hover) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:focus-visible) .croma-control-touch::before",
+          "properties": {
+            "outline-color": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:not(:has(input:is(:checked,:indeterminate))):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Radio\"]:not([data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]) label:has(input:is(:checked,:indeterminate)):not(:has(input:disabled)):has(input:active) .croma-control-touch::before",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-secondary) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "194:35491"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:disabled)",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 12%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:disabled):has(input:checked)",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label:has(input:disabled) .croma-control-label,[data-croma-component=\"Choice\"] label:has(input:disabled) .croma-chip-icon",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "144:9366"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] label::after",
+          "properties": {
+            "height": "48px",
+            "min-width": "48px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        },
+        {
+          "selector": "[data-croma-component=\"Choice\"] [data-croma-component=\"Radio\"]",
+          "properties": {
+            "gap": "12px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Filter": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Filter\"]",
+          "properties": {
+            "min-height": "32px",
+            "border-radius": "4px",
+            "padding-inline": "16px"
+          },
+          "sourceTableIds": [
+            "144:10179"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][data-has-icon=\"true\"]",
+          "properties": {
+            "padding-inline": "8px"
+          },
+          "sourceTableIds": [
+            "144:10179"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]",
+          "properties": {
+            "border-color": "var(--croma-color-outline)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][aria-pressed=\"true\"]",
+          "properties": {
+            "background": "var(--croma-color-secondary)",
+            "color": "var(--croma-color-on-secondary)"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][data-has-logo=\"true\"]",
+          "properties": {
+            "min-height": "48px",
+            "padding-inline-start": "8px",
+            "padding-inline-end": "16px",
+            "padding-block": "8px",
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "144:10222"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:not([aria-pressed=\"true\"]):not(:disabled):hover",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][aria-pressed=\"true\"]:not(:disabled):hover",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:not([aria-pressed=\"true\"]):not(:disabled):focus-visible",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][aria-pressed=\"true\"]:not(:disabled):focus-visible",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:not([aria-pressed=\"true\"]):not(:disabled):active",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"][aria-pressed=\"true\"]:not(:disabled):active",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"] .croma-chip-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "144:9701"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]",
+          "properties": {
+            "border-width": "1px"
+          },
+          "sourceTableIds": [
+            "144:9701"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:disabled",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 12%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:disabled[aria-pressed=\"true\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]:disabled .croma-chip-label,[data-croma-component=\"Filter\"]:disabled .croma-chip-icon",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "144:9839"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Filter\"]::after",
+          "properties": {
+            "height": "48px",
+            "min-width": "48px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "InfoChip": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Info chip\"]",
+          "properties": {
+            "min-height": "28px",
+            "border-radius": "4px",
+            "padding-inline": "16px"
+          },
+          "sourceTableIds": [
+            "144:9140"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Info chip\"]",
+          "properties": {
+            "border-width": "1px",
+            "border-color": "var(--croma-color-outline)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:9075"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Info chip\"][data-special=\"true\"]",
+          "properties": {
+            "background": "var(--croma-color-secondary)",
+            "color": "var(--croma-color-on-secondary)"
+          },
+          "sourceTableIds": [
+            "144:9075"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Info chip\"]",
+          "properties": {
+            "font-size": "var(--croma-type-caption-xx-small-regular-font-size)",
+            "font-weight": "var(--croma-type-caption-xx-small-regular-font-weight)",
+            "line-height": "var(--croma-type-caption-xx-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-caption-xx-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "144:9075"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "InputChip": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Input chip\"]",
+          "properties": {
+            "min-height": "32px",
+            "border-radius": "4px",
+            "padding-inline-start": "16px"
+          },
+          "sourceTableIds": [
+            "144:10720"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"][data-has-icon=\"true\"]",
+          "properties": {
+            "padding-inline": "8px"
+          },
+          "sourceTableIds": [
+            "144:10720"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"] .croma-chip-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "144:10295"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]",
+          "properties": {
+            "background": "var(--croma-color-secondary)",
+            "color": "var(--croma-color-on-secondary)"
+          },
+          "sourceTableIds": [
+            "144:10295"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]:has(button:disabled)",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:10503"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]:has(button:disabled) .croma-chip-label,[data-croma-component=\"Input chip\"]:has(button:disabled) .croma-chip-icon",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "144:10503"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"] .croma-chip-label",
+          "properties": {
+            "font-size": "var(--croma-type-label-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-label-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-label-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-label-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "144:10295"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]:not(:has(button:disabled)):hover",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:10503"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]:not(:has(button:disabled)):focus-within",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:10503"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"]:not(:has(button:disabled)):active",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 12%,transparent))"
+          },
+          "sourceTableIds": [
+            "144:10503"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Input chip\"] button::after",
+          "properties": {
+            "height": "48px",
+            "min-width": "48px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Badge": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Large\"]",
+          "properties": {
+            "min-height": "32px",
+            "min-width": "52px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Medium\"]",
+          "properties": {
+            "min-height": "24px",
+            "min-width": "52px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Small\"]",
+          "properties": {
+            "min-height": "20px",
+            "min-width": "48px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"All rounded\"]",
+          "properties": {
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"One corner radius (Bottom-right)\"]",
+          "properties": {
+            "border-bottom-right-radius": "8px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"Two corner radius (Top & bottom-right)\"]",
+          "properties": {
+            "border-top-right-radius": "8px",
+            "border-bottom-right-radius": "8px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"]",
+          "properties": {
+            "min-height": "20px",
+            "width": "24px",
+            "border-width": "2px",
+            "border-radius": "20px",
+            "padding-inline": "8px",
+            "padding-block": "2px"
+          },
+          "sourceTableIds": [
+            "278:82606"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"]",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "278:82925"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"]:is([data-size=\"Large\"],:not([data-size]))",
+          "properties": {
+            "padding": "8px",
+            "gap": "4px"
+          },
+          "sourceTableIds": [
+            "278:81996"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"] img",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "278:81996"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "color": "var(--croma-color-on-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "color": "var(--croma-color-on-tertiary-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "color": "var(--croma-color-on-error)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "color": "var(--croma-color-on-error-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-error)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "color": "var(--croma-color-on-success)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "color": "var(--croma-color-on-success-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-success)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "color": "var(--croma-color-on-warning)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "color": "var(--croma-color-on-warning-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-warning)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "color": "var(--croma-color-on-surface-mid-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "color": "var(--croma-color-on-tertiary)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "color": "var(--croma-color-on-tertiary-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "color": "var(--croma-color-on-error)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "color": "var(--croma-color-on-error-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-error)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "color": "var(--croma-color-on-success)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "color": "var(--croma-color-on-success-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-success)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "color": "var(--croma-color-on-warning)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "color": "var(--croma-color-on-warning-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-warning)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "color": "var(--croma-color-on-surface-mid-contrast)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Badge\"]",
+          "properties": {
+            "min-height": "28px",
+            "border-bottom-right-radius": "16px",
+            "padding-inline-start": "8px",
+            "padding-inline-end": "16px"
+          },
+          "sourceTableIds": [
+            "144:10806"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Badge\"]",
+          "properties": {
+            "background": "var(--croma-gradient-badge)",
+            "box-shadow": "var(--croma-elevation-2)",
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "144:10762"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Badge\"]",
+          "properties": {
+            "font-size": "var(--croma-type-label-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-label-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-label-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-label-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "144:10762"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"]",
+          "properties": {
+            "border-radius": "50%"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "278:81149"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "ChipGroup": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Chip group\"]",
+          "properties": {
+            "gap": "12px"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "144:8953"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Segmented": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]",
+          "properties": {
+            "border-radius": "4px",
+            "padding-inline": "16px"
+          },
+          "sourceTableIds": [
+            "245:36936"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:disabled",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-variant) 12%,transparent)"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:disabled .croma-spec-button-label",
+          "properties": {
+            "color": "var(--croma-color-on-surface-variant)",
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"]:not(:disabled):is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-variant) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-button[data-type=\"Segmented\"][aria-pressed=\"true\"]:not(:disabled):hover",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent),color-mix(in srgb,var(--croma-color-on-secondary) 8%,transparent))"
+          },
+          "sourceTableIds": [
+            "245:36827"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Accordion": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Accordion\"]",
+          "properties": {
+            "padding": "16px",
+            "border-bottom-width": "1px"
+          },
+          "sourceTableIds": [
+            "245:38980",
+            "245:39382",
+            "245:39463",
+            "245:39594"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"]>div",
+          "properties": {
+            "margin-block-start": "8px"
+          },
+          "sourceTableIds": [
+            "245:38980",
+            "245:39382"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"] summary",
+          "properties": {
+            "gap": "16px"
+          },
+          "sourceTableIds": [
+            "245:38980"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-accordion-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"][open]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 4%,transparent)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"] summary",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"]>div",
+          "properties": {
+            "color": "var(--croma-color-on-background-low-contrast)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"][open] summary",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"]:not([open]) summary",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Accordion\"]>div",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:38811"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Tabs": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Tabs\"] [role=\"tab\"]",
+          "properties": {
+            "min-height": "48px",
+            "padding-inline": "8px",
+            "text-align": "center"
+          },
+          "sourceTableIds": [
+            "278:74563"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Tabs\"] [role=\"tab\"][aria-selected=\"true\"]",
+          "properties": {
+            "border-bottom-width": "2px"
+          },
+          "sourceTableIds": [
+            "278:74563"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Dropdown": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "PopUp": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Navigation Drawer\"] .croma-dialog-close-icon",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "BottomSheet": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Menu": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-menu-icon-background",
+          "properties": {
+            "width": "32px",
+            "height": "32px",
+            "border-radius": "8px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-trailing",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-section-title",
+          "properties": {
+            "min-height": "56px",
+            "padding-inline": "32px",
+            "padding-block": "16px",
+            "margin-block-end": "8px"
+          },
+          "sourceTableIds": [
+            "248:64692"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Menu\"]>section",
+          "properties": {
+            "margin-block": "8px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Menu\"] li>button,[data-croma-component=\"Menu\"] li>a,[data-croma-component=\"Menu\"] summary,[data-croma-component=\"Menu\"] .croma-menu-control-row",
+          "properties": {
+            "min-height": "56px",
+            "padding-inline": "32px",
+            "padding-block": "12px",
+            "gap": "16px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Menu\"] [data-submenu]>button,[data-croma-component=\"Menu\"] [data-submenu]>a,[data-croma-component=\"Menu\"] [data-submenu]>.croma-menu-control-row",
+          "properties": {
+            "min-height": "56px",
+            "padding-inline-start": "48px",
+            "padding-inline-end": "32px",
+            "padding-block": "12px",
+            "gap": "16px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-message",
+          "properties": {
+            "min-height": "80px",
+            "padding-inline-start": "48px",
+            "padding-inline-end": "32px",
+            "padding-block-start": "0px",
+            "padding-block-end": "16px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-icon-background",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-label",
+          "properties": {
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Menu\"] [data-submenu][data-inactive=\"true\"] .croma-menu-label",
+          "properties": {
+            "opacity": ".38"
+          },
+          "sourceTableIds": [
+            "248:63172"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-icon-background",
+          "properties": {
+            "padding": "8px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-label",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Menu\"] [data-submenu] .croma-menu-label",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-section-title",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-bold-font-size)",
+            "font-weight": "var(--croma-type-body-small-bold-font-weight)",
+            "line-height": "var(--croma-type-body-small-bold-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-bold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-divider[data-variant=\"1\"]",
+          "properties": {
+            "border-top-width": "1px"
+          },
+          "sourceTableIds": [
+            "248:64755"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-menu-divider[data-variant=\"2\"]",
+          "properties": {
+            "border-top-width": "4px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "NavigationDrawer": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-drawer-profile img",
+          "properties": {
+            "width": "28px",
+            "height": "28px",
+            "border-radius": "50%"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-header",
+          "properties": {
+            "padding-inline": "32px",
+            "padding-block-start": "32px"
+          },
+          "sourceTableIds": [
+            "248:64558"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-profile",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "248:64558"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-neupass",
+          "properties": {
+            "min-height": "80px",
+            "border-radius": "8px",
+            "padding": "16px",
+            "margin-block-start": "24px"
+          },
+          "sourceTableIds": [
+            "248:64558"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-quick-links",
+          "properties": {
+            "padding-inline": "32px",
+            "margin-block-start": "24px",
+            "margin-block-end": "32px",
+            "gap": "16px"
+          },
+          "sourceTableIds": [
+            "248:64642"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-quick-links>a",
+          "properties": {
+            "padding": "12px",
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "248:64642"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-quick-icon",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-neupass",
+          "properties": {
+            "background": "var(--croma-gradient-neupass-band-background)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-profile",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-drawer-quick-links>a",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Navigation Drawer\"] .croma-dialog-close-icon",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "248:63931"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Tooltip": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": ".croma-tooltip-body",
+          "properties": {
+            "border-radius": "4px",
+            "padding": "8px",
+            "gap": "4px"
+          },
+          "sourceTableIds": [
+            "160:13595"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-copy",
+          "properties": {
+            "gap": "4px"
+          },
+          "sourceTableIds": [
+            "160:13595"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-beak",
+          "properties": {
+            "width": "32px",
+            "height": "8px",
+            "--croma-tooltip-beak-fill": "color-mix(in srgb,var(--croma-color-surface),var(--croma-color-on-surface-high-contrast) 8%)",
+            "--croma-tooltip-beak-elevation": "var(--croma-elevation-2)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-body",
+          "properties": {
+            "background": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)),var(--croma-color-surface)",
+            "box-shadow": "var(--croma-elevation-2)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-copy>strong",
+          "properties": {
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-copy>span",
+          "properties": {
+            "color": "var(--croma-color-on-background-mid-contrast)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Tooltip\"][data-type=\"Outlined\"] .croma-tooltip-body",
+          "properties": {
+            "border-color": "var(--croma-color-outline)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-copy>strong",
+          "properties": {
+            "font-size": "var(--croma-type-label-x-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-label-x-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-label-x-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-label-x-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-tooltip-copy>span",
+          "properties": {
+            "font-size": "var(--croma-type-caption-xx-small-regular-font-size)",
+            "font-weight": "var(--croma-type-caption-xx-small-regular-font-weight)",
+            "line-height": "var(--croma-type-caption-xx-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-caption-xx-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "160:13272"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance.",
+      "artworkGap": "Beak outline/path not written. Optional beak artwork prop; empty32x8slot by default. No invented triangle."
+    },
+    "Header": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Chat": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "StickyFooter": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "SearchBar": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Search bar\"] .croma-spec-search-container",
+          "properties": {
+            "min-height": "40px",
+            "margin-inline": "16px",
+            "padding-inline": "12px",
+            "padding-block": "8px",
+            "gap": "8px",
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "245:44360"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-search-container",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-background-high-contrast) 12%,transparent)",
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 12%,transparent)",
+            "color": "var(--croma-color-on-background-high-contrast)"
+          },
+          "sourceTableIds": [
+            "245:44248"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-search-clear[data-has-icon=\"true\"]",
+          "properties": {
+            "width": "24px",
+            "height": "24px"
+          },
+          "sourceTableIds": [
+            "245:44248"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-search-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "245:44248"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-spec-search-container input",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:44248"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Steppers": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] ol",
+          "properties": {
+            "gap": "0px"
+          },
+          "sourceTableIds": [
+            "245:48455"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] ol",
+          "properties": {
+            "gap": "24px"
+          },
+          "sourceTableIds": [
+            "245:48767"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] li",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "245:48455"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] li",
+          "properties": {
+            "gap": "12px"
+          },
+          "sourceTableIds": [
+            "245:48767"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-step-icon",
+          "properties": {
+            "width": "12px",
+            "height": "12px"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] .croma-step-path",
+          "properties": {
+            "height": "2px"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] .croma-step-path",
+          "properties": {
+            "width": "2px",
+            "height": "32px"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-step-track",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "245:48767"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-step-copy",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "245:48767"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] .croma-step-path[data-path-state=\"Inactive\"]",
+          "properties": {
+            "background": "var(--croma-color-surface-variant)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] .croma-step-path[data-path-state=\"Completed\"]",
+          "properties": {
+            "background": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] [data-step-state=\"Active\"] .croma-spec-step-count",
+          "properties": {
+            "background": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] [data-step-state=\"Inactive\"] .croma-spec-step-count",
+          "properties": {
+            "background": "var(--croma-color-surface-variant)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] [data-step-state=\"Completed\"] .croma-step-heading",
+          "properties": {
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] [data-step-state=\"Active\"] .croma-step-heading",
+          "properties": {
+            "color": "var(--croma-color-secondary)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"] [data-step-state=\"Inactive\"] .croma-step-heading",
+          "properties": {
+            "color": "var(--croma-color-on-surface-mid-contrast)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-step-description",
+          "properties": {
+            "color": "var(--croma-color-on-surface-low-contrast)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] li:not([data-step-state=\"Inactive\"]) .croma-step-heading",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] [data-step-state=\"Inactive\"] .croma-step-heading",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] .croma-step-description",
+          "properties": {
+            "font-size": "var(--croma-type-caption-xx-small-regular-font-size)",
+            "font-weight": "var(--croma-type-caption-xx-small-regular-font-weight)",
+            "line-height": "var(--croma-type-caption-xx-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-caption-xx-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Horizontal\"] .croma-spec-step-count",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48282"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] li:not([data-step-state=\"Inactive\"]) .croma-step-heading",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] [data-step-state=\"Inactive\"] .croma-step-heading",
+          "properties": {
+            "font-size": "var(--croma-type-body-small-regular-font-size)",
+            "font-weight": "var(--croma-type-body-small-regular-font-weight)",
+            "line-height": "var(--croma-type-body-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-body-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] .croma-step-description",
+          "properties": {
+            "font-size": "var(--croma-type-caption-xx-small-regular-font-size)",
+            "font-weight": "var(--croma-type-caption-xx-small-regular-font-weight)",
+            "line-height": "var(--croma-type-caption-xx-small-regular-line-height)",
+            "letter-spacing": "var(--croma-type-caption-xx-small-regular-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Steppers\"][data-orientation=\"Vertical\"] .croma-spec-step-count",
+          "properties": {
+            "font-size": "var(--croma-type-body-x-small-semibold-font-size)",
+            "font-weight": "var(--croma-type-body-x-small-semibold-font-weight)",
+            "line-height": "var(--croma-type-body-x-small-semibold-line-height)",
+            "letter-spacing": "var(--croma-type-body-x-small-semibold-letter-spacing)"
+          },
+          "sourceTableIds": [
+            "245:48586"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Label": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Large\"]",
+          "properties": {
+            "min-height": "32px",
+            "min-width": "52px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Medium\"]",
+          "properties": {
+            "min-height": "24px",
+            "min-width": "52px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-size=\"Small\"]",
+          "properties": {
+            "min-height": "20px",
+            "min-width": "48px"
+          },
+          "sourceTableIds": [
+            "278:82050"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"All rounded\"]",
+          "properties": {
+            "border-radius": "4px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"One corner radius (Bottom-right)\"]",
+          "properties": {
+            "border-bottom-right-radius": "8px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-shape=\"Two corner radius (Top & bottom-right)\"]",
+          "properties": {
+            "border-top-right-radius": "8px",
+            "border-bottom-right-radius": "8px"
+          },
+          "sourceTableIds": [
+            "278:82106"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"]",
+          "properties": {
+            "min-height": "20px",
+            "width": "24px",
+            "border-width": "2px",
+            "border-radius": "20px",
+            "padding-inline": "8px",
+            "padding-block": "2px"
+          },
+          "sourceTableIds": [
+            "278:82606"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"]",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "278:82925"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"]:is([data-size=\"Large\"],:not([data-size]))",
+          "properties": {
+            "padding": "8px",
+            "gap": "4px"
+          },
+          "sourceTableIds": [
+            "278:81996"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"] img",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "278:81996"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "color": "var(--croma-color-on-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "color": "var(--croma-color-on-tertiary-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Blue\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "color": "var(--croma-color-on-error)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "color": "var(--croma-color-on-error-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Red\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-error)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "color": "var(--croma-color-on-success)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "color": "var(--croma-color-on-success-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Green\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-success)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "color": "var(--croma-color-on-warning)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "color": "var(--croma-color-on-warning-container)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Brown\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-warning)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "color": "var(--croma-color-on-surface-mid-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Text Badges\"][data-colour=\"Black\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:81627"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "color": "var(--croma-color-on-tertiary)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "color": "var(--croma-color-on-tertiary-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Blue\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-tertiary)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "color": "var(--croma-color-on-error)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "color": "var(--croma-color-on-error-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Red\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-error)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "color": "var(--croma-color-on-success)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "color": "var(--croma-color-on-success-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Green\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-success)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "color": "var(--croma-color-on-warning)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "color": "var(--croma-color-on-warning-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Brown\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-warning)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "color": "var(--croma-color-on-surface-mid-contrast)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Number Indicator\"][data-colour=\"Black\"][data-emphasis=\"Low\"]",
+          "properties": {
+            "border-color": "color-mix(in srgb,var(--croma-color-outline) 48%,transparent)",
+            "color": "var(--croma-color-on-surface-high-contrast)"
+          },
+          "sourceTableIds": [
+            "278:82240"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Blue\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Blue\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-tertiary-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Red\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-error)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Red\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-error-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Green\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-success)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Green\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-success-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Brown\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "var(--croma-color-warning)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Brown\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "var(--croma-color-warning-container)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Black\"][data-emphasis=\"High\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 14%,transparent)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"][data-colour=\"Black\"][data-emphasis=\"Medium\"]",
+          "properties": {
+            "background": "color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent)",
+            "border-color": "var(--croma-color-background)"
+          },
+          "sourceTableIds": [
+            "278:82742"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": ".croma-label-icon",
+          "properties": {
+            "width": "16px",
+            "height": "16px"
+          },
+          "sourceTableIds": [
+            "278:81506"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Labels & Badges\"][data-type=\"Dots\"]",
+          "properties": {
+            "border-radius": "50%"
+          },
+          "sourceTableIds": [],
+          "sourceTextNodeIds": [
+            "278:81149"
+          ]
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "DividerLine": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Divider\"][data-variant=\"1\"]:not([data-with-text]),[data-croma-component=\"Divider\"][data-variant=\"3\"]:not([data-with-text])",
+          "properties": {
+            "border-top-width": "1px"
+          },
+          "sourceTableIds": [
+            "153:12930"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"][data-variant=\"2\"]:not([data-with-text])",
+          "properties": {
+            "border-top-width": "4px"
+          },
+          "sourceTableIds": [
+            "153:12930"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"]",
+          "properties": {
+            "margin-inline": "16px"
+          },
+          "sourceTableIds": [
+            "153:13099"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"]",
+          "properties": {
+            "border-top-color": "color-mix(in srgb,var(--croma-color-outline) 24%,transparent)"
+          },
+          "sourceTableIds": [
+            "153:12930"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"][data-with-text=\"true\"]",
+          "properties": {
+            "gap": "8px"
+          },
+          "sourceTableIds": [
+            "153:13126"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"][data-with-text=\"true\"] hr",
+          "properties": {
+            "border-top-width": "1px",
+            "border-top-color": "color-mix(in srgb,var(--croma-color-outline) 24%,transparent)"
+          },
+          "sourceTableIds": [
+            "153:12930"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Divider\"][data-with-text=\"true\"]>span",
+          "properties": {
+            "text-align": "center",
+            "color": "var(--croma-color-on-background-low-contrast)"
+          },
+          "sourceTableIds": [
+            "153:12930"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    },
+    "Card": {
+      "status": "implementation candidate; properties verified only within documented checks; no component fully accepted",
+      "registeredProperties": [
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Outlined\"]",
+          "properties": {
+            "border-width": "1px"
+          },
+          "sourceTableIds": [
+            "171:18689"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Horizontal small\"]",
+          "properties": {
+            "aspect-ratio": "4/1"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Horizontal medium\"]",
+          "properties": {
+            "aspect-ratio": "2/1"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Horizontal large\"]",
+          "properties": {
+            "aspect-ratio": "16/9"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Horizontal x-large\"]",
+          "properties": {
+            "aspect-ratio": "4/3"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Square\"]",
+          "properties": {
+            "aspect-ratio": "1/1"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Vertical small\"]",
+          "properties": {
+            "aspect-ratio": "3/4"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-aspect-ratio=\"Vertical large\"]",
+          "properties": {
+            "aspect-ratio": "9/16"
+          },
+          "sourceTableIds": [
+            "171:18245"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Elevated\"]:is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent))",
+            "box-shadow": "var(--croma-elevation-2)"
+          },
+          "sourceTableIds": [
+            "171:18470"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Elevated\"]:is(:focus-within,[data-state=\"Focused\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "var(--croma-elevation-1)"
+          },
+          "sourceTableIds": [
+            "171:18470"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Elevated\"]:is(:active,[data-state=\"Pressed\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "var(--croma-elevation-1)"
+          },
+          "sourceTableIds": [
+            "171:18470"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Filled\"]:is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent))",
+            "box-shadow": "var(--croma-elevation-1)"
+          },
+          "sourceTableIds": [
+            "171:18605"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Filled\"]:is(:focus-within,[data-state=\"Focused\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "none"
+          },
+          "sourceTableIds": [
+            "171:18605"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Filled\"]:is(:active,[data-state=\"Pressed\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "none"
+          },
+          "sourceTableIds": [
+            "171:18605"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Outlined\"]:is(:hover,[data-state=\"Hovered\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 8%,transparent))",
+            "box-shadow": "var(--croma-elevation-1)"
+          },
+          "sourceTableIds": [
+            "171:18756"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Outlined\"]:is(:focus-within,[data-state=\"Focused\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "none"
+          },
+          "sourceTableIds": [
+            "171:18756"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Outlined\"]:is(:active,[data-state=\"Pressed\"])",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 12%,transparent))",
+            "box-shadow": "none"
+          },
+          "sourceTableIds": [
+            "171:18756"
+          ],
+          "sourceTextNodeIds": []
+        },
+        {
+          "selector": "[data-croma-component=\"Cards\"][data-type=\"Elevated\"]",
+          "properties": {
+            "background-image": "linear-gradient(color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 5%,transparent),color-mix(in srgb,var(--croma-color-on-surface-high-contrast) 5%,transparent))",
+            "box-shadow": "var(--croma-elevation-1)"
+          },
+          "sourceTableIds": [
+            "171:18397"
+          ],
+          "sourceTextNodeIds": []
+        }
+      ],
+      "checks": "See focused browser review and independent app acceptance records; source citation alone is not implementation acceptance."
+    }
+  },
+  "checks": {
+    "packageBuild": "passed278 checkpoint",
+    "typecheck": "passed",
+    "writtenProvenance": "279 generated rules passed written-cell/prose transcription and emitted CSS verification",
+    "focusedBrowser": "passed278 checkpoint, including controlledmixedCheckbox/state semantics, keyboard/focus/ref/validation and selectedcomputedgeometry",
+    "independentBrowser": {
+      "checkpoint": 279,
+      "registrySha256": "647cc76433625b92f9f44842445ea44d0f5fd8d1708a6d3c3c7e9990b866726f",
+      "runtimeFingerprint": "90a5bac2b401244cde28bb29ca1a68f7b1035f428e850e202af04158aad26a11",
+      "registryAndRuntimeStable": true,
+      "uniqueProperties": 535,
+      "numericPropertiesVerified": 223,
+      "measuredUnacceptedGaps": 1,
+      "unresolvedSemanticProperties": 311,
+      "unmeasuredNumericProperties": 0,
+      "foundationChecksPassed": 214,
+      "interactionsPassed": 26,
+      "layoutChecksPassed": 6,
+      "consoleErrors": 0,
+      "sourceCitationErrors": 0,
+      "visualFeedback": "Native checkbox empty/checked/mixed states remain distinct; radius0px vs written4px is not accepted.",
+      "scope": "Fresh production-build/runtime-fingerprinted property-specific checks. No full component visual acceptance."
+    },
+    "remainingKnownSourceWork": {
+      "source": "../../figma-foundations/source/remaining-work-reconciliation.json",
+      "reviewOutcome": "No further concrete independently implementable numeric/code work identified in the audited written requirements. Missing semantic definitions, artwork and annotation scope remain unresolved.",
+      "remainingIndependentWork": []
+    }
+  }
+}

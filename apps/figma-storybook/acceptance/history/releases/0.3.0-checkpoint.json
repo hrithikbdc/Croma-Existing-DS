@@ -1,0 +1,35 @@
+{
+  "version": "0.3.0",
+  "date": "2026-11-05",
+  "status": "User-approved prototype extensions verified within focused scope; exact Figma and full-system visual acceptance not claimed",
+  "sourcePolicy": "Original Figma components retain written-first source contracts. New Prototype extensions are user-approved reusable compositions using existing tokens, not exact authored Figma variants or retroactive Figma specifications. Cached raw child properties alone do not establish rendered values.",
+  "corrections": [
+    "Audit findings A30.1\u2013A30.5 are withdrawn: live effective Form Field context matches the existing labels."
+  ],
+  "changes": [
+    "Added SearchCombobox with controlled query, grouped model/storage/finish suggestions, optional brand filter, keyboard selection and loading/error/empty states.",
+    "Added native-radio/checkbox SelectablePurchaseCard and Group, InlineNotification, LoadingIndicator and Breadcrumb compositions.",
+    "Added fully editable CommerceHeader with original logo/icon slots and responsive navigation; the original raster-based Header reference remains separate.",
+    "Added CompositionDialog, ResponsiveStepper, PrototypeField, InlineFieldAction, ActionGroup and PrototypeButton recipes for shared insets, body-only dialog scrolling, narrow layouts, long labels and stable loading actions.",
+    "CTA authors use sentence case while preserving proper nouns/acronyms. CSS preserves supplied casing; no automatic lowercasing is applied.",
+    "Geometry, theme-role assignments and composition spacing are explicitly extension choices. Routing, data fetching, business validation and exchange-prototype integration remain caller-owned."
+  ],
+  "checks": [
+    "The combined search-combobox, exchange-selection, commerce-header and prototype-patterns focused browser suite passed10/10 in3.2seconds.",
+    "The focused cases include Search IME composition, brand filtering, keyboard selection, outside dismissal, loading/error states; native purchase-card selection; desktop and320pxcomposed Search/Header/cards/multi-step dialog; aligned field actions, compact progress, Escape dismissal and focus return.",
+    "Earlier original-DS full-suite and patch results remain historical in their frozen checkpoints; they were not rerun or promoted to acceptance of these new compositions.",
+    "Portable installation/build/type checks are recorded separately in this release manifest."
+  ],
+  "remaining": [
+    "The original whole Header has only a raster reference; the new editable CommerceHeader is an extension, not a source-accepted reconstruction.",
+    "Accordion/Search source glyph overrides require a scoped source resolution.",
+    "Eleven archive-recovered Illustration compositions await official source render comparison. Phone/Desktop casings are implemented; Laptop/Display casing references remain incomplete and Phone official render comparison is unavailable.",
+    "Source does not establish numeric motion easing/fade duration or numeric icon/scrollable Tabs spacing; these are not invented.",
+    "Standard/nonmodal drawer and the older profile composition need complete effective-source sign-off. Expanded ContainerState5 is implemented and passed its focused regression.",
+    "A passing build and individual measurements do not establish whole-system100% acceptance.",
+    "Prototype-extension theme assignments and composed-screen visuals remain reviewable implementation proposals, not stakeholder design sign-off."
+  ],
+  "releaseRecord": "https://chatgpt.com/space/page_49627bc35024819188643bc35c48fa81",
+  "previousRelease": "0.2.3",
+  "previousReleaseCheckpoint": "history/releases/0.2.3-checkpoint.json"
+}

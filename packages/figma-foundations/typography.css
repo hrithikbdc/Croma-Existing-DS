@@ -1,0 +1,383 @@
+/* Written values. Bundled user-supplied Switzer Variable is selected through --croma-font-family. */
+[data-croma-text-style="Typescale - Desktop/Feature \a Title 1"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 136px;
+  font-weight: 800;
+  line-height: 140px;
+  letter-spacing: -0.02em;
+}
+
+[data-croma-text-style="Typescale - Desktop/Feature \a Title 2"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 86px;
+  font-weight: 800;
+  line-height: 90px;
+  letter-spacing: -0.02em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H1"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 68px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H2"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H3"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H4"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H5"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H6"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/H7"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B1 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B1 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B1 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B2 -  Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B2 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B2 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B3 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B3 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B3 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B4 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B4 - Semibold  "] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B4 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Desktop/B1 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Desktop/B2 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Desktop/B3 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Mobile/Feature \a Title 1"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H1"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H2"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H3"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H4"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H5"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/H6"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B1 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B1 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B1 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B2 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B2 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B2 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B3 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B3 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B3 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B4 - Regular"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B4 - Semibold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B4 - Bold"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+}
+
+[data-croma-text-style="Typescale - Mobile/B4 - Link "] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Mobile/B3 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Mobile/B2 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}
+
+[data-croma-text-style="Typescale - Mobile/B1 - Link"] {
+  font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-decoration: underline;
+}

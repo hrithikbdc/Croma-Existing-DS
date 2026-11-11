@@ -1,0 +1,4 @@
+import type {HTMLAttributes} from 'react';
+const mediaTile=new URL('./assets/cards/skeleton-media-tile.svg',import.meta.url).href;
+/** Exact editable loading composition171:18917, excluding the documentation's surrounding Example frame. */
+export function CardSkeleton({className='',...props}:HTMLAttributes<HTMLDivElement>){return <div {...props} className={'croma-card-skeleton '+className} role="status" aria-label={props['aria-label']??'Loading content'} aria-busy="true" data-source-id="171:18917"><div className="croma-card-skeleton__media" aria-hidden="true" style={{backgroundImage:`url("${mediaTile}"),linear-gradient(rgb(198 198 198 / .14),rgb(198 198 198 / .14))`}}/><div className="croma-card-skeleton__content" aria-hidden="true"><div className="croma-card-skeleton__details"><span/><div><span/><span className="croma-card-skeleton__short"/></div></div><span className="croma-card-skeleton__action"/></div></div>;}

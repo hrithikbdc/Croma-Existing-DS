@@ -1,0 +1,21 @@
+{
+  "version": "0.5.0",
+  "date": "2026-11-05",
+  "storybookRegressions": {
+    "passed": 34,
+    "failed": 0,
+    "seconds": 14.8
+  },
+  "consumerRegressions": {
+    "passed": 3,
+    "failed": 0,
+    "seconds": 2.0
+  },
+  "browser": "installed Chromium revision1243; CROMA_TEST_BROWSER override",
+  "sourceLiteralRules": 283,
+  "visualReview": [
+    "dark wide",
+    "dark320px"
+  ],
+  "scope": "Prototype-extension hygiene and existing exercised regressions; not full source/pixel acceptance"
+}

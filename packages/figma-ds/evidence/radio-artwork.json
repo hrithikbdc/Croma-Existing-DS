@@ -1,0 +1,74 @@
+[
+  {
+    "name": "radio-dark-unselected",
+    "nodeId": "I194:35322;5955:124362",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-dark-unselected.svg",
+    "sha256": "764bee00e8e8c0a0a6da3aef1f44749820c4e5126ca304ee93c73828bff3181f",
+    "source": "Read-only native SVG_STRING export. Unselected=actual written-guide figure; selected=actual linked main fallback."
+  },
+  {
+    "name": "radio-light-unselected",
+    "nodeId": "I194:35368;5955:124447",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-light-unselected.svg",
+    "sha256": "f50fd057df68417136c667f93ac59bf374cb529716a07419f50dc730c0b38a04",
+    "source": "Read-only native SVG_STRING export. Unselected=actual written-guide figure; selected=actual linked main fallback."
+  },
+  {
+    "name": "radio-dark-selected",
+    "nodeId": "144:15461",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-dark-selected.svg",
+    "sha256": "e49e7b60c0d01a34f6600348df93e9b0262374b4c99367bd4371d219a0cefea6",
+    "source": "Read-only native SVG_STRING export. Unselected=actual written-guide figure; selected=actual linked main fallback."
+  },
+  {
+    "name": "radio-light-selected",
+    "nodeId": "144:15503",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-light-selected.svg",
+    "sha256": "210b8e9ba1826d78df395fff58a98e2b54b682ed522a4680ca4aea2f1fa556b1",
+    "source": "Read-only native SVG_STRING export. Unselected=actual written-guide figure; selected=actual linked main fallback."
+  },
+  {
+    "name": "radio-dark-selected-disabled",
+    "nodeId": "144:15468",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-dark-selected-disabled.svg",
+    "sha256": "0b02ef2f579e4dd9db0cb8a293603a564b104ab3b8c4a61bce2523f607aaded0",
+    "source": "Original exact linked main disabled icon; no opacity baked; written38% applies once."
+  },
+  {
+    "name": "radio-dark-unselected-disabled",
+    "nodeId": "144:15472",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-dark-unselected-disabled.svg",
+    "sha256": "07ca231ff723c5cebebb480776545b6fac7b079c538efdce44d40b0d6c00d330",
+    "source": "Original exact linked main disabled icon; no opacity baked; written38% applies once."
+  },
+  {
+    "name": "radio-light-selected-disabled",
+    "nodeId": "144:15510",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-light-selected-disabled.svg",
+    "sha256": "c935f4306ef9a56f0b881e4b424a769284ed535bf71a407eea8c79f66fdd4740",
+    "source": "Original exact linked main disabled icon; no opacity baked; written38% applies once."
+  },
+  {
+    "name": "radio-light-unselected-disabled",
+    "nodeId": "144:15514",
+    "nativeWidth": 24,
+    "nativeHeight": 24,
+    "path": "src/assets/controls/radio-light-unselected-disabled.svg",
+    "sha256": "bc83b911ccf952f2f511df143f7cb841723c8b40c5e40d06fbca378f10fd60d2",
+    "source": "Original exact linked main disabled icon; no opacity baked; written38% applies once."
+  }
+]

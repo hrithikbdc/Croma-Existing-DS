@@ -1,0 +1,655 @@
+{
+  "205:34944": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34944
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34947
+      },
+      "position": "!"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.07118052244186401,
+          "c1": 0.8541666865348816,
+          "c2": 0.6600931286811829,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2066
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34946": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34946
+    },
+    "name": "Label",
+    "type": "TEXT",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34947
+      },
+      "position": "\""
+    },
+    "size": {
+      "x": 35,
+      "y": 20
+    },
+    "strokeWeight": 0,
+    "strokeAlign": "CENTER",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2067
+      }
+    },
+    "fontName": {
+      "family": "Switzer",
+      "style": "Regular",
+      "postscript": "Switzer-Regular"
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "value": 20,
+      "units": "PIXELS"
+    },
+    "letterSpacing": {
+      "value": 0,
+      "units": "PIXELS"
+    }
+  },
+  "205:34954": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34954
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34949
+      },
+      "position": "!O"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "strokePaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForStrokeFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2067
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34956": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34956
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34955
+      },
+      "position": "!"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.07118052244186401,
+          "c1": 0.8541666865348816,
+          "c2": 0.6600931286811829,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2066
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34958": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34958
+    },
+    "name": "Label",
+    "type": "TEXT",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34955
+      },
+      "position": "\""
+    },
+    "size": {
+      "x": 35,
+      "y": 20
+    },
+    "strokeWeight": 0,
+    "strokeAlign": "CENTER",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 49,
+        "localID": 2098
+      }
+    },
+    "fontName": {
+      "family": "Switzer",
+      "style": "Regular",
+      "postscript": "Switzer-Regular"
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "value": 20,
+      "units": "PIXELS"
+    },
+    "letterSpacing": {
+      "value": 0,
+      "units": "PIXELS"
+    }
+  },
+  "205:34960": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34960
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34959
+      },
+      "position": "!O"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "strokePaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForStrokeFill": {
+      "guid": {
+        "sessionID": 49,
+        "localID": 2098
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34961": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34961
+    },
+    "name": "Label",
+    "type": "TEXT",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34959
+      },
+      "position": "\""
+    },
+    "size": {
+      "x": 35,
+      "y": 20
+    },
+    "strokeWeight": 0,
+    "strokeAlign": "CENTER",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 49,
+        "localID": 2098
+      }
+    },
+    "fontName": {
+      "family": "Switzer",
+      "style": "Regular",
+      "postscript": "Switzer-Regular"
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "value": 20,
+      "units": "PIXELS"
+    },
+    "letterSpacing": {
+      "value": 0,
+      "units": "PIXELS"
+    }
+  },
+  "205:34965": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34965
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34962
+      },
+      "position": "#"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.07118052244186401,
+          "g": 0.8541666865348816,
+          "b": 0.6600931286811829,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.07118052244186401,
+          "c1": 0.8541666865348816,
+          "c2": 0.6600931286811829,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2066
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34967": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34967
+    },
+    "name": "Label",
+    "type": "TEXT",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34962
+      },
+      "position": "$"
+    },
+    "size": {
+      "x": 35,
+      "y": 20
+    },
+    "strokeWeight": 0,
+    "strokeAlign": "CENTER",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 1,
+          "c1": 1,
+          "c2": 1,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2067
+      }
+    },
+    "fontName": {
+      "family": "Switzer",
+      "style": "Regular",
+      "postscript": "Switzer-Regular"
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "value": 20,
+      "units": "PIXELS"
+    },
+    "letterSpacing": {
+      "value": 0,
+      "units": "PIXELS"
+    }
+  },
+  "205:34972": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34972
+    },
+    "name": "Icon",
+    "type": "FRAME",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34968
+      },
+      "position": "%"
+    },
+    "size": {
+      "x": 24,
+      "y": 24
+    },
+    "cornerRadius": 4,
+    "strokeWeight": 1,
+    "strokeAlign": "INSIDE",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.0313725508749485,
+          "g": 0.5176470875740051,
+          "b": 0.4000000059604645,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.0313725508749485,
+          "c1": 0.5176470875740051,
+          "c2": 0.4000000059604645,
+          "c3": 1
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 40,
+        "localID": 2066
+      }
+    },
+    "stackSpacing": 8,
+    "stackMode": "HORIZONTAL",
+    "stackHorizontalPadding": 2,
+    "stackVerticalPadding": 2,
+    "rectangleTopLeftCornerRadius": 4
+  },
+  "205:34974": {
+    "guid": {
+      "sessionID": 205,
+      "localID": 34974
+    },
+    "name": "Label",
+    "type": "TEXT",
+    "parentIndex": {
+      "guid": {
+        "sessionID": 205,
+        "localID": 34968
+      },
+      "position": "&"
+    },
+    "size": {
+      "x": 35,
+      "y": 20
+    },
+    "strokeWeight": 0,
+    "strokeAlign": "CENTER",
+    "fillPaints": [
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.2235294133424759,
+          "g": 0.2235294133424759,
+          "b": 0.2235294133424759,
+          "a": 1
+        },
+        "opacity": 1,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.2235294133424759,
+          "c1": 0.2235294133424759,
+          "c2": 0.2235294133424759,
+          "c3": 1
+        }
+      },
+      {
+        "type": "SOLID",
+        "color": {
+          "r": 0.7764706015586853,
+          "g": 0.7764706015586853,
+          "b": 0.7764706015586853,
+          "a": 1
+        },
+        "opacity": 0.05000000074505806,
+        "visible": true,
+        "blendMode": "NORMAL",
+        "authoredColor": {
+          "space": "DEFAULT",
+          "c0": 0.7764706015586853,
+          "c1": 0.7764706015586853,
+          "c2": 0.7764706015586853,
+          "c3": 0.05000000074505806
+        }
+      }
+    ],
+    "styleIdForFill": {
+      "guid": {
+        "sessionID": 49,
+        "localID": 2098
+      }
+    },
+    "fontName": {
+      "family": "Switzer",
+      "style": "Regular",
+      "postscript": "Switzer-Regular"
+    },
+    "fontSize": 14,
+    "lineHeight": {
+      "value": 20,
+      "units": "PIXELS"
+    },
+    "letterSpacing": {
+      "value": 0,
+      "units": "PIXELS"
+    }
+  }
+}

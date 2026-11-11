@@ -1,0 +1,330 @@
+{
+  "fileKey": "2WzKPv4y8rw4zJ94LmI3yS",
+  "policy": "Written first, then exact actual source figure/main/overrides; original SVGs untouched.",
+  "assets": [
+    {
+      "id": "toggle-light-unselected",
+      "file": "src/assets/controls/toggle-light-unselected.svg",
+      "sourceNodeId": "208:34954",
+      "figureInstanceId": "208:34945",
+      "mainComponentId": "208:34945",
+      "logicalSlot": {
+        "width": 52,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 53.0,
+        "height": 24.0
+      },
+      "sha256": "d133af8d1a7ab461880dbeb9ce42c364c5ccd222927a081e3865728d38a41cef",
+      "bytes": 388,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "geometryNote": "Logicalsourceframe52x24; unmodifiednativeSVGroot53x24includesfractionalpaintboundsroundedtoexportpixelgrid. Intrinsic53x24retainedinsidevisible-overflowslot52x24."
+    },
+    {
+      "id": "checkbox-dark-selected",
+      "file": "src/assets/controls/checkbox-dark-selected.svg",
+      "sourceNodeId": "I194:39516;5936:128569",
+      "figureInstanceId": "194:39516",
+      "mainComponentId": "144:15942",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "d38d3fb90f6a4cd266cb233563cc0f32424d4b588238acb3b110bd8db4029d00",
+      "bytes": 375,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    },
+    {
+      "id": "checkbox-light-mixed",
+      "file": "src/assets/controls/checkbox-light-mixed.svg",
+      "sourceNodeId": "I194:39389;5936:128361",
+      "figureInstanceId": "194:39389",
+      "mainComponentId": "144:16011",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "e4fe713d374c1e50bf82ced5cdbdcb0e6866d77ae74bd867ed16d224270d7028",
+      "bytes": 367,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    },
+    {
+      "id": "checkbox-dark-mixed-disabled",
+      "file": "src/assets/controls/checkbox-dark-mixed-disabled.svg",
+      "sourceNodeId": "I194:39546;5936:128838",
+      "figureInstanceId": "194:39546",
+      "mainComponentId": "144:15957",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "44a4354e64acc089336f378c6065cd06568df1851004d79d85aab750c61e0885",
+      "bytes": 440,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "stateOpacity": {
+        "written": 0.38,
+        "application": "externalCSSinputopacityonce",
+        "nativeSVGContainsStateOpacity38": false,
+        "sourceRootOpacity": "get_design_contextrootopacity38; sourcepictureassetexcludesancestoropacity."
+      }
+    },
+    {
+      "id": "toggle-light-selected",
+      "file": "src/assets/controls/toggle-light-selected.svg",
+      "sourceNodeId": "208:34936",
+      "figureInstanceId": "208:34931",
+      "mainComponentId": "208:34931",
+      "logicalSlot": {
+        "width": 52,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 53.0,
+        "height": 24.0
+      },
+      "sha256": "26e54daaec821b0669e42e60b30d5c52b612883079957225e904458e1c8d79f8",
+      "bytes": 234,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "geometryNote": "Logicalsourceframe52x24; unmodifiednativeSVGroot53x24includesfractionalpaintboundsroundedtoexportpixelgrid. Intrinsic53x24retainedinsidevisible-overflowslot52x24."
+    },
+    {
+      "id": "checkbox-light-mixed-disabled",
+      "file": "src/assets/controls/checkbox-light-mixed-disabled.svg",
+      "sourceNodeId": "I194:39591;5936:128482",
+      "figureInstanceId": "194:39591",
+      "mainComponentId": "144:16022",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "677ee5daf685643a670c2e85c14fce1bc1978b88fa6002aab991988126a1d229",
+      "bytes": 440,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "stateOpacity": {
+        "written": 0.38,
+        "application": "externalCSSinputopacityonce",
+        "nativeSVGContainsStateOpacity38": false,
+        "sourceRootOpacity": "get_design_contextrootopacity38; sourcepictureassetexcludesancestoropacity."
+      }
+    },
+    {
+      "id": "checkbox-dark-selected-disabled",
+      "file": "src/assets/controls/checkbox-dark-selected-disabled.svg",
+      "sourceNodeId": "I194:39524;5936:128705",
+      "figureInstanceId": "194:39524",
+      "mainComponentId": "144:15953",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "3125f3dbffbbfc2364ee8e4732f4f8691e7bb20728d4da9827af1528a3e0708c",
+      "bytes": 448,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "stateOpacity": {
+        "written": 0.38,
+        "application": "externalCSSinputopacityonce",
+        "nativeSVGContainsStateOpacity38": false,
+        "sourceRootOpacity": "get_design_contextrootopacity38; sourcepictureassetexcludesancestoropacity."
+      }
+    },
+    {
+      "id": "checkbox-light-selected",
+      "file": "src/assets/controls/checkbox-light-selected.svg",
+      "sourceNodeId": "I194:39383;5880:126753",
+      "figureInstanceId": "194:39383",
+      "mainComponentId": "144:16007",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "88f5338ea8cd9ff800031b3deca746941e6d6074195d96490b76d38a67a291b4",
+      "bytes": 375,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    },
+    {
+      "id": "checkbox-light-selected-disabled",
+      "file": "src/assets/controls/checkbox-light-selected-disabled.svg",
+      "sourceNodeId": "I194:39569;5936:128302",
+      "figureInstanceId": "194:39569",
+      "mainComponentId": "144:16018",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "94c413933ccfc85a3773796f34c96195de248f8e3528d932825ad732f30a4b21",
+      "bytes": 448,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "stateOpacity": {
+        "written": 0.38,
+        "application": "externalCSSinputopacityonce",
+        "nativeSVGContainsStateOpacity38": false,
+        "sourceRootOpacity": "get_design_contextrootopacity38; sourcepictureassetexcludesancestoropacity."
+      }
+    },
+    {
+      "id": "toggle-dark-selected",
+      "file": "src/assets/controls/toggle-dark-selected.svg",
+      "sourceNodeId": "194:34641",
+      "figureInstanceId": "208:34929",
+      "mainComponentId": "208:34929",
+      "logicalSlot": {
+        "width": 52,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 53.0,
+        "height": 24.0
+      },
+      "sha256": "1852e5e54d2421a425bd14872ffb35508bd41c01755ac255fa93002b687d0f97",
+      "bytes": 236,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "geometryNote": "Logicalsourceframe52x24; unmodifiednativeSVGroot53x24includesfractionalpaintboundsroundedtoexportpixelgrid. Intrinsic53x24retainedinsidevisible-overflowslot52x24."
+    },
+    {
+      "id": "checkbox-dark-mixed",
+      "file": "src/assets/controls/checkbox-dark-mixed.svg",
+      "sourceNodeId": "I194:39538;5936:128717",
+      "figureInstanceId": "194:39538",
+      "mainComponentId": "144:15946",
+      "logicalSlot": {
+        "width": 24,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 24.0,
+        "height": 24.0
+      },
+      "sha256": "b80f0f589117cbed0efb10f04a0fbcee9772a86f8bb66f4aa44bc9689d360f57",
+      "bytes": 367,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    },
+    {
+      "id": "toggle-dark-unselected",
+      "file": "src/assets/controls/toggle-dark-unselected.svg",
+      "sourceNodeId": "208:34950",
+      "figureInstanceId": "208:34940",
+      "mainComponentId": "208:34940",
+      "logicalSlot": {
+        "width": 52,
+        "height": 24
+      },
+      "svgRoot": {
+        "width": 53.0,
+        "height": 24.0
+      },
+      "sha256": "d133af8d1a7ab461880dbeb9ce42c364c5ccd222927a081e3865728d38a41cef",
+      "bytes": 388,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "geometryNote": "Logicalsourceframe52x24; unmodifiednativeSVGroot53x24includesfractionalpaintboundsroundedtoexportpixelgrid. Intrinsic53x24retainedinsidevisible-overflowslot52x24."
+    },
+    {
+      "id": "tooltip-beak-dark",
+      "file": "src/assets/tooltip/beak-dark.svg",
+      "sourceNodeId": "I160:13654;1796:60026;1796:60016;1796:60019",
+      "figureInstanceId": "160:13654",
+      "mainComponentId": "160:13030",
+      "logicalSlot": {
+        "width": 32,
+        "height": 8
+      },
+      "svgRoot": {
+        "width": 32.0,
+        "height": 9.0
+      },
+      "sha256": "aa39409ae433732a8c949513bd0011aae5abe2d36445e8029f8fb13d23e7508b",
+      "bytes": 621,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "placement": {
+        "offsetTop": -1,
+        "reason": "Exact effective get_design_contextcallsite places9pxexportinkat-1pxinsidewritten32x8slot. Originalrootdimensionsretained."
+      }
+    },
+    {
+      "id": "tooltip-beak-light",
+      "file": "src/assets/tooltip/beak-light.svg",
+      "sourceNodeId": "I160:13708;4035:84676;4035:85431;4035:85409",
+      "figureInstanceId": "160:13708",
+      "mainComponentId": "160:13103",
+      "logicalSlot": {
+        "width": 32,
+        "height": 8
+      },
+      "svgRoot": {
+        "width": 32.0,
+        "height": 9.0
+      },
+      "sha256": "cfce8531bdb361a3d7fb8aafe3526a9dcf627c372faa3534b9a4a99d96c3095e",
+      "bytes": 621,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits.",
+      "placement": {
+        "offsetTop": -1,
+        "reason": "Exact effective get_design_contextcallsite places9pxexportinkat-1pxinsidewritten32x8slot. Originalrootdimensionsretained."
+      }
+    },
+    {
+      "id": "tooltip-information-dark",
+      "file": "src/assets/tooltip/information-dark.svg",
+      "sourceNodeId": "I160:13654;1796:60026;1803:61748",
+      "figureInstanceId": "160:13654",
+      "mainComponentId": "160:13030",
+      "logicalSlot": {
+        "width": 16,
+        "height": 16
+      },
+      "svgRoot": {
+        "width": 16.0,
+        "height": 16.0
+      },
+      "sha256": "5eb0e2c08a294af51fe92798463c78bd686b54d46131861695431842fed17c3c",
+      "bytes": 929,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    },
+    {
+      "id": "tooltip-information-light",
+      "file": "src/assets/tooltip/information-light.svg",
+      "sourceNodeId": "I160:13708;4035:84676;4035:85428",
+      "figureInstanceId": "160:13708",
+      "mainComponentId": "160:13103",
+      "logicalSlot": {
+        "width": 16,
+        "height": 16
+      },
+      "svgRoot": {
+        "width": 16.0,
+        "height": 16.0
+      },
+      "sha256": "060f27601ff6f6dc076cafa77170f620ad0a624663074de81a412b646ac2ae5a",
+      "bytes": 929,
+      "method": "Unmodified original SVG from the exact source main/figure slot; no path/fill/root-dimension edits."
+    }
+  ]
+}

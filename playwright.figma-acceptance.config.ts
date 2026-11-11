@@ -1,0 +1,2 @@
+import {defineConfig} from '@playwright/test';
+export default defineConfig({testDir:'./tests',testMatch:['figma-storybook/**/*.spec.ts','figma-expanded/**/*.spec.ts'],workers:2,outputDir:'test-results/acceptance',use:{baseURL:'http://127.0.0.1:6021',browserName:'chromium',viewport:{width:1280,height:1000}},reporter:[['list'],['json',{outputFile:'docs/verification/fixes-acceptance-browser.json'}]],webServer:{command:'npm run preview -w @croma/figma-storybook',url:'http://127.0.0.1:6021',reuseExistingServer:!process.env.CI,timeout:30000}});

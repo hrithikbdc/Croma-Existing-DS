@@ -1,0 +1,55 @@
+{
+  "name": "@croma/figma-ds",
+  "version": "0.5.1",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./styles.css": "./dist/styles.css"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "sideEffects": [
+    "**/*.css"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "evidence/acceptance-gaps.json",
+    "evidence/written-values.json",
+    "evidence/component-completeness.json",
+    "evidence/source-icons.json",
+    "evidence/saved-values.json",
+    "evidence/source-artwork.json",
+    "evidence/source-logos.json",
+    "evidence/button-gate.json",
+    "evidence/button-guide-cases.json",
+    "evidence/local-button-source.json",
+    "evidence/radio-artwork.json",
+    "evidence/dropdown-source.json",
+    "evidence/tabs-source.json",
+    "evidence/source-illustrations.json",
+    "evidence/local-primitives-source.json",
+    "evidence/source-devices.json"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "verify:assets": "node scripts/verify-assets.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrithikbdc/Croma-Existing-DS.git",
+    "directory": "packages/figma-ds"
+  },
+  "homepage": "https://hrithikbdc.github.io/Croma-Existing-DS/",
+  "bugs": {
+    "url": "https://github.com/hrithikbdc/Croma-Existing-DS/issues"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["packages/figma-ds/src", "packages/figma-foundations/index.ts", "apps/figma-prototype/src", "apps/figma-storybook/stories", "apps/figma-storybook/.storybook", "tests/figma", "playwright.figma.config.ts"]
+}
