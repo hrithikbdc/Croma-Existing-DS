@@ -1,0 +1,51 @@
+name: Publish release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version already recorded in package.json (for example 0.5.1)'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    env:
+      VERSION: ${{ inputs.version }}
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - name: Check release version and refuse replacement
+        run: |
+          test "$GITHUB_REF" = refs/heads/main
+          node --input-type=module -e "import fs from 'node:fs'; const p=JSON.parse(fs.readFileSync('package.json')); if(!/^\d+\.\d+\.\d+$/.test(process.env.VERSION)||p.version!==process.env.VERSION) throw Error('Input version must match package.json');"
+          if gh release view "v$VERSION" >/dev/null 2>&1; then
+            echo 'This release already exists. Publish a new version instead.'
+            exit 1
+          fi
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm run verify
+      - run: npm run release:pack
+      - name: Publish exact verified commit and assets
+        run: |
+          gh release create "v$VERSION" releases/"$VERSION"/* \
+            --target "$GITHUB_SHA" --title "Croma DS $VERSION" \
+            --notes-file RELEASE-NOTES.md --latest
