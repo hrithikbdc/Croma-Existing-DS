@@ -41,7 +41,7 @@ jobs:
             exit 1
           fi
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      - run: npx playwright install --with-deps chromium firefox webkit
       - run: npm run verify
       - run: npm run release:pack
       - name: Publish exact verified commit and assets
