@@ -1,8 +1,8 @@
 import type { StorybookConfig } from '@storybook/react-vite';
 const config: StorybookConfig = {
-  stories: ['../stories/**/*.stories.@(ts|tsx)'],
+  stories: ['../stories/**/*.mdx', '../stories/**/*.stories.@(ts|tsx)'],
   staticDirs: ['../public'],
-  addons: ['@storybook/addon-docs', '@storybook/addon-a11y'],
+  addons: ['@storybook/addon-docs', '@storybook/addon-a11y', 'msw-storybook-addon'],
   framework: { name: '@storybook/react-vite', options: {} },
   core: { disableTelemetry: true },
   docs: { defaultName: 'Usage and source' },

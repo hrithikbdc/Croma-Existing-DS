@@ -1,15 +1,15 @@
 /* Source52 Tooltip variants. SVG ink roots remain32×9 inside logical32×8 slots. */
 [data-tooltip-family="source-52"] {font-family:var(--croma-font-family);}
 [data-tooltip-family="source-52"] .croma-tooltip-content {overflow:visible;max-width:100vw;max-height:100vh;}
-[data-tooltip-family="source-52"] .croma-tooltip-body {position:relative;display:flex;padding:8px;border:0;border-radius:4px;background-image:var(--croma-tooltip-source-background);box-shadow:none;filter:drop-shadow(0 2px 3px rgb(0 0 0 / .15)) drop-shadow(0 1px 1px rgb(0 0 0 / .3));min-width:32px;}
+[data-tooltip-family="source-52"] .croma-tooltip-body {position:relative;display:flex;padding:8px;border:0;border-radius:4px;background-image:var(--croma-tooltip-source-background);box-shadow:none;filter:drop-shadow(0 2px 3px var(--croma-literal-d59ed4abacb7)) drop-shadow(0 1px 1px var(--croma-literal-23bb59fc68f8));min-width:32px;}
 [data-tooltip-family="source-52"][data-type="Outlined"] .croma-tooltip-body {border-width:0;}
 [data-tooltip-family="source-52"][data-stroke="On"] .croma-tooltip-body::before {content:"";position:absolute;inset:0;border:1px solid var(--croma-color-outline);border-radius:inherit;pointer-events:none;}
 [data-tooltip-family="source-52"] .croma-tooltip-copy {display:flex;flex-direction:column;gap:4px;}
 [data-tooltip-family="source-52"] .croma-tooltip-heading {display:flex;align-items:center;gap:4px;}
-[data-tooltip-family="source-52"] .croma-tooltip-title {font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:#c6c6c6;}
-[data-tooltip-family="source-52"] .croma-tooltip-description {font-family:var(--croma-font-family);font-size:12px;font-weight:400;line-height:16px;letter-spacing:.5px;color:#ababab;overflow-wrap:anywhere;}
-[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-title {color:#2a2a2a;}
-[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-description {color:#474747;}
+[data-tooltip-family="source-52"] .croma-tooltip-title {font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:var(--croma-literal-bba525054b73);}
+[data-tooltip-family="source-52"] .croma-tooltip-description {font-family:var(--croma-font-family);font-size:12px;font-weight:400;line-height:16px;letter-spacing:.5px;color:var(--croma-literal-3568dea72072);overflow-wrap:anywhere;}
+[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-title {color:var(--croma-literal-a1c0fe2d1b69);}
+[data-tooltip-family="source-52"][data-theme="light"] .croma-tooltip-description {color:var(--croma-literal-4e271fcb7f41);}
 [data-tooltip-family="source-52"] .croma-tooltip-icon {width:16px;height:16px;}
 [data-tooltip-family="source-52"] .croma-tooltip-icon img {display:block;max-width:none;}
 [data-tooltip-family="source-52"] .croma-tooltip-beak {position:absolute;display:block;width:32px;height:8px;left:calc(50% - 16px);bottom:-8px;}

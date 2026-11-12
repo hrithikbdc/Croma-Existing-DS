@@ -1,15 +1,15 @@
 /* Seven source states 827:82201. See evidence/form-field-source.json for exact nodes and layout conversions. */
 .croma-spec-field {
-  --croma-field-text: color(srgb 0.3708333373069763 0.3708333373069763 0.3708333373069763 / 1);
-  --croma-field-caption: color(srgb 0.6083333492279053 0.6083333492279053 0.6083333492279053 / 1);
-  --croma-field-error-text: color(srgb 1 0.3490196466445923 0.3490196466445923 / 1);
+  --croma-field-text: var(--croma-literal-0854156eda0d);
+  --croma-field-caption: var(--croma-literal-2ff1d3401acb);
+  --croma-field-error-text: var(--croma-literal-8328e58f0218);
   box-sizing: border-box; display: flex; flex-direction: column; inline-size: 100%; min-inline-size: 0; max-inline-size: 100%; overflow: visible;
   font-family: var(--croma-font-family, "Switzer", "Inter Variable", sans-serif); color: var(--croma-field-text);
 }
 .croma-spec-field .croma-field-control {
   box-sizing: border-box; position: relative; display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center;
   inline-size: 100%; block-size: 54px; min-inline-size: 0; max-inline-size: 100%; padding-inline: 17px; padding-block: 0;
-  border: 0; border-radius: 8px; background: color(srgb 1 1 1 / 1); overflow: visible;
+  border: 0; border-radius: 8px; background: var(--croma-literal-188dd01fba6c); overflow: visible;
 }
 .croma-spec-field .croma-field-input {
   box-sizing: border-box; grid-column: 2; grid-row: 1; inline-size: 100%; block-size: 54px; min-inline-size: 0; max-inline-size: 100%;

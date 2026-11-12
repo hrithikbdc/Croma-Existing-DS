@@ -1,3 +1,4 @@
+import {useCromaTheme} from './Theme.js';
 import {useEffect,useLayoutEffect,useId,useRef,useState,type CSSProperties,type InputHTMLAttributes} from 'react';
 const searchArtwork={dark:new URL('./assets/search/leading-dark.svg',import.meta.url).href,light:new URL('./assets/search/leading-light.svg',import.meta.url).href};
 export interface VariantSuggestion {id:string;model:string;brand?:string;storage?:string;finish?:string;description?:string;disabled?:boolean}
@@ -7,7 +8,7 @@ export interface SearchComboboxProps extends Omit<InputHTMLAttributes<HTMLInputE
  loading?:boolean;error?:string;onRetry?:()=>void;emptyText?:string;Theme?:'dark'|'light';helpText?:string;resultsLabel?:string;
 }
 /** New Croma prototype extension. Filtering, async fetching and product identity stay with the consumer. */
-export function SearchCombobox({label,query,onQueryChange,suggestions,onSelect,onSubmit,selectedId,brands,brand,onBrandChange,brandLabel='Brand',loading=false,error,onRetry,emptyText='No matching variants',Theme='dark',helpText,resultsLabel='Matching phones',id:suppliedId,disabled=false,className='',onFocus,onBlur,onKeyDown,onCompositionStart,onCompositionEnd,...inputProps}:SearchComboboxProps){
+export function SearchCombobox({label,query,onQueryChange,suggestions,onSelect,onSubmit,selectedId,brands,brand,onBrandChange,brandLabel='Brand',loading=false,error,onRetry,emptyText='No matching variants',Theme: themeOverride,helpText,resultsLabel='Matching phones',id:suppliedId,disabled=false,className='',onFocus,onBlur,onKeyDown,onCompositionStart,onCompositionEnd,...inputProps}:SearchComboboxProps){const Theme=useCromaTheme(themeOverride,'dark');
  const uid=useId(),id=suppliedId??uid;const root=useRef<HTMLDivElement>(null),input=useRef<HTMLInputElement>(null),composing=useRef(false);const[open,setOpen]=useState(false),[active,setActive]=useState(-1);
  const[above,setAbove]=useState(false),[available,setAvailable]=useState(320);
  const visible=open&&!disabled;const choices=loading||error?[]:suggestions;const enabled=choices.flatMap((s,i)=>s.disabled?[]:[i]);
@@ -38,7 +39,7 @@ export function SearchCombobox({label,query,onQueryChange,suggestions,onSelect,o
    <div id={id+'-list'} role="listbox" aria-label={`${label} suggestions`} aria-busy={loading||undefined} className="croma-search-combobox__list">
     {choices.map((s,i)=><div key={s.id} id={`${id}-option-${i}`} role="option" aria-selected={selectedId===s.id} aria-disabled={s.disabled||undefined} data-suggestion-index={i} data-active={active===i} className="croma-search-combobox__option" onPointerDown={e=>e.preventDefault()} onPointerMove={()=>{if(!s.disabled)setActive(i);}} onClick={()=>choose(i)}><span className="croma-search-combobox__model">{s.model}</span>{(s.storage||s.finish)&&<span className="croma-search-combobox__meta">{s.storage&&<span>{s.storage}</span>}{s.finish&&<span>{s.finish}</span>}</span>}{s.description&&<span className="croma-search-combobox__description">{s.description}</span>}</div>)}
    </div>
-   {(loading||error||!choices.length)&&<div className="croma-search-combobox__status" role="status">{loading?'Searching…':error??emptyText}{!loading&&error&&onRetry&&<button type="button" onClick={onRetry}>Try again</button>}</div>}
+   {(loading||error||!choices.length)&&<div className="croma-search-combobox__status" role="status">{loading?'Searching…':error??emptyText}{!loading&&error&&onRetry&&<button type="button" onPointerDown={event=>event.preventDefault()} onClick={()=>{input.current?.focus();setOpen(true);onRetry();}}>Try again</button>}</div>}
   </div>}
   </div>
   {helpText&&<p id={id+'-help'} className="croma-search-combobox__help">{helpText}</p>}

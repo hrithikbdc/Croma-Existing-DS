@@ -1,9 +1,10 @@
+import {useCromaTheme} from './Theme.js';
 import {cloneElement,useEffect,useId,useLayoutEffect,useRef,useState,type CSSProperties,type HTMLAttributes,type ReactElement,type ReactNode} from 'react';
 import {Button} from './Button.js';
 import {tooltipVariants} from './tooltip-data.js';
 export type TooltipPosition='Top'|'Top Left'|'Top Right'|'Bottom'|'Bottom Left'|'Bottom Right'|'Left'|'Left Top'|'Left Bottom'|'Right'|'Right Top'|'Right Bottom'|'N/A';
 export interface TooltipProps {label:string;title?:string;description:string;icon?:ReactNode;beak?:ReactNode;Type?:'Outlined';Theme?:'dark'|'light';Position?:TooltipPosition;Beak?:'On'|'Off';Stroke?:'On'|'Off';Open?:boolean;className?:string;Trigger?:'Text'|'Information';trigger?:ReactElement<HTMLAttributes<HTMLElement>>;/** Tooltip-specific written timing160:13849; measured from touch release. */touchDismissDelay?:number;/** Exact fade duration/easing are not supplied by the file. */fadeDuration?:number;fadeEasing?:CSSProperties['transitionTimingFunction']}
-export function Tooltip({label,title,description,icon,beak,Type,Theme='dark',Position,Beak='On',Stroke,Open,className='',Trigger='Text',trigger:triggerElement,touchDismissDelay=1500,fadeDuration,fadeEasing}:TooltipProps){
+export function Tooltip({label,title,description,icon,beak,Type,Theme: themeOverride,Position,Beak='On',Stroke,Open,className='',Trigger='Text',trigger:triggerElement,touchDismissDelay=1500,fadeDuration,fadeEasing}:TooltipProps){const Theme=useCromaTheme(themeOverride,'dark');
  const requested=Position??(Beak==='Off'?'N/A':'Top');const stroke=Stroke??(Type==='Outlined'?'On':'Off');
  if((Beak==='Off')!==(requested==='N/A'))throw new Error('Figma Tooltip requires Position=N/A when Beak=Off.');
  const trigger=useRef<HTMLSpanElement>(null),bubble=useRef<HTMLSpanElement>(null);const id=useId();

@@ -16,7 +16,7 @@ for (const name of ['@croma/figma-foundations', '@croma/figma-ds']) {
     assert(!/(?:local-fig-source|document-nodes|node_modules|\.fig$|archive-provenance|source\/styles\.json)/i.test(path), `Private source leaked into ${name}: ${path}`);
   }
   if (name.endsWith('foundations')) {
-    assert.deepEqual(entries.toSorted(), ['README.md', 'index.ts', 'package.json', 'tokens.css', 'tokens.json', 'typography.css', 'fonts.css', 'fonts/Switzer-Variable.ttf', 'fonts/NOTICE.txt'].toSorted());
+    assert.deepEqual(entries.toSorted(), ['color-tokens.json', 'README.md', 'index.ts', 'package.json', 'tokens.css', 'tokens.json', 'typography.css', 'fonts.css', 'fonts/Switzer-Variable.ttf', 'fonts/NOTICE.txt'].toSorted());
   } else {
     for (const path of ['dist/index.js', 'dist/index.d.ts', 'dist/styles.css', 'evidence/written-values.json']) {
       assert(entries.includes(path), `${name} missing ${path}`);

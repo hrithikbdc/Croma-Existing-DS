@@ -1,4 +1,15 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["packages/figma-ds/src", "packages/figma-foundations/index.ts", "apps/figma-prototype/src", "apps/figma-storybook/stories", "apps/figma-storybook/.storybook", "tests/figma", "playwright.figma.config.ts"]
+  "include": [
+    "packages/figma-ds/src",
+    "packages/figma-foundations/index.ts",
+    "apps/figma-prototype/src",
+    "apps/figma-storybook/stories",
+    "apps/figma-storybook/.storybook",
+    "tests/figma",
+    "playwright.figma.config.ts",
+    "apps/figma-storybook/developer",
+    "tests/developer",
+    "playwright.developer.config.ts"
+  ]
 }

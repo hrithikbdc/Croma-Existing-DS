@@ -1,3 +1,4 @@
+import {useCromaTheme} from './Theme.js';
 import { forwardRef, type ButtonHTMLAttributes, type ReactNode } from 'react';
 
 export type ButtonSize = 'Large' | 'Small';
@@ -14,9 +15,9 @@ export interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 /** Written-guide branch. Saved properties only fill gaps in its actual source figures. */
 export const Button = forwardRef<HTMLButtonElement, ButtonProps>(function Button({
-  Size = 'Large', Type = 'Filled', State = 'Enabled', Theme='dark', Selected, children, icon,
+  Size = 'Large', Type = 'Filled', State = 'Enabled', Theme: themeOverride, Selected, children, icon,
   className = '', disabled, type = 'button', ...props
-}, ref) {
+}, ref) {const Theme=useCromaTheme(themeOverride,'dark');
   const iconLabel=Type==='Icon' && !props['aria-label'] && !props['aria-labelledby'] && typeof children==='string'&&children.trim()?children:undefined;
   if(Type==='Icon'&&!props['aria-label']?.trim()&&!props['aria-labelledby']?.trim()&&!iconLabel)throw new Error('Icon buttons require an accessible label.');
   if(Type==='Icon'&&!icon)throw new Error('Icon buttons require caller-provided icon artwork.');

@@ -1,6 +1,6 @@
 {
   "name": "@croma/figma-foundations",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "private": true,
   "type": "module",
   "sideEffects": [
@@ -11,7 +11,8 @@
     "./tokens.json": "./tokens.json",
     "./tokens.css": "./tokens.css",
     "./typography.css": "./typography.css",
-    "./fonts.css": "./fonts.css"
+    "./fonts.css": "./fonts.css",
+    "./color-tokens.json": "./color-tokens.json"
   },
   "scripts": {},
   "files": [
@@ -21,7 +22,8 @@
     "typography.css",
     "README.md",
     "fonts.css",
-    "fonts"
+    "fonts",
+    "color-tokens.json"
   ],
   "repository": {
     "type": "git",

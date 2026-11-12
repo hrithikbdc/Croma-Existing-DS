@@ -1,9 +1,10 @@
+import {useCromaTheme} from './Theme.js';
 import {useEffect,useId,useLayoutEffect,useRef,useState,type CSSProperties,type ReactNode} from 'react';
 import {Menu,type MenuSection} from './Compound.js';
 import {Button} from './Button.js';
 export interface MenuPopoverProps {label:string;trigger:ReactNode;sections:MenuSection[];open?:boolean;defaultOpen?:boolean;onOpenChange?:(open:boolean)=>void;width?:number;disabled?:boolean;Theme?:'dark'|'light'}
 /** A temporary surface around the source-backed navigation-list family. It does not relabel drawer rows as ARIA command-menu items. */
-export function MenuPopover({label,trigger,sections,open:controlled,defaultOpen=false,onOpenChange,width=360,disabled=false,Theme='light'}:MenuPopoverProps){
+export function MenuPopover({label,trigger,sections,open:controlled,defaultOpen=false,onOpenChange,width=360,disabled=false,Theme: themeOverride}:MenuPopoverProps){const Theme=useCromaTheme(themeOverride,'light');
  const id=useId(),root=useRef<HTMLDivElement>(null),opener=useRef<HTMLButtonElement>(null),panel=useRef<HTMLDivElement>(null);
  const[local,setLocal]=useState(defaultOpen),[position,setPosition]=useState({left:0,top:0,maxHeight:0});const open=!disabled&&(controlled??local);
  const change=(next:boolean,returnFocus=false)=>{if(controlled===undefined)setLocal(next);onOpenChange?.(next);if(returnFocus)opener.current?.focus();};

@@ -1,17 +1,17 @@
 /* Current visible Account247:51237, repeated Anatomy247:51513; legacy written tables are separately scoped. */
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-navigation-drawer {
  box-sizing:border-box;position:fixed;inset:0 0 0 auto;margin:0;width:min(348px,calc(100vw - 42px));height:100dvh;
- max-width:none;max-height:none;padding:24px;border:0;border-radius:14px 0 0 14px;background:white;color:#191919;
+ max-width:none;max-height:none;padding:24px;border:0;border-radius:14px 0 0 14px;background:white;color:var(--croma-literal-74fdfc67436b);
  font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif);overflow:auto;
 }
-[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-navigation-drawer::backdrop {background:rgba(53,53,53,.8);}
+[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-navigation-drawer::backdrop {background:var(--croma-literal-2eec22e21f76);}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-header {display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding:0;margin:0 0 24px;}
-[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-header h2 {margin:0;padding:0;min-width:0;font-family:inherit;font-size:16px;line-height:24px;font-weight:700;letter-spacing:0;color:#191919;}
+[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-header h2 {margin:0;padding:0;min-width:0;font-family:inherit;font-size:16px;line-height:24px;font-weight:700;letter-spacing:0;color:var(--croma-literal-74fdfc67436b);}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-header>button {appearance:none;display:flex;align-items:center;justify-content:center;flex:0 0 32px;width:32px;height:32px;margin:0;padding:0;border:0;border-radius:0;background:transparent;color:inherit;cursor:pointer;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-close-icon {display:flex;width:32px;height:32px;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-close-icon>img {display:block;max-width:none;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-dialog-content {display:flex;flex-direction:column;gap:32px;min-width:0;margin:0;padding:0;}
-[data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] {display:flex;flex-direction:column;gap:32px;margin:0;padding:0;color:#191919;background:transparent;}
+[data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] {display:flex;flex-direction:column;gap:32px;margin:0;padding:0;color:var(--croma-literal-74fdfc67436b);background:transparent;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] section {margin:0;padding:0;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] ul {display:flex;flex-direction:column;gap:24px;margin:0;padding:0;list-style:none;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] li {position:relative;margin:0;padding:0;min-height:35px;}
@@ -19,13 +19,13 @@
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] li>a,
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] summary,
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-control-row {
- appearance:none;box-sizing:border-box;display:flex;align-items:flex-start;gap:8px;width:100%;min-height:24px;margin:0;padding:0 0 0 43px;border:0;border-radius:0;background:transparent;color:#191919;font-family:inherit;text-align:start;text-decoration:none;cursor:pointer;
+ appearance:none;box-sizing:border-box;display:flex;align-items:flex-start;gap:8px;width:100%;min-height:24px;margin:0;padding:0 0 0 43px;border:0;border-radius:0;background:transparent;color:var(--croma-literal-74fdfc67436b);font-family:inherit;text-align:start;text-decoration:none;cursor:pointer;
 }
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-icon-background {position:absolute;left:0;top:0;display:flex;align-items:flex-start;justify-content:flex-start;width:35px;height:35px;min-width:35px;padding:0;border:0;border-radius:0;background:transparent;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-icon {display:flex;width:35px;height:35px;color:inherit;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-icon img {display:block;max-width:none;}
-[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-label {font-family:inherit;font-size:16px;line-height:24px;font-weight:700;letter-spacing:0;color:#191919;}
-[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-message {box-sizing:border-box;min-height:0;margin:4px 0 0;padding:0 0 0 43px;font-family:inherit;font-size:12px;line-height:16px;font-weight:400;letter-spacing:0;color:#191919;overflow-wrap:anywhere;}
+[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-label {font-family:inherit;font-size:16px;line-height:24px;font-weight:700;letter-spacing:0;color:var(--croma-literal-74fdfc67436b);}
+[data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-message {box-sizing:border-box;min-height:0;margin:4px 0 0;padding:0 0 0 43px;font-family:inherit;font-size:12px;line-height:16px;font-weight:400;letter-spacing:0;color:var(--croma-literal-74fdfc67436b);overflow-wrap:anywhere;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] .croma-menu-section-title {margin:0 0 8px;padding:0;font-family:inherit;font-size:16px;line-height:24px;font-weight:700;color:inherit;}
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] li:not(:has(.croma-menu-icon-background))>button,
 [data-croma-component="Navigation Drawer"][data-source-branch="account"] [data-croma-component="Menu"] li:not(:has(.croma-menu-icon-background))>a {padding-left:0;}

@@ -12,7 +12,7 @@
 .croma-sticky-footer-installment {appearance:none;display:block;align-self:flex-start;padding:0;margin:0;border:0;background:transparent;color:var(--croma-source-paint-2-235);font-family:inherit;font-size:16px;font-weight:400;line-height:22px;letter-spacing:0;text-align:start;text-decoration:underline;}
 button.croma-sticky-footer-installment {cursor:pointer;}
 .croma-sticky-footer-action {display:flex;align-items:stretch;flex:none;width:138px;min-width:0;}
-.croma-sticky-footer-cta {appearance:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;flex:1 1 0;min-width:0;min-height:48px;margin:0;padding:12px;border:0;border-radius:8px;background:var(--croma-source-paint-2-235);color:#1a1a1a;font-family:inherit;font-size:16px;line-height:24px;letter-spacing:0;font-weight:700;text-align:center;cursor:pointer;white-space:nowrap;}
+.croma-sticky-footer-cta {appearance:none;box-sizing:border-box;display:flex;align-items:center;justify-content:center;flex:1 1 0;min-width:0;min-height:48px;margin:0;padding:12px;border:0;border-radius:8px;background:var(--croma-source-paint-2-235);color:var(--croma-literal-b326329c726c);font-family:inherit;font-size:16px;line-height:24px;letter-spacing:0;font-weight:700;text-align:center;cursor:pointer;white-space:nowrap;}
 
 /* Source overview278:58649 pinned overlay and guideline278:63640 page-flow recipe are distinct. */
 .croma-sticky-footer[data-footer-mode="Flow"] {position:static;}

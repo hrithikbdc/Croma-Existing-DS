@@ -9,9 +9,16 @@ Create a branch for a change and open a pull request against `main`.
 2. Update shared components in `packages/figma-ds/src` and shared tokens in `packages/figma-foundations`.
 3. Add or update Storybook examples for the affected states, including dark surfaces and narrow widths.
 4. Add a meaningful behavior regression when behavior changes. Keep original Figma components separate from prototype extensions.
-5. Run `npm run verify`. Include the affected stories, source basis, changes and actual checks in the pull request.
+5. Update the public example in `apps/figma-storybook/developer/examples.tsx`; API pages are generated from the exported TypeScript API. Keep imports public. Update the request adapter/fixtures when its service contract changes.
+6. Run `npm run verify`. Include the affected stories, source basis, changes and actual checks in the pull request.
 
 Do not use prototype-specific CSS to disguise a missing shared rule. Do not change original artwork bytes or assert visual acceptance from a passing build. Never add the raw Figma archive, credentials, personal files or the private extraction corpus to this repository.
+
+## Accessibility, browsers and visual references
+
+Install the test browsers with `npx playwright install chromium firefox webkit`. Developer adoption tests run the request, form, theme and accessibility scenarios in all three browsers; Chromium also checks all 66 API pages. Existing source/component regressions retain their documented scope.
+
+Eight Linux Chromium image references cover dark/light compositions, the floating input and form dropdown at 320px and 1280px. They detect code regressions and are not Figma sign-off. For an intentional reference change, push a review branch, run Checks and Storybook with `update_visual_baselines=true` on that branch, inspect the committed PNG diff and rerun normal checks. Baseline capture refuses main and never deploys Storybook. Do not update references to hide an unexplained failure.
 
 ## Releases
 

@@ -1,3 +1,4 @@
+import {useCromaTheme} from './Theme.js';
 import {useLayoutEffect,useRef,useState,type CSSProperties,type HTMLAttributes,type ReactNode} from 'react';
 export interface StepItem {label:string;description?:string;icon?:ReactNode;number?:ReactNode;href?:string;onSelect?:()=>void;disabled?:boolean}
 export interface SteppersProps extends Omit<HTMLAttributes<HTMLElement>,'onChange'> {label:string;steps:(string|StepItem)[];current:number;Orientation?:'Horizontal'|'Vertical';Theme?:'dark'|'light';Mode?:'Progress'|'Navigation';onStepChange?:(index:number)=>void}
@@ -7,7 +8,7 @@ function StepIcon({children}:{children:ReactNode}){
  useLayoutEffect(()=>{const node=content.current;if(!node)return;const fit=()=>{const width=node.offsetWidth,height=node.offsetHeight;setScale(width&&height?Math.min(1,12/width,12/height):1);};fit();const observer=new ResizeObserver(fit);observer.observe(node);return()=>observer.disconnect();},[children]);
  return <span className="croma-step-icon" aria-hidden="true"><span ref={content} className="croma-step-icon-content" style={{transform:`translate(-50%,-50%) scale(${scale})`}}>{children}</span></span>;
 }
-export function Steppers({label,steps,current,Orientation='Horizontal',Theme='dark',Mode='Progress',onStepChange,className='',style,...props}:SteppersProps){
+export function Steppers({label,steps,current,Orientation='Horizontal',Theme: themeOverride,Mode='Progress',onStepChange,className='',style,...props}:SteppersProps){const Theme=useCromaTheme(themeOverride,'dark');
  return <nav {...props} className={'croma-source-steppers '+className} data-croma-component="Steppers" data-mode={Mode} data-source-family="stepper-24548010" data-orientation={Orientation} data-theme={Theme} data-source-id={Orientation==='Horizontal'?(Theme==='dark'?'245:48010':'245:48078'):(Theme==='dark'?'245:48052':'245:48120')} aria-label={label} style={{'--croma-step-count':steps.length,...style} as CSSProperties}>
   <ol>{steps.map((entry,i)=>{const step=typeof entry==='string'?{label:entry}:entry;const state=i<current?'Completed':i===current?'Active':'Inactive';return <li key={i} data-step-state={state} aria-current={state==='Active'?'step':undefined}>
    <span className="croma-step-track">{Orientation==='Horizontal'&&<span className="croma-step-path croma-step-path-leading" data-hidden={i===0} data-path-state={i<=current?'Completed':'Inactive'} aria-hidden="true"/>}

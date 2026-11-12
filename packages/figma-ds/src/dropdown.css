@@ -1,6 +1,6 @@
 /* Default Dropdown set1715:79529; original vectors retained unchanged. */
-.croma-dropdown {position:relative;inline-size:100%;min-inline-size:0;max-inline-size:100%;font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:#5f5f5f;}
-.croma-dropdown__control {position:relative;block-size:54px;border-radius:8px;background:#fff;}
+.croma-dropdown {position:relative;inline-size:100%;min-inline-size:0;max-inline-size:100%;font-family:var(--croma-font-family);font-size:14px;font-weight:600;line-height:20px;letter-spacing:0;color:var(--croma-literal-d273439c3b8a);}
+.croma-dropdown__control {position:relative;block-size:54px;border-radius:8px;background:var(--croma-literal-e08de713877c);}
 .croma-dropdown .croma-dropdown__native {position:absolute;z-index:2;inset:0;box-sizing:border-box;inline-size:100%;block-size:54px;margin:0;border:0;padding:0;outline:none;box-shadow:none;cursor:pointer;}
 .croma-dropdown__value {position:absolute;inset-inline-start:17px;inset-inline-end:33px;inset-block-start:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;pointer-events:none;}
 .croma-dropdown__border {position:absolute;inset:0;pointer-events:none;}
@@ -11,10 +11,10 @@
 .croma-dropdown__arrow {position:absolute;right:9px;top:21px;width:16px;height:16px;max-width:none;pointer-events:none;}
 /* Open-state SVGs already contain the original upward arrow. */
 .croma-dropdown:is([data-source-id="1715:79530"],[data-source-id="1715:79540"]) .croma-dropdown__top {left:11.001px;right:17px;}
-.croma-dropdown__list {position:absolute;z-index:20;left:1px;top:55px;width:calc(100% - 1px);max-height:min(320px,50vh,var(--croma-dropdown-available-height,320px));overflow:auto;background:#fff;border-radius:8px;filter:drop-shadow(0 4px 2px rgb(0 0 0 / .1));}
-.croma-dropdown__option {box-sizing:border-box;padding:12px 20px;min-height:44px;background:#fff;color:#5f5f5f;overflow-wrap:anywhere;cursor:pointer;}
+.croma-dropdown__list {position:absolute;z-index:20;left:1px;top:55px;width:calc(100% - 1px);max-height:min(320px,50vh,var(--croma-dropdown-available-height,320px));overflow:auto;background:var(--croma-literal-e08de713877c);border-radius:8px;filter:drop-shadow(0 4px 2px var(--croma-literal-87a2c6a98141));}
+.croma-dropdown__option {box-sizing:border-box;padding:12px 20px;min-height:44px;background:var(--croma-literal-e08de713877c);color:var(--croma-literal-d273439c3b8a);overflow-wrap:anywhere;cursor:pointer;}
 /* Same-file Option Hover845:82253 uses a surface change, not an added outline. */
-.croma-dropdown__option[data-active="true"] {background:#f9f9f9;}
+.croma-dropdown__option[data-active="true"] {background:var(--croma-literal-2318e1869ace);}
 .croma-dropdown__option[aria-disabled="true"] {cursor:default;}
 /* The original border artwork carries the active colour; do not add a second outer ring. */
 .croma-dropdown__control:has(select:focus-visible) {outline:none;box-shadow:none;}
@@ -22,7 +22,7 @@
 
 .croma-dropdown[data-popup-above="true"] .croma-dropdown__list {top:auto;bottom:55px;}
 /* Form Dropdown840:82414 has visible floating labels; Default Dropdown1715:79529 does not. */
-.croma-dropdown__floating-label {position:absolute;top:-8px;left:17px;max-width:calc(100% - 40px);font:700 12px/16px var(--croma-font-family);color:#9b9b9b;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;}
+.croma-dropdown__floating-label {position:absolute;top:-8px;left:17px;max-width:calc(100% - 40px);font:700 12px/16px var(--croma-font-family);color:var(--croma-literal-7b4f256e506d);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;pointer-events:none;}
 .croma-dropdown__form-top {position:absolute;left:11px;right:13px;top:-8px;height:16px;display:flex;align-items:center;}
 .croma-dropdown__notch {font:700 12px/16px var(--croma-font-family);white-space:nowrap;visibility:hidden;flex:0 1 auto;min-width:0;width:0;overflow:hidden;}
 .croma-dropdown[data-floating="true"] .croma-dropdown__notch {padding-inline:6px;width:auto;}
@@ -37,4 +37,4 @@
 .croma-dropdown__notch, .croma-dropdown__option {font-style:normal;}
 /* Restored alternate focus presentation; source remains the default. */
 .croma-dropdown[data-focus-appearance="outer-outline"] .croma-dropdown__control:has(select:focus-visible) {outline:auto;outline-offset:3px;}
-.croma-dropdown[data-focus-appearance="outer-outline"]:has(select:focus-visible) .croma-dropdown__option[data-active="true"] {outline:1px solid currentColor;outline-offset:-1px;background:#fff;}
+.croma-dropdown[data-focus-appearance="outer-outline"]:has(select:focus-visible) .croma-dropdown__option[data-active="true"] {outline:1px solid currentColor;outline-offset:-1px;background:var(--croma-literal-e08de713877c);}
