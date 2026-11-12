@@ -12,3 +12,7 @@
 .croma-catalogue .specimen { background: #fff; padding: 16px; overflow-wrap: anywhere; }
 
 .croma-figma-story :is(h1,h2,h3) {font-style:normal;}
+
+/* Storybook-only CTA preview: Croma local Button set 393:72921 uses no added tracking.
+   Original guide references and released package styles keep their authored 2 px value. */
+.croma-figma-story [data-croma-button-tracking="croma-local"] .croma-spec-button { letter-spacing: 0; }
