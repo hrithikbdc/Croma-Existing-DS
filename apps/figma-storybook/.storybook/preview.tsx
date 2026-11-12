@@ -15,10 +15,11 @@ const preview: Preview = {
     controls: { expanded: true },
     backgrounds: { options: { light: { name: 'Light', value: '#f9f9f9' }, dark: { name: 'Croma website · #191919', value: '#191919' }, sourceDark: { name: 'Figma dark/background · #212121', value: '#212121' } } },
     options: { storySort: { order: ['Developers', 'React API', 'Actual Figma DS', 'Foundations', 'Components', 'Extensions', 'Prototype extensions'] } },
-    a11y: { test: 'error', manual: typeof window!=='undefined' && new URLSearchParams(window.location.search).has('ciA11y') }
+    a11y: { test: 'error' }
   },
   globalTypes: {cromaTheme:{description:'Inherited component theme; explicit source variants take priority',toolbar:{title:'Component theme',icon:'circlehollow',items:['dark','light'],dynamicTitle:true}}},
-  initialGlobals: { backgrounds: { value: 'dark' }, cromaTheme:'dark' },
+  // The explicit Playwright Axe scan owns CI; the addon uses globals.a11y.manual.
+  initialGlobals: { backgrounds: { value: 'dark' }, cromaTheme:'dark', a11y:{manual:typeof window!=='undefined' && new URLSearchParams(window.location.search).has('ciA11y')} },
   decorators: [(Story, context) => {
     const light = context.globals.backgrounds?.value === 'light';
     const canvas = light ? '#f9f9f9' : context.globals.backgrounds?.value === 'sourceDark' ? '#212121' : '#191919';
