@@ -1,3 +1,12 @@
+# 0.6.0 — Developer adoption
+
+- Add 66 public React API pages with working, typechecked examples, actual props and source links; add installation, component-choice, theme and quality guides.
+- Add CromaProvider document setup and inherited theme support; explicit source variants retain priority.
+- Move 51 exact CSS colours and prototype semantic roles to shared foundation tokens without normalising source values.
+- Use public package imports in extension stories and expose real Local.Button and search controls.
+- Add mocked HTTP search, cancellation, error/retry and validated multi-step form recipes.
+- Add developer onboarding, accessibility, visual and cross-browser regression checks. Visual baselines describe code examples, not Figma sign-off.
+
 # Croma Figma DS changes
 
 ## 0.5.1 — 11 November 2026

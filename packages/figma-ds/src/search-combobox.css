@@ -1,6 +1,6 @@
 /* Proposed composition using existing Croma palette/scale. Not an original Figma component. */
-.croma-search-combobox{--sc-page:#191919;--sc-surface:#393939;--sc-text:#f9f9f9;--sc-muted:#cfcfcf;--sc-accent:#12daa8;position:relative;min-width:0;width:100%;font:400 14px/20px var(--croma-font-family,Switzer,sans-serif);color:var(--sc-text)}
-.croma-search-combobox[data-theme=light]{--sc-page:#f9f9f9;--sc-surface:#fff;--sc-text:#191919;--sc-muted:#5f5f5f;--sc-accent:#088466}
+.croma-search-combobox{--sc-page:var(--croma-literal-74fdfc67436b);--sc-surface:var(--croma-literal-3d33c2a39263);--sc-text:var(--croma-literal-2318e1869ace);--sc-muted:var(--croma-literal-022969a8d39d);--sc-accent:var(--croma-literal-5af6820a7ca9);position:relative;min-width:0;width:100%;font:400 14px/20px var(--croma-font-family,Switzer,sans-serif);color:var(--sc-text)}
+.croma-search-combobox[data-theme=light]{--sc-page:var(--croma-literal-2318e1869ace);--sc-surface:var(--croma-literal-e08de713877c);--sc-text:var(--croma-literal-74fdfc67436b);--sc-muted:var(--croma-literal-d273439c3b8a);--sc-accent:var(--croma-literal-6d9bff18e1e0)}
 .croma-search-combobox *{box-sizing:border-box}.croma-search-combobox__label{display:block;margin-bottom:8px;font-weight:600;font-style:normal}
 .croma-search-combobox__group{display:flex;align-items:stretch;min-width:0;border:1px solid var(--sc-muted);border-radius:8px;background:var(--sc-surface)}
 .croma-search-combobox__group:focus-within{border-color:var(--sc-accent);outline:none;box-shadow:none}
@@ -10,7 +10,7 @@
 .croma-search-combobox input{width:100%;min-width:0;flex:1;border:0;padding:0;margin:0;outline:0;background:transparent;font:inherit;color:inherit}.croma-search-combobox input::placeholder{color:var(--sc-muted);opacity:1}
 .croma-search-combobox__clear{flex:none;width:32px;height:32px;border:0;background:transparent;color:inherit;font:400 24px/1 var(--croma-font-family,Switzer,sans-serif);cursor:pointer}
 .croma-search-combobox__help{margin:12px 0 0;color:var(--sc-muted);font-size:12px;line-height:16px}
-.croma-search-combobox__popup{position:absolute;inset-inline:0;top:100%;margin-top:4px;z-index:30;background:var(--sc-surface);border:1px solid var(--sc-muted);border-radius:8px;overflow:hidden;box-shadow:0 4px 8px rgb(0 0 0/.2)}
+.croma-search-combobox__popup{position:absolute;inset-inline:0;top:100%;margin-top:4px;z-index:30;background:var(--sc-surface);border:1px solid var(--sc-muted);border-radius:8px;overflow:hidden;box-shadow:0 4px 8px var(--croma-literal-24cc73264036)}
 .croma-search-combobox__list{max-height:min(320px,45vh,var(--sc-available-height,320px));overflow:auto;overscroll-behavior:contain}.croma-search-combobox__option{display:flex;flex-direction:column;gap:4px;padding:12px 16px;cursor:pointer;overflow-wrap:anywhere}
 .croma-search-combobox__option[data-active=true]{box-shadow:inset 3px 0 var(--sc-accent);background:color-mix(in srgb,var(--sc-accent) 12%,var(--sc-surface))}.croma-search-combobox__option[aria-selected=true] .croma-search-combobox__model{color:var(--sc-accent)}
 .croma-search-combobox__option[aria-disabled=true]{opacity:.5;cursor:default}.croma-search-combobox__model{font-weight:600}.croma-search-combobox__meta{display:flex;gap:12px;flex-wrap:wrap;color:var(--sc-muted)}.croma-search-combobox__meta>span{white-space:nowrap}.croma-search-combobox__description{font-size:12px;line-height:16px;color:var(--sc-muted)}
@@ -21,7 +21,7 @@
 
 .croma-search-combobox__anchor{position:relative;min-width:0}
 
-.croma-search-combobox__results-heading{padding:12px 16px;font:600 12px/16px var(--croma-font-family);color:inherit;border-bottom:1px solid var(--sc-border,#5f5f5f)}
+.croma-search-combobox__results-heading{padding:12px 16px;font:600 12px/16px var(--croma-font-family);color:inherit;border-bottom:1px solid var(--sc-border,var(--croma-literal-d273439c3b8a))}
 
 .cx-theme .croma-search-combobox{--sc-page:var(--cx-page);--sc-surface:var(--cx-surface);--sc-text:var(--cx-text);--sc-muted:var(--cx-muted);--sc-accent:var(--cx-accent)}
 .croma-search-combobox__brand select:focus{outline:none}

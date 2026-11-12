@@ -35,3 +35,6 @@ export * from "./PrototypePatterns.js";
 export * from "./LiveCommerceHeader.js";
 export * from "./SelectionPill.js";
 export * from "./PrototypeSurfaces.js";
+
+export {CromaProvider} from './Theme.js';
+export type {CromaProviderProps,CromaTheme} from './Theme.js';

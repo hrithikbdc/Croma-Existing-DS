@@ -1,3 +1,4 @@
+import {useCromaTheme} from './Theme.js';
 import { useEffect, useId, useRef, type CSSProperties, type ReactNode } from 'react';
 
 export interface TabItem { value: string; label: string; content: ReactNode; disabled?: boolean; icon?: ReactNode }
@@ -17,7 +18,7 @@ export interface TabsProps {
 }
 
 /** Equal-width tabs: written geometry with actual Figma figure label and indicator bindings. */
-export function Tabs({ label, items, value, onChange, Theme = 'dark', Layout='Fixed', Alignment='Stretch', scrollableInset, iconGap, maxTabWidth }: TabsProps) {
+export function Tabs({ label, items, value, onChange, Theme: themeOverride, Layout='Fixed', Alignment='Stretch', scrollableInset, iconGap, maxTabWidth }: TabsProps) {const Theme=useCromaTheme(themeOverride,'dark');
   const uid = useId();
   const refs = useRef<(HTMLButtonElement | null)[]>([]);
   const enabled = items.flatMap((item, index) => item.disabled ? [] : [index]);

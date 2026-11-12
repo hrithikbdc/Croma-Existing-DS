@@ -8,12 +8,12 @@ Reusable React components and foundations built from Croma's actual Figma DS, wi
 
 ## Use in a prototype
 
-Use React and React DOM 19. Install the two matching **0.5.1** packages directly; no ZIP download, GitHub login or npm registry login is required:
+Use React and React DOM 19. Install the two matching **0.6.0** packages directly; no ZIP download, GitHub login or npm registry login is required:
 
 ```sh
 npm install --save-exact \
-  https://github.com/hrithikbdc/Croma-Existing-DS/releases/download/v0.5.1/croma-figma-foundations-0.5.1.tgz \
-  https://github.com/hrithikbdc/Croma-Existing-DS/releases/download/v0.5.1/croma-figma-ds-0.5.1.tgz
+  https://github.com/hrithikbdc/Croma-Existing-DS/releases/download/v0.6.0/croma-figma-foundations-0.6.0.tgz \
+  https://github.com/hrithikbdc/Croma-Existing-DS/releases/download/v0.6.0/croma-figma-ds-0.6.0.tgz
 ```
 
 Import the four stylesheets once at the application entry:
@@ -23,22 +23,20 @@ import '@croma/figma-foundations/fonts.css';
 import '@croma/figma-foundations/tokens.css';
 import '@croma/figma-foundations/typography.css';
 import '@croma/figma-ds/styles.css';
-import {Button, PrototypeTheme} from '@croma/figma-ds';
+import {PrototypeButton, CromaProvider} from '@croma/figma-ds';
 
 export function App() {
   return (
-    <PrototypeTheme Theme="dark">
-      <Button Type="Filled">Continue</Button>
-    </PrototypeTheme>
+    <CromaProvider theme="dark">
+      <PrototypeButton>Continue</PrototypeButton>
+    </CromaProvider>
   );
 }
 ```
 
-Apply the page background to the entire document, including the app shell. The default dark page is `#191919`; the subdued card surface is `#212121`.
+CromaProvider applies the complete document background, text, colour scheme and full-height region. Use `applyDocument={false}` for embedded regions. Explicit source Theme props override inheritance; fixed source artwork keeps its original presentation. Remove conflicting legacy body/component styles.
 
-```css
-html, body, #root { min-height: 100%; margin: 0; background: #191919; }
-```
+Start with [the hosted developer guide](https://hrithikbdc.github.io/Croma-Existing-DS/?path=/story/developers-start-here--installation), [component choices](https://hrithikbdc.github.io/Croma-Existing-DS/?path=/story/developers-start-here--choose-components) and the React API pages for all public component exports. Each API page includes a compiled React example, props and source links. [API and forms](https://hrithikbdc.github.io/Croma-Existing-DS/?path=/story/developers-api-and-forms--search-request) demonstrates mocked requests, cancellation, retry, validation and retained values.
 
 Use the documented shared components and tokens, remove conflicting legacy styles, and theme dialogs and overlays too. Read [design hygiene](docs/FIGMA-DESIGN-HYGIENE.md) and [prototype extensions](docs/FIGMA-PROTOTYPE-EXTENSIONS.md) before applying the DS to an existing prototype. Pin both dependencies to the same release and commit your lockfile.
 
@@ -86,7 +84,7 @@ Install Chromium before running browser tests: `npx playwright install chromium`
 
 Use a branch and pull request for component changes. Checks run on pull requests and main-branch changes. Successful main-branch checks deploy the current development catalogue to GitHub Pages. [Contributing](CONTRIBUTING.md) describes the component and release process.
 
-Release **0.5.1** starts source-backed developer releases. The earlier 0.5.0 tag records the initial archive distribution; its editable source is the named source ZIP in that release's assets. Existing downloads stay unchanged. The [shared 0.5.0 review catalogue](https://croma-figma-ds.bombaydc-3738.chatgpt.site) remains available separately.
+Release **0.5.1** started source-backed developer releases. Release **0.6.0** adds self-service documentation, application theming, shared colour tokens and developer quality checks. The earlier 0.5.0 tag records the initial archive distribution; its editable source is the named source ZIP in that release's assets. Existing downloads stay unchanged. The [shared 0.5.0 review catalogue](https://croma-figma-ds.bombaydc-3738.chatgpt.site) remains available separately.
 
 Original Figma specifications take priority. Prototype extensions have separate implementation contracts. Full-system visual acceptance remains incomplete; builds and passing tests do not establish stakeholder sign-off.
 

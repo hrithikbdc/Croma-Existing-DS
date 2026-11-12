@@ -4,7 +4,7 @@ const source='https://www.figma.com/design/2WzKPv4y8rw4zJ94LmI3yS/Croma-DS?node-
 const meta = {
  title: 'Components/Button', component: Button, tags: ['autodocs'],
  args: { children: 'Call to action', Size: 'Large', Type: 'Filled' },
- argTypes: { Size: { control: 'select', options: ['Large','Small'] }, Type: { control: 'select', options: ['Filled','Outlined','Text'] } },
+ argTypes: { Size: { control: 'select', options: ['Large','Small'] }, Type: { control: 'select', options: ['Filled','Outlined','Text','Icon','Segmented'] } },
  parameters: { docs: { description: { component: `Authority: [written Button specifications](${source}), with same-file scoped saved-property fallback; the local Button set is a separate branch. Large is 40 px; Small is 32 px. Filled/Outlined horizontal padding is 24 px; Text horizontal margin is 8 px. Exact selected-instance bindings fill unwritten values. See the Button acceptance gate for source IDs, actual variants and remaining conflicts. The supplied Switzer Variable font is loaded. Visual acceptance remains pending.` } } }
 } satisfies Meta<typeof Button>;
 export default meta;

@@ -1,0 +1,481 @@
+{
+  "note": "Exact existing CSS colours moved to shared tokens without normalisation. Source-specific values remain distinct; semantic role assignments apply to prototype extensions.",
+  "colors": {
+    "2318e1869ace": {
+      "value": "#f9f9f9",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:background",
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-text",
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-background",
+        "packages/figma-ds/src/dropdown.css:background",
+        "packages/figma-ds/src/exchange-selection.css:--cx-text",
+        "packages/figma-ds/src/exchange-selection.css:--cx-surface",
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-page",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-raised",
+        "packages/figma-ds/src/search-combobox.css:--sc-text",
+        "packages/figma-ds/src/search-combobox.css:--sc-page",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-fill",
+        "packages/figma-ds/src/steppers.css:--croma-step-inactive",
+        "packages/figma-ds/src/surfaces.css:background",
+        "packages/figma-ds/src/surfaces.css:background-color",
+        "Approved prototype semantic role light.page"
+      ]
+    },
+    "74fdfc67436b": {
+      "value": "#191919",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:color",
+        "packages/figma-ds/src/accordion.css:background",
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-background",
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-text",
+        "packages/figma-ds/src/exchange-selection.css:--cx-text",
+        "packages/figma-ds/src/live-commerce-header.css:color",
+        "packages/figma-ds/src/live-commerce-header.css:background",
+        "packages/figma-ds/src/local-primitives.css:color",
+        "packages/figma-ds/src/navigation-drawer.css:color",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-page",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-accent-ink",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-text",
+        "packages/figma-ds/src/prototype-patterns.css:color",
+        "packages/figma-ds/src/prototype-patterns.css:background",
+        "packages/figma-ds/src/search-bar.css:color",
+        "packages/figma-ds/src/search-combobox.css:--sc-page",
+        "packages/figma-ds/src/search-combobox.css:--sc-text",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-text",
+        "Approved prototype semantic role dark.page",
+        "Approved prototype semantic role dark.accent-ink",
+        "Approved prototype semantic role light.text"
+      ]
+    },
+    "e08de713877c": {
+      "value": "#fff",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:color",
+        "packages/figma-ds/src/chat.css:color",
+        "packages/figma-ds/src/dropdown.css:background",
+        "packages/figma-ds/src/live-commerce-header.css:color",
+        "packages/figma-ds/src/live-commerce-header.css:background",
+        "packages/figma-ds/src/local-primitives.css:color",
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-text",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-surface",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-accent-ink",
+        "packages/figma-ds/src/prototype-patterns.css:color",
+        "packages/figma-ds/src/search-bar.css:background",
+        "packages/figma-ds/src/search-combobox.css:--sc-surface",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-text",
+        "packages/figma-ds/src/selection-pill.css:color",
+        "packages/figma-ds/src/steppers.css:--croma-color-on-surface-high-contrast",
+        "packages/figma-ds/src/steppers.css:--croma-color-on-surface-low-contrast",
+        "packages/figma-ds/src/steppers.css:color",
+        "packages/figma-ds/src/surfaces.css:background",
+        "Approved prototype semantic role dark.text",
+        "Approved prototype semantic role light.surface",
+        "Approved prototype semantic role light.accent-ink"
+      ]
+    },
+    "4bc850525277": {
+      "value": "rgb(42 42 42 / .05)",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:background"
+      ]
+    },
+    "3d33c2a39263": {
+      "value": "#393939",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:background",
+        "packages/figma-ds/src/chat.css:background",
+        "packages/figma-ds/src/exchange-selection.css:--cx-surface",
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:background",
+        "packages/figma-ds/src/search-combobox.css:--sc-surface",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-fill",
+        "packages/figma-ds/src/selection-pill.css:background",
+        "packages/figma-ds/src/steppers.css:--croma-step-inactive",
+        "packages/figma-ds/src/surfaces.css:background-color",
+        "packages/figma-ds/src/surfaces.css:background"
+      ]
+    },
+    "60839b482363": {
+      "value": "rgb(42 42 42 / .14)",
+      "sources": [
+        "packages/figma-ds/src/accordion.css:background",
+        "packages/figma-ds/src/steppers.css:--croma-step-inactive"
+      ]
+    },
+    "7b4f256e506d": {
+      "value": "#9b9b9b",
+      "sources": [
+        "packages/figma-ds/src/chat.css:background",
+        "packages/figma-ds/src/chat.css:color",
+        "packages/figma-ds/src/chat.css:border",
+        "packages/figma-ds/src/dropdown.css:color",
+        "packages/figma-ds/src/exchange-selection.css:--cx-stroke",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-border",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-outline",
+        "packages/figma-ds/src/steppers.css:color",
+        "packages/figma-ds/src/surfaces.css:background",
+        "packages/figma-ds/src/surfaces.css:box-shadow",
+        "Approved prototype semantic role light.border"
+      ]
+    },
+    "b1b88c3bb2ed": {
+      "value": "#6035e9",
+      "sources": [
+        "packages/figma-ds/src/chat.css:background",
+        "packages/figma-ds/src/local-primitives.css:background"
+      ]
+    },
+    "022969a8d39d": {
+      "value": "#cfcfcf",
+      "sources": [
+        "packages/figma-ds/src/chat.css:color",
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-muted",
+        "packages/figma-ds/src/exchange-selection.css:--cx-muted",
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-muted",
+        "packages/figma-ds/src/prototype-patterns.css:color",
+        "packages/figma-ds/src/search-combobox.css:--sc-muted",
+        "Approved prototype semantic role dark.muted"
+      ]
+    },
+    "5af6820a7ca9": {
+      "value": "#12daa8",
+      "sources": [
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-focus",
+        "packages/figma-ds/src/exchange-selection.css:--cx-selected",
+        "packages/figma-ds/src/live-commerce-header.css:outline",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-accent",
+        "packages/figma-ds/src/prototype-patterns.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:outline",
+        "packages/figma-ds/src/search-combobox.css:--sc-accent",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-accent",
+        "packages/figma-ds/src/selection-pill.css:border-color",
+        "packages/figma-ds/src/selection-pill.css:color",
+        "packages/figma-ds/src/selection-pill.css:accent-color",
+        "packages/figma-ds/src/selection-pill.css:box-shadow",
+        "packages/figma-ds/src/steppers.css:--croma-color-secondary",
+        "Approved prototype semantic role dark.accent"
+      ]
+    },
+    "d273439c3b8a": {
+      "value": "#5f5f5f",
+      "sources": [
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-muted",
+        "packages/figma-ds/src/dropdown.css:color",
+        "packages/figma-ds/src/exchange-selection.css:--cx-muted",
+        "packages/figma-ds/src/live-commerce-header.css:border",
+        "packages/figma-ds/src/local-primitives.css:color",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-muted",
+        "packages/figma-ds/src/prototype-patterns.css:border-color",
+        "packages/figma-ds/src/prototype-patterns.css:border",
+        "packages/figma-ds/src/search-combobox.css:--sc-muted",
+        "packages/figma-ds/src/search-combobox.css:border-bottom",
+        "packages/figma-ds/src/surfaces.css:box-shadow",
+        "Approved prototype semantic role light.muted"
+      ]
+    },
+    "6d9bff18e1e0": {
+      "value": "#088466",
+      "sources": [
+        "packages/figma-ds/src/commerce-header.css:--croma-commerce-focus",
+        "packages/figma-ds/src/exchange-selection.css:--cx-selected",
+        "packages/figma-ds/src/local-primitives.css:color",
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-accent",
+        "packages/figma-ds/src/search-combobox.css:--sc-accent",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-accent",
+        "packages/figma-ds/src/steppers.css:--croma-color-secondary",
+        "Approved prototype semantic role light.accent"
+      ]
+    },
+    "5a844cdc3c8c": {
+      "value": "#929094",
+      "sources": [
+        "packages/figma-ds/src/divider.css:--croma-color-outline"
+      ]
+    },
+    "3568dea72072": {
+      "value": "#ababab",
+      "sources": [
+        "packages/figma-ds/src/divider.css:--croma-color-on-background-low-contrast",
+        "packages/figma-ds/src/tooltip.css:color"
+      ]
+    },
+    "dc5ddcde5ff9": {
+      "value": "rgb(146 144 148 / .24)",
+      "sources": [
+        "packages/figma-ds/src/divider.css:border-top"
+      ]
+    },
+    "f3d68192cca3": {
+      "value": "#78767a",
+      "sources": [
+        "packages/figma-ds/src/divider.css:--croma-color-outline"
+      ]
+    },
+    "4e271fcb7f41": {
+      "value": "#474747",
+      "sources": [
+        "packages/figma-ds/src/divider.css:--croma-color-on-background-low-contrast",
+        "packages/figma-ds/src/tooltip.css:color"
+      ]
+    },
+    "251a0dba09ea": {
+      "value": "rgb(120 118 122 / .24)",
+      "sources": [
+        "packages/figma-ds/src/divider.css:border-top-color"
+      ]
+    },
+    "87a2c6a98141": {
+      "value": "rgb(0 0 0 / .1)",
+      "sources": [
+        "packages/figma-ds/src/dropdown.css:filter",
+        "packages/figma-ds/src/surfaces.css:box-shadow"
+      ]
+    },
+    "190340934bc3": {
+      "value": "#ff5959",
+      "sources": [
+        "packages/figma-ds/src/exchange-selection.css:--cx-error",
+        "packages/figma-ds/src/prototype-patterns.css:--cx-error",
+        "Approved prototype semantic role dark.error"
+      ]
+    },
+    "87564ad518a9": {
+      "value": "#35a7ff",
+      "sources": [
+        "packages/figma-ds/src/exchange-selection.css:border-inline-start"
+      ]
+    },
+    "68d908434401": {
+      "value": "#f7b401",
+      "sources": [
+        "packages/figma-ds/src/exchange-selection.css:border-inline-start-color"
+      ]
+    },
+    "0854156eda0d": {
+      "value": "color(srgb 0.3708333373069763 0.3708333373069763 0.3708333373069763 / 1)",
+      "sources": [
+        "packages/figma-ds/src/form-field.css:--croma-field-text"
+      ]
+    },
+    "2ff1d3401acb": {
+      "value": "color(srgb 0.6083333492279053 0.6083333492279053 0.6083333492279053 / 1)",
+      "sources": [
+        "packages/figma-ds/src/form-field.css:--croma-field-caption"
+      ]
+    },
+    "8328e58f0218": {
+      "value": "color(srgb 1 0.3490196466445923 0.3490196466445923 / 1)",
+      "sources": [
+        "packages/figma-ds/src/form-field.css:--croma-field-error-text"
+      ]
+    },
+    "188dd01fba6c": {
+      "value": "color(srgb 1 1 1 / 1)",
+      "sources": [
+        "packages/figma-ds/src/form-field.css:background"
+      ]
+    },
+    "81ef715e3434": {
+      "value": "#000",
+      "sources": [
+        "packages/figma-ds/src/live-commerce-header.css:background"
+      ]
+    },
+    "77768dd2fc65": {
+      "value": "#a02c8c",
+      "sources": [
+        "packages/figma-ds/src/local-primitives.css:background"
+      ]
+    },
+    "31d9f852e03f": {
+      "value": "#cffff3",
+      "sources": [
+        "packages/figma-ds/src/local-primitives.css:background"
+      ]
+    },
+    "2eec22e21f76": {
+      "value": "rgba(53,53,53,.8)",
+      "sources": [
+        "packages/figma-ds/src/local-primitives.css:background",
+        "packages/figma-ds/src/navigation-drawer.css:background"
+      ]
+    },
+    "2976aa1e6076": {
+      "value": "#212121",
+      "sources": [
+        "packages/figma-ds/src/prototype-patterns.css:--cx-surface",
+        "packages/figma-ds/src/prototype-patterns.css:background",
+        "Approved prototype semantic role dark.surface"
+      ]
+    },
+    "cc3158105891": {
+      "value": "#777",
+      "sources": [
+        "packages/figma-ds/src/prototype-patterns.css:--cx-border",
+        "packages/figma-ds/src/prototype-patterns.css:border",
+        "packages/figma-ds/src/prototype-patterns.css:border-top",
+        "packages/figma-ds/src/selection-pill.css:--croma-selection-outline",
+        "packages/figma-ds/src/selection-pill.css:border",
+        "Approved prototype semantic role dark.border"
+      ]
+    },
+    "d579ffc64db2": {
+      "value": "#930006",
+      "sources": [
+        "packages/figma-ds/src/prototype-patterns.css:--cx-error",
+        "Approved prototype semantic role light.error"
+      ]
+    },
+    "abbaea472217": {
+      "value": "rgb(0 0 0/.6)",
+      "sources": [
+        "packages/figma-ds/src/prototype-patterns.css:background"
+      ]
+    },
+    "91e874da999c": {
+      "value": "#444347",
+      "sources": [
+        "packages/figma-ds/src/search-bar.css:background",
+        "packages/figma-ds/src/search-bar.css:color"
+      ]
+    },
+    "4a426e7fae6e": {
+      "value": "#c8c5ca",
+      "sources": [
+        "packages/figma-ds/src/search-bar.css:color"
+      ]
+    },
+    "760e1e57a5bd": {
+      "value": "#e4e1e6",
+      "sources": [
+        "packages/figma-ds/src/search-bar.css:background"
+      ]
+    },
+    "7a8364db6c36": {
+      "value": "#cb92ff",
+      "sources": [
+        "packages/figma-ds/src/search-bar.css:caret-color"
+      ]
+    },
+    "3768b3746077": {
+      "value": "#8800ec",
+      "sources": [
+        "packages/figma-ds/src/search-bar.css:caret-color"
+      ]
+    },
+    "24cc73264036": {
+      "value": "rgb(0 0 0/.2)",
+      "sources": [
+        "packages/figma-ds/src/search-combobox.css:box-shadow"
+      ]
+    },
+    "d41cf4979f7d": {
+      "value": "rgb(198 198 198 / .05)",
+      "sources": [
+        "packages/figma-ds/src/steppers.css:--croma-step-inactive"
+      ]
+    },
+    "a26e56380d6e": {
+      "value": "#404040",
+      "sources": [
+        "packages/figma-ds/src/steppers.css:--croma-color-on-surface-mid-contrast",
+        "packages/figma-ds/src/steppers.css:--croma-color-on-surface-high-contrast",
+        "packages/figma-ds/src/steppers.css:--croma-color-on-surface-low-contrast",
+        "packages/figma-ds/src/steppers.css:color",
+        "packages/figma-ds/src/surfaces.css:color"
+      ]
+    },
+    "153c772855be": {
+      "value": "#003738",
+      "sources": [
+        "packages/figma-ds/src/steppers.css:color"
+      ]
+    },
+    "3ef2798d6bf1": {
+      "value": "#006a6a",
+      "sources": [
+        "packages/figma-ds/src/steppers.css:--croma-color-secondary"
+      ]
+    },
+    "b326329c726c": {
+      "value": "#1a1a1a",
+      "sources": [
+        "packages/figma-ds/src/sticky-footer.css:color"
+      ]
+    },
+    "da1968cee56b": {
+      "value": "color(srgb 0.10588235408067703 0.10588235408067703 0.10588235408067703 / 0.07999999821186066)",
+      "sources": [
+        "packages/figma-ds/src/styles.css:background"
+      ]
+    },
+    "23bb59fc68f8": {
+      "value": "rgb(0 0 0 / .3)",
+      "sources": [
+        "packages/figma-ds/src/surfaces.css:box-shadow",
+        "packages/figma-ds/src/surfaces.css:filter",
+        "packages/figma-ds/src/tooltip.css:filter"
+      ]
+    },
+    "d59ed4abacb7": {
+      "value": "rgb(0 0 0 / .15)",
+      "sources": [
+        "packages/figma-ds/src/surfaces.css:box-shadow",
+        "packages/figma-ds/src/tooltip.css:filter"
+      ]
+    },
+    "bba525054b73": {
+      "value": "#c6c6c6",
+      "sources": [
+        "packages/figma-ds/src/surfaces.css:color",
+        "packages/figma-ds/src/surfaces.css:--croma-color-on-surface-high-contrast",
+        "packages/figma-ds/src/surfaces.css:--croma-card-title-color",
+        "packages/figma-ds/src/surfaces.css:--croma-card-description-color",
+        "packages/figma-ds/src/tooltip.css:color"
+      ]
+    },
+    "a1c0fe2d1b69": {
+      "value": "#2a2a2a",
+      "sources": [
+        "packages/figma-ds/src/surfaces.css:color",
+        "packages/figma-ds/src/surfaces.css:--croma-color-on-surface-high-contrast",
+        "packages/figma-ds/src/surfaces.css:--croma-card-title-color",
+        "packages/figma-ds/src/surfaces.css:--croma-card-description-color",
+        "packages/figma-ds/src/surfaces.css:background",
+        "packages/figma-ds/src/tooltip.css:color"
+      ]
+    },
+    "41d31e2027e8": {
+      "value": "rgb(198 198 198 / .14)",
+      "sources": [
+        "packages/figma-ds/src/surfaces.css:background"
+      ]
+    }
+  },
+  "themes": {
+    "dark": {
+      "page": "74fdfc67436b",
+      "surface": "2976aa1e6076",
+      "text": "e08de713877c",
+      "muted": "022969a8d39d",
+      "border": "cc3158105891",
+      "accent": "5af6820a7ca9",
+      "accent-ink": "74fdfc67436b",
+      "error": "190340934bc3"
+    },
+    "light": {
+      "page": "2318e1869ace",
+      "surface": "e08de713877c",
+      "text": "74fdfc67436b",
+      "muted": "d273439c3b8a",
+      "border": "7b4f256e506d",
+      "accent": "6d9bff18e1e0",
+      "accent-ink": "e08de713877c",
+      "error": "d579ffc64db2"
+    }
+  }
+}

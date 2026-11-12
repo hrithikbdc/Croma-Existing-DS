@@ -194,7 +194,7 @@ fieldset[data-croma-component="Radio"]{border:0;margin:0;padding:0}
 [data-croma-component="Menu"]{font-family:var(--croma-font-family,"Switzer","Inter Variable",sans-serif)}
 [data-croma-component="Menu"] li>button,[data-croma-component="Menu"] li>a,[data-croma-component="Menu"] summary{border:0;background:transparent;margin:0;text-decoration:none;cursor:pointer}
 [data-croma-component="Menu"] .croma-menu-section-title{margin:0}
-[data-croma-component="Menu"] li[data-selected="true"]>button,[data-croma-component="Menu"] li[data-selected="true"]>a,[data-croma-component="Menu"] li[data-selected="true"]>details>summary{background:color(srgb 0.10588235408067703 0.10588235408067703 0.10588235408067703 / 0.07999999821186066)}
+[data-croma-component="Menu"] li[data-selected="true"]>button,[data-croma-component="Menu"] li[data-selected="true"]>a,[data-croma-component="Menu"] li[data-selected="true"]>details>summary{background:var(--croma-literal-da1968cee56b)}
 [data-croma-component="Menu"] :is(button:disabled,[aria-disabled="true"]){cursor:default}
 /* Choice has an accessible fieldset name without a source-extraneous visible legend. */
 [data-croma-component="Choice"] fieldset{border:0;padding:0;margin:0;min-width:0}

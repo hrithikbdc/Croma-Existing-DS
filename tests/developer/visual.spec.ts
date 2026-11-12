@@ -1,0 +1,4 @@
+import {test,expect} from '@playwright/test';
+// Linux Chromium baselines detect code regressions; they do not assert a Figma match.
+test.skip(({browserName})=>browserName!=='chromium'||process.platform!=='linux','Reference images use the CI Linux Chromium renderer.');
+for(const width of [320,1280])for(const [id,name]of [['prototype-extensions-design-hygiene--dark','dark-composition'],['prototype-extensions-design-hygiene--light','light-composition'],['components-form-field--interactive','floating-input'],['components-dropdown-figma-states--interactive','form-dropdown']])test(`visual ${name} ${width}`,async({page})=>{await page.setViewportSize({width,height:900});await page.goto('/iframe.html?id='+id+'&viewMode=story');await page.locator('#storybook-root').waitFor({state:'visible'});await page.evaluate(()=>document.fonts.ready);await expect(page.locator('#storybook-root')).toHaveScreenshot(`${name}-${width}.png`,{animations:'disabled'});});

@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import type {Meta,StoryObj} from '@storybook/react-vite';
-import {CommerceHeader,Breadcrumb} from '../../../packages/figma-ds/src/CommerceHeader';
+import {CommerceHeader,Breadcrumb} from '@croma/figma-ds';
 import {SearchBar} from '@croma/figma-ds';
 
 function HeaderExample({Theme='dark',long=false}:{Theme?:'dark'|'light';long?:boolean}){

@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import type {Meta,StoryObj} from '@storybook/react-vite';
 import {Button} from '@croma/figma-ds';
-import {SelectablePurchaseGroup,SelectablePurchaseCard,InlineNotification,LoadingIndicator,type PurchaseCardItem} from '../../../packages/figma-ds/src/ExchangeSelection';
+import {SelectablePurchaseGroup,SelectablePurchaseCard,InlineNotification,LoadingIndicator,type PurchaseCardItem} from '@croma/figma-ds';
 const purchases:PurchaseCardItem[]=[{value:'one',model:'Example phone 13',variant:'128 GB · Midnight',purchasedOn:'12 March 2024',price:'₹39,999',metadata:['Order EX-1042']},{value:'two',model:'Example phone 12',variant:'256 GB · Blue',purchasedOn:'8 August 2023',price:'₹34,999',metadata:['Order EX-0716']},{value:'three',model:'Example phone 11',variant:'64 GB · White',metadata:['Unavailable for this prototype example'],disabled:true}];
 const meta={title:'Extensions/Exchange/Selection and feedback',parameters:{layout:'padded',docs:{description:{component:'New Croma prototype extensions. These use existing Croma palette/spacing/type values; their compositions and state rules are proposed additions, not recovered original Figma components. Product/order details are fictional. The app supplies eligibility, prices and selection state.'}}}} satisfies Meta;
 export default meta;type Story=StoryObj<typeof meta>;

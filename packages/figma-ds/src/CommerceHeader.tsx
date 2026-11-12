@@ -1,3 +1,4 @@
+import {useCromaTheme} from './Theme.js';
 import {useEffect,useId,useRef,useState,type HTMLAttributes,type ReactNode,type MouseEventHandler} from 'react';
 import {Logo} from './Logo.js';
 import {Icon} from './Icon.js';
@@ -14,7 +15,7 @@ function HeaderAction({action}:{action:CommerceHeaderAction}){
  return action.href&&!action.disabled?<a className="croma-commerce-header__action" href={action.href} onClick={action.onClick}>{content}</a>:<button className="croma-commerce-header__action" type="button" onClick={action.onClick} disabled={action.disabled||!action.onClick}>{content}</button>;
 }
 /** Editable prototype extension assembled from original assets. Not an exact reconstruction of the raster Header reference. */
-export function CommerceHeader({Theme='dark',logo,logoHref='/',homeLabel='Croma home',navigation=[],navigationLabel='Main navigation',menuLabel='Menu',search,location,account,cart,actions,className='',...props}:CommerceHeaderProps){
+export function CommerceHeader({Theme: themeOverride,logo,logoHref='/',homeLabel='Croma home',navigation=[],navigationLabel='Main navigation',menuLabel='Menu',search,location,account,cart,actions,className='',...props}:CommerceHeaderProps){const Theme=useCromaTheme(themeOverride,'dark');
  const[open,setOpen]=useState(false);const root=useRef<HTMLElement>(null),toggle=useRef<HTMLButtonElement>(null);const menuId=useId();
  useEffect(()=>{if(!open)return;const close=(event:KeyboardEvent)=>{if(event.key==='Escape'){event.preventDefault();setOpen(false);toggle.current?.focus();}};const outside=(event:PointerEvent)=>{if(event.target instanceof Node&&!root.current?.contains(event.target))setOpen(false);};document.addEventListener('keydown',close);document.addEventListener('pointerdown',outside);return()=>{document.removeEventListener('keydown',close);document.removeEventListener('pointerdown',outside);};},[open]);
  useEffect(()=>{const query=window.matchMedia('(min-width:768px)');const change=()=>{if(query.matches)setOpen(false);};query.addEventListener('change',change);return()=>query.removeEventListener('change',change);},[]);
@@ -37,6 +38,6 @@ export function CommerceHeader({Theme='dark',logo,logoHref='/',homeLabel='Croma 
 export interface BreadcrumbItem {label:string;href?:string}
 export interface BreadcrumbProps extends HTMLAttributes<HTMLElement> {items:BreadcrumbItem[];label?:string;Theme?:'dark'|'light'}
 /** Prototype navigation extension. App routing and destination labels belong to the consumer. */
-export function Breadcrumb({items,label='Breadcrumb',Theme='dark',className='',...props}:BreadcrumbProps){
+export function Breadcrumb({items,label='Breadcrumb',Theme: themeOverride,className='',...props}:BreadcrumbProps){const Theme=useCromaTheme(themeOverride,'dark');
  return <nav {...props} aria-label={label} className={`croma-breadcrumb ${className}`} data-theme={Theme} data-croma-extension="Breadcrumb"><ol>{items.map((item,index)=><li key={index}>{index>0&&<span className="croma-breadcrumb__separator" aria-hidden="true">/</span>}{index===items.length-1?<span aria-current="page">{item.label}</span>:item.href?<a href={item.href}>{item.label}</a>:<span>{item.label}</span>}</li>)}</ol></nav>;
 }
