@@ -30,12 +30,13 @@ jobs:
               assert not name.endswith('.fig')
               if name.startswith('.github/workflows/'):
                   assert name in ['.github/workflows/quality.yml','.github/workflows/release.yml']
+                  continue  # Workflow files are committed through the signed-in browser.
               target=Path(name)
               target.parent.mkdir(parents=True,exist_ok=True)
               target.write_text(content)
           assert json.loads(Path('package.json').read_text())['version']=='0.6.0'
           Path('croma-developer-update.json').unlink()
-          Path('.github/workflows/apply-reviewed-update.yml').unlink()
+          # The signed-in browser removes this helper after successful application.
           PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
